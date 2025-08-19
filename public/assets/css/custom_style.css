@@ -1,0 +1,76 @@
+
+.breadcrumb-content {
+    padding-bottom: 50px;
+}
+.fx-page-routes .section-head {
+    margin: 20px auto 20px !important;
+}
+/* ===== Escopo da página para não afetar o menu/header ===== */
+.fx-page-routes { --fx-border:#e5e7eb; --fx-text:#0f172a; --fx-accent:#2563eb; --fx-card:#ffffff; }
+
+/* Seção principal — sem interferir no header */
+.fx-page-routes .fx-serve-1-area{
+    overflow: visible;           /* não corta dropdowns do menu */
+    position: relative;
+    background: transparent;     /* remove fundo/brilho */
+    padding-bottom: 64px;
+}
+
+/* Título */
+.fx-page-routes .section-head{
+    max-width: 1200px; margin: 96px auto 20px; padding: 0 16px; text-align:center;
+}
+.fx-page-routes .section-head h1{
+    margin: 0 0 14px;
+    text-transform: none;        /* evita all-caps do tema */
+    color: var(--fx-text);
+}
+
+/* Barra de busca */
+.fx-page-routes .search-bar{ max-width: 720px; margin: 0 auto; }
+.fx-page-routes .search-bar .form-control{ height: 48px; }
+.fx-page-routes .search-bar .btn{ height: 48px; }
+
+/* Grid (layout 1 de ícones) — LIMPO e atual */
+.fx-page-routes .fx-services-wrap{
+    max-width: 1200px; margin: 0 auto; padding: 0 16px;
+}
+.fx-page-routes .fx-services-page-item{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 16px;
+}
+
+/* Card sem sombra */
+.fx-page-routes .fx-serve-1-slider-item{ height: 100%; }
+.fx-page-routes .fx-serve-1-slider-item .content{
+    display: flex; align-items: center; justify-content: space-between; gap: 10px;
+    padding: 14px 16px;
+    background: var(--fx-card);
+    border-radius: 12px;
+    box-shadow: none !important;                 /* remove sombras do tema */
+    transition: border-color .2s ease, transform .2s ease, background-color .2s ease;
+}
+.fx-page-routes .fx-serve-1-slider-item .content:hover{
+    border-color: var(--fx-accent);
+    transform: translateY(-1px);
+    background-color: #fafafa;                   /* realce sutil sem sombra */
+}
+
+/* Tipografia do item */
+.fx-page-routes .fx-serve-1-slider-item .item-title{ margin: 0; }
+.fx-page-routes .fx-serve-1-slider-item .item-title a{
+    color: var(--fx-text); text-decoration: none; line-height: 1.35; display: inline-block;
+}
+.fx-page-routes .fx-serve-1-slider-item .item-title a:hover{ text-decoration: underline; }
+
+/* Botão ícone (seta) */
+.fx-page-routes .fx-serve-1-slider-item .item-btn svg{ display:block; }
+
+/* Paginação */
+.fx-page-routes .pager-wrap{ text-align:center; margin-top: 22px; }
+
+/* Responsivo */
+@media (max-width: 991.98px){
+    .fx-page-routes .section-head{ margin-top: 84px; }
+}

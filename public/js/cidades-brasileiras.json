@@ -1,0 +1,2590 @@
+[
+{
+        "cidade": "Adamantina - SP",
+        "slug": "adamantina-sp"
+    },
+    {
+        "cidade": "Adolfo - SP",
+        "slug": "adolfo-sp"
+    },
+    {
+        "cidade": "Aguaí - SP",
+        "slug": "aguai-sp"
+    },
+    {
+        "cidade": "Águas da Prata - SP",
+        "slug": "aguas-da-prata-sp"
+    },
+    {
+        "cidade": "Águas de Lindóia - SP",
+        "slug": "aguas-de-lindoia-sp"
+    },
+    {
+        "cidade": "Águas de Santa Bárbara - SP",
+        "slug": "aguas-de-santa-barbara-sp"
+    },
+    {
+        "cidade": "Águas de São Pedro - SP",
+        "slug": "aguas-de-sao-pedro-sp"
+    },
+    {
+        "cidade": "Agudos - SP",
+        "slug": "agudos-sp"
+    },
+    {
+        "cidade": "Alambari - SP",
+        "slug": "alambari-sp"
+    },
+    {
+        "cidade": "Alfredo Marcondes - SP",
+        "slug": "alfredo-marcondes-sp"
+    },
+    {
+        "cidade": "Altair - SP",
+        "slug": "altair-sp"
+    },
+    {
+        "cidade": "Altinópolis - SP",
+        "slug": "altinopolis-sp"
+    },
+    {
+        "cidade": "Alto Alegre - SP",
+        "slug": "alto-alegre-sp"
+    },
+    {
+        "cidade": "Alumínio - SP",
+        "slug": "aluminio-sp"
+    },
+    {
+        "cidade": "Álvares Florence - SP",
+        "slug": "alvares-florence-sp"
+    },
+    {
+        "cidade": "Álvares Machado - SP",
+        "slug": "alvares-machado-sp"
+    },
+    {
+        "cidade": "Álvaro de Carvalho - SP",
+        "slug": "alvaro-de-carvalho-sp"
+    },
+    {
+        "cidade": "Alvinlândia - SP",
+        "slug": "alvinlandia-sp"
+    },
+    {
+        "cidade": "Americana - SP",
+        "slug": "americana-sp"
+    },
+    {
+        "cidade": "Américo Brasiliense - SP",
+        "slug": "americo-brasiliense-sp"
+    },
+    {
+        "cidade": "Américo de Campos - SP",
+        "slug": "americo-de-campos-sp"
+    },
+    {
+        "cidade": "Amparo - SP",
+        "slug": "amparo-sp"
+    },
+    {
+        "cidade": "Analândia - SP",
+        "slug": "analandia-sp"
+    },
+    {
+        "cidade": "Andradina - SP",
+        "slug": "andradina-sp"
+    },
+    {
+        "cidade": "Angatuba - SP",
+        "slug": "angatuba-sp"
+    },
+    {
+        "cidade": "Anhembi - SP",
+        "slug": "anhembi-sp"
+    },
+    {
+        "cidade": "Anhumas - SP",
+        "slug": "anhumas-sp"
+    },
+    {
+        "cidade": "Aparecida - SP",
+        "slug": "aparecida-sp"
+    },
+    {
+        "cidade": "Aparecida d'Oeste - SP",
+        "slug": "aparecida-d-oeste-sp"
+    },
+    {
+        "cidade": "Apiaí - SP",
+        "slug": "apiai-sp"
+    },
+    {
+        "cidade": "Araçariguama - SP",
+        "slug": "aracariguama-sp"
+    },
+    {
+        "cidade": "Araçatuba - SP",
+        "slug": "aracatuba-sp"
+    },
+    {
+        "cidade": "Araçoiaba da Serra - SP",
+        "slug": "aracoiaba-da-serra-sp"
+    },
+    {
+        "cidade": "Aramina - SP",
+        "slug": "aramina-sp"
+    },
+    {
+        "cidade": "Arandu - SP",
+        "slug": "arandu-sp"
+    },
+    {
+        "cidade": "Arapeí - SP",
+        "slug": "arapei-sp"
+    },
+    {
+        "cidade": "Araraquara - SP",
+        "slug": "araraquara-sp"
+    },
+    {
+        "cidade": "Araras - SP",
+        "slug": "araras-sp"
+    },
+    {
+        "cidade": "Arco-Íris - SP",
+        "slug": "arco-iris-sp"
+    },
+    {
+        "cidade": "Arealva - SP",
+        "slug": "arealva-sp"
+    },
+    {
+        "cidade": "Areias - SP",
+        "slug": "areias-sp"
+    },
+    {
+        "cidade": "Areiópolis - SP",
+        "slug": "areiopolis-sp"
+    },
+    {
+        "cidade": "Ariranha - SP",
+        "slug": "ariranha-sp"
+    },
+    {
+        "cidade": "Artur Nogueira - SP",
+        "slug": "artur-nogueira-sp"
+    },
+    {
+        "cidade": "Arujá - SP",
+        "slug": "aruja-sp"
+    },
+    {
+        "cidade": "Aspásia - SP",
+        "slug": "aspasia-sp"
+    },
+    {
+        "cidade": "Assis - SP",
+        "slug": "assis-sp"
+    },
+    {
+        "cidade": "Atibaia - SP",
+        "slug": "atibaia-sp"
+    },
+    {
+        "cidade": "Auriflama - SP",
+        "slug": "auriflama-sp"
+    },
+    {
+        "cidade": "Avaí - SP",
+        "slug": "avai-sp"
+    },
+    {
+        "cidade": "Avanhandava - SP",
+        "slug": "avanhandava-sp"
+    },
+    {
+        "cidade": "Avaré - SP",
+        "slug": "avare-sp"
+    },
+    {
+        "cidade": "Bady Bassitt - SP",
+        "slug": "bady-bassitt-sp"
+    },
+    {
+        "cidade": "Balbinos - SP",
+        "slug": "balbinos-sp"
+    },
+    {
+        "cidade": "Bálsamo - SP",
+        "slug": "balsamo-sp"
+    },
+    {
+        "cidade": "Bananal - SP",
+        "slug": "bananal-sp"
+    },
+    {
+        "cidade": "Barão de Antonina - SP",
+        "slug": "barao-de-antonina-sp"
+    },
+    {
+        "cidade": "Barbosa - SP",
+        "slug": "barbosa-sp"
+    },
+    {
+        "cidade": "Bariri - SP",
+        "slug": "bariri-sp"
+    },
+    {
+        "cidade": "Barra Bonita - SP",
+        "slug": "barra-bonita-sp"
+    },
+    {
+        "cidade": "Barra do Chapéu - SP",
+        "slug": "barra-do-chapeu-sp"
+    },
+    {
+        "cidade": "Barra do Turvo - SP",
+        "slug": "barra-do-turvo-sp"
+    },
+    {
+        "cidade": "Barretos - SP",
+        "slug": "barretos-sp"
+    },
+    {
+        "cidade": "Barrinha - SP",
+        "slug": "barrinha-sp"
+    },
+    {
+        "cidade": "Barueri - SP",
+        "slug": "barueri-sp"
+    },
+    {
+        "cidade": "Bastos - SP",
+        "slug": "bastos-sp"
+    },
+    {
+        "cidade": "Batatais - SP",
+        "slug": "batatais-sp"
+    },
+    {
+        "cidade": "Bauru - SP",
+        "slug": "bauru-sp"
+    },
+    {
+        "cidade": "Bebedouro - SP",
+        "slug": "bebedouro-sp"
+    },
+    {
+        "cidade": "Bento de Abreu - SP",
+        "slug": "bento-de-abreu-sp"
+    },
+    {
+        "cidade": "Bernardino de Campos - SP",
+        "slug": "bernardino-de-campos-sp"
+    },
+    {
+        "cidade": "Bertioga - SP",
+        "slug": "bertioga-sp"
+    },
+    {
+        "cidade": "Bilac - SP",
+        "slug": "bilac-sp"
+    },
+    {
+        "cidade": "Birigui - SP",
+        "slug": "birigui-sp"
+    },
+    {
+        "cidade": "Biritiba-Mirim - SP",
+        "slug": "biritiba-mirim-sp"
+    },
+    {
+        "cidade": "Boa Esperança do Sul - SP",
+        "slug": "boa-esperanca-do-sul-sp"
+    },
+    {
+        "cidade": "Bocaina - SP",
+        "slug": "bocaina-sp"
+    },
+    {
+        "cidade": "Bofete - SP",
+        "slug": "bofete-sp"
+    },
+    {
+        "cidade": "Boituva - SP",
+        "slug": "boituva-sp"
+    },
+    {
+        "cidade": "Bom Jesus dos Perdões - SP",
+        "slug": "bom-jesus-dos-perdoes-sp"
+    },
+    {
+        "cidade": "Bom Sucesso de Itararé - SP",
+        "slug": "bom-sucesso-de-itarare-sp"
+    },
+    {
+        "cidade": "Borá - SP",
+        "slug": "bora-sp"
+    },
+    {
+        "cidade": "Boracéia - SP",
+        "slug": "boraceia-sp"
+    },
+    {
+        "cidade": "Borborema - SP",
+        "slug": "borborema-sp"
+    },
+    {
+        "cidade": "Borebi - SP",
+        "slug": "borebi-sp"
+    },
+    {
+        "cidade": "Botucatu - SP",
+        "slug": "botucatu-sp"
+    },
+    {
+        "cidade": "Bragança Paulista - SP",
+        "slug": "braganca-paulista-sp"
+    },
+    {
+        "cidade": "Braúna - SP",
+        "slug": "brauna-sp"
+    },
+    {
+        "cidade": "Brejo Alegre - SP",
+        "slug": "brejo-alegre-sp"
+    },
+    {
+        "cidade": "Brodowski - SP",
+        "slug": "brodowski-sp"
+    },
+    {
+        "cidade": "Brotas - SP",
+        "slug": "brotas-sp"
+    },
+    {
+        "cidade": "Buri - SP",
+        "slug": "buri-sp"
+    },
+    {
+        "cidade": "Buritama - SP",
+        "slug": "buritama-sp"
+    },
+    {
+        "cidade": "Buritizal - SP",
+        "slug": "buritizal-sp"
+    },
+    {
+        "cidade": "Cabrália Paulista - SP",
+        "slug": "cabralia-paulista-sp"
+    },
+    {
+        "cidade": "Cabreúva - SP",
+        "slug": "cabreuva-sp"
+    },
+    {
+        "cidade": "Caçapava - SP",
+        "slug": "cacapava-sp"
+    },
+    {
+        "cidade": "Cachoeira Paulista - SP",
+        "slug": "cachoeira-paulista-sp"
+    },
+    {
+        "cidade": "Caconde - SP",
+        "slug": "caconde-sp"
+    },
+    {
+        "cidade": "Cafelândia - SP",
+        "slug": "cafelandia-sp"
+    },
+    {
+        "cidade": "Caiabu - SP",
+        "slug": "caiabu-sp"
+    },
+    {
+        "cidade": "Caieiras - SP",
+        "slug": "caieiras-sp"
+    },
+    {
+        "cidade": "Caiuá - SP",
+        "slug": "caiua-sp"
+    },
+    {
+        "cidade": "Cajamar - SP",
+        "slug": "cajamar-sp"
+    },
+    {
+        "cidade": "Cajati - SP",
+        "slug": "cajati-sp"
+    },
+    {
+        "cidade": "Cajobi - SP",
+        "slug": "cajobi-sp"
+    },
+    {
+        "cidade": "Cajuru - SP",
+        "slug": "cajuru-sp"
+    },
+    {
+        "cidade": "Campina do Monte Alegre - SP",
+        "slug": "campina-do-monte-alegre-sp"
+    },
+    {
+        "cidade": "Campinas - SP",
+        "slug": "campinas-sp"
+    },
+    {
+        "cidade": "Campo Limpo Paulista - SP",
+        "slug": "campo-limpo-paulista-sp"
+    },
+    {
+        "cidade": "Campos do Jordão - SP",
+        "slug": "campos-do-jordao-sp"
+    },
+    {
+        "cidade": "Campos Novos Paulista - SP",
+        "slug": "campos-novos-paulista-sp"
+    },
+    {
+        "cidade": "Cananéia - SP",
+        "slug": "cananeia-sp"
+    },
+    {
+        "cidade": "Canas - SP",
+        "slug": "canas-sp"
+    },
+    {
+        "cidade": "Cândido Mota - SP",
+        "slug": "candido-mota-sp"
+    },
+    {
+        "cidade": "Cândido Rodrigues - SP",
+        "slug": "candido-rodrigues-sp"
+    },
+    {
+        "cidade": "Canitar - SP",
+        "slug": "canitar-sp"
+    },
+    {
+        "cidade": "Capão Bonito - SP",
+        "slug": "capao-bonito-sp"
+    },
+    {
+        "cidade": "Capela do Alto - SP",
+        "slug": "capela-do-alto-sp"
+    },
+    {
+        "cidade": "Capivari - SP",
+        "slug": "capivari-sp"
+    },
+    {
+        "cidade": "Caraguatatuba - SP",
+        "slug": "caraguatatuba-sp"
+    },
+    {
+        "cidade": "Carapicuíba - SP",
+        "slug": "carapicuiba-sp"
+    },
+    {
+        "cidade": "Cardoso - SP",
+        "slug": "cardoso-sp"
+    },
+    {
+        "cidade": "Casa Branca - SP",
+        "slug": "casa-branca-sp"
+    },
+    {
+        "cidade": "Cássia dos Coqueiros - SP",
+        "slug": "cassia-dos-coqueiros-sp"
+    },
+    {
+        "cidade": "Castilho - SP",
+        "slug": "castilho-sp"
+    },
+    {
+        "cidade": "Catanduva - SP",
+        "slug": "catanduva-sp"
+    },
+    {
+        "cidade": "Catiguá - SP",
+        "slug": "catigua-sp"
+    },
+    {
+        "cidade": "Cedral - SP",
+        "slug": "cedral-sp"
+    },
+    {
+        "cidade": "Cerqueira César - SP",
+        "slug": "cerqueira-cesar-sp"
+    },
+    {
+        "cidade": "Cerquilho - SP",
+        "slug": "cerquilho-sp"
+    },
+    {
+        "cidade": "Cesário Lange - SP",
+        "slug": "cesario-lange-sp"
+    },
+    {
+        "cidade": "Charqueada - SP",
+        "slug": "charqueada-sp"
+    },
+    {
+        "cidade": "Chavantes - SP",
+        "slug": "chavantes-sp"
+    },
+    {
+        "cidade": "Clementina - SP",
+        "slug": "clementina-sp"
+    },
+    {
+        "cidade": "Colina - SP",
+        "slug": "colina-sp"
+    },
+    {
+        "cidade": "Colômbia - SP",
+        "slug": "colombia-sp"
+    },
+    {
+        "cidade": "Conchal - SP",
+        "slug": "conchal-sp"
+    },
+    {
+        "cidade": "Conchas - SP",
+        "slug": "conchas-sp"
+    },
+    {
+        "cidade": "Cordeirópolis - SP",
+        "slug": "cordeiropolis-sp"
+    },
+    {
+        "cidade": "Coroados - SP",
+        "slug": "coroados-sp"
+    },
+    {
+        "cidade": "Coronel Macedo - SP",
+        "slug": "coronel-macedo-sp"
+    },
+    {
+        "cidade": "Corumbataí - SP",
+        "slug": "corumbatai-sp"
+    },
+    {
+        "cidade": "Cosmópolis - SP",
+        "slug": "cosmopolis-sp"
+    },
+    {
+        "cidade": "Cosmorama - SP",
+        "slug": "cosmorama-sp"
+    },
+    {
+        "cidade": "Cotia - SP",
+        "slug": "cotia-sp"
+    },
+    {
+        "cidade": "Cravinhos - SP",
+        "slug": "cravinhos-sp"
+    },
+    {
+        "cidade": "Cristais Paulista - SP",
+        "slug": "cristais-paulista-sp"
+    },
+    {
+        "cidade": "Cruzália - SP",
+        "slug": "cruzalia-sp"
+    },
+    {
+        "cidade": "Cruzeiro - SP",
+        "slug": "cruzeiro-sp"
+    },
+    {
+        "cidade": "Cubatão - SP",
+        "slug": "cubatao-sp"
+    },
+    {
+        "cidade": "Cunha - SP",
+        "slug": "cunha-sp"
+    },
+    {
+        "cidade": "Descalvado - SP",
+        "slug": "descalvado-sp"
+    },
+    {
+        "cidade": "Diadema - SP",
+        "slug": "diadema-sp"
+    },
+    {
+        "cidade": "Dirce Reis - SP",
+        "slug": "dirce-reis-sp"
+    },
+    {
+        "cidade": "Divinolândia - SP",
+        "slug": "divinolandia-sp"
+    },
+    {
+        "cidade": "Dobrada - SP",
+        "slug": "dobrada-sp"
+    },
+    {
+        "cidade": "Dois Córregos - SP",
+        "slug": "dois-corregos-sp"
+    },
+    {
+        "cidade": "Dolcinópolis - SP",
+        "slug": "dolcinopolis-sp"
+    },
+    {
+        "cidade": "Dourado - SP",
+        "slug": "dourado-sp"
+    },
+    {
+        "cidade": "Dracena - SP",
+        "slug": "dracena-sp"
+    },
+    {
+        "cidade": "Duartina - SP",
+        "slug": "duartina-sp"
+    },
+    {
+        "cidade": "Dumont - SP",
+        "slug": "dumont-sp"
+    },
+    {
+        "cidade": "Echaporã - SP",
+        "slug": "echapora-sp"
+    },
+    {
+        "cidade": "Eldorado - SP",
+        "slug": "eldorado-sp"
+    },
+    {
+        "cidade": "Elias Fausto - SP",
+        "slug": "elias-fausto-sp"
+    },
+    {
+        "cidade": "Elisiário - SP",
+        "slug": "elisiario-sp"
+    },
+    {
+        "cidade": "Embaúba - SP",
+        "slug": "embauba-sp"
+    },
+    {
+        "cidade": "Embu - SP",
+        "slug": "embu-sp"
+    },
+    {
+        "cidade": "Embu das Artes - SP",
+        "slug": "embu-das-artes-sp"
+    },
+    {
+        "cidade": "Embu-Guaçu - SP",
+        "slug": "embu-guacu-sp"
+    },
+    {
+        "cidade": "Emilianópolis - SP",
+        "slug": "emilianopolis-sp"
+    },
+    {
+        "cidade": "Engenheiro Coelho - SP",
+        "slug": "engenheiro-coelho-sp"
+    },
+    {
+        "cidade": "Espírito Santo do Pinhal - SP",
+        "slug": "espirito-santo-do-pinhal-sp"
+    },
+    {
+        "cidade": "Espírito Santo do Turvo - SP",
+        "slug": "espirito-santo-do-turvo-sp"
+    },
+    {
+        "cidade": "Estiva Gerbi - SP",
+        "slug": "estiva-gerbi-sp"
+    },
+    {
+        "cidade": "Estrela do Norte - SP",
+        "slug": "estrela-do-norte-sp"
+    },
+    {
+        "cidade": "Estrela d'Oeste - SP",
+        "slug": "estrela-d-oeste-sp"
+    },
+    {
+        "cidade": "Euclides da Cunha Paulista - SP",
+        "slug": "euclides-da-cunha-paulista-sp"
+    },
+    {
+        "cidade": "Fartura - SP",
+        "slug": "fartura-sp"
+    },
+    {
+        "cidade": "Fernando Prestes - SP",
+        "slug": "fernando-prestes-sp"
+    },
+    {
+        "cidade": "Fernandópolis - SP",
+        "slug": "fernandopolis-sp"
+    },
+    {
+        "cidade": "Fernão - SP",
+        "slug": "fernao-sp"
+    },
+    {
+        "cidade": "Ferraz de Vasconcelos - SP",
+        "slug": "ferraz-de-vasconcelos-sp"
+    },
+    {
+        "cidade": "Flora Rica - SP",
+        "slug": "flora-rica-sp"
+    },
+    {
+        "cidade": "Floreal - SP",
+        "slug": "floreal-sp"
+    },
+    {
+        "cidade": "Flórida Paulista - SP",
+        "slug": "florida-paulista-sp"
+    },
+    {
+        "cidade": "Florínea - SP",
+        "slug": "florinea-sp"
+    },
+    {
+        "cidade": "Franca - SP",
+        "slug": "franca-sp"
+    },
+    {
+        "cidade": "Francisco Morato - SP",
+        "slug": "francisco-morato-sp"
+    },
+    {
+        "cidade": "Franco da Rocha - SP",
+        "slug": "franco-da-rocha-sp"
+    },
+    {
+        "cidade": "Gabriel Monteiro - SP",
+        "slug": "gabriel-monteiro-sp"
+    },
+    {
+        "cidade": "Gália - SP",
+        "slug": "galia-sp"
+    },
+    {
+        "cidade": "Garça - SP",
+        "slug": "garca-sp"
+    },
+    {
+        "cidade": "Gastão Vidigal - SP",
+        "slug": "gastao-vidigal-sp"
+    },
+    {
+        "cidade": "Gavião Peixoto - SP",
+        "slug": "gaviao-peixoto-sp"
+    },
+    {
+        "cidade": "General Salgado - SP",
+        "slug": "general-salgado-sp"
+    },
+    {
+        "cidade": "Getulina - SP",
+        "slug": "getulina-sp"
+    },
+    {
+        "cidade": "Glicério - SP",
+        "slug": "glicerio-sp"
+    },
+    {
+        "cidade": "Guaiçara - SP",
+        "slug": "guaicara-sp"
+    },
+    {
+        "cidade": "Guaimbê - SP",
+        "slug": "guaimbe-sp"
+    },
+    {
+        "cidade": "Guaíra - SP",
+        "slug": "guaira-sp"
+    },
+    {
+        "cidade": "Guapiaçu - SP",
+        "slug": "guapiacu-sp"
+    },
+    {
+        "cidade": "Guapiara - SP",
+        "slug": "guapiara-sp"
+    },
+    {
+        "cidade": "Guará - SP",
+        "slug": "guara-sp"
+    },
+    {
+        "cidade": "Guaraçaí - SP",
+        "slug": "guaracai-sp"
+    },
+    {
+        "cidade": "Guaraci - SP",
+        "slug": "guaraci-sp"
+    },
+    {
+        "cidade": "Guarani d'Oeste - SP",
+        "slug": "guarani-d-oeste-sp"
+    },
+    {
+        "cidade": "Guarantã - SP",
+        "slug": "guaranta-sp"
+    },
+    {
+        "cidade": "Guararapes - SP",
+        "slug": "guararapes-sp"
+    },
+    {
+        "cidade": "Guararema - SP",
+        "slug": "guararema-sp"
+    },
+    {
+        "cidade": "Guaratinguetá - SP",
+        "slug": "guaratingueta-sp"
+    },
+    {
+        "cidade": "Guareí - SP",
+        "slug": "guarei-sp"
+    },
+    {
+        "cidade": "Guariba - SP",
+        "slug": "guariba-sp"
+    },
+    {
+        "cidade": "Guarujá - SP",
+        "slug": "guaruja-sp"
+    },
+    {
+        "cidade": "Guarulhos - SP",
+        "slug": "guarulhos-sp"
+    },
+    {
+        "cidade": "Guatapará - SP",
+        "slug": "guatapara-sp"
+    },
+    {
+        "cidade": "Guzolândia - SP",
+        "slug": "guzolandia-sp"
+    },
+    {
+        "cidade": "Herculândia - SP",
+        "slug": "herculandia-sp"
+    },
+    {
+        "cidade": "Holambra - SP",
+        "slug": "holambra-sp"
+    },
+    {
+        "cidade": "Hortolândia - SP",
+        "slug": "hortolandia-sp"
+    },
+    {
+        "cidade": "Iacanga - SP",
+        "slug": "iacanga-sp"
+    },
+    {
+        "cidade": "Iacri - SP",
+        "slug": "iacri-sp"
+    },
+    {
+        "cidade": "Iaras - SP",
+        "slug": "iaras-sp"
+    },
+    {
+        "cidade": "Ibaté - SP",
+        "slug": "ibate-sp"
+    },
+    {
+        "cidade": "Ibirá - SP",
+        "slug": "ibira-sp"
+    },
+    {
+        "cidade": "Ibirarema - SP",
+        "slug": "ibirarema-sp"
+    },
+    {
+        "cidade": "Ibitinga - SP",
+        "slug": "ibitinga-sp"
+    },
+    {
+        "cidade": "Ibiúna - SP",
+        "slug": "ibiuna-sp"
+    },
+    {
+        "cidade": "Icém - SP",
+        "slug": "icem-sp"
+    },
+    {
+        "cidade": "Iepê - SP",
+        "slug": "iepe-sp"
+    },
+    {
+        "cidade": "Igaraçu do Tietê - SP",
+        "slug": "igaracu-do-tiete-sp"
+    },
+    {
+        "cidade": "Igarapava - SP",
+        "slug": "igarapava-sp"
+    },
+    {
+        "cidade": "Igaratá - SP",
+        "slug": "igarata-sp"
+    },
+    {
+        "cidade": "Iguape - SP",
+        "slug": "iguape-sp"
+    },
+    {
+        "cidade": "Ilha Comprida - SP",
+        "slug": "ilha-comprida-sp"
+    },
+    {
+        "cidade": "Ilha Solteira - SP",
+        "slug": "ilha-solteira-sp"
+    },
+    {
+        "cidade": "Ilhabela - SP",
+        "slug": "ilhabela-sp"
+    },
+    {
+        "cidade": "Indaiatuba - SP",
+        "slug": "indaiatuba-sp"
+    },
+    {
+        "cidade": "Indiana - SP",
+        "slug": "indiana-sp"
+    },
+    {
+        "cidade": "Indiaporã - SP",
+        "slug": "indiapora-sp"
+    },
+    {
+        "cidade": "Inúbia Paulista - SP",
+        "slug": "inubia-paulista-sp"
+    },
+    {
+        "cidade": "Ipaussu - SP",
+        "slug": "ipaussu-sp"
+    },
+    {
+        "cidade": "Iperó - SP",
+        "slug": "ipero-sp"
+    },
+    {
+        "cidade": "Ipeúna - SP",
+        "slug": "ipeuna-sp"
+    },
+    {
+        "cidade": "Ipiguá - SP",
+        "slug": "ipigua-sp"
+    },
+    {
+        "cidade": "Iporanga - SP",
+        "slug": "iporanga-sp"
+    },
+    {
+        "cidade": "Ipuã - SP",
+        "slug": "ipua-sp"
+    },
+    {
+        "cidade": "Iracemápolis - SP",
+        "slug": "iracemapolis-sp"
+    },
+    {
+        "cidade": "Irapuã - SP",
+        "slug": "irapua-sp"
+    },
+    {
+        "cidade": "Irapuru - SP",
+        "slug": "irapuru-sp"
+    },
+    {
+        "cidade": "Itaberá - SP",
+        "slug": "itabera-sp"
+    },
+    {
+        "cidade": "Itaí - SP",
+        "slug": "itai-sp"
+    },
+    {
+        "cidade": "Itajobi - SP",
+        "slug": "itajobi-sp"
+    },
+    {
+        "cidade": "Itaju - SP",
+        "slug": "itaju-sp"
+    },
+    {
+        "cidade": "Itanhaém - SP",
+        "slug": "itanhaem-sp"
+    },
+    {
+        "cidade": "Itaóca - SP",
+        "slug": "itaoca-sp"
+    },
+    {
+        "cidade": "Itapecerica da Serra - SP",
+        "slug": "itapecerica-da-serra-sp"
+    },
+    {
+        "cidade": "Itapetininga - SP",
+        "slug": "itapetininga-sp"
+    },
+    {
+        "cidade": "Itapeva - SP",
+        "slug": "itapeva-sp"
+    },
+    {
+        "cidade": "Itapevi - SP",
+        "slug": "itapevi-sp"
+    },
+    {
+        "cidade": "Itapira - SP",
+        "slug": "itapira-sp"
+    },
+    {
+        "cidade": "Itapirapuã Paulista - SP",
+        "slug": "itapirapua-paulista-sp"
+    },
+    {
+        "cidade": "Itápolis - SP",
+        "slug": "itapolis-sp"
+    },
+    {
+        "cidade": "Itaporanga - SP",
+        "slug": "itaporanga-sp"
+    },
+    {
+        "cidade": "Itapuí - SP",
+        "slug": "itapui-sp"
+    },
+    {
+        "cidade": "Itapura - SP",
+        "slug": "itapura-sp"
+    },
+    {
+        "cidade": "Itaquaquecetuba - SP",
+        "slug": "itaquaquecetuba-sp"
+    },
+    {
+        "cidade": "Itararé - SP",
+        "slug": "itarare-sp"
+    },
+    {
+        "cidade": "Itariri - SP",
+        "slug": "itariri-sp"
+    },
+    {
+        "cidade": "Itatiba - SP",
+        "slug": "itatiba-sp"
+    },
+    {
+        "cidade": "Itatinga - SP",
+        "slug": "itatinga-sp"
+    },
+    {
+        "cidade": "Itirapina - SP",
+        "slug": "itirapina-sp"
+    },
+    {
+        "cidade": "Itirapuã - SP",
+        "slug": "itirapua-sp"
+    },
+    {
+        "cidade": "Itobi - SP",
+        "slug": "itobi-sp"
+    },
+    {
+        "cidade": "Itu - SP",
+        "slug": "itu-sp"
+    },
+    {
+        "cidade": "Itupeva - SP",
+        "slug": "itupeva-sp"
+    },
+    {
+        "cidade": "Ituverava - SP",
+        "slug": "ituverava-sp"
+    },
+    {
+        "cidade": "Jaborandi - SP",
+        "slug": "jaborandi-sp"
+    },
+    {
+        "cidade": "Jaboticabal - SP",
+        "slug": "jaboticabal-sp"
+    },
+    {
+        "cidade": "Jacareí - SP",
+        "slug": "jacarei-sp"
+    },
+    {
+        "cidade": "Jaci - SP",
+        "slug": "jaci-sp"
+    },
+    {
+        "cidade": "Jacupiranga - SP",
+        "slug": "jacupiranga-sp"
+    },
+    {
+        "cidade": "Jaguariúna - SP",
+        "slug": "jaguariuna-sp"
+    },
+    {
+        "cidade": "Jales - SP",
+        "slug": "jales-sp"
+    },
+    {
+        "cidade": "Jambeiro - SP",
+        "slug": "jambeiro-sp"
+    },
+    {
+        "cidade": "Jandira - SP",
+        "slug": "jandira-sp"
+    },
+    {
+        "cidade": "Jardinópolis - SP",
+        "slug": "jardinopolis-sp"
+    },
+    {
+        "cidade": "Jarinu - SP",
+        "slug": "jarinu-sp"
+    },
+    {
+        "cidade": "Jaú - SP",
+        "slug": "jau-sp"
+    },
+    {
+        "cidade": "Jeriquara - SP",
+        "slug": "jeriquara-sp"
+    },
+    {
+        "cidade": "Joanópolis - SP",
+        "slug": "joanopolis-sp"
+    },
+    {
+        "cidade": "João Ramalho - SP",
+        "slug": "joao-ramalho-sp"
+    },
+    {
+        "cidade": "José Bonifácio - SP",
+        "slug": "jose-bonifacio-sp"
+    },
+    {
+        "cidade": "Júlio Mesquita - SP",
+        "slug": "julio-mesquita-sp"
+    },
+    {
+        "cidade": "Jumirim - SP",
+        "slug": "jumirim-sp"
+    },
+    {
+        "cidade": "Jundiaí - SP",
+        "slug": "jundiai-sp"
+    },
+    {
+        "cidade": "Junqueirópolis - SP",
+        "slug": "junqueiropolis-sp"
+    },
+    {
+        "cidade": "Juquiá - SP",
+        "slug": "juquia-sp"
+    },
+    {
+        "cidade": "Juquitiba - SP",
+        "slug": "juquitiba-sp"
+    },
+    {
+        "cidade": "Lagoinha - SP",
+        "slug": "lagoinha-sp"
+    },
+    {
+        "cidade": "Laranjal Paulista - SP",
+        "slug": "laranjal-paulista-sp"
+    },
+    {
+        "cidade": "Lavínia - SP",
+        "slug": "lavinia-sp"
+    },
+    {
+        "cidade": "Lavrinhas - SP",
+        "slug": "lavrinhas-sp"
+    },
+    {
+        "cidade": "Leme - SP",
+        "slug": "leme-sp"
+    },
+    {
+        "cidade": "Lençóis Paulista - SP",
+        "slug": "lencois-paulista-sp"
+    },
+    {
+        "cidade": "Limeira - SP",
+        "slug": "limeira-sp"
+    },
+    {
+        "cidade": "Lindóia - SP",
+        "slug": "lindoia-sp"
+    },
+    {
+        "cidade": "Lins - SP",
+        "slug": "lins-sp"
+    },
+    {
+        "cidade": "Lorena - SP",
+        "slug": "lorena-sp"
+    },
+    {
+        "cidade": "Lourdes - SP",
+        "slug": "lourdes-sp"
+    },
+    {
+        "cidade": "Louveira - SP",
+        "slug": "louveira-sp"
+    },
+    {
+        "cidade": "Lucélia - SP",
+        "slug": "lucelia-sp"
+    },
+    {
+        "cidade": "Lucianópolis - SP",
+        "slug": "lucianopolis-sp"
+    },
+    {
+        "cidade": "Luiz Antônio - SP",
+        "slug": "luiz-antonio-sp"
+    },
+    {
+        "cidade": "Luiziânia - SP",
+        "slug": "luiziania-sp"
+    },
+    {
+        "cidade": "Lupércio - SP",
+        "slug": "lupercio-sp"
+    },
+    {
+        "cidade": "Lutécia - SP",
+        "slug": "lutecia-sp"
+    },
+    {
+        "cidade": "Macatuba - SP",
+        "slug": "macatuba-sp"
+    },
+    {
+        "cidade": "Macaubal - SP",
+        "slug": "macaubal-sp"
+    },
+    {
+        "cidade": "Macedônia - SP",
+        "slug": "macedonia-sp"
+    },
+    {
+        "cidade": "Magda - SP",
+        "slug": "magda-sp"
+    },
+    {
+        "cidade": "Mairinque - SP",
+        "slug": "mairinque-sp"
+    },
+    {
+        "cidade": "Mairiporã - SP",
+        "slug": "mairipora-sp"
+    },
+    {
+        "cidade": "Manduri - SP",
+        "slug": "manduri-sp"
+    },
+    {
+        "cidade": "Marabá Paulista - SP",
+        "slug": "maraba-paulista-sp"
+    },
+    {
+        "cidade": "Maracaí - SP",
+        "slug": "maracai-sp"
+    },
+    {
+        "cidade": "Marapoama - SP",
+        "slug": "marapoama-sp"
+    },
+    {
+        "cidade": "Mariápolis - SP",
+        "slug": "mariapolis-sp"
+    },
+    {
+        "cidade": "Marília - SP",
+        "slug": "marilia-sp"
+    },
+    {
+        "cidade": "Marinópolis - SP",
+        "slug": "marinopolis-sp"
+    },
+    {
+        "cidade": "Martinópolis - SP",
+        "slug": "martinopolis-sp"
+    },
+    {
+        "cidade": "Matão - SP",
+        "slug": "matao-sp"
+    },
+    {
+        "cidade": "Mauá - SP",
+        "slug": "maua-sp"
+    },
+    {
+        "cidade": "Mendonça - SP",
+        "slug": "mendonca-sp"
+    },
+    {
+        "cidade": "Meridiano - SP",
+        "slug": "meridiano-sp"
+    },
+    {
+        "cidade": "Mesópolis - SP",
+        "slug": "mesopolis-sp"
+    },
+    {
+        "cidade": "Miguelópolis - SP",
+        "slug": "miguelopolis-sp"
+    },
+    {
+        "cidade": "Mineiros do Tietê - SP",
+        "slug": "mineiros-do-tiete-sp"
+    },
+    {
+        "cidade": "Mira Estrela - SP",
+        "slug": "mira-estrela-sp"
+    },
+    {
+        "cidade": "Miracatu - SP",
+        "slug": "miracatu-sp"
+    },
+    {
+        "cidade": "Mirandópolis - SP",
+        "slug": "mirandopolis-sp"
+    },
+    {
+        "cidade": "Mirante do Paranapanema - SP",
+        "slug": "mirante-do-paranapanema-sp"
+    },
+    {
+        "cidade": "Mirassol - SP",
+        "slug": "mirassol-sp"
+    },
+    {
+        "cidade": "Mirassolândia - SP",
+        "slug": "mirassolandia-sp"
+    },
+    {
+        "cidade": "Mococa - SP",
+        "slug": "mococa-sp"
+    },
+    {
+        "cidade": "Mogi das Cruzes - SP",
+        "slug": "mogi-das-cruzes-sp"
+    },
+    {
+        "cidade": "Mogi Guaçu - SP",
+        "slug": "mogi-guacu-sp"
+    },
+    {
+        "cidade": "Mogi Mirim - SP",
+        "slug": "mogi-mirim-sp"
+    },
+    {
+        "cidade": "Mombuca - SP",
+        "slug": "mombuca-sp"
+    },
+    {
+        "cidade": "Monções - SP",
+        "slug": "moncoes-sp"
+    },
+    {
+        "cidade": "Mongaguá - SP",
+        "slug": "mongagua-sp"
+    },
+    {
+        "cidade": "Monte Alegre do Sul - SP",
+        "slug": "monte-alegre-do-sul-sp"
+    },
+    {
+        "cidade": "Monte Alto - SP",
+        "slug": "monte-alto-sp"
+    },
+    {
+        "cidade": "Monte Aprazível - SP",
+        "slug": "monte-aprazivel-sp"
+    },
+    {
+        "cidade": "Monte Azul Paulista - SP",
+        "slug": "monte-azul-paulista-sp"
+    },
+    {
+        "cidade": "Monte Castelo - SP",
+        "slug": "monte-castelo-sp"
+    },
+    {
+        "cidade": "Monte Mor - SP",
+        "slug": "monte-mor-sp"
+    },
+    {
+        "cidade": "Monteiro Lobato - SP",
+        "slug": "monteiro-lobato-sp"
+    },
+    {
+        "cidade": "Morro Agudo - SP",
+        "slug": "morro-agudo-sp"
+    },
+    {
+        "cidade": "Morungaba - SP",
+        "slug": "morungaba-sp"
+    },
+    {
+        "cidade": "Motuca - SP",
+        "slug": "motuca-sp"
+    },
+    {
+        "cidade": "Murutinga do Sul - SP",
+        "slug": "murutinga-do-sul-sp"
+    },
+    {
+        "cidade": "Nantes - SP",
+        "slug": "nantes-sp"
+    },
+    {
+        "cidade": "Narandiba - SP",
+        "slug": "narandiba-sp"
+    },
+    {
+        "cidade": "Natividade da Serra - SP",
+        "slug": "natividade-da-serra-sp"
+    },
+    {
+        "cidade": "Nazaré Paulista - SP",
+        "slug": "nazare-paulista-sp"
+    },
+    {
+        "cidade": "Neves Paulista - SP",
+        "slug": "neves-paulista-sp"
+    },
+    {
+        "cidade": "Nhandeara - SP",
+        "slug": "nhandeara-sp"
+    },
+    {
+        "cidade": "Nipoã - SP",
+        "slug": "nipoa-sp"
+    },
+    {
+        "cidade": "Nova Aliança - SP",
+        "slug": "nova-alianca-sp"
+    },
+    {
+        "cidade": "Nova Campina - SP",
+        "slug": "nova-campina-sp"
+    },
+    {
+        "cidade": "Nova Canaã Paulista - SP",
+        "slug": "nova-canaa-paulista-sp"
+    },
+    {
+        "cidade": "Nova Castilho - SP",
+        "slug": "nova-castilho-sp"
+    },
+    {
+        "cidade": "Nova Europa - SP",
+        "slug": "nova-europa-sp"
+    },
+    {
+        "cidade": "Nova Granada - SP",
+        "slug": "nova-granada-sp"
+    },
+    {
+        "cidade": "Nova Guataporanga - SP",
+        "slug": "nova-guataporanga-sp"
+    },
+    {
+        "cidade": "Nova Independência - SP",
+        "slug": "nova-independencia-sp"
+    },
+    {
+        "cidade": "Nova Luzitânia - SP",
+        "slug": "nova-luzitania-sp"
+    },
+    {
+        "cidade": "Nova Odessa - SP",
+        "slug": "nova-odessa-sp"
+    },
+    {
+        "cidade": "Novais - SP",
+        "slug": "novais-sp"
+    },
+    {
+        "cidade": "Novo Horizonte - SP",
+        "slug": "novo-horizonte-sp"
+    },
+    {
+        "cidade": "Nuporanga - SP",
+        "slug": "nuporanga-sp"
+    },
+    {
+        "cidade": "Ocauçu - SP",
+        "slug": "ocaucu-sp"
+    },
+    {
+        "cidade": "Óleo - SP",
+        "slug": "oleo-sp"
+    },
+    {
+        "cidade": "Olímpia - SP",
+        "slug": "olimpia-sp"
+    },
+    {
+        "cidade": "Onda Verde - SP",
+        "slug": "onda-verde-sp"
+    },
+    {
+        "cidade": "Oriente - SP",
+        "slug": "oriente-sp"
+    },
+    {
+        "cidade": "Orindiúva - SP",
+        "slug": "orindiuva-sp"
+    },
+    {
+        "cidade": "Orlândia - SP",
+        "slug": "orlandia-sp"
+    },
+    {
+        "cidade": "Osasco - SP",
+        "slug": "osasco-sp"
+    },
+    {
+        "cidade": "Oscar Bressane - SP",
+        "slug": "oscar-bressane-sp"
+    },
+    {
+        "cidade": "Osvaldo Cruz - SP",
+        "slug": "osvaldo-cruz-sp"
+    },
+    {
+        "cidade": "Ourinhos - SP",
+        "slug": "ourinhos-sp"
+    },
+    {
+        "cidade": "Ouro Verde - SP",
+        "slug": "ouro-verde-sp"
+    },
+    {
+        "cidade": "Ouroeste - SP",
+        "slug": "ouroeste-sp"
+    },
+    {
+        "cidade": "Pacaembu - SP",
+        "slug": "pacaembu-sp"
+    },
+    {
+        "cidade": "Palestina - SP",
+        "slug": "palestina-sp"
+    },
+    {
+        "cidade": "Palmares Paulista - SP",
+        "slug": "palmares-paulista-sp"
+    },
+    {
+        "cidade": "Palmeira d'Oeste - SP",
+        "slug": "palmeira-d-oeste-sp"
+    },
+    {
+        "cidade": "Palmital - SP",
+        "slug": "palmital-sp"
+    },
+    {
+        "cidade": "Panorama - SP",
+        "slug": "panorama-sp"
+    },
+    {
+        "cidade": "Paraguaçu Paulista - SP",
+        "slug": "paraguacu-paulista-sp"
+    },
+    {
+        "cidade": "Paraibuna - SP",
+        "slug": "paraibuna-sp"
+    },
+    {
+        "cidade": "Paraíso - SP",
+        "slug": "paraiso-sp"
+    },
+    {
+        "cidade": "Paranapanema - SP",
+        "slug": "paranapanema-sp"
+    },
+    {
+        "cidade": "Paranapuã - SP",
+        "slug": "paranapua-sp"
+    },
+    {
+        "cidade": "Parapuã - SP",
+        "slug": "parapua-sp"
+    },
+    {
+        "cidade": "Pardinho - SP",
+        "slug": "pardinho-sp"
+    },
+    {
+        "cidade": "Pariquera-Açu - SP",
+        "slug": "pariquera-acu-sp"
+    },
+    {
+        "cidade": "Parisi - SP",
+        "slug": "parisi-sp"
+    },
+    {
+        "cidade": "Patrocínio Paulista - SP",
+        "slug": "patrocinio-paulista-sp"
+    },
+    {
+        "cidade": "Paulicéia - SP",
+        "slug": "pauliceia-sp"
+    },
+    {
+        "cidade": "Paulínia - SP",
+        "slug": "paulinia-sp"
+    },
+    {
+        "cidade": "Paulistânia - SP",
+        "slug": "paulistania-sp"
+    },
+    {
+        "cidade": "Paulo de Faria - SP",
+        "slug": "paulo-de-faria-sp"
+    },
+    {
+        "cidade": "Pederneiras - SP",
+        "slug": "pederneiras-sp"
+    },
+    {
+        "cidade": "Pedra Bela - SP",
+        "slug": "pedra-bela-sp"
+    },
+    {
+        "cidade": "Pedranópolis - SP",
+        "slug": "pedranopolis-sp"
+    },
+    {
+        "cidade": "Pedregulho - SP",
+        "slug": "pedregulho-sp"
+    },
+    {
+        "cidade": "Pedreira - SP",
+        "slug": "pedreira-sp"
+    },
+    {
+        "cidade": "Pedrinhas Paulista - SP",
+        "slug": "pedrinhas-paulista-sp"
+    },
+    {
+        "cidade": "Pedro de Toledo - SP",
+        "slug": "pedro-de-toledo-sp"
+    },
+    {
+        "cidade": "Penápolis - SP",
+        "slug": "penapolis-sp"
+    },
+    {
+        "cidade": "Pereira Barreto - SP",
+        "slug": "pereira-barreto-sp"
+    },
+    {
+        "cidade": "Pereiras - SP",
+        "slug": "pereiras-sp"
+    },
+    {
+        "cidade": "Peruíbe - SP",
+        "slug": "peruibe-sp"
+    },
+    {
+        "cidade": "Piacatu - SP",
+        "slug": "piacatu-sp"
+    },
+    {
+        "cidade": "Piedade - SP",
+        "slug": "piedade-sp"
+    },
+    {
+        "cidade": "Pilar do Sul - SP",
+        "slug": "pilar-do-sul-sp"
+    },
+    {
+        "cidade": "Pindamonhangaba - SP",
+        "slug": "pindamonhangaba-sp"
+    },
+    {
+        "cidade": "Pindorama - SP",
+        "slug": "pindorama-sp"
+    },
+    {
+        "cidade": "Pinhalzinho - SP",
+        "slug": "pinhalzinho-sp"
+    },
+    {
+        "cidade": "Piquerobi - SP",
+        "slug": "piquerobi-sp"
+    },
+    {
+        "cidade": "Piquete - SP",
+        "slug": "piquete-sp"
+    },
+    {
+        "cidade": "Piracaia - SP",
+        "slug": "piracaia-sp"
+    },
+    {
+        "cidade": "Piracicaba - SP",
+        "slug": "piracicaba-sp"
+    },
+    {
+        "cidade": "Piraju - SP",
+        "slug": "piraju-sp"
+    },
+    {
+        "cidade": "Pirajuí - SP",
+        "slug": "pirajui-sp"
+    },
+    {
+        "cidade": "Pirangi - SP",
+        "slug": "pirangi-sp"
+    },
+    {
+        "cidade": "Pirapora do Bom Jesus - SP",
+        "slug": "pirapora-do-bom-jesus-sp"
+    },
+    {
+        "cidade": "Pirapozinho - SP",
+        "slug": "pirapozinho-sp"
+    },
+    {
+        "cidade": "Pirassununga - SP",
+        "slug": "pirassununga-sp"
+    },
+    {
+        "cidade": "Piratininga - SP",
+        "slug": "piratininga-sp"
+    },
+    {
+        "cidade": "Pitangueiras - SP",
+        "slug": "pitangueiras-sp"
+    },
+    {
+        "cidade": "Planalto - SP",
+        "slug": "planalto-sp"
+    },
+    {
+        "cidade": "Platina - SP",
+        "slug": "platina-sp"
+    },
+    {
+        "cidade": "Poá - SP",
+        "slug": "poa-sp"
+    },
+    {
+        "cidade": "Poloni - SP",
+        "slug": "poloni-sp"
+    },
+    {
+        "cidade": "Pompéia - SP",
+        "slug": "pompeia-sp"
+    },
+    {
+        "cidade": "Pongaí - SP",
+        "slug": "pongai-sp"
+    },
+    {
+        "cidade": "Pontal - SP",
+        "slug": "pontal-sp"
+    },
+    {
+        "cidade": "Pontalinda - SP",
+        "slug": "pontalinda-sp"
+    },
+    {
+        "cidade": "Pontes Gestal - SP",
+        "slug": "pontes-gestal-sp"
+    },
+    {
+        "cidade": "Populina - SP",
+        "slug": "populina-sp"
+    },
+    {
+        "cidade": "Porangaba - SP",
+        "slug": "porangaba-sp"
+    },
+    {
+        "cidade": "Porto Feliz - SP",
+        "slug": "porto-feliz-sp"
+    },
+    {
+        "cidade": "Porto Ferreira - SP",
+        "slug": "porto-ferreira-sp"
+    },
+    {
+        "cidade": "Potim - SP",
+        "slug": "potim-sp"
+    },
+    {
+        "cidade": "Potirendaba - SP",
+        "slug": "potirendaba-sp"
+    },
+    {
+        "cidade": "Pracinha - SP",
+        "slug": "pracinha-sp"
+    },
+    {
+        "cidade": "Pradópolis - SP",
+        "slug": "pradopolis-sp"
+    },
+    {
+        "cidade": "Praia Grande - SP",
+        "slug": "praia-grande-sp"
+    },
+    {
+        "cidade": "Pratânia - SP",
+        "slug": "pratania-sp"
+    },
+    {
+        "cidade": "Presidente Alves - SP",
+        "slug": "presidente-alves-sp"
+    },
+    {
+        "cidade": "Presidente Bernardes - SP",
+        "slug": "presidente-bernardes-sp"
+    },
+    {
+        "cidade": "Presidente Epitácio - SP",
+        "slug": "presidente-epitacio-sp"
+    },
+    {
+        "cidade": "Presidente Prudente - SP",
+        "slug": "presidente-prudente-sp"
+    },
+    {
+        "cidade": "Presidente Venceslau - SP",
+        "slug": "presidente-venceslau-sp"
+    },
+    {
+        "cidade": "Promissão - SP",
+        "slug": "promissao-sp"
+    },
+    {
+        "cidade": "Quadra - SP",
+        "slug": "quadra-sp"
+    },
+    {
+        "cidade": "Quatá - SP",
+        "slug": "quata-sp"
+    },
+    {
+        "cidade": "Queiroz - SP",
+        "slug": "queiroz-sp"
+    },
+    {
+        "cidade": "Queluz - SP",
+        "slug": "queluz-sp"
+    },
+    {
+        "cidade": "Quintana - SP",
+        "slug": "quintana-sp"
+    },
+    {
+        "cidade": "Rafard - SP",
+        "slug": "rafard-sp"
+    },
+    {
+        "cidade": "Rancharia - SP",
+        "slug": "rancharia-sp"
+    },
+    {
+        "cidade": "Redenção da Serra - SP",
+        "slug": "redencao-da-serra-sp"
+    },
+    {
+        "cidade": "Regente Feijó - SP",
+        "slug": "regente-feijo-sp"
+    },
+    {
+        "cidade": "Reginópolis - SP",
+        "slug": "reginopolis-sp"
+    },
+    {
+        "cidade": "Registro - SP",
+        "slug": "registro-sp"
+    },
+    {
+        "cidade": "Restinga - SP",
+        "slug": "restinga-sp"
+    },
+    {
+        "cidade": "Ribeira - SP",
+        "slug": "ribeira-sp"
+    },
+    {
+        "cidade": "Ribeirão Bonito - SP",
+        "slug": "ribeirao-bonito-sp"
+    },
+    {
+        "cidade": "Ribeirão Branco - SP",
+        "slug": "ribeirao-branco-sp"
+    },
+    {
+        "cidade": "Ribeirão Corrente - SP",
+        "slug": "ribeirao-corrente-sp"
+    },
+    {
+        "cidade": "Ribeirão do Sul - SP",
+        "slug": "ribeirao-do-sul-sp"
+    },
+    {
+        "cidade": "Ribeirão dos Índios - SP",
+        "slug": "ribeirao-dos-indios-sp"
+    },
+    {
+        "cidade": "Ribeirão Grande - SP",
+        "slug": "ribeirao-grande-sp"
+    },
+    {
+        "cidade": "Ribeirão Pires - SP",
+        "slug": "ribeirao-pires-sp"
+    },
+    {
+        "cidade": "Ribeirão Preto - SP",
+        "slug": "ribeirao-preto-sp"
+    },
+    {
+        "cidade": "Rifaina - SP",
+        "slug": "rifaina-sp"
+    },
+    {
+        "cidade": "Rincão - SP",
+        "slug": "rincao-sp"
+    },
+    {
+        "cidade": "Rinópolis - SP",
+        "slug": "rinopolis-sp"
+    },
+    {
+        "cidade": "Rio Claro - SP",
+        "slug": "rio-claro-sp"
+    },
+    {
+        "cidade": "Rio das Pedras - SP",
+        "slug": "rio-das-pedras-sp"
+    },
+    {
+        "cidade": "Rio Grande da Serra - SP",
+        "slug": "rio-grande-da-serra-sp"
+    },
+    {
+        "cidade": "Riolândia - SP",
+        "slug": "riolandia-sp"
+    },
+    {
+        "cidade": "Riversul - SP",
+        "slug": "riversul-sp"
+    },
+    {
+        "cidade": "Rosana - SP",
+        "slug": "rosana-sp"
+    },
+    {
+        "cidade": "Roseira - SP",
+        "slug": "roseira-sp"
+    },
+    {
+        "cidade": "Rubiácea - SP",
+        "slug": "rubiacea-sp"
+    },
+    {
+        "cidade": "Rubinéia - SP",
+        "slug": "rubineia-sp"
+    },
+    {
+        "cidade": "Sabino - SP",
+        "slug": "sabino-sp"
+    },
+    {
+        "cidade": "Sagres - SP",
+        "slug": "sagres-sp"
+    },
+    {
+        "cidade": "Sales - SP",
+        "slug": "sales-sp"
+    },
+    {
+        "cidade": "Sales Oliveira - SP",
+        "slug": "sales-oliveira-sp"
+    },
+    {
+        "cidade": "Salesópolis - SP",
+        "slug": "salesopolis-sp"
+    },
+    {
+        "cidade": "Salmourão - SP",
+        "slug": "salmourao-sp"
+    },
+    {
+        "cidade": "Saltinho - SP",
+        "slug": "saltinho-sp"
+    },
+    {
+        "cidade": "Salto - SP",
+        "slug": "salto-sp"
+    },
+    {
+        "cidade": "Salto de Pirapora - SP",
+        "slug": "salto-de-pirapora-sp"
+    },
+    {
+        "cidade": "Salto Grande - SP",
+        "slug": "salto-grande-sp"
+    },
+    {
+        "cidade": "Sandovalina - SP",
+        "slug": "sandovalina-sp"
+    },
+    {
+        "cidade": "Santa Adélia - SP",
+        "slug": "santa-adelia-sp"
+    },
+    {
+        "cidade": "Santa Albertina - SP",
+        "slug": "santa-albertina-sp"
+    },
+    {
+        "cidade": "Santa Bárbara d'Oeste - SP",
+        "slug": "santa-barbara-d-oeste-sp"
+    },
+    {
+        "cidade": "Santa Branca - SP",
+        "slug": "santa-branca-sp"
+    },
+    {
+        "cidade": "Santa Clara d'Oeste - SP",
+        "slug": "santa-clara-d-oeste-sp"
+    },
+    {
+        "cidade": "Santa Cruz da Conceição - SP",
+        "slug": "santa-cruz-da-conceicao-sp"
+    },
+    {
+        "cidade": "Santa Cruz da Esperança - SP",
+        "slug": "santa-cruz-da-esperanca-sp"
+    },
+    {
+        "cidade": "Santa Cruz das Palmeiras - SP",
+        "slug": "santa-cruz-das-palmeiras-sp"
+    },
+    {
+        "cidade": "Santa Cruz do Rio Pardo - SP",
+        "slug": "santa-cruz-do-rio-pardo-sp"
+    },
+    {
+        "cidade": "Santa Ernestina - SP",
+        "slug": "santa-ernestina-sp"
+    },
+    {
+        "cidade": "Santa Fé do Sul - SP",
+        "slug": "santa-fe-do-sul-sp"
+    },
+    {
+        "cidade": "Santa Gertrudes - SP",
+        "slug": "santa-gertrudes-sp"
+    },
+    {
+        "cidade": "Santa Isabel - SP",
+        "slug": "santa-isabel-sp"
+    },
+    {
+        "cidade": "Santa Lúcia - SP",
+        "slug": "santa-lucia-sp"
+    },
+    {
+        "cidade": "Santa Maria da Serra - SP",
+        "slug": "santa-maria-da-serra-sp"
+    },
+    {
+        "cidade": "Santa Mercedes - SP",
+        "slug": "santa-mercedes-sp"
+    },
+    {
+        "cidade": "Santa Rita do Passa Quatro - SP",
+        "slug": "santa-rita-do-passa-quatro-sp"
+    },
+    {
+        "cidade": "Santa Rita d'Oeste - SP",
+        "slug": "santa-rita-d-oeste-sp"
+    },
+    {
+        "cidade": "Santa Rosa de Viterbo - SP",
+        "slug": "santa-rosa-de-viterbo-sp"
+    },
+    {
+        "cidade": "Santa Salete - SP",
+        "slug": "santa-salete-sp"
+    },
+    {
+        "cidade": "Santana da Ponte Pensa - SP",
+        "slug": "santana-da-ponte-pensa-sp"
+    },
+    {
+        "cidade": "Santana de Parnaíba - SP",
+        "slug": "santana-de-parnaiba-sp"
+    },
+    {
+        "cidade": "Santo Anastácio - SP",
+        "slug": "santo-anastacio-sp"
+    },
+    {
+        "cidade": "Santo André - SP",
+        "slug": "santo-andre-sp"
+    },
+    {
+        "cidade": "Santo Antônio da Alegria - SP",
+        "slug": "santo-antonio-da-alegria-sp"
+    },
+    {
+        "cidade": "Santo Antônio de Posse - SP",
+        "slug": "santo-antonio-de-posse-sp"
+    },
+    {
+        "cidade": "Santo Antônio do Aracanguá - SP",
+        "slug": "santo-antonio-do-aracangua-sp"
+    },
+    {
+        "cidade": "Santo Antônio do Jardim - SP",
+        "slug": "santo-antonio-do-jardim-sp"
+    },
+    {
+        "cidade": "Santo Antônio do Pinhal - SP",
+        "slug": "santo-antonio-do-pinhal-sp"
+    },
+    {
+        "cidade": "Santo Expedito - SP",
+        "slug": "santo-expedito-sp"
+    },
+    {
+        "cidade": "Santópolis do Aguapeí - SP",
+        "slug": "santopolis-do-aguapei-sp"
+    },
+    {
+        "cidade": "Santos - SP",
+        "slug": "santos-sp"
+    },
+    {
+        "cidade": "São Bento do Sapucaí - SP",
+        "slug": "sao-bento-do-sapucai-sp"
+    },
+    {
+        "cidade": "São Bernardo do Campo - SP",
+        "slug": "sao-bernardo-do-campo-sp"
+    },
+    {
+        "cidade": "São Caetano do Sul - SP",
+        "slug": "sao-caetano-do-sul-sp"
+    },
+    {
+        "cidade": "São Carlos - SP",
+        "slug": "sao-carlos-sp"
+    },
+    {
+        "cidade": "São Francisco - SP",
+        "slug": "sao-francisco-sp"
+    },
+    {
+        "cidade": "São João da Boa Vista - SP",
+        "slug": "sao-joao-da-boa-vista-sp"
+    },
+    {
+        "cidade": "São João das Duas Pontes - SP",
+        "slug": "sao-joao-das-duas-pontes-sp"
+    },
+    {
+        "cidade": "São João de Iracema - SP",
+        "slug": "sao-joao-de-iracema-sp"
+    },
+    {
+        "cidade": "São João do Pau d'Alho - SP",
+        "slug": "sao-joao-do-pau-d-alho-sp"
+    },
+    {
+        "cidade": "São Joaquim da Barra - SP",
+        "slug": "sao-joaquim-da-barra-sp"
+    },
+    {
+        "cidade": "São José da Bela Vista - SP",
+        "slug": "sao-jose-da-bela-vista-sp"
+    },
+    {
+        "cidade": "São José do Barreiro - SP",
+        "slug": "sao-jose-do-barreiro-sp"
+    },
+    {
+        "cidade": "São José do Rio Pardo - SP",
+        "slug": "sao-jose-do-rio-pardo-sp"
+    },
+    {
+        "cidade": "São José do Rio Preto - SP",
+        "slug": "sao-jose-do-rio-preto-sp"
+    },
+    {
+        "cidade": "São José dos Campos - SP",
+        "slug": "sao-jose-dos-campos-sp"
+    },
+    {
+        "cidade": "São Lourenço da Serra - SP",
+        "slug": "sao-lourenco-da-serra-sp"
+    },
+    {
+        "cidade": "São Luiz do Paraitinga - SP",
+        "slug": "sao-luiz-do-paraitinga-sp"
+    },
+    {
+        "cidade": "São Manuel - SP",
+        "slug": "sao-manuel-sp"
+    },
+    {
+        "cidade": "São Miguel Arcanjo - SP",
+        "slug": "sao-miguel-arcanjo-sp"
+    },
+    {
+        "cidade": "São Paulo - SP",
+        "slug": "sao-paulo-sp"
+    },
+    {
+        "cidade": "São Paulo - SP ",
+        "slug": "sao-paulo-sp "
+    },
+    {
+        "cidade": "São Pedro - SP",
+        "slug": "sao-pedro-sp"
+    },
+    {
+        "cidade": "São Pedro do Turvo - SP",
+        "slug": "sao-pedro-do-turvo-sp"
+    },
+    {
+        "cidade": "São Roque - SP",
+        "slug": "sao-roque-sp"
+    },
+    {
+        "cidade": "São Sebastião - SP",
+        "slug": "sao-sebastiao-sp"
+    },
+    {
+        "cidade": "São Sebastião da Grama - SP",
+        "slug": "sao-sebastiao-da-grama-sp"
+    },
+    {
+        "cidade": "São Simão - SP",
+        "slug": "sao-simao-sp"
+    },
+    {
+        "cidade": "São Vicente - SP",
+        "slug": "sao-vicente-sp"
+    },
+    {
+        "cidade": "Sarapuí - SP",
+        "slug": "sarapui-sp"
+    },
+    {
+        "cidade": "Sarutaiá - SP",
+        "slug": "sarutaia-sp"
+    },
+    {
+        "cidade": "Sebastianópolis do Sul - SP",
+        "slug": "sebastianopolis-do-sul-sp"
+    },
+    {
+        "cidade": "Serra Azul - SP",
+        "slug": "serra-azul-sp"
+    },
+    {
+        "cidade": "Serra Negra - SP",
+        "slug": "serra-negra-sp"
+    },
+    {
+        "cidade": "Serrana - SP",
+        "slug": "serrana-sp"
+    },
+    {
+        "cidade": "Sertãozinho - SP",
+        "slug": "sertaozinho-sp"
+    },
+    {
+        "cidade": "Sete Barras - SP",
+        "slug": "sete-barras-sp"
+    },
+    {
+        "cidade": "Severínia - SP",
+        "slug": "severinia-sp"
+    },
+    {
+        "cidade": "Silveiras - SP",
+        "slug": "silveiras-sp"
+    },
+    {
+        "cidade": "Socorro - SP",
+        "slug": "socorro-sp"
+    },
+    {
+        "cidade": "Sorocaba - SP",
+        "slug": "sorocaba-sp"
+    },
+    {
+        "cidade": "Sud Mennucci - SP",
+        "slug": "sud-mennucci-sp"
+    },
+    {
+        "cidade": "Sumaré - SP",
+        "slug": "sumare-sp"
+    },
+    {
+        "cidade": "Suzanápolis - SP",
+        "slug": "suzanapolis-sp"
+    },
+    {
+        "cidade": "Suzano - SP",
+        "slug": "suzano-sp"
+    },
+    {
+        "cidade": "Tabapuã - SP",
+        "slug": "tabapua-sp"
+    },
+    {
+        "cidade": "Tabatinga - SP",
+        "slug": "tabatinga-sp"
+    },
+    {
+        "cidade": "Taboão da Serra - SP",
+        "slug": "taboao-da-serra-sp"
+    },
+    {
+        "cidade": "Taciba - SP",
+        "slug": "taciba-sp"
+    },
+    {
+        "cidade": "Taguaí - SP",
+        "slug": "taguai-sp"
+    },
+    {
+        "cidade": "Taiaçu - SP",
+        "slug": "taiacu-sp"
+    },
+    {
+        "cidade": "Taiúva - SP",
+        "slug": "taiuva-sp"
+    },
+    {
+        "cidade": "Tambaú - SP",
+        "slug": "tambau-sp"
+    },
+    {
+        "cidade": "Tanabi - SP",
+        "slug": "tanabi-sp"
+    },
+    {
+        "cidade": "Tapiraí - SP",
+        "slug": "tapirai-sp"
+    },
+    {
+        "cidade": "Tapiratiba - SP",
+        "slug": "tapiratiba-sp"
+    },
+    {
+        "cidade": "Taquaral - SP",
+        "slug": "taquaral-sp"
+    },
+    {
+        "cidade": "Taquaritinga - SP",
+        "slug": "taquaritinga-sp"
+    },
+    {
+        "cidade": "Taquarituba - SP",
+        "slug": "taquarituba-sp"
+    },
+    {
+        "cidade": "Taquarivaí - SP",
+        "slug": "taquarivai-sp"
+    },
+    {
+        "cidade": "Tarabai - SP",
+        "slug": "tarabai-sp"
+    },
+    {
+        "cidade": "Tarumã - SP",
+        "slug": "taruma-sp"
+    },
+    {
+        "cidade": "Tatuí - SP",
+        "slug": "tatui-sp"
+    },
+    {
+        "cidade": "Taubaté - SP",
+        "slug": "taubate-sp"
+    },
+    {
+        "cidade": "Tejupá - SP",
+        "slug": "tejupa-sp"
+    },
+    {
+        "cidade": "Teodoro Sampaio - SP",
+        "slug": "teodoro-sampaio-sp"
+    },
+    {
+        "cidade": "Terra Roxa - SP",
+        "slug": "terra-roxa-sp"
+    },
+    {
+        "cidade": "Tietê - SP",
+        "slug": "tiete-sp"
+    },
+    {
+        "cidade": "Timburi - SP",
+        "slug": "timburi-sp"
+    },
+    {
+        "cidade": "Torre de Pedra - SP",
+        "slug": "torre-de-pedra-sp"
+    },
+    {
+        "cidade": "Torrinha - SP",
+        "slug": "torrinha-sp"
+    },
+    {
+        "cidade": "Trabiju - SP",
+        "slug": "trabiju-sp"
+    },
+    {
+        "cidade": "Tremembé - SP",
+        "slug": "tremembe-sp"
+    },
+    {
+        "cidade": "Três Fronteiras - SP",
+        "slug": "tres-fronteiras-sp"
+    },
+    {
+        "cidade": "Tuiuti - SP",
+        "slug": "tuiuti-sp"
+    },
+    {
+        "cidade": "Tupã - SP",
+        "slug": "tupa-sp"
+    },
+    {
+        "cidade": "Tupi Paulista - SP",
+        "slug": "tupi-paulista-sp"
+    },
+    {
+        "cidade": "Turiúba - SP",
+        "slug": "turiuba-sp"
+    },
+    {
+        "cidade": "Turmalina - SP",
+        "slug": "turmalina-sp"
+    },
+    {
+        "cidade": "Ubarana - SP",
+        "slug": "ubarana-sp"
+    },
+    {
+        "cidade": "Ubatuba - SP",
+        "slug": "ubatuba-sp"
+    },
+    {
+        "cidade": "Ubirajara - SP",
+        "slug": "ubirajara-sp"
+    },
+    {
+        "cidade": "Uchoa - SP",
+        "slug": "uchoa-sp"
+    },
+    {
+        "cidade": "União Paulista - SP",
+        "slug": "uniao-paulista-sp"
+    },
+    {
+        "cidade": "Urânia - SP",
+        "slug": "urania-sp"
+    },
+    {
+        "cidade": "Uru - SP",
+        "slug": "uru-sp"
+    },
+    {
+        "cidade": "Urupês - SP",
+        "slug": "urupes-sp"
+    },
+    {
+        "cidade": "Valentim Gentil - SP",
+        "slug": "valentim-gentil-sp"
+    },
+    {
+        "cidade": "Valinhos - SP",
+        "slug": "valinhos-sp"
+    },
+    {
+        "cidade": "Valparaíso - SP",
+        "slug": "valparaiso-sp"
+    },
+    {
+        "cidade": "Vargem - SP",
+        "slug": "vargem-sp"
+    },
+    {
+        "cidade": "Vargem Grande do Sul - SP",
+        "slug": "vargem-grande-do-sul-sp"
+    },
+    {
+        "cidade": "Vargem Grande Paulista - SP",
+        "slug": "vargem-grande-paulista-sp"
+    },
+    {
+        "cidade": "Várzea Paulista - SP",
+        "slug": "varzea-paulista-sp"
+    },
+    {
+        "cidade": "Vera Cruz - SP",
+        "slug": "vera-cruz-sp"
+    },
+    {
+        "cidade": "Vinhedo - SP",
+        "slug": "vinhedo-sp"
+    },
+    {
+        "cidade": "Viradouro - SP",
+        "slug": "viradouro-sp"
+    },
+    {
+        "cidade": "Vista Alegre do Alto - SP",
+        "slug": "vista-alegre-do-alto-sp"
+    },
+    {
+        "cidade": "Vitória Brasil - SP",
+        "slug": "vitoria-brasil-sp"
+    },
+    {
+        "cidade": "Votorantim - SP",
+        "slug": "votorantim-sp"
+    },
+    {
+        "cidade": "Votuporanga - SP",
+        "slug": "votuporanga-sp"
+    },
+    {
+        "cidade": "Zacarias - SP",
+        "slug": "zacarias-sp"
+    }
+]

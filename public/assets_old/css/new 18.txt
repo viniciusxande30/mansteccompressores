@@ -1,0 +1,3 @@
+require_once(DIR_SYSTEM . 'library/themeoptions.php');
+$theme_options = new ThemeOptions($registry, $loader);
+$registry->set('theme_options', $theme_options);
