@@ -34,7 +34,7 @@ $router->post('/send-email-home', function (\Illuminate\Http\Request $request) {
     ];
 
     \Illuminate\Support\Facades\Mail::send('mail.contact-home', ['data' => $data], function ($message) use ($data) {
-        $message->to('comercial@krstrans.com.br', 'Envio de E-mail')
+        $message->to('comercial@mansteccompressores.com.br', 'Envio de E-mail')
                 ->subject('Contato do Site - Contato: ' . $data['subject']);
                 //->replyTo($data['email'], $data['name']);
     });

@@ -38,11 +38,6 @@
                     </div>
                 </div>
             </div>
-
-            <div class="fx-hero-2-pagination-posi">
-                <div class="fx-hero-2-pagination"></div>
-            </div>
-    
         </div>
         <!-- hero-end -->
          
@@ -630,43 +625,46 @@
                                 <h2 class="fx-scn-title-2 txaa-split-text-3 txaa-split-text-3-ani ">Entre em contato com nossos especialistas</h2>
                             </div>
 
-                            <form action="#" class="fx-form-1">
+@if(isset($success) && $success)
+    <div class="alert alert-success">
+        Cotação enviada com sucesso! Entraremos em contato em breve.
+    </div>
+@endif
+
+                            <form action="{{ url('/') }}/send-email-home" method="POST" class="fx-form-1">
+								<input type="text" name="id" value="form_contato" hidden>
 
                                 <!-- single-box -->
                                 <div class="fx-form-1-box">
-                                    <label class="fx-form-1-label" >Seu Nome:</label>
-                                    <input class="fx-form-1-input" type="text" placeholder="Marcos Gonçalves">
+                                    <label class="fx-form-1-label" >Nome Completo</label>
+                                    <input class="fx-form-1-input" type="text" placeholder="Ex. Vinícius Albuquerque" name="name">
                                 </div>
 
                                 <!-- single-box -->
                                 <div class="fx-form-1-box">
-                                    <label class="fx-form-1-label" >Telefone:</label>
-                                    <input class="fx-form-1-input" type="number" placeholder="+55 11 99999-99999">
+                                    <label class="fx-form-1-label" >Telefone / WhatsApp</label>
+                                    <input class="fx-form-1-input" type="tel" placeholder="Ex. (11)9999-9999" name="phone">
                                 </div>
 
                                 <!-- single-box -->
                                 <div class="fx-form-1-box">
-                                    <label class="fx-form-1-label" >E-mail:</label>
-                                    <input class="fx-form-1-input" type="email" placeholder="julio@gmail.com">
-                                </div>
-
-
-                                <!-- single-box -->
-                                <div class="fx-form-1-box">
-                                    <label class="fx-form-1-label" >Mensagem:</label>
-                                    <textarea class="fx-form-1-input"  placeholder="Escreva sua mensagem aqui:"></textarea>
+                                    <label class="fx-form-1-label" >Mensagem</label>
+                                    <textarea class="fx-form-1-input" placeholder="Escreva sua Mensagem Aqui"  name="message"></textarea>
                                 </div>
 
                                 <!-- single-box -->
+                                                                        
+
                                 <div class="fx-form-1-box fix txxaslideup">
                                     <span class="txxaslideup-item fx-cube-1">
-                                        <button type="button" aria-label="name" class="fx-pr-btn-1 ">
-                                            <span class="text" data-back="submit now" data-front="Entre em Contato"></span>
+                                        <button type="submit" aria-label="name" class="fx-pr-btn-1 ">
+                                            <span class="text" data-back="Faça sua Cotação" data-front="Faça sua Cotação"></span>
                                             <i class="fa-solid fa-angle-right"></i>
                                         </button>
                                     </span>
 
                                 </div>
+							<!-- <button class="btn btn-primary solid blank" type="submit">Enviar Mensagem</button> -->
 
                             </form>
 

@@ -19,11 +19,46 @@
         <link rel="stylesheet" href="{{ URL('/') }}/assets/css/magnific-popup.css">
         <link rel="stylesheet" href="{{ URL('/') }}/assets/css/main.css">
         <link rel="stylesheet" href="{{ URL('/') }}/assets/css/custom_style.css">
+        <link rel="stylesheet" href="{{ URL('/') }}/assets/css/style.css">
+
     </head>
      
     <body class="fd-home-1" >
 
-        
+        <div id="cotacao-modal" class="cotacao-modal-bg" style="display: none;">
+  <div class="cotacao-modal">
+    <div class="cotacao-modal-header">
+      <span><i class="fa-solid fa-truck"></i> Cotação de Frete Via WhatsApp</span>
+      <span class="cotacao-modal-close" onclick="closeCotacaoModal()">×</span>
+    </div>
+    <div class="cotacao-modal-body">
+      <div class="cotacao-modal-info">
+        <i class="fa-solid fa-circle-info"></i>
+        Envie sua cotação via WhatsApp e nossos especialistas entrarão em contato com você.
+      </div>
+      <form id="cotacao-form" autocomplete="off">
+        <div class="cotacao-modal-row">
+          <input type="text" name="origin" id="modal-origin" placeholder="Origem" required="">
+          <input type="text" name="destination" id="modal-destination" placeholder="Destino" required="">
+        </div>
+        <div class="cotacao-modal-row">
+          <input type="text" name="name" id="modal-name" placeholder="Nome" required="">
+          <input type="tel" name="whatsapp" id="modal-whatsapp" placeholder="WhatsApp" required="">
+        </div>
+        <div class="cotacao-modal-row">
+          <textarea name="message" id="modal-message" rows="2" placeholder="Descrição" data-listener-added_6c001595="true"></textarea>
+        <span id="monica-writing-entry-btn-root" style="position: absolute; left: 0px; top: 0px; pointer-events: none;"></span></div>
+        <button type="submit" class="cotacao-modal-btn">
+          <i class="fa-brands fa-whatsapp"></i> Enviar via WhatsApp
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<div class="phone-call cbh-phone cbh-green cbh-show  cbh-static" id="clbh_phone_div" style=""><a id="WhatsApp-button" href="https://wa.me/351969558556?text=Olá,%20gostaria%20de%20falar%20com%20você!" target="_blank" class="phoneJs" title=""><div class="cbh-ph-circle"></div><div class="cbh-ph-circle-fill"></div><div class="cbh-ph-img-circle1"></div></a></div>
+
+
         <!-- header-start -->
         <div class="fx-header-2-area ">
             <div class="fx-header-2-container">
