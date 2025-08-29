@@ -48,40 +48,7 @@
           Após uma análise técnica do seu sistema, elaboramos um contrato sob medida com visitas técnicas periódicas, checklists personalizados, troca de componentes programados e cobertura em regime preventivo ou corretivo. Tudo com transparência, clareza nos serviços incluídos e condições que respeitam sua operação.
         </p>
 
-        <div class="row mb-35">
-          <div class="col-md-6">
-            <div class="fx-services-7-card fix img-cover p-relative">
-              <img src="assets/img/services/sd-img-2.png" alt="">
-              <div class="fx-services-7-card-content">
-                <div class="content">
-                  <h6 class="card-subtitle fx-heading-1 text-uppercase">Compressores</h6>
-                  <h5 class="card-title fx-heading-1 fx-font-600">
-                    <a href="#" aria-label="Contrato de Manutenção em Compressores">Compressores Industriais</a>
-                  </h5>
-                </div>
-                <a class="card-btn" href="#" aria-label="Ver mais">
-                  <i class="fa-regular fa-arrow-up-right"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="fx-services-7-card fix img-cover p-relative">
-              <img src="assets/img/services/sd-img-3.png" alt="">
-              <div class="fx-services-7-card-content">
-                <div class="content">
-                  <h6 class="card-subtitle fx-heading-1 text-uppercase">Redes</h6>
-                  <h5 class="card-title fx-heading-1 fx-font-600">
-                    <a href="#" aria-label="Contrato de Serviços em Redes de Ar">Redes de Ar Comprimido</a>
-                  </h5>
-                </div>
-                <a class="card-btn" href="#" aria-label="Ver mais">
-                  <i class="fa-regular fa-arrow-up-right"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
+      
 
         <h3>Segurança, economia e performance contínua</h3>
 

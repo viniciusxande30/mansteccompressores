@@ -49,41 +49,6 @@
           A Manstec atua com cronogramas personalizados de manutenção preventiva, definidos de acordo com o porte do equipamento, regime de uso e ambiente operacional. Nossos técnicos realizam inspeções periódicas, trocas programadas de componentes, testes de desempenho e adequações preventivas.
         </p>
 
-        <div class="row mb-35">
-          <div class="col-md-6">
-            <div class="fx-services-7-card fix img-cover p-relative">
-              <img src="assets/img/services/sd-img-2.png" alt="">
-              <div class="fx-services-7-card-content">
-                <div class="content">
-                  <h6 class="card-subtitle fx-heading-1 text-uppercase">Indústria</h6>
-                  <h5 class="card-title fx-heading-1 fx-font-600">
-                    <a href="#" aria-label="Manutenção em Compressores">Compressores Industriais</a>
-                  </h5>
-                </div>
-                <a class="card-btn" href="#" aria-label="Ver mais">
-                  <i class="fa-regular fa-arrow-up-right"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="fx-services-7-card fix img-cover p-relative">
-              <img src="assets/img/services/sd-img-3.png" alt="">
-              <div class="fx-services-7-card-content">
-                <div class="content">
-                  <h6 class="card-subtitle fx-heading-1 text-uppercase">Serviços</h6>
-                  <h5 class="card-title fx-heading-1 fx-font-600">
-                    <a href="#" aria-label="Redes de Ar">Redes de Ar Comprimido</a>
-                  </h5>
-                </div>
-                <a class="card-btn" href="#" aria-label="Ver mais">
-                  <i class="fa-regular fa-arrow-up-right"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-
         <h3>Fale com nossa equipe técnica</h3>
 
         <p>

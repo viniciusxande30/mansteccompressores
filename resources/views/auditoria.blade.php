@@ -48,40 +48,7 @@
           Nossos especialistas realizam uma visita técnica detalhada, avaliando o estado dos equipamentos, a eficiência do sistema de ar comprimido, as perdas por vazamentos e a aderência às normas. A auditoria pode ser preventiva ou corretiva, e é ideal para empresas que desejam se antecipar a falhas, reduzir custos ou se preparar para inspeções legais.
         </p>
 
-        <div class="row mb-35">
-          <div class="col-md-6">
-            <div class="fx-services-7-card fix img-cover p-relative">
-              <img src="assets/img/services/sd-img-2.png" alt="">
-              <div class="fx-services-7-card-content">
-                <div class="content">
-                  <h6 class="card-subtitle fx-heading-1 text-uppercase">Sistemas</h6>
-                  <h5 class="card-title fx-heading-1 fx-font-600">
-                    <a href="#" aria-label="Auditoria em Compressores">Auditoria em Compressores</a>
-                  </h5>
-                </div>
-                <a class="card-btn" href="#" aria-label="Ver mais">
-                  <i class="fa-regular fa-arrow-up-right"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="fx-services-7-card fix img-cover p-relative">
-              <img src="assets/img/services/sd-img-3.png" alt="">
-              <div class="fx-services-7-card-content">
-                <div class="content">
-                  <h6 class="card-subtitle fx-heading-1 text-uppercase">Redes</h6>
-                  <h5 class="card-title fx-heading-1 fx-font-600">
-                    <a href="#" aria-label="Auditoria em Redes de Ar">Auditoria em Redes de Ar</a>
-                  </h5>
-                </div>
-                <a class="card-btn" href="#" aria-label="Ver mais">
-                  <i class="fa-regular fa-arrow-up-right"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
+       
 
         <h3>Vantagens para sua empresa</h3>
 

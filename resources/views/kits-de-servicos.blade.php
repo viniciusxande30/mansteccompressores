@@ -48,40 +48,7 @@
           Após a avaliação do seu equipamento, nossa equipe técnica define os itens ideais para manutenção e monta o kit conforme a aplicação. Você recebe todos os materiais prontos para instalação — com ou sem mão de obra técnica inclusa. Os kits podem ser adquiridos de forma avulsa ou contratados em conjunto com um plano de manutenção.
         </p>
 
-        <div class="row mb-35">
-          <div class="col-md-6">
-            <div class="fx-services-7-card fix img-cover p-relative">
-              <img src="assets/img/services/sd-img-2.png" alt="">
-              <div class="fx-services-7-card-content">
-                <div class="content">
-                  <h6 class="card-subtitle fx-heading-1 text-uppercase">Kit para Compressores</h6>
-                  <h5 class="card-title fx-heading-1 fx-font-600">
-                    <a href="#" aria-label="Kits de Serviço para Compressores">Compressores Industriais</a>
-                  </h5>
-                </div>
-                <a class="card-btn" href="#" aria-label="Ver mais">
-                  <i class="fa-regular fa-arrow-up-right"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="fx-services-7-card fix img-cover p-relative">
-              <img src="assets/img/services/sd-img-3.png" alt="">
-              <div class="fx-services-7-card-content">
-                <div class="content">
-                  <h6 class="card-subtitle fx-heading-1 text-uppercase">Kit para Redes de Ar</h6>
-                  <h5 class="card-title fx-heading-1 fx-font-600">
-                    <a href="#" aria-label="Kits de Serviço para Redes de Ar">Redes de Ar Comprimido</a>
-                  </h5>
-                </div>
-                <a class="card-btn" href="#" aria-label="Ver mais">
-                  <i class="fa-regular fa-arrow-up-right"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
+        
 
         <h3>Padronização, economia e eficiência técnica</h3>
 

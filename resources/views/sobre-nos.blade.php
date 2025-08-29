@@ -39,7 +39,6 @@
         <div class="fx-about-1-left">
           <div class="fx-about-1-card txaaslideup">
             <div class="card-img img-cover fix mb-20">
-              <img src="{{ URL('/') }}/assets/img/story/s1-img-1.png" alt="Manutenção de compressores e secadores">
             </div>
 
             <ul class="card-tags mb-15">
@@ -67,7 +66,7 @@
           </p>
 
           <div class="content-img fix img-cover mb-30">
-            <img src="{{ URL('/') }}/assets/img/story/s1-img-2.png" alt="Soluções Manstec">
+            <img src="{{ URL('/') }}/assets/img/story/s1-img-2.jpg" alt="Soluções Manstec">
           </div>
 
           <ul class="fx-para-1 disc has-opacity-7" style="margin-bottom:30px;">

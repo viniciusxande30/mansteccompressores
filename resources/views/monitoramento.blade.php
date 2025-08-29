@@ -48,40 +48,7 @@
           Utilizamos sensores estratégicos integrados ao sistema de ar comprimido, conectados a uma central de monitoramento técnico. A equipe da Manstec acompanha os indicadores-chave e age preventivamente quando qualquer anomalia é detectada. Isso permite programar intervenções com antecedência, evitando paradas não planejadas.
         </p>
 
-        <div class="row mb-35">
-          <div class="col-md-6">
-            <div class="fx-services-7-card fix img-cover p-relative">
-              <img src="assets/img/services/sd-img-2.png" alt="">
-              <div class="fx-services-7-card-content">
-                <div class="content">
-                  <h6 class="card-subtitle fx-heading-1 text-uppercase">Monitoramento de Compressores</h6>
-                  <h5 class="card-title fx-heading-1 fx-font-600">
-                    <a href="#" aria-label="Monitoramento técnico de Compressores">Compressores Industriais</a>
-                  </h5>
-                </div>
-                <a class="card-btn" href="#" aria-label="Ver mais">
-                  <i class="fa-regular fa-arrow-up-right"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="fx-services-7-card fix img-cover p-relative">
-              <img src="assets/img/services/sd-img-3.png" alt="">
-              <div class="fx-services-7-card-content">
-                <div class="content">
-                  <h6 class="card-subtitle fx-heading-1 text-uppercase">Monitoramento de Redes</h6>
-                  <h5 class="card-title fx-heading-1 fx-font-600">
-                    <a href="#" aria-label="Monitoramento técnico de Redes de Ar">Redes de Ar Comprimido</a>
-                  </h5>
-                </div>
-                <a class="card-btn" href="#" aria-label="Ver mais">
-                  <i class="fa-regular fa-arrow-up-right"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
+        
 
         <h3>Precisão, proatividade e economia operacional</h3>
 
