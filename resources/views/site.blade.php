@@ -47,12 +47,7 @@
 
                 <!-- section-title -->
                 <div class="fx-serve-1-scn-title mb-45">
-                    <h6 class="fx-subtitle-1">
-                        <span>01</span>
-                        <span class="txaa-split-text-2 txaa-split-text-2-ani" style=""><div class="split-line" style="display: block; text-align: start; position: relative;"><div style="position:relative;display:inline-block;"><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">i</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">n</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">d</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">u</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">s</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">t</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">r</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">i</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">e</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">s</div></div> <div style="position:relative;display:inline-block;"><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">w</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">e</div></div> <div style="position:relative;display:inline-block;"><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">s</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">e</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">r</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">v</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">e</div></div></div></span>
-                    </h6>
-                                    <h2 class="fx-scn-title-2 txaa-split-text-3 txaa-split-text-3-ani" id="nossos-servicos">Nossos Serviços</h2>
-
+                    <h2 class="fx-scn-title-2 txaa-split-text-3 txaa-split-text-3-ani" id="nossos-servicos">Nossos Serviços</h2>
 				</div>
 
 
@@ -101,7 +96,7 @@
                         </div>
                         <div class="content">
                             <h5 class="item-title fx-heading-1 fx-font-500">
-                                <a href="{{ url('/') }}/kits-de-servicos" aria-label="name">Kits de Serviço e Peças Originais</a>
+                                <a href="{{ url('/') }}/kits-de-servico" aria-label="name">Kits de Serviço e Peças Originais</a>
                             </h5>
                             
                             <a class="item-btn" href="{{ url('/') }}/kits-de-servicos" aria-label="name">
@@ -146,23 +141,6 @@
                         </div>
                     </div>
 
-                    <div class="fx-serve-1-slider-item">
-                        <div class="item-img fix img-cover">
-                            <img src="assets/img/serve/s1-img-6.png" alt="">
-                        </div>
-                        <div class="content">
-                            <h5 class="item-title fx-heading-1 fx-font-500">
-                                <a href="{{ url('/') }}/monitoramento-e-upgrade" aria-label="name">Monitoramento e Upgrade</a>
-                            </h5>
-                            
-                            <a class="item-btn" href="{{ url('/') }}/monitoramento-e-upgrade" aria-label="name">
-                                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M40 20C40 8.97219 31.0278 -3.92187e-07 20 -8.74228e-07C8.97219 -1.35627e-06 -3.92187e-07 8.97219 -8.74228e-07 20C-1.35627e-06 31.0278 8.97219 40 20 40C31.0278 40 40 31.0278 40 20ZM2.5 20C2.5 10.3503 10.3503 2.5 20 2.5C29.6497 2.5 37.5 10.3503 37.5 20C37.5 29.6497 29.6497 37.5 20 37.5C10.3503 37.5 2.5 29.6497 2.5 20ZM22.1337 27.1338C21.6453 27.6222 20.8544 27.6222 20.3662 27.1338C20.1222 26.8897 20 26.5697 20 26.25C20 25.9303 20.1222 25.6103 20.3662 25.3662L24.4825 21.25L12.5 21.25C11.8091 21.25 11.25 20.6903 11.25 20C11.25 19.3097 11.8091 18.75 12.5 18.75L24.4825 18.75L20.3663 14.6337C19.8778 14.1453 19.8778 13.3544 20.3663 12.8662C20.8547 12.3781 21.6456 12.3778 22.1337 12.8662L28.3837 19.1163C28.8722 19.6047 28.8722 20.3956 28.3837 20.8838L22.1337 27.1338Z" fill="#FC5220"></path>
-                                </svg>
-                            </a>
-                        </div>
-                    </div>
-
                 </div>
             </div>
         </div>
@@ -191,9 +169,9 @@
                         </div>
                        
                         <h5 class="card-title fx-heading-2 fx-font-600 has-clr-white">
-                            Cobertura Nacional 24/7
+                            Cobertura em São Paulo
                         </h5>
-                        <p class="card-disc fx-para-1 has-opacity-7 has-clr-white has-opacity-7">Confie na nossa equipe de técnicos de manutenção com formação na fábrica e nossa rede global de logística para garantir que o seu ar comprimido tem 100% de disponibilidade.</p>
+                        <p class="card-disc fx-para-1 has-opacity-7 has-clr-white has-opacity-7">Confie na nossa equipe de técnicos de manutenção com formação na fábrica para garantir que o seu ar comprimido tem 100% de disponibilidade.</p>
                         
                     </div>
 
@@ -205,9 +183,9 @@
                         </div>
                         
                         <h5 class="card-title fx-heading-2 fx-font-600 has-clr-white">
-                           Peças Apoio ao Genuínas para Compressores
+                           Peças Originais para Compressores de Ar
                         </h5>
-                        <p class="card-disc fx-para-1 has-opacity-7 has-clr-white has-opacity-7">Nossas peças genuínas para compressores mantem a sua instalação de ar comprimido nas melhores condições durante todo o ciclo de vida.</p>
+                        <p class="card-disc fx-para-1 has-opacity-7 has-clr-white has-opacity-7">Peças originais para compressores mantém a sua instalação de ar comprimido nas melhores condições durante todo o ciclo de vida.</p>
                        
                     </div>
 
@@ -286,7 +264,7 @@
                                             <h2 class="fx-scn-title-2">Compressores de Ar</h2>
                                         </div>
     
-                                        <p class="fx-para-1 disc">Confie no desempenho e na fiabilidade como novos depois de cada intervenção de assistência com peças genuínas para compressores de ar da Atlas Copсo.</p>
+                                        <p class="fx-para-1 disc">Trabahamos com as melhores marcas de compressores de ar para melhor atender a sua empresa.</p>
     
                                         <div class="btn-wrap fix">
                                             <span class="d-inline-block fx-core-1-slideinup" >
@@ -318,7 +296,7 @@
                                             <h5 class="item-title fx-heading-2 fx-font-600 fix">
                                                 <span class="fx-core-1-slideinup">Compatibilidade Total com Seu Equipamento</span>
                                             </h5>
-                                            <p class="item-disc fx-para-1 has-opacity-7">Soluções desenvolvidas especialmente para compressores Atlas Copco, garantindo perfeita integração.</p>
+                                            <p class="item-disc fx-para-1 has-opacity-7">Soluções desenvolvidas para todas as marcas, garantindo perfeita integração.</p>
                                         </div>
     
                                         <!-- single-item -->
@@ -477,13 +455,7 @@
                                             <p class="item-disc fx-para-1 has-opacity-7">Reduza sua conta de energia com soluções que respeitam o meio ambiente e o seu orçamento.</p>
                                         </div>
     
-                                        <!-- single-item -->
-                                        <div class="fx-core-1-slider-item-feature-single">
-                                            <h5 class="item-title fx-heading-2 fx-font-600 fix">
-                                                <span class="fx-core-1-slideinup">Monitoramento em Tempo Real</span>
-                                            </h5>
-                                            <p class="item-disc fx-para-1 has-opacity-7">Tenha controle completo com sistemas inteligentes que acompanham o consumo e performance 24h.</p>
-                                        </div>
+                                      
     
                                         <!-- single-item -->
                                         <div class="fx-core-1-slider-item-feature-single">
@@ -517,10 +489,10 @@
     
                                         <div class="title-wrap">
                                             <h2 class="fx-scn-title-2">SERVIÇOS PARA</h2>
-                                            <h2 class="fx-scn-title-2"> TURBOMAQUINARIA</h2>
+                                            <h2 class="fx-scn-title-2"> Compressores de Ar</h2>
                                         </div>
     
-                                        <p class="fx-para-1 disc">Serviço confiável para turbomaquinaria. As reparações, a manutenção e as inspeções podem ser agendadas rapidamente para manter as suas instalações operacionais e produtivas.</p>
+                                        <p class="fx-para-1 disc">Serviço confiável para compressores de ar. As reparações, a manutenção e as inspeções podem ser agendadas rapidamente para manter as suas instalações operacionais e produtivas.</p>
     
                                         <div class="btn-wrap fix">
                                             <span class="d-inline-block fx-core-1-slideinup" >
@@ -552,7 +524,7 @@
                                             <h5 class="item-title fx-heading-2 fx-font-600 fix">
                                                 <span class="fx-core-1-slideinup">Manutenção Especializada em Grandes Equipamentos</span>
                                             </h5>
-                                            <p class="item-disc fx-para-1 has-opacity-7">Nossos especialistas cuidam da sua turbomaquinaria com precisão e segurança.</p>
+                                            <p class="item-disc fx-para-1 has-opacity-7">Nossos especialistas cuidam do seu compressor de ar com precisão e segurança.</p>
                                         </div>
     
                                         <!-- single-item -->
@@ -568,7 +540,7 @@
                                             <h5 class="item-title fx-heading-2 fx-font-600 fix">
                                                 <span class="fx-core-1-slideinup">Confiabilidade para Seu Processo Produtivo</span>
                                             </h5>
-                                            <p class="item-disc fx-para-1 has-opacity-7">Minimize riscos e maximize resultados com serviços certificados para turbomaquinário industrial.</p>
+                                            <p class="item-disc fx-para-1 has-opacity-7">Minimize riscos e maximize resultados com serviços certificados para compressores de ar industriais.</p>
                                         </div>
                                     </div>
     
@@ -694,20 +666,34 @@
                                     <h6 class="box-title fx-heading-1 fx-font-400">Fale com nossos Especialistas</h6>
                                     <ul class="info-list txxaslideup-item fx-cube-1" >
                                         <li>
-                                            <a href="#" aria-label="name">
+                                            <a href="mailto:comercial@mansteccompressores.com.br" aria-label="name">
                                                 <i class="fa-regular fa-envelope"></i>
-                                               comercial@manstec.com.br
+                                                Nosso E-mail
                                             </a>
                                         </li>
                                         <li>
                                             <a href="#" aria-label="name">
                                                 <i class="fa-light fa-phone-volume"></i>
                                                 +351 969 558 556
-                                            </a>
+                                            </a> <br>
                                         </li>
                                         <li>
+                                            <a href="#" aria-label="name">
+                                                <i class="fa-light fa-phone-volume"></i>
+                                                +55 (11) 95978-1897
+                                            </a><br>
+                                        </li>
+                                        <li>
+                                            <a href="#" aria-label="name">
+                                                <i class="fa-light fa-phone-volume"></i>
+                                                +351 (11) 4647-8222
+                                            </a><br>
+                                        </li>
+                                            
+                                        
+                                        <li>
                                             <i class="fa-regular fa-clock"></i>
-                                            Seg - Sex 8:00 - 18:00 <br>
+                                            Seg - Sex 7:30 - 17:20 <br>
                                         </li>
                                     </ul>
                                 </div>

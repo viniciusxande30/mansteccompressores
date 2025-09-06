@@ -98,8 +98,22 @@
                                 </a>
                             </li>
                             <li>
+                                        </li>
+                                        <li>
+                                            <a href="#" aria-label="name">
+                                                <i class="fa-light fa-phone-volume"></i>
+                                                +55 (11) 95978-1897
+                                            </a><br>
+                                        </li>
+                                        <li>
+                                            <a href="#" aria-label="name">
+                                                <i class="fa-light fa-phone-volume"></i>
+                                                +351 (11) 4647-8222
+                                            </a><br>
+                                        </li>
+                            <li>
                                 <i class="fa-regular fa-clock"></i>
-                                Seg - Sex 8:00 - 18:00 <br> 
+                                Seg - Sex 7:30 - 17:20 <br> 
                             </li>
 
                        </ul>
