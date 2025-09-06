@@ -279,7 +279,7 @@
                                     </div>
     
                                     <div class="fx-core-1-slider-item-img fix img-cover">
-                                        <img src="assets/img/services/core-1-img-1.png" alt="">
+                                        <img src="{{ URL('/') }}/assets/img/services/s2-img-1.png" alt="">
                                     </div>
     
                                     <div class="fx-core-1-slider-item-feature">
