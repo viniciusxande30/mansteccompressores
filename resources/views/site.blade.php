@@ -1,4 +1,5 @@
 @include('includes.top')
+
 		<!-- hero-start -->
         <div class="fx-hero-2-area p-relative fix bg-default" data-background="assets/img/hero/h2-bg-1.png" >
             <div class="fx-hero-2-slider">

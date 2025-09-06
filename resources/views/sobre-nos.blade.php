@@ -1,4 +1,8 @@
+@php
+$kw = "Manstec Compressores de Ar - Sobre Nós"
+@endphp
 @include('includes.top')
+
 
 <div class="breadcrumb-area bg-default" data-background="assets/img/hero/h2-bg-1.png" role="region" aria-label="Trilha de navegação">
   <div class="container fx-container-1">

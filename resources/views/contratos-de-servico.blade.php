@@ -1,3 +1,7 @@
+@php
+$kw = "Manstec Compressores de Ar - Contratos de Serviço"
+@endphp
+
 @include('includes.top')
 
 <div class="breadcrumb-area bg-default" data-background="{{URL('/')}}/assets/img/hero/h2-bg-1.png">

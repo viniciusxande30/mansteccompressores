@@ -1,4 +1,9 @@
+@php
+$kw = "Lista de Cidades Atendidas pela Manstec"
+@endphp
 @include('includes.top')
+
+
         <div class="breadcrumb-area bg-default " data-background="assets/img/hero/h2-bg-1.png">
             <div class="container fx-container-1">
                 <div class="breadcrumb-wrap">

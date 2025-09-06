@@ -1,4 +1,8 @@
+@php
+$kw = "Manstec Compressores de Ar - Nossos Serviços"
+@endphp
 @include('includes.top')
+
 
 
 

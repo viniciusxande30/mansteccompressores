@@ -2,26 +2,31 @@
 <html class="no-js" lang="pt-br">
     
     <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Manstec - Manutenção de Compressores de Ar</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
-        <!-- Place favicon.ico in the root directory -->
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    
+    {{-- Se existir a variável $kw, monta o título dinâmico --}}
+    <title>
+        @isset($kw) {{ $kw }} @else Manstec - Compressores de Ar @endisset
+    </title>
 
-		<!-- CSS here -->
-        <link rel="stylesheet" href="{{ URL('/') }}/assets/css/bootstrap.min.css">
-        <link rel="stylesheet" href="{{ URL('/') }}/assets/css/all.min.css">
-        <link rel="stylesheet" href="{{ URL('/') }}/assets/css/nice-select.css">
-        <link rel="stylesheet" href="{{ URL('/') }}/assets/css/swiper.min.css">
-        <link rel="stylesheet" href="{{ URL('/') }}/assets/css/animate.css">
-        <link rel="stylesheet" href="{{ URL('/') }}/assets/css/magnific-popup.css">
-        <link rel="stylesheet" href="{{ URL('/') }}/assets/css/main.css">
-        <link rel="stylesheet" href="{{ URL('/') }}/assets/css/custom_style.css">
-        <link rel="stylesheet" href="{{ URL('/') }}/assets/css/style.css">
+    {{-- Description dinâmica com fallback --}}
+    <meta name="description" content="@isset($kw) Conheça nossos serviços especializados, trabalhamos com {{ $kw }}. @else Soluções completas em manutenção de compressores de ar. @endisset">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="{{ URL('/') }}/assets/img/manstec.png">
 
-    </head>
+    <!-- CSS -->
+    <link rel="stylesheet" href="{{ URL('/') }}/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ URL('/') }}/assets/css/all.min.css">
+    <link rel="stylesheet" href="{{ URL('/') }}/assets/css/nice-select.css">
+    <link rel="stylesheet" href="{{ URL('/') }}/assets/css/swiper.min.css">
+    <link rel="stylesheet" href="{{ URL('/') }}/assets/css/animate.css">
+    <link rel="stylesheet" href="{{ URL('/') }}/assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="{{ URL('/') }}/assets/css/main.css">
+    <link rel="stylesheet" href="{{ URL('/') }}/assets/css/custom_style.css">
+    <link rel="stylesheet" href="{{ URL('/') }}/assets/css/style.css">
+</head>
      
     <body class="fd-home-1" >
 

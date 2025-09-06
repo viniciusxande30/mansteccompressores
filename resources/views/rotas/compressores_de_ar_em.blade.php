@@ -1,5 +1,7 @@
+@php
+$kw = "Compressores de Ar em  $destino"
+@endphp
 @include('includes.top')
-
 
 
 <div class="breadcrumb-area bg-default " data-background="{{URL('/')}}/assets/img/hero/h2-bg-1.png">
