@@ -147,7 +147,7 @@
 
                      <div class="fx-serve-1-slider-item">
                         <div class="item-img fix img-cover">
-                            <img src="assets/img/serve/s1-img-7.jpg" alt="">
+                            <img src="assets/img/contact/c2-img-1.png" alt="">
                         </div>
                         <div class="content">
                             <h5 class="item-title fx-heading-1 fx-font-500">
