@@ -158,6 +158,9 @@
                                             <li>
                                                 <a href="monitoramento-e-upgrade">Monitoramento e Upgrade</a>
                                             </li>
+                                            <li>
+                                                <a href="redes-de-ar">Projetos e Manutenção em Redes de Ar</a>
+                                            </li>
                                         </ul>
                                     </li>
                                                                 
