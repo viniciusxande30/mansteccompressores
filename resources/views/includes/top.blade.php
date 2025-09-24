@@ -99,9 +99,9 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="https://wa.me/351969558556?text=Olá,%20gostaria%20de%20falar%20com%20você!" aria-label="name" TARGET="_blank">
+                                    <a href="https://wa.me/5511959781897?text=Olá,%20gostaria%20de%20falar%20com%20você!" aria-label="name" TARGET="_blank">
                                         <i class="fa-regular fa-phone-volume"></i> 
-                                        +351 969 558 556
+                                        +55 (11) 95978-1897
                                     </a>
                                 </li>
                                

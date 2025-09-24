@@ -96,6 +96,7 @@ $router->get('/kits-de-servico', 'TransporteController@kits');
 $router->get('/monitoramento-e-upgrade', 'TransporteController@monitoramento');
 $router->get('/contratos-de-servico', 'TransporteController@contratos');
 $router->get('/auditoria-e-inspecoes', 'TransporteController@auditoria');
+$router->get('/redes-de-ar', 'TransporteController@redes');
 
 $router->get('/politicas-de-privacidade', 'TransporteController@politicas');
 $router->get('/termos-de-uso', 'TransporteController@termos');

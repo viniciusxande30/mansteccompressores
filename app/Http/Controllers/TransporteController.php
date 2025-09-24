@@ -49,6 +49,10 @@ class TransporteController extends Controller
             public function manutencaoCorretiva(){
         return view('manutencao-corretiva');
     }
+
+    public function redes(){
+        return view('redes');
+    }
             public function manutencaoPreventiva(){
         return view('manutencao-preventiva');
     }
