@@ -2,6 +2,15 @@
 <html class="no-js" lang="pt-br">
     
     <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-7WM4MWQR9N"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-7WM4MWQR9N');
+    </script>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     
@@ -27,6 +36,9 @@
     <link rel="stylesheet" href="{{ URL('/') }}/assets/css/custom_style.css">
     <link rel="stylesheet" href="{{ URL('/') }}/assets/css/style.css">
 </head>
+
+
+
      
     <body class="fd-home-1" >
 
@@ -170,7 +182,7 @@
 
                               
                                 <!-- pr-btn -->
-                                <a href="https://wa.me/351969558556?text=Olá,%20gostaria%20de%20falar%20com%20você!" aria-label="name" class="fx-pr-btn-1 has-hover-border" target="_BLANK">
+                                <a href="{{ URL('/') }}/contato" aria-label="name" class="fx-pr-btn-1 has-hover-border">
                                     <span class="text" data-back="Solicite sua Cotação" data-front="Solicite sua Cotação"></span>
                                 </a>
 

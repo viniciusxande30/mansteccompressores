@@ -23,7 +23,7 @@
 
                                         <div class="fx-hero-2-slider-item-btn fix">
                                             <span class="d-inline-block">
-                                                <a href="https://wa.me/351969558556?text=Olá,%20gostaria%20de%20falar%20com%20você!" aria-label="name" class="fx-pr-btn-1 has-hover-white">
+                                                <a href="{{ URL('/') }}/contato" aria-label="name" class="fx-pr-btn-1 has-hover-white">
                                                     <span class="text" data-back="Entre em Contato Conosco" data-front="Entre em Contato Conosco"></span>
                                                     <i class="fa-solid fa-angle-right"></i>
                                                 </a>
