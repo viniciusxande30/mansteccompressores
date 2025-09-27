@@ -133,7 +133,7 @@ details {
 
     <header class="text-center mb-5">
       <h6 class="fx-subtitle-1 text-uppercase text-muted">
-        <span>01</span> Sobre a Manstec
+        Sobre a Manstec
       </h6>
       <h2 id="title-quem-somos" class="fx-heading-1 fw-bold mb-3">
         Soluções completas e seguras em ar comprimido

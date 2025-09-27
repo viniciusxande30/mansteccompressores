@@ -1,6 +1,111 @@
 @include('includes.top')
 
+<style>
+/* ====== GERAL ====== */
+section {
+  padding-top: 20px;
+  padding-bottom: 80px;
+}
+.fx-heading-1 {
+  line-height: 1.3;
+  letter-spacing: 0.5px;
+}
+.fx-para-1 {
+  line-height: 1.7;
+}
 
+/* ====== CARROSSEL ====== */
+#carouselMarcas {
+  background: #f9f9f9;
+  padding: 30px 15px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+#carouselMarcas img {
+  max-height: 70px;
+  filter: grayscale(100%);
+  opacity: 0.7;
+  transition: all 0.3s ease;
+}
+#carouselMarcas img:hover {
+  filter: grayscale(0%);
+  opacity: 1;
+  transform: scale(1.05);
+}
+#carouselMarcas .carousel-control-prev-icon,
+#carouselMarcas .carousel-control-next-icon {
+  background-color: #aaa;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  background-size: 60% 60%;
+  transition: background-color 0.3s ease;
+}
+#carouselMarcas .carousel-control-prev-icon:hover,
+#carouselMarcas .carousel-control-next-icon:hover {
+  background-color: #444;
+}
+
+/* ====== CARDS (valores + serviços) ====== */
+.card, .fx-about-1-card {
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover, .fx-about-1-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+.card i, .fx-about-1-card i {
+  font-size: 30px;
+  color: #0d6efd;
+}
+
+/* ====== LISTAS ====== */
+ul {
+  padding-left: 18px;
+}
+ul li {
+  margin-bottom: 6px;
+}
+
+/* ====== FAQ ====== */
+/* ====== SEÇÕES ====== */
+section {
+  padding-top: 50px;   /* antes estava 80px */
+  padding-bottom: 50px;
+}
+
+/* ====== TÍTULOS ====== */
+section h2, section h3 {
+  margin-bottom: 20px; /* reduzido */
+}
+
+/* ====== PARÁGRAFOS ====== */
+.fx-para-1 {
+  margin-bottom: 15px; /* reduzido */
+  line-height: 1.6;
+}
+
+/* ====== CARDS ====== */
+.card, .fx-about-1-card {
+  padding: 25px;  /* antes estava 40px */
+}
+
+/* ====== LISTAS ====== */
+ul {
+  margin-bottom: 15px; /* menos espaço depois da lista */
+}
+
+/* ====== FAQ ====== */
+details {
+  margin-bottom: 8px; /* menos espaço entre perguntas */
+  padding: 12px 18px; /* mais compacto */
+}
+
+
+</style>
 
 
 		<!-- hero-start -->
@@ -45,7 +150,7 @@
         </div>
         <!-- hero-end -->
          
-       <div class="fx-serve-1-area fix p-relative pt-120 pb-120">
+       <div class="fx-serve-1-area fix p-relative pt-120 pb-20">
 
             <div class="container fx-container-1">
 
@@ -165,6 +270,50 @@
                 </div>
             </div>
         </div>
+
+
+         <!-- ====== CARROSSEL DE MARCAS ====== -->
+    <section class="mb-2" aria-labelledby="title-marcas">
+      <h3 id="title-marcas" class="fx-heading-1 fw-bold mb-4 text-center">
+        Marcas que confiamos
+      </h3>
+      <div id="carouselMarcas" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner text-center">
+
+          <?php 
+            $total = 20;       
+            $porSlide = 5;     
+            $slides = ceil($total / $porSlide);
+
+            for($s = 0; $s < $slides; $s++):
+              $ativo = ($s == 0) ? 'active' : '';
+          ?>
+            <div class="carousel-item <?= $ativo ?>">
+              <div class="d-flex justify-content-center align-items-center gap-5 flex-wrap">
+                <?php 
+                  for($i = $s*$porSlide+1; $i <= min(($s+1)*$porSlide, $total); $i++): 
+                ?>
+                  <img src="{{ URL('/') }}/assets/img/marcas/<?= $i ?>.png" 
+                       class="img-fluid" 
+                       alt="Marca <?= $i ?>">
+                <?php endfor; ?>
+              </div>
+            </div>
+          <?php endfor; ?>
+
+        </div>
+
+        <!-- Controles -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselMarcas" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselMarcas" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Próximo</span>
+        </button>
+      </div>
+    </section>
 
 		
 
