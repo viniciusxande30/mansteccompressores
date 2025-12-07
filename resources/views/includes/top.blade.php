@@ -172,6 +172,9 @@
                                     <!-- <li  class="dropdown">
                                         <a href="!#">Nosso Blog</a>
                                     </li> -->
+                                    <li>
+                                        <a href="{{url('/')}}/blog">Blog</a>
+                                    </li>
         
                                     <li>
                                         <a href="{{url('/')}}/contato">Contato</a>

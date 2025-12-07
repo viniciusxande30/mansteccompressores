@@ -65,7 +65,13 @@ class TransporteController extends Controller
             public function termos(){
         return view('termos-de-uso');
     }
+    public function blog(){
+        return view('blog');
+    }
 
+        public function custoOperacional(){
+        return view('artigos.custo-operacional');
+    }
 
 //LISTA TODAS AS
 private function removerAcentos($string)

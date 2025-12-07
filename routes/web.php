@@ -100,7 +100,10 @@ $router->get('/redes-de-ar', 'TransporteController@redes');
 
 $router->get('/politicas-de-privacidade', 'TransporteController@politicas');
 $router->get('/termos-de-uso', 'TransporteController@termos');
+$router->get('/blog', 'TransporteController@blog');
 
+
+$router->get('/blog/custo-operacional', 'TransporteController@custoOperacional');
 
 
 // $router->get('/teste', 'Controller@teste');
