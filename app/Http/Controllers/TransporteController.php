@@ -72,6 +72,9 @@ class TransporteController extends Controller
         public function custoOperacional(){
         return view('artigos.custo-operacional');
     }
+    public function manutencaoPreventivaCompressores(){
+        return view('artigos.manutencao-preventiva');
+    }
 
 //LISTA TODAS AS
 private function removerAcentos($string)
