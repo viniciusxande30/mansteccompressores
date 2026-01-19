@@ -105,6 +105,7 @@ $router->get('/blog', 'TransporteController@blog');
 
 $router->get('/blog/custo-operacional', 'TransporteController@custoOperacional');
 $router->get('/blog/manutencao-preventiva-compressores', 'TransporteController@manutencaoPreventivaCompressores');
+$router->get('/blog/vazamentos-de-ar-comprimido', 'TransporteController@vazamentosdeArComprimido');
 
 
 // $router->get('/teste', 'Controller@teste');

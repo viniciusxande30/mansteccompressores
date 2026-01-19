@@ -75,6 +75,9 @@ class TransporteController extends Controller
     public function manutencaoPreventivaCompressores(){
         return view('artigos.manutencao-preventiva');
     }
+        public function vazamentosdeArComprimido(){
+        return view('artigos.vazamentos-de-ar-comprimido');
+    }
 
 //LISTA TODAS AS
 private function removerAcentos($string)
