@@ -140,7 +140,7 @@ details {
                 <div class="fx-services-page-item">
 
                     <!-- single-item -->
-                    <div class="fx-serve-1-slider-item">
+                    <div class="fx-serve-1-slider-item" style="margin-top:30px">
                         <div class="item-img fix img-cover">
                             <img src="assets/img/serve/s1-img-1.png" alt="">
                         </div>
@@ -160,7 +160,7 @@ details {
                     </div>
 
                      <!-- single-item -->
-                    <div class="fx-serve-1-slider-item">
+                    <div class="fx-serve-1-slider-item" style="margin-top:30px">
                         <div class="item-img fix img-cover">
                             <img src="assets/img/serve/s1-img-1.png" alt="">
                         </div>
@@ -179,7 +179,7 @@ details {
 
                     </div>
                    <!-- single-item -->
-                    <div class="fx-serve-1-slider-item">
+                    <div class="fx-serve-1-slider-item" style="margin-top:30px">
                         <div class="item-img fix img-cover">
                             <img src="assets/img/serve/s1-img-1.png" alt="">
                         </div>
@@ -198,6 +198,451 @@ details {
 
                     </div>
                 </div>
+
+                
+
+
+                                <div class="fx-services-page-item">
+
+                    <!-- single-item -->
+                    <div class="fx-serve-1-slider-item" style="margin-top:30px">
+                        <div class="item-img fix img-cover">
+                            <img src="assets/img/serve/s1-img-1.png" alt="">
+                        </div>
+
+                        <div class="content">
+                            <h5 class="item-title fx-heading-1 fx-font-500">
+                                <a href="{{ url('/') }}/blog/automacao-com-ar-comprimido" aria-label="name">Automação com Ar Comprimido: Como Aumentar a Eficiência da Sua Indústria</a>
+                            </h5>
+                            
+                            <a class="item-btn" href="{{ url('/') }}/blog/automacao-com-ar-comprimido" aria-label="name">
+                                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M40 20C40 8.97219 31.0278 -3.92187e-07 20 -8.74228e-07C8.97219 -1.35627e-06 -3.92187e-07 8.97219 -8.74228e-07 20C-1.35627e-06 31.0278 8.97219 40 20 40C31.0278 40 40 31.0278 40 20ZM2.5 20C2.5 10.3503 10.3503 2.5 20 2.5C29.6497 2.5 37.5 10.3503 37.5 20C37.5 29.6497 29.6497 37.5 20 37.5C10.3503 37.5 2.5 29.6497 2.5 20ZM22.1337 27.1338C21.6453 27.6222 20.8544 27.6222 20.3662 27.1338C20.1222 26.8897 20 26.5697 20 26.25C20 25.9303 20.1222 25.6103 20.3662 25.3662L24.4825 21.25L12.5 21.25C11.8091 21.25 11.25 20.6903 11.25 20C11.25 19.3097 11.8091 18.75 12.5 18.75L24.4825 18.75L20.3663 14.6337C19.8778 14.1453 19.8778 13.3544 20.3663 12.8662C20.8547 12.3781 21.6456 12.3778 22.1337 12.8662L28.3837 19.1163C28.8722 19.6047 28.8722 20.3956 28.3837 20.8838L22.1337 27.1338Z" fill="#FC5220"></path>
+                                </svg>
+                            </a>
+                        </div>
+
+                    </div>
+
+                     <!-- single-item -->
+                    <div class="fx-serve-1-slider-item" style="margin-top:30px">
+                        <div class="item-img fix img-cover">
+                            <img src="assets/img/serve/s1-img-1.png" alt="">
+                        </div>
+
+                        <div class="content">
+                            <h5 class="item-title fx-heading-1 fx-font-500">
+                                <a href="{{ url('/') }}/blog/checklist-completo" aria-label="name">Checklist Completo de Manutenção em Compressores de Ar Industriais</a>
+                            </h5>
+                            
+                            <a class="item-btn" href="{{ url('/') }}/blog/checklist-completo" aria-label="name">
+                                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M40 20C40 8.97219 31.0278 -3.92187e-07 20 -8.74228e-07C8.97219 -1.35627e-06 -3.92187e-07 8.97219 -8.74228e-07 20C-1.35627e-06 31.0278 8.97219 40 20 40C31.0278 40 40 31.0278 40 20ZM2.5 20C2.5 10.3503 10.3503 2.5 20 2.5C29.6497 2.5 37.5 10.3503 37.5 20C37.5 29.6497 29.6497 37.5 20 37.5C10.3503 37.5 2.5 29.6497 2.5 20ZM22.1337 27.1338C21.6453 27.6222 20.8544 27.6222 20.3662 27.1338C20.1222 26.8897 20 26.5697 20 26.25C20 25.9303 20.1222 25.6103 20.3662 25.3662L24.4825 21.25L12.5 21.25C11.8091 21.25 11.25 20.6903 11.25 20C11.25 19.3097 11.8091 18.75 12.5 18.75L24.4825 18.75L20.3663 14.6337C19.8778 14.1453 19.8778 13.3544 20.3663 12.8662C20.8547 12.3781 21.6456 12.3778 22.1337 12.8662L28.3837 19.1163C28.8722 19.6047 28.8722 20.3956 28.3837 20.8838L22.1337 27.1338Z" fill="#FC5220"></path>
+                                </svg>
+                            </a>
+                        </div>
+
+                    </div>
+                   <!-- single-item -->
+                    <div class="fx-serve-1-slider-item" style="margin-top:30px">
+                        <div class="item-img fix img-cover">
+                            <img src="assets/img/serve/s1-img-1.png" alt="">
+                        </div>
+
+                        <div class="content">
+                            <h5 class="item-title fx-heading-1 fx-font-500">
+                                <a href="{{ url('/') }}/blog/como-funciona-um-compressor" aria-label="name">Como Funciona um Compressor de Ar Industrial: Guia Completo</a>
+                            </h5>
+                            
+                            <a class="item-btn" href="{{ url('/') }}/blog/como-funciona-um-compressor" aria-label="name">
+                                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M40 20C40 8.97219 31.0278 -3.92187e-07 20 -8.74228e-07C8.97219 -1.35627e-06 -3.92187e-07 8.97219 -8.74228e-07 20C-1.35627e-06 31.0278 8.97219 40 20 40C31.0278 40 40 31.0278 40 20ZM2.5 20C2.5 10.3503 10.3503 2.5 20 2.5C29.6497 2.5 37.5 10.3503 37.5 20C37.5 29.6497 29.6497 37.5 20 37.5C10.3503 37.5 2.5 29.6497 2.5 20ZM22.1337 27.1338C21.6453 27.6222 20.8544 27.6222 20.3662 27.1338C20.1222 26.8897 20 26.5697 20 26.25C20 25.9303 20.1222 25.6103 20.3662 25.3662L24.4825 21.25L12.5 21.25C11.8091 21.25 11.25 20.6903 11.25 20C11.25 19.3097 11.8091 18.75 12.5 18.75L24.4825 18.75L20.3663 14.6337C19.8778 14.1453 19.8778 13.3544 20.3663 12.8662C20.8547 12.3781 21.6456 12.3778 22.1337 12.8662L28.3837 19.1163C28.8722 19.6047 28.8722 20.3956 28.3837 20.8838L22.1337 27.1338Z" fill="#FC5220"></path>
+                                </svg>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+
+                                <div class="fx-services-page-item">
+
+                    <!-- single-item -->
+                    <div class="fx-serve-1-slider-item" style="margin-top:30px">
+                        <div class="item-img fix img-cover">
+                            <img src="assets/img/serve/s1-img-1.png" alt="">
+                        </div>
+
+                        <div class="content">
+                            <h5 class="item-title fx-heading-1 fx-font-500">
+                                <a href="{{ url('/') }}/blog/como-identificar-vazamento-em-ar" aria-label="name">Como Identificar Vazamentos em Sistemas de Ar Comprimido</a>
+                            </h5>
+                            
+                            <a class="item-btn" href="{{ url('/') }}/blog/como-identificar-vazamento-em-ar" aria-label="name">
+                                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M40 20C40 8.97219 31.0278 -3.92187e-07 20 -8.74228e-07C8.97219 -1.35627e-06 -3.92187e-07 8.97219 -8.74228e-07 20C-1.35627e-06 31.0278 8.97219 40 20 40C31.0278 40 40 31.0278 40 20ZM2.5 20C2.5 10.3503 10.3503 2.5 20 2.5C29.6497 2.5 37.5 10.3503 37.5 20C37.5 29.6497 29.6497 37.5 20 37.5C10.3503 37.5 2.5 29.6497 2.5 20ZM22.1337 27.1338C21.6453 27.6222 20.8544 27.6222 20.3662 27.1338C20.1222 26.8897 20 26.5697 20 26.25C20 25.9303 20.1222 25.6103 20.3662 25.3662L24.4825 21.25L12.5 21.25C11.8091 21.25 11.25 20.6903 11.25 20C11.25 19.3097 11.8091 18.75 12.5 18.75L24.4825 18.75L20.3663 14.6337C19.8778 14.1453 19.8778 13.3544 20.3663 12.8662C20.8547 12.3781 21.6456 12.3778 22.1337 12.8662L28.3837 19.1163C28.8722 19.6047 28.8722 20.3956 28.3837 20.8838L22.1337 27.1338Z" fill="#FC5220"></path>
+                                </svg>
+                            </a>
+                        </div>
+
+                    </div>
+
+                     <!-- single-item -->
+                    <div class="fx-serve-1-slider-item" style="margin-top:30px">
+                        <div class="item-img fix img-cover">
+                            <img src="assets/img/serve/s1-img-1.png" alt="">
+                        </div>
+
+                        <div class="content">
+                            <h5 class="item-title fx-heading-1 fx-font-500">
+                                <a href="{{ url('/') }}/blog/compressor-com-inversor" aria-label="name">Compressor com Inversor de Frequência (VSD): Vale a Pena Investir?</a>
+                            </h5>
+                            
+                            <a class="item-btn" href="{{ url('/') }}/blog/compressor-com-inversor" aria-label="name">
+                                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M40 20C40 8.97219 31.0278 -3.92187e-07 20 -8.74228e-07C8.97219 -1.35627e-06 -3.92187e-07 8.97219 -8.74228e-07 20C-1.35627e-06 31.0278 8.97219 40 20 40C31.0278 40 40 31.0278 40 20ZM2.5 20C2.5 10.3503 10.3503 2.5 20 2.5C29.6497 2.5 37.5 10.3503 37.5 20C37.5 29.6497 29.6497 37.5 20 37.5C10.3503 37.5 2.5 29.6497 2.5 20ZM22.1337 27.1338C21.6453 27.6222 20.8544 27.6222 20.3662 27.1338C20.1222 26.8897 20 26.5697 20 26.25C20 25.9303 20.1222 25.6103 20.3662 25.3662L24.4825 21.25L12.5 21.25C11.8091 21.25 11.25 20.6903 11.25 20C11.25 19.3097 11.8091 18.75 12.5 18.75L24.4825 18.75L20.3663 14.6337C19.8778 14.1453 19.8778 13.3544 20.3663 12.8662C20.8547 12.3781 21.6456 12.3778 22.1337 12.8662L28.3837 19.1163C28.8722 19.6047 28.8722 20.3956 28.3837 20.8838L22.1337 27.1338Z" fill="#FC5220"></path>
+                                </svg>
+                            </a>
+                        </div>
+
+                    </div>
+                   <!-- single-item -->
+                    <div class="fx-serve-1-slider-item" style="margin-top:30px">
+                        <div class="item-img fix img-cover">
+                            <img src="assets/img/serve/s1-img-1.png" alt="">
+                        </div>
+
+                        <div class="content">
+                            <h5 class="item-title fx-heading-1 fx-font-500">
+                                <a href="{{ url('/') }}//blog/custo-do-ar-comprimido" aria-label="name">Quanto Custa o Ar Comprimido na Indústria? Entenda Onde Está o Desperdício</a>
+                            </h5>
+                            
+                            <a class="item-btn" href="{{ url('/') }}/blog/custo-do-ar-comprimido" aria-label="name">
+                                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M40 20C40 8.97219 31.0278 -3.92187e-07 20 -8.74228e-07C8.97219 -1.35627e-06 -3.92187e-07 8.97219 -8.74228e-07 20C-1.35627e-06 31.0278 8.97219 40 20 40C31.0278 40 40 31.0278 40 20ZM2.5 20C2.5 10.3503 10.3503 2.5 20 2.5C29.6497 2.5 37.5 10.3503 37.5 20C37.5 29.6497 29.6497 37.5 20 37.5C10.3503 37.5 2.5 29.6497 2.5 20ZM22.1337 27.1338C21.6453 27.6222 20.8544 27.6222 20.3662 27.1338C20.1222 26.8897 20 26.5697 20 26.25C20 25.9303 20.1222 25.6103 20.3662 25.3662L24.4825 21.25L12.5 21.25C11.8091 21.25 11.25 20.6903 11.25 20C11.25 19.3097 11.8091 18.75 12.5 18.75L24.4825 18.75L20.3663 14.6337C19.8778 14.1453 19.8778 13.3544 20.3663 12.8662C20.8547 12.3781 21.6456 12.3778 22.1337 12.8662L28.3837 19.1163C28.8722 19.6047 28.8722 20.3956 28.3837 20.8838L22.1337 27.1338Z" fill="#FC5220"></path>
+                                </svg>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+
+                                <div class="fx-services-page-item">
+
+                    <!-- single-item -->
+                    <div class="fx-serve-1-slider-item" style="margin-top:30px">
+                        <div class="item-img fix img-cover">
+                            <img src="assets/img/serve/s1-img-1.png" alt="">
+                        </div>
+
+                        <div class="content">
+                            <h5 class="item-title fx-heading-1 fx-font-500">
+                                <a href="{{ url('/') }}/blog/dimensionamento-de-compressores" aria-label="name">Como Dimensionar um Compressor de Ar Industrial: Guia Completo</a>
+                            </h5>
+                            
+                            <a class="item-btn" href="{{ url('/') }}/blog/dimensionamento-de-compressores" aria-label="name">
+                                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M40 20C40 8.97219 31.0278 -3.92187e-07 20 -8.74228e-07C8.97219 -1.35627e-06 -3.92187e-07 8.97219 -8.74228e-07 20C-1.35627e-06 31.0278 8.97219 40 20 40C31.0278 40 40 31.0278 40 20ZM2.5 20C2.5 10.3503 10.3503 2.5 20 2.5C29.6497 2.5 37.5 10.3503 37.5 20C37.5 29.6497 29.6497 37.5 20 37.5C10.3503 37.5 2.5 29.6497 2.5 20ZM22.1337 27.1338C21.6453 27.6222 20.8544 27.6222 20.3662 27.1338C20.1222 26.8897 20 26.5697 20 26.25C20 25.9303 20.1222 25.6103 20.3662 25.3662L24.4825 21.25L12.5 21.25C11.8091 21.25 11.25 20.6903 11.25 20C11.25 19.3097 11.8091 18.75 12.5 18.75L24.4825 18.75L20.3663 14.6337C19.8778 14.1453 19.8778 13.3544 20.3663 12.8662C20.8547 12.3781 21.6456 12.3778 22.1337 12.8662L28.3837 19.1163C28.8722 19.6047 28.8722 20.3956 28.3837 20.8838L22.1337 27.1338Z" fill="#FC5220"></path>
+                                </svg>
+                            </a>
+                        </div>
+
+                    </div>
+
+                     <!-- single-item -->
+                    <div class="fx-serve-1-slider-item" style="margin-top:30px">
+                        <div class="item-img fix img-cover">
+                            <img src="assets/img/serve/s1-img-1.png" alt="">
+                        </div>
+
+                        <div class="content">
+                            <h5 class="item-title fx-heading-1 fx-font-500">
+                                <a href="{{ url('/') }}/blog/eficiencia-energetica-em-compressores" aria-label="name">Como Reduzir o Consumo de Energia em Compressores de Ar: Guia Completo para Indústrias</a>
+                            </h5>
+                            
+                            <a class="item-btn" href="{{ url('/') }}/blog/eficiencia-energetica-em-compressores" aria-label="name">
+                                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M40 20C40 8.97219 31.0278 -3.92187e-07 20 -8.74228e-07C8.97219 -1.35627e-06 -3.92187e-07 8.97219 -8.74228e-07 20C-1.35627e-06 31.0278 8.97219 40 20 40C31.0278 40 40 31.0278 40 20ZM2.5 20C2.5 10.3503 10.3503 2.5 20 2.5C29.6497 2.5 37.5 10.3503 37.5 20C37.5 29.6497 29.6497 37.5 20 37.5C10.3503 37.5 2.5 29.6497 2.5 20ZM22.1337 27.1338C21.6453 27.6222 20.8544 27.6222 20.3662 27.1338C20.1222 26.8897 20 26.5697 20 26.25C20 25.9303 20.1222 25.6103 20.3662 25.3662L24.4825 21.25L12.5 21.25C11.8091 21.25 11.25 20.6903 11.25 20C11.25 19.3097 11.8091 18.75 12.5 18.75L24.4825 18.75L20.3663 14.6337C19.8778 14.1453 19.8778 13.3544 20.3663 12.8662C20.8547 12.3781 21.6456 12.3778 22.1337 12.8662L28.3837 19.1163C28.8722 19.6047 28.8722 20.3956 28.3837 20.8838L22.1337 27.1338Z" fill="#FC5220"></path>
+                                </svg>
+                            </a>
+                        </div>
+
+                    </div>
+                   <!-- single-item -->
+                    <div class="fx-serve-1-slider-item" style="margin-top:30px">
+                        <div class="item-img fix img-cover">
+                            <img src="assets/img/serve/s1-img-1.png" alt="">
+                        </div>
+
+                        <div class="content">
+                            <h5 class="item-title fx-heading-1 fx-font-500">
+                                <a href="{{ url('/') }}/blog/empresa-de-manutencao" aria-label="name">Como Escolher uma Empresa de Manutenção de Compressores de Ar (Guia Completo)</a>
+                            </h5>
+                            
+                            <a class="item-btn" href="{{ url('/') }}/blog/empresa-de-manutencao" aria-label="name">
+                                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M40 20C40 8.97219 31.0278 -3.92187e-07 20 -8.74228e-07C8.97219 -1.35627e-06 -3.92187e-07 8.97219 -8.74228e-07 20C-1.35627e-06 31.0278 8.97219 40 20 40C31.0278 40 40 31.0278 40 20ZM2.5 20C2.5 10.3503 10.3503 2.5 20 2.5C29.6497 2.5 37.5 10.3503 37.5 20C37.5 29.6497 29.6497 37.5 20 37.5C10.3503 37.5 2.5 29.6497 2.5 20ZM22.1337 27.1338C21.6453 27.6222 20.8544 27.6222 20.3662 27.1338C20.1222 26.8897 20 26.5697 20 26.25C20 25.9303 20.1222 25.6103 20.3662 25.3662L24.4825 21.25L12.5 21.25C11.8091 21.25 11.25 20.6903 11.25 20C11.25 19.3097 11.8091 18.75 12.5 18.75L24.4825 18.75L20.3663 14.6337C19.8778 14.1453 19.8778 13.3544 20.3663 12.8662C20.8547 12.3781 21.6456 12.3778 22.1337 12.8662L28.3837 19.1163C28.8722 19.6047 28.8722 20.3956 28.3837 20.8838L22.1337 27.1338Z" fill="#FC5220"></path>
+                                </svg>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+                                <div class="fx-services-page-item">
+
+                    <!-- single-item -->
+                    <div class="fx-serve-1-slider-item" style="margin-top:30px">
+                        <div class="item-img fix img-cover">
+                            <img src="assets/img/serve/s1-img-1.png" alt="">
+                        </div>
+
+                        <div class="content">
+                            <h5 class="item-title fx-heading-1 fx-font-500">
+                                <a href="{{ url('/') }}/blog/erros-na-instalacao-de-compressores" aria-label="name">Erros na Instalação de Compressores de Ar que Aumentam o Custo da Operação</a>
+                            </h5>
+                            
+                            <a class="item-btn" href="{{ url('/') }}/blog/erros-na-instalacao-de-compressores" aria-label="name">
+                                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M40 20C40 8.97219 31.0278 -3.92187e-07 20 -8.74228e-07C8.97219 -1.35627e-06 -3.92187e-07 8.97219 -8.74228e-07 20C-1.35627e-06 31.0278 8.97219 40 20 40C31.0278 40 40 31.0278 40 20ZM2.5 20C2.5 10.3503 10.3503 2.5 20 2.5C29.6497 2.5 37.5 10.3503 37.5 20C37.5 29.6497 29.6497 37.5 20 37.5C10.3503 37.5 2.5 29.6497 2.5 20ZM22.1337 27.1338C21.6453 27.6222 20.8544 27.6222 20.3662 27.1338C20.1222 26.8897 20 26.5697 20 26.25C20 25.9303 20.1222 25.6103 20.3662 25.3662L24.4825 21.25L12.5 21.25C11.8091 21.25 11.25 20.6903 11.25 20C11.25 19.3097 11.8091 18.75 12.5 18.75L24.4825 18.75L20.3663 14.6337C19.8778 14.1453 19.8778 13.3544 20.3663 12.8662C20.8547 12.3781 21.6456 12.3778 22.1337 12.8662L28.3837 19.1163C28.8722 19.6047 28.8722 20.3956 28.3837 20.8838L22.1337 27.1338Z" fill="#FC5220"></path>
+                                </svg>
+                            </a>
+                        </div>
+
+                    </div>
+
+                     <!-- single-item -->
+                    <div class="fx-serve-1-slider-item" style="margin-top:30px">
+                        <div class="item-img fix img-cover">
+                            <img src="assets/img/serve/s1-img-1.png" alt="">
+                        </div>
+
+                        <div class="content">
+                            <h5 class="item-title fx-heading-1 fx-font-500">
+                                <a href="{{ url('/') }}/blog/falhas-comuns-e-como-evitar" aria-label="name">Falhas Mais Comuns em Compressores de Ar e Como Evitar Paradas na Produção</a>
+                            </h5>
+                            
+                            <a class="item-btn" href="{{ url('/') }}/blog/falhas-comuns-e-como-evitar" aria-label="name">
+                                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M40 20C40 8.97219 31.0278 -3.92187e-07 20 -8.74228e-07C8.97219 -1.35627e-06 -3.92187e-07 8.97219 -8.74228e-07 20C-1.35627e-06 31.0278 8.97219 40 20 40C31.0278 40 40 31.0278 40 20ZM2.5 20C2.5 10.3503 10.3503 2.5 20 2.5C29.6497 2.5 37.5 10.3503 37.5 20C37.5 29.6497 29.6497 37.5 20 37.5C10.3503 37.5 2.5 29.6497 2.5 20ZM22.1337 27.1338C21.6453 27.6222 20.8544 27.6222 20.3662 27.1338C20.1222 26.8897 20 26.5697 20 26.25C20 25.9303 20.1222 25.6103 20.3662 25.3662L24.4825 21.25L12.5 21.25C11.8091 21.25 11.25 20.6903 11.25 20C11.25 19.3097 11.8091 18.75 12.5 18.75L24.4825 18.75L20.3663 14.6337C19.8778 14.1453 19.8778 13.3544 20.3663 12.8662C20.8547 12.3781 21.6456 12.3778 22.1337 12.8662L28.3837 19.1163C28.8722 19.6047 28.8722 20.3956 28.3837 20.8838L22.1337 27.1338Z" fill="#FC5220"></path>
+                                </svg>
+                            </a>
+                        </div>
+
+                    </div>
+                   <!-- single-item -->
+                    <div class="fx-serve-1-slider-item" style="margin-top:30px">
+                        <div class="item-img fix img-cover">
+                            <img src="assets/img/serve/s1-img-1.png" alt="">
+                        </div>
+
+                        <div class="content">
+                            <h5 class="item-title fx-heading-1 fx-font-500">
+                                <a href="{{ url('/') }}/blog/linha-de-ar-comprimido" aria-label="name">Linha de Ar Comprimido: Como Projetar um Sistema Eficiente e Reduzir Custos</a>
+                            </h5>
+                            
+                            <a class="item-btn" href="{{ url('/') }}/blog/linha-de-ar-comprimido" aria-label="name">
+                                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M40 20C40 8.97219 31.0278 -3.92187e-07 20 -8.74228e-07C8.97219 -1.35627e-06 -3.92187e-07 8.97219 -8.74228e-07 20C-1.35627e-06 31.0278 8.97219 40 20 40C31.0278 40 40 31.0278 40 20ZM2.5 20C2.5 10.3503 10.3503 2.5 20 2.5C29.6497 2.5 37.5 10.3503 37.5 20C37.5 29.6497 29.6497 37.5 20 37.5C10.3503 37.5 2.5 29.6497 2.5 20ZM22.1337 27.1338C21.6453 27.6222 20.8544 27.6222 20.3662 27.1338C20.1222 26.8897 20 26.5697 20 26.25C20 25.9303 20.1222 25.6103 20.3662 25.3662L24.4825 21.25L12.5 21.25C11.8091 21.25 11.25 20.6903 11.25 20C11.25 19.3097 11.8091 18.75 12.5 18.75L24.4825 18.75L20.3663 14.6337C19.8778 14.1453 19.8778 13.3544 20.3663 12.8662C20.8547 12.3781 21.6456 12.3778 22.1337 12.8662L28.3837 19.1163C28.8722 19.6047 28.8722 20.3956 28.3837 20.8838L22.1337 27.1338Z" fill="#FC5220"></path>
+                                </svg>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+                                <div class="fx-services-page-item">
+
+                    <!-- single-item -->
+                    <div class="fx-serve-1-slider-item" style="margin-top:30px">
+                        <div class="item-img fix img-cover">
+                            <img src="assets/img/serve/s1-img-1.png" alt="">
+                        </div>
+
+                        <div class="content">
+                            <h5 class="item-title fx-heading-1 fx-font-500">
+                                <a href="{{ url('/') }}/blog/manutencao-preventiva-vs-corretiva" aria-label="name">Manutenção Preventiva vs Corretiva: Qual a Melhor Estratégia para Sua Indústria?</a>
+                            </h5>
+                            
+                            <a class="item-btn" href="{{ url('/') }}/blog/manutencao-preventiva-vs-corretiva" aria-label="name">
+                                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M40 20C40 8.97219 31.0278 -3.92187e-07 20 -8.74228e-07C8.97219 -1.35627e-06 -3.92187e-07 8.97219 -8.74228e-07 20C-1.35627e-06 31.0278 8.97219 40 20 40C31.0278 40 40 31.0278 40 20ZM2.5 20C2.5 10.3503 10.3503 2.5 20 2.5C29.6497 2.5 37.5 10.3503 37.5 20C37.5 29.6497 29.6497 37.5 20 37.5C10.3503 37.5 2.5 29.6497 2.5 20ZM22.1337 27.1338C21.6453 27.6222 20.8544 27.6222 20.3662 27.1338C20.1222 26.8897 20 26.5697 20 26.25C20 25.9303 20.1222 25.6103 20.3662 25.3662L24.4825 21.25L12.5 21.25C11.8091 21.25 11.25 20.6903 11.25 20C11.25 19.3097 11.8091 18.75 12.5 18.75L24.4825 18.75L20.3663 14.6337C19.8778 14.1453 19.8778 13.3544 20.3663 12.8662C20.8547 12.3781 21.6456 12.3778 22.1337 12.8662L28.3837 19.1163C28.8722 19.6047 28.8722 20.3956 28.3837 20.8838L22.1337 27.1338Z" fill="#FC5220"></path>
+                                </svg>
+                            </a>
+                        </div>
+
+                    </div>
+
+                     <!-- single-item -->
+                    <div class="fx-serve-1-slider-item" style="margin-top:30px">
+                        <div class="item-img fix img-cover">
+                            <img src="assets/img/serve/s1-img-1.png" alt="">
+                        </div>
+
+                        <div class="content">
+                            <h5 class="item-title fx-heading-1 fx-font-500">
+                                <a href="{{ url('/') }}/blog/nr13-em-compressores" aria-label="name">NR-13 em Compressores de Ar: Como Garantir Segurança, Evitar Multas e Manter sua Operação Regularizada</a>
+                            </h5>
+                            
+                            <a class="item-btn" href="{{ url('/') }}/blog/nr13-em-compressores" aria-label="name">
+                                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M40 20C40 8.97219 31.0278 -3.92187e-07 20 -8.74228e-07C8.97219 -1.35627e-06 -3.92187e-07 8.97219 -8.74228e-07 20C-1.35627e-06 31.0278 8.97219 40 20 40C31.0278 40 40 31.0278 40 20ZM2.5 20C2.5 10.3503 10.3503 2.5 20 2.5C29.6497 2.5 37.5 10.3503 37.5 20C37.5 29.6497 29.6497 37.5 20 37.5C10.3503 37.5 2.5 29.6497 2.5 20ZM22.1337 27.1338C21.6453 27.6222 20.8544 27.6222 20.3662 27.1338C20.1222 26.8897 20 26.5697 20 26.25C20 25.9303 20.1222 25.6103 20.3662 25.3662L24.4825 21.25L12.5 21.25C11.8091 21.25 11.25 20.6903 11.25 20C11.25 19.3097 11.8091 18.75 12.5 18.75L24.4825 18.75L20.3663 14.6337C19.8778 14.1453 19.8778 13.3544 20.3663 12.8662C20.8547 12.3781 21.6456 12.3778 22.1337 12.8662L28.3837 19.1163C28.8722 19.6047 28.8722 20.3956 28.3837 20.8838L22.1337 27.1338Z" fill="#FC5220"></path>
+                                </svg>
+                            </a>
+                        </div>
+
+                    </div>
+                   <!-- single-item -->
+                    <div class="fx-serve-1-slider-item" style="margin-top:30px">
+                        <div class="item-img fix img-cover">
+                            <img src="assets/img/serve/s1-img-1.png" alt="">
+                        </div>
+
+                        <div class="content">
+                            <h5 class="item-title fx-heading-1 fx-font-500">
+                                <a href="{{ url('/') }}/blog/pressao-ideal-em-compressores" aria-label="name">Pressão Ideal em Compressores: Como Definir e Evitar Desperdício</a>
+                            </h5>
+                            
+                            <a class="item-btn" href="{{ url('/') }}/blog/pressao-ideal-em-compressores" aria-label="name">
+                                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M40 20C40 8.97219 31.0278 -3.92187e-07 20 -8.74228e-07C8.97219 -1.35627e-06 -3.92187e-07 8.97219 -8.74228e-07 20C-1.35627e-06 31.0278 8.97219 40 20 40C31.0278 40 40 31.0278 40 20ZM2.5 20C2.5 10.3503 10.3503 2.5 20 2.5C29.6497 2.5 37.5 10.3503 37.5 20C37.5 29.6497 29.6497 37.5 20 37.5C10.3503 37.5 2.5 29.6497 2.5 20ZM22.1337 27.1338C21.6453 27.6222 20.8544 27.6222 20.3662 27.1338C20.1222 26.8897 20 26.5697 20 26.25C20 25.9303 20.1222 25.6103 20.3662 25.3662L24.4825 21.25L12.5 21.25C11.8091 21.25 11.25 20.6903 11.25 20C11.25 19.3097 11.8091 18.75 12.5 18.75L24.4825 18.75L20.3663 14.6337C19.8778 14.1453 19.8778 13.3544 20.3663 12.8662C20.8547 12.3781 21.6456 12.3778 22.1337 12.8662L28.3837 19.1163C28.8722 19.6047 28.8722 20.3956 28.3837 20.8838L22.1337 27.1338Z" fill="#FC5220"></path>
+                                </svg>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+                                <div class="fx-services-page-item">
+
+                    <!-- single-item -->
+                    <div class="fx-serve-1-slider-item" style="margin-top:30px">
+                        <div class="item-img fix img-cover">
+                            <img src="assets/img/serve/s1-img-1.png" alt="">
+                        </div>
+
+                        <div class="content">
+                            <h5 class="item-title fx-heading-1 fx-font-500">
+                                <a href="{{ url('/') }}/blog/qualidade-do-ar-comprimido" aria-label="name">Qualidade do Ar Comprimido: Classes ISO 8573 e Como Elas Impactam Sua Produção</a>
+                            </h5>
+                            
+                            <a class="item-btn" href="{{ url('/') }}/blog/qualidade-do-ar-comprimido" aria-label="name">
+                                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M40 20C40 8.97219 31.0278 -3.92187e-07 20 -8.74228e-07C8.97219 -1.35627e-06 -3.92187e-07 8.97219 -8.74228e-07 20C-1.35627e-06 31.0278 8.97219 40 20 40C31.0278 40 40 31.0278 40 20ZM2.5 20C2.5 10.3503 10.3503 2.5 20 2.5C29.6497 2.5 37.5 10.3503 37.5 20C37.5 29.6497 29.6497 37.5 20 37.5C10.3503 37.5 2.5 29.6497 2.5 20ZM22.1337 27.1338C21.6453 27.6222 20.8544 27.6222 20.3662 27.1338C20.1222 26.8897 20 26.5697 20 26.25C20 25.9303 20.1222 25.6103 20.3662 25.3662L24.4825 21.25L12.5 21.25C11.8091 21.25 11.25 20.6903 11.25 20C11.25 19.3097 11.8091 18.75 12.5 18.75L24.4825 18.75L20.3663 14.6337C19.8778 14.1453 19.8778 13.3544 20.3663 12.8662C20.8547 12.3781 21.6456 12.3778 22.1337 12.8662L28.3837 19.1163C28.8722 19.6047 28.8722 20.3956 28.3837 20.8838L22.1337 27.1338Z" fill="#FC5220"></path>
+                                </svg>
+                            </a>
+                        </div>
+
+                    </div>
+
+                     <!-- single-item -->
+                    <div class="fx-serve-1-slider-item" style="margin-top:30px">
+                        <div class="item-img fix img-cover">
+                            <img src="assets/img/serve/s1-img-1.png" alt="">
+                        </div>
+
+                        <div class="content">
+                            <h5 class="item-title fx-heading-1 fx-font-500">
+                                <a href="{{ url('/') }}/blog/secador-refrigerado-vs-adsorcao" aria-label="name">Secador Refrigerado vs Adsorção: Qual Escolher para Sua Indústria?</a>
+                            </h5>
+                            
+                            <a class="item-btn" href="{{ url('/') }}/blog/secador-refrigerado-vs-adsorcao" aria-label="name">
+                                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M40 20C40 8.97219 31.0278 -3.92187e-07 20 -8.74228e-07C8.97219 -1.35627e-06 -3.92187e-07 8.97219 -8.74228e-07 20C-1.35627e-06 31.0278 8.97219 40 20 40C31.0278 40 40 31.0278 40 20ZM2.5 20C2.5 10.3503 10.3503 2.5 20 2.5C29.6497 2.5 37.5 10.3503 37.5 20C37.5 29.6497 29.6497 37.5 20 37.5C10.3503 37.5 2.5 29.6497 2.5 20ZM22.1337 27.1338C21.6453 27.6222 20.8544 27.6222 20.3662 27.1338C20.1222 26.8897 20 26.5697 20 26.25C20 25.9303 20.1222 25.6103 20.3662 25.3662L24.4825 21.25L12.5 21.25C11.8091 21.25 11.25 20.6903 11.25 20C11.25 19.3097 11.8091 18.75 12.5 18.75L24.4825 18.75L20.3663 14.6337C19.8778 14.1453 19.8778 13.3544 20.3663 12.8662C20.8547 12.3781 21.6456 12.3778 22.1337 12.8662L28.3837 19.1163C28.8722 19.6047 28.8722 20.3956 28.3837 20.8838L22.1337 27.1338Z" fill="#FC5220"></path>
+                                </svg>
+                            </a>
+                        </div>
+
+                    </div>
+                   <!-- single-item -->
+                    <div class="fx-serve-1-slider-item" style="margin-top:30px">
+                        <div class="item-img fix img-cover">
+                            <img src="assets/img/serve/s1-img-1.png" alt="">
+                        </div>
+
+                        <div class="content">
+                            <h5 class="item-title fx-heading-1 fx-font-500">
+                                <a href="{{ url('/') }}/blog/secadores-de-ar-comprimido" aria-label="name">Secadores de Ar Comprimido: Por que são essenciais e como escolher o ideal para sua indústria</a>
+                            </h5>
+                            
+                            <a class="item-btn" href="{{ url('/') }}/blog/secadores-de-ar-comprimido" aria-label="name">
+                                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M40 20C40 8.97219 31.0278 -3.92187e-07 20 -8.74228e-07C8.97219 -1.35627e-06 -3.92187e-07 8.97219 -8.74228e-07 20C-1.35627e-06 31.0278 8.97219 40 20 40C31.0278 40 40 31.0278 40 20ZM2.5 20C2.5 10.3503 10.3503 2.5 20 2.5C29.6497 2.5 37.5 10.3503 37.5 20C37.5 29.6497 29.6497 37.5 20 37.5C10.3503 37.5 2.5 29.6497 2.5 20ZM22.1337 27.1338C21.6453 27.6222 20.8544 27.6222 20.3662 27.1338C20.1222 26.8897 20 26.5697 20 26.25C20 25.9303 20.1222 25.6103 20.3662 25.3662L24.4825 21.25L12.5 21.25C11.8091 21.25 11.25 20.6903 11.25 20C11.25 19.3097 11.8091 18.75 12.5 18.75L24.4825 18.75L20.3663 14.6337C19.8778 14.1453 19.8778 13.3544 20.3663 12.8662C20.8547 12.3781 21.6456 12.3778 22.1337 12.8662L28.3837 19.1163C28.8722 19.6047 28.8722 20.3956 28.3837 20.8838L22.1337 27.1338Z" fill="#FC5220"></path>
+                                </svg>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+                                <div class="fx-services-page-item">
+
+                    <!-- single-item -->
+                    <div class="fx-serve-1-slider-item" style="margin-top:30px">
+                        <div class="item-img fix img-cover">
+                            <img src="assets/img/serve/s1-img-1.png" alt="">
+                        </div>
+
+                        <div class="content">
+                            <h5 class="item-title fx-heading-1 fx-font-500">
+                                <a href="{{ url('/') }}/blog/tipos-de-compressores" aria-label="name">Tipos de Compressores Industriais: Como Escolher o Ideal para Sua Operação</a>
+                            </h5>
+                            
+                            <a class="item-btn" href="{{ url('/') }}/blog/tipos-de-compressores" aria-label="name">
+                                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M40 20C40 8.97219 31.0278 -3.92187e-07 20 -8.74228e-07C8.97219 -1.35627e-06 -3.92187e-07 8.97219 -8.74228e-07 20C-1.35627e-06 31.0278 8.97219 40 20 40C31.0278 40 40 31.0278 40 20ZM2.5 20C2.5 10.3503 10.3503 2.5 20 2.5C29.6497 2.5 37.5 10.3503 37.5 20C37.5 29.6497 29.6497 37.5 20 37.5C10.3503 37.5 2.5 29.6497 2.5 20ZM22.1337 27.1338C21.6453 27.6222 20.8544 27.6222 20.3662 27.1338C20.1222 26.8897 20 26.5697 20 26.25C20 25.9303 20.1222 25.6103 20.3662 25.3662L24.4825 21.25L12.5 21.25C11.8091 21.25 11.25 20.6903 11.25 20C11.25 19.3097 11.8091 18.75 12.5 18.75L24.4825 18.75L20.3663 14.6337C19.8778 14.1453 19.8778 13.3544 20.3663 12.8662C20.8547 12.3781 21.6456 12.3778 22.1337 12.8662L28.3837 19.1163C28.8722 19.6047 28.8722 20.3956 28.3837 20.8838L22.1337 27.1338Z" fill="#FC5220"></path>
+                                </svg>
+                            </a>
+                        </div>
+
+                    </div>
+
+                     <!-- single-item -->
+                    <div class="fx-serve-1-slider-item" style="margin-top:30px">
+                        <div class="item-img fix img-cover">
+                            <img src="assets/img/serve/s1-img-1.png" alt="">
+                        </div>
+
+                        <div class="content">
+                            <h5 class="item-title fx-heading-1 fx-font-500">
+                                <a href="{{ url('/') }}/blog/vida-util-de-compressores" aria-label="name">Vida Útil de um Compressor Industrial: Como Aumentar e Evitar Desgaste Prematuro</a>
+                            </h5>
+                            
+                            <a class="item-btn" href="{{ url('/') }}/blog/vida-util-de-compressores" aria-label="name">
+                                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M40 20C40 8.97219 31.0278 -3.92187e-07 20 -8.74228e-07C8.97219 -1.35627e-06 -3.92187e-07 8.97219 -8.74228e-07 20C-1.35627e-06 31.0278 8.97219 40 20 40C31.0278 40 40 31.0278 40 20ZM2.5 20C2.5 10.3503 10.3503 2.5 20 2.5C29.6497 2.5 37.5 10.3503 37.5 20C37.5 29.6497 29.6497 37.5 20 37.5C10.3503 37.5 2.5 29.6497 2.5 20ZM22.1337 27.1338C21.6453 27.6222 20.8544 27.6222 20.3662 27.1338C20.1222 26.8897 20 26.5697 20 26.25C20 25.9303 20.1222 25.6103 20.3662 25.3662L24.4825 21.25L12.5 21.25C11.8091 21.25 11.25 20.6903 11.25 20C11.25 19.3097 11.8091 18.75 12.5 18.75L24.4825 18.75L20.3663 14.6337C19.8778 14.1453 19.8778 13.3544 20.3663 12.8662C20.8547 12.3781 21.6456 12.3778 22.1337 12.8662L28.3837 19.1163C28.8722 19.6047 28.8722 20.3956 28.3837 20.8838L22.1337 27.1338Z" fill="#FC5220"></path>
+                                </svg>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
             </div>
         </div>
 
