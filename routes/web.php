@@ -24,24 +24,43 @@ use App\Http\Controllers\TransporteController;
 
 $router->get('/', 'Controller@homeIndex');
 
-$router->post('/send-email-home', function (\Illuminate\Http\Request $request) {
+$sendEmailHomeHandler = function (\Illuminate\Http\Request $request) {
+    $description = trim((string) $request->input('description', ''));
+    $legacyMessage = trim((string) $request->input('message', ''));
+    $formId = trim((string) $request->input('id', 'form_contato'));
+    $subject = trim((string) $request->input('subject', ''));
+
+    if ($subject === '') {
+        $subject = $formId === 'form_popup_home'
+            ? 'Popup Home - Contato de emergência'
+            : 'Formulário de contato';
+    }
+
     $data = [
-        'name'    => $request->input('name'),
-        'email'   => $request->input('email'),
-        'phone'   => $request->input('phone'),
-        'subject' => $request->input('subject'),
-        'message' => $request->input('message'),
+        'id'          => $formId,
+        'name'        => trim((string) $request->input('name', '')),
+        'company'     => trim((string) $request->input('company', '')),
+        'address'     => trim((string) $request->input('address', '')),
+        'email'       => trim((string) $request->input('email', '')),
+        'phone'       => trim((string) $request->input('phone', '')),
+        'subject'     => $subject,
+        'description' => $description,
+        'message'     => $description !== '' ? $description : $legacyMessage,
     ];
 
     \Illuminate\Support\Facades\Mail::send('mail.contact-home', ['data' => $data], function ($message) use ($data) {
         $message->to('comercial@mansteccompressores.com.br', 'Envio de E-mail')
-                ->subject('Contato do Site - Contato: ' . $data['subject']);
+                ->subject('Contato do Site - ' . $data['subject']);
                 //->replyTo($data['email'], $data['name']);
     });
 
      // Retorna a view original com mensagem de sucesso
     return view('site', ['success' => true]);
-});
+};
+
+$router->post('/send-email-home', $sendEmailHomeHandler);
+$router->post('/MANSTEC/public/send-email-home', $sendEmailHomeHandler);
+$router->post('/MANSTEC/PUBLIC/send-email-home', $sendEmailHomeHandler);
 
 $router->post('/send-cotacao-frete', function (\Illuminate\Http\Request $request) {
         $data = [
@@ -126,7 +145,4 @@ $router->get('/blog/vida-util-de-compressores', function () {return view('artigo
 
 
 // $router->get('/teste', 'Controller@teste');
-
-
-
 
