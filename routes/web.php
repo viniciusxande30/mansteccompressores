@@ -130,6 +130,7 @@ $router->get('/blog/compressor-com-inversor', function () {return view('artigos.
 $router->get('/blog/custo-do-ar-comprimido', function () {return view('artigos.custo-do-ar-comprimido');});
 $router->get('/blog/dimensionamento-de-compressores', function () {return view('artigos.dimensionamento-de-compressores');});
 $router->get('/blog/eficiencia-energetica-em-compressores', function () {return view('artigos.eficiencia-energetica-em-compressores');});
+$router->get('/blog/eficiencia-energetica-industrial', function () {return view('artigos.eficiencia-energetica-industrial');});
 $router->get('/blog/empresa-de-manutencao', function () {return view('artigos.empresa-de-manutencao');});
 $router->get('/blog/erros-na-instalacao-de-compressores', function () {return view('artigos.erros-na-instalacao-de-compressores');});
 $router->get('/blog/falhas-comuns-e-como-evitar', function () {return view('artigos.falhas-comuns-e-como-evitar');});
@@ -145,4 +146,3 @@ $router->get('/blog/vida-util-de-compressores', function () {return view('artigo
 
 
 // $router->get('/teste', 'Controller@teste');
-

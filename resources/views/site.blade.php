@@ -509,7 +509,7 @@ body.manstec-popup-open .cbh-phone {
         <!-- hero-end -->
 
         <button type="button" class="manstec-lead-fab" data-manstec-popup-open data-bs-toggle="modal" data-bs-target="#manstec-contact-popup">
-            Atendimento de emerg&ecirc;ncia
+            Atendimento
         </button>
 
         <div class="modal fade manstec-lead-modal" id="manstec-contact-popup" tabindex="-1" aria-labelledby="manstec-popup-title" aria-hidden="true">
