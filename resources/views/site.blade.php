@@ -126,6 +126,11 @@ details {
   left: auto;
   z-index: 1090;
 }
+body.manstec-popup-open .manstec-lead-fab,
+body.manstec-popup-open .cbh-phone {
+  opacity: 0;
+  pointer-events: none;
+}
 .manstec-lead-fab span {
   display: block;
   font-size: 12px;
@@ -144,29 +149,30 @@ details {
 .manstec-popup-open {
   overflow: hidden;
 }
-.manstec-popup-overlay {
-  position: fixed;
-  inset: 0;
-  z-index: 1200;
-  background: rgba(6, 16, 30, 0.78);
-  backdrop-filter: blur(2px);
-  display: none;
-  align-items: center;
-  justify-content: center;
-  padding: 18px;
+.manstec-lead-modal .modal-dialog {
+  max-width: min(1100px, calc(100% - 24px));
 }
-.manstec-popup-overlay.is-active {
-  display: flex;
+.manstec-lead-modal {
+  z-index: 2100;
 }
-.manstec-popup-card {
-  width: min(980px, 100%);
+.modal-backdrop.show {
+  z-index: 2090;
+}
+.manstec-lead-modal .modal-content {
+  border: 0;
   border-radius: 20px;
   overflow: hidden;
+  box-shadow: 0 28px 90px rgba(0, 0, 0, 0.35);
+}
+.manstec-lead-modal .modal-body {
+  padding: 0;
+}
+.manstec-popup-card {
+  animation: manstecPopupIn 0.3s ease;
+}
+.manstec-popup-layout {
   display: grid;
   grid-template-columns: 40% 60%;
-  box-shadow: 0 28px 90px rgba(0, 0, 0, 0.35);
-  position: relative;
-  animation: manstecPopupIn 0.3s ease;
 }
 @keyframes manstecPopupIn {
   from { opacity: 0; transform: translateY(12px) scale(0.98); }
@@ -174,26 +180,30 @@ details {
 }
 .manstec-popup-close {
   position: absolute;
-  right: 14px;
-  top: 10px;
-  border: 1px solid rgba(13, 43, 85, 0.2);
-  width: 38px;
-  height: 38px;
+  right: 12px;
+  top: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.32);
+  width: 36px;
+  height: 36px;
+  line-height: 1;
   border-radius: 50%;
-  background: rgba(13, 43, 85, 0.08);
-  color: #0d2b55;
-  font-size: 24px;
+  background: rgba(9, 29, 56, 0.45);
+  color: #fff;
+  font-size: 22px;
   cursor: pointer;
   z-index: 2;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 .manstec-popup-close:hover {
-  background: #0d2b55;
-  color: #fff;
+  background: rgba(9, 29, 56, 0.75);
 }
 .manstec-popup-side {
   background: linear-gradient(160deg, #0b2b56 0%, #0f437f 60%, #1e5da3 100%);
   color: #fff;
-  padding: 38px 28px;
+  padding: 24px 22px 20px;
+  position: relative;
 }
 .manstec-popup-badge {
   display: inline-flex;
@@ -249,12 +259,12 @@ details {
 
 .manstec-popup-form-wrap {
   background: linear-gradient(175deg, #ffffff 0%, #f7fafc 100%);
-  padding: 34px 30px;
+  padding: 24px 22px 18px;
 }
 .manstec-popup-form-wrap h4 {
   margin: 0;
   color: #0d2b55;
-  font-size: 27px;
+  font-size: 32px;
 }
 .manstec-popup-form-wrap p {
   margin: 8px 0 20px;
@@ -310,7 +320,39 @@ details {
   font-size: 12px;
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 1199.98px) {
+  .manstec-lead-modal .modal-dialog {
+    max-width: calc(100% - 16px);
+  }
+  .manstec-popup-layout {
+    grid-template-columns: 42% 58%;
+  }
+  .manstec-popup-side {
+    padding: 18px 16px 14px;
+  }
+  .manstec-popup-form-wrap {
+    padding: 18px 16px 14px;
+  }
+  .manstec-popup-title {
+    font-size: 26px;
+    margin-bottom: 8px;
+  }
+  .manstec-popup-text {
+    font-size: 14px;
+    margin-bottom: 12px;
+  }
+  .manstec-popup-list {
+    margin-bottom: 12px;
+  }
+  .manstec-popup-list li {
+    margin-bottom: 6px;
+  }
+  .manstec-popup-form-wrap h4 {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 767.98px) {
   .manstec-lead-fab {
     left: 12px;
     right: auto;
@@ -320,23 +362,104 @@ details {
     text-align: left;
     font-size: 13px;
   }
-  .manstec-popup-card {
-    grid-template-columns: 1fr;
-    max-height: 92vh;
+  .manstec-lead-modal .modal-dialog {
+    margin: 0;
+    max-width: 100%;
+    height: 100%;
+  }
+  .manstec-lead-modal .modal-content {
+    height: 100%;
+    border-radius: 0;
+  }
+  .manstec-lead-modal .modal-body {
+    height: 100%;
     overflow-y: auto;
   }
+  .manstec-popup-layout {
+    grid-template-columns: 1fr;
+  }
   .manstec-popup-close {
-    background: rgba(13, 43, 85, 0.14);
+    background: rgba(9, 29, 56, 0.56);
+    top: 8px;
+    right: 8px;
+    width: 34px;
+    height: 34px;
+    font-size: 20px;
+  }
+  .manstec-popup-side {
+    padding: 16px 14px 12px;
+  }
+  .manstec-popup-badge {
+    margin-bottom: 10px;
+    font-size: 11px;
+    padding: 5px 10px;
   }
   .manstec-popup-title {
-    font-size: 24px;
+    font-size: 19px;
+    margin-bottom: 4px;
+  }
+  .manstec-emergency-box {
+    padding: 10px 12px;
+    border-radius: 10px;
+  }
+  .manstec-emergency-box h5 {
+    font-size: 13px;
+    margin-bottom: 7px;
+  }
+  .manstec-emergency-box a {
+    font-size: 13px;
+    margin-bottom: 3px;
+  }
+  .manstec-popup-form-wrap {
+    padding: 16px 14px 14px;
+  }
+  .manstec-popup-form-wrap h4 {
+    font-size: 20px;
+  }
+  .manstec-popup-form-wrap p {
+    margin: 5px 0 10px;
+    font-size: 12px;
   }
   .manstec-popup-grid-2 {
     grid-template-columns: 1fr;
   }
+  .manstec-popup-form {
+    gap: 8px;
+  }
+  .manstec-popup-form input,
+  .manstec-popup-form textarea {
+    padding: 10px 11px;
+    font-size: 13px;
+    border-radius: 10px;
+  }
+  .manstec-popup-form textarea {
+    min-height: 72px;
+  }
+  .manstec-popup-submit {
+    width: 100%;
+    padding: 11px 14px;
+    font-size: 14px;
+  }
   .cbh-phone {
-    right: 2px;
+    right: 0;
     bottom: -16px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .manstec-lead-fab {
+    max-width: 190px;
+    padding: 11px 14px;
+    bottom: 98px;
+  }
+  .manstec-lead-fab span {
+    font-size: 11px;
+  }
+  .cbh-phone {
+    right: -10px;
+    bottom: -24px;
+    transform: scale(0.88);
+    transform-origin: right bottom;
   }
 }
 
@@ -385,64 +508,66 @@ details {
         </div>
         <!-- hero-end -->
 
-        <button type="button" class="manstec-lead-fab" data-manstec-popup-open>
+        <button type="button" class="manstec-lead-fab" data-manstec-popup-open data-bs-toggle="modal" data-bs-target="#manstec-contact-popup">
             Atendimento de emerg&ecirc;ncia
-            <span>Solicite retorno r&aacute;pido</span>
         </button>
 
-        <div class="manstec-popup-overlay" id="manstec-contact-popup" aria-hidden="true">
-            <div class="manstec-popup-card" role="dialog" aria-modal="true" aria-labelledby="manstec-popup-title">
-                <button type="button" class="manstec-popup-close" aria-label="Fechar formulário" data-manstec-popup-close>&times;</button>
+        <div class="modal fade manstec-lead-modal" id="manstec-contact-popup" tabindex="-1" aria-labelledby="manstec-popup-title" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl modal-fullscreen-sm-down">
+                <div class="modal-content manstec-popup-card">
+                    <div class="modal-body">
+                        <div class="manstec-popup-layout">
+                            <div class="manstec-popup-side">
+                                <button type="button" class="manstec-popup-close" aria-label="Fechar formul&aacute;rio" data-bs-dismiss="modal" data-manstec-popup-close>&times;</button>
+                                <span class="manstec-popup-badge"><i class="fa-solid fa-bolt"></i> Atendimento priorit&aacute;rio</span>
+                                <h3 class="manstec-popup-title" id="manstec-popup-title">Fale com a MANSTEC agora</h3>
+                                <p class="manstec-popup-text">Conte sua necessidade e nosso time t&eacute;cnico retorna com o melhor caminho para reduzir paradas e riscos operacionais.</p>
 
-                <div class="manstec-popup-side">
-                    <span class="manstec-popup-badge"><i class="fa-solid fa-bolt"></i> Atendimento priorit&aacute;rio</span>
-                    <h3 class="manstec-popup-title" id="manstec-popup-title">Fale com a MANSTEC agora</h3>
-                    <p class="manstec-popup-text">Conte sua necessidade e nosso time t&eacute;cnico retorna com o melhor caminho para reduzir paradas e riscos operacionais.</p>
+                                <ul class="manstec-popup-list">
+                                    <li>An&aacute;lise inicial r&aacute;pida do seu cen&aacute;rio.</li>
+                                    <li>Atendimento t&eacute;cnico especializado em compressores.</li>
+                                    <li>Proposta objetiva para a&ccedil;&atilde;o imediata.</li>
+                                </ul>
 
-                    <ul class="manstec-popup-list">
-                        <li>An&aacute;lise inicial r&aacute;pida do seu cen&aacute;rio.</li>
-                        <li>Atendimento t&eacute;cnico especializado em compressores.</li>
-                        <li>Proposta objetiva para a&ccedil;&atilde;o imediata.</li>
-                    </ul>
+                                <div class="manstec-emergency-box">
+                                    <h5>Telefones de emerg&ecirc;ncia</h5>
+                                    <a href="tel:+351969558556"><i class="fa-light fa-phone-volume"></i> +351 969 558 556</a>
+                                    
+                                </div>
+                            </div>
 
-                    <div class="manstec-emergency-box">
-                        <h5>Telefones de emerg&ecirc;ncia</h5>
-                        <a href="tel:+351969558556"><i class="fa-light fa-phone-volume"></i> +351 969 558 556</a>
-                        <a href="tel:+5511959781897"><i class="fa-light fa-phone-volume"></i> +55 (11) 95978-1897</a>
-                        <a href="tel:+551146478222"><i class="fa-light fa-phone-volume"></i> +55 (11) 4647-8222</a>
+                            <div class="manstec-popup-form-wrap">
+                                <h4>Formul&aacute;rio de contato</h4>
+                                <p>Preencha os dados abaixo para receber contato do nosso especialista.</p>
+
+                                @if(isset($success) && $success)
+                                    <div class="alert alert-success">
+                                        Solicita&ccedil;&atilde;o enviada com sucesso! Entraremos em contato em breve.
+                                    </div>
+                                @endif
+
+                                <form action="{{ url('/') }}/send-email-home" method="POST" class="manstec-popup-form">
+                                    <input type="text" name="id" value="form_popup_home" hidden>
+                                    <input type="text" name="subject" value="Popup Home - Contato de emerg&ecirc;ncia" hidden>
+
+                                    <div class="manstec-popup-grid-2">
+                                        <input type="text" name="name" placeholder="Nome" required>
+                                        <input type="text" name="company" placeholder="Empresa" required>
+                                    </div>
+
+                                    <input type="text" name="address" placeholder="Endere&ccedil;o" required>
+
+                                    <div class="manstec-popup-grid-2">
+                                        <input type="tel" name="phone" placeholder="Telefone" required>
+                                        <input type="email" name="email" placeholder="E-mail" required>
+                                    </div>
+
+                                    <textarea name="description" placeholder="Uma breve descri&ccedil;&atilde;o do que precisa" required></textarea>
+                                    <button type="submit" class="manstec-popup-submit">Quero falar com um especialista</button>
+                                </form>
+                            </div>
+                        </div>
                     </div>
-                </div>
-
-                <div class="manstec-popup-form-wrap">
-                    <h4>Formul&aacute;rio de contato</h4>
-                    <p>Preencha os dados abaixo para receber contato do nosso especialista.</p>
-
-                    @if(isset($success) && $success)
-                        <div class="alert alert-success">
-                            Solicita&ccedil;&atilde;o enviada com sucesso! Entraremos em contato em breve.
-                        </div>
-                    @endif
-
-                    <form action="{{ url('/') }}/send-email-home" method="POST" class="manstec-popup-form">
-                        <input type="text" name="id" value="form_popup_home" hidden>
-                        <input type="text" name="subject" value="Popup Home - Contato de emergência" hidden>
-
-                        <div class="manstec-popup-grid-2">
-                            <input type="text" name="name" placeholder="Nome" required>
-                            <input type="text" name="company" placeholder="Empresa" required>
-                        </div>
-
-                        <input type="text" name="address" placeholder="Endereço" required>
-
-                        <div class="manstec-popup-grid-2">
-                            <input type="tel" name="phone" placeholder="Telefone" required>
-                            <input type="email" name="email" placeholder="Email" required>
-                        </div>
-
-                        <textarea name="description" placeholder="Uma breve descrição do que precisa" required></textarea>
-                        <button type="submit" class="manstec-popup-submit">Quero falar com um especialista</button>
-                        <small class="manstec-popup-note">Atendimento comercial: Seg a Sex, 7:30 &agrave;s 17:20.</small>
-                    </form>
                 </div>
             </div>
         </div>
@@ -1173,14 +1298,15 @@ details {
        
 <script>
     (function () {
-        var popup = document.getElementById('manstec-contact-popup');
-        if (!popup) {
+        var popupElement = document.getElementById('manstec-contact-popup');
+        if (!popupElement) {
             return;
         }
 
         var storageKey = 'manstec_contact_popup_closed_until';
-        var openDelay = 2600;
+        var openDelay = 2200;
         var closeHours = 8;
+        var initDone = false;
 
         function rememberClose() {
             try {
@@ -1201,52 +1327,48 @@ details {
             }
         }
 
-        function openPopup() {
-            popup.classList.add('is-active');
-            popup.setAttribute('aria-hidden', 'false');
-            document.body.classList.add('manstec-popup-open');
-        }
-
-        function closePopup(shouldRemember) {
-            popup.classList.remove('is-active');
-            popup.setAttribute('aria-hidden', 'true');
-            document.body.classList.remove('manstec-popup-open');
-
-            if (shouldRemember) {
-                rememberClose();
-            }
-        }
-
-        var openButtons = document.querySelectorAll('[data-manstec-popup-open]');
         var closeButtons = document.querySelectorAll('[data-manstec-popup-close]');
 
-        openButtons.forEach(function (button) {
-            button.addEventListener('click', function () {
-                openPopup();
-            });
-        });
-
-        closeButtons.forEach(function (button) {
-            button.addEventListener('click', function () {
-                closePopup(true);
-            });
-        });
-
-        popup.addEventListener('click', function (event) {
-            if (event.target === popup) {
-                closePopup(true);
+        function initPopupWithBootstrap(retryCount) {
+            if (initDone) {
+                return;
             }
-        });
 
-        document.addEventListener('keydown', function (event) {
-            if (event.key === 'Escape') {
-                closePopup(true);
+            if (typeof window.bootstrap === 'undefined' || !window.bootstrap.Modal) {
+                if (retryCount < 40) {
+                    window.setTimeout(function () {
+                        initPopupWithBootstrap(retryCount + 1);
+                    }, 150);
+                }
+                return;
             }
-        });
 
-        if (canAutoOpen()) {
-            window.setTimeout(openPopup, openDelay);
+            initDone = true;
+            var popupInstance = window.bootstrap.Modal.getOrCreateInstance(popupElement);
+
+            closeButtons.forEach(function (button) {
+                button.addEventListener('click', function () {
+                    rememberClose();
+                });
+            });
+
+            popupElement.addEventListener('shown.bs.modal', function () {
+                document.body.classList.add('manstec-popup-open');
+            });
+
+            popupElement.addEventListener('hidden.bs.modal', function () {
+                document.body.classList.remove('manstec-popup-open');
+                rememberClose();
+            });
+
+            if (canAutoOpen()) {
+                window.setTimeout(function () {
+                    popupInstance.show();
+                }, openDelay);
+            }
         }
+
+        initPopupWithBootstrap(0);
     })();
 </script>
 
