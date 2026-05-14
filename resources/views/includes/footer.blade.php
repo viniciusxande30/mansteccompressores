@@ -157,6 +157,7 @@
         <script src="{{ URL('/') }}/assets/js/lenis.min.js"></script>
         <script src="{{ URL('/') }}/assets/js/ScrollTrigger.min.js"></script>
         <script src="{{ URL('/') }}/assets/js/main.js"></script>
+        @include('includes.emergency-popup-script')
 
 
     </body>

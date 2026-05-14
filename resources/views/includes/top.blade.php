@@ -75,6 +75,8 @@
 
 <div class="phone-call cbh-phone cbh-green cbh-show  cbh-static" id="clbh_phone_div" style=""><a id="WhatsApp-button" href="https://wa.me/351969558556?text=Olá,%20gostaria%20de%20falar%20com%20você!" target="_blank" class="phoneJs" title=""><div class="cbh-ph-circle"></div><div class="cbh-ph-circle-fill"></div><div class="cbh-ph-img-circle1"></div></a></div>
 
+@include('includes.emergency-popup')
+
 
         <!-- header-start -->
         <div class="fx-header-2-area ">
