@@ -123,6 +123,7 @@ $router->get('/blog', 'TransporteController@blog');
 
 
 $router->get('/blog/automacao-com-ar-comprimido', function () {return view('artigos.automacao-com-ar-comprimido');});
+$router->get('/blog/auditoria-energetica-ar-comprimido', function () {return view('artigos.auditoria-energetica-ar-comprimido');});
 $router->get('/blog/checklist-completo', function () {return view('artigos.checklist-completo');});
 $router->get('/blog/como-funciona-um-compressor', function () {return view('artigos.como-funciona-um-compressor');});
 $router->get('/blog/como-identificar-vazamento-em-ar', function () {return view('artigos.como-identificar-vazamento-em-ar');});
@@ -142,6 +143,7 @@ $router->get('/blog/manutencao-preventiva-vs-corretiva', function () {return vie
 $router->get('/blog/nr13-em-compressores', function () {return view('artigos.nr13-em-compressores');});
 $router->get('/blog/pressao-ideal-em-compressores', function () {return view('artigos.pressao-ideal-em-compressores');});
 $router->get('/blog/qualidade-do-ar-comprimido', function () {return view('artigos.qualidade-do-ar-comprimido');});
+$router->get('/blog/retrofit-compressores-industriais', function () {return view('artigos.retrofit-compressores-industriais');});
 $router->get('/blog/secador-refrigerado-vs-adsorcao', function () {return view('artigos.secador-refrigerado-vs-adsorcao');});
 $router->get('/blog/secadores-de-ar-comprimido', function () {return view('artigos.secadores-de-ar-comprimido');});
 $router->get('/blog/tipos-de-compressores', function () {return view('artigos.tipos-de-compressores');});
