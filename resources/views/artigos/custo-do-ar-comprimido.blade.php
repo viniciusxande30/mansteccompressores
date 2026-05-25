@@ -72,7 +72,7 @@ $kw = "custo do ar comprimido industrial, quanto custa ar comprimido, consumo co
 
           <div class="col-lg-5">
             <div class="list-img fix img-cover">
-              <img src="assets/img/services/sd-img-1.png" alt="Custo do ar comprimido na indústria">
+              <img src="{{ URL('/') }}/assets/img/services/sd-img-1.png" alt="Custo do ar comprimido na indústria">
             </div>
           </div>
         </div>

@@ -77,7 +77,7 @@ $kw = "automação com ar comprimido, sistemas pneumáticos industriais, eficiê
 
           <div class="col-lg-5">
             <div class="list-img fix img-cover">
-              <img src="assets/img/services/sd-img-1.png" alt="Automação pneumática industrial">
+              <img src="{{ URL('/') }}/assets/img/services/sd-img-1.png" alt="Automação pneumática industrial">
             </div>
           </div>
         </div>

@@ -94,7 +94,7 @@ $kw = "empresa manutenção compressores, manutenção compressor industrial emp
 
           <div class="col-lg-5">
             <div class="list-img fix img-cover">
-              <img src="assets/img/services/sd-img-1.png" alt="Empresa de manutenção de compressores industriais">
+              <img src="{{ URL('/') }}/assets/img/services/sd-img-1.png" alt="Empresa de manutenção de compressores industriais">
             </div>
           </div>
         </div>

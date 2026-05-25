@@ -86,7 +86,7 @@ $kw = "linha de ar comprimido industrial, projeto rede ar comprimido, dimensiona
 
           <div class="col-lg-5">
             <div class="list-img fix img-cover">
-              <img src="assets/img/services/sd-img-1.png" alt="Linha de ar comprimido industrial eficiente">
+              <img src="{{ URL('/') }}/assets/img/services/sd-img-1.png" alt="Linha de ar comprimido industrial eficiente">
             </div>
           </div>
         </div>

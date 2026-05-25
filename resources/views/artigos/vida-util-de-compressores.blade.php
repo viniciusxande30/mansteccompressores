@@ -80,7 +80,7 @@ $kw = "vida útil compressor industrial, quanto dura um compressor de ar, aument
 
           <div class="col-lg-5">
             <div class="list-img fix img-cover">
-              <img src="assets/img/services/sd-img-1.png" alt="Vida útil de compressor industrial">
+              <img src="{{ URL('/') }}/assets/img/services/sd-img-1.png" alt="Vida útil de compressor industrial">
             </div>
           </div>
         </div>

@@ -74,7 +74,7 @@ $kw = "compressor com inversor de frequência, VSD compressor vale a pena, econo
 
           <div class="col-lg-5">
             <div class="list-img fix img-cover">
-              <img src="assets/img/services/sd-img-1.png" alt="Compressor com inversor de frequência VSD industrial">
+              <img src="{{ URL('/') }}/assets/img/services/sd-img-1.png" alt="Compressor com inversor de frequência VSD industrial">
             </div>
           </div>
         </div>

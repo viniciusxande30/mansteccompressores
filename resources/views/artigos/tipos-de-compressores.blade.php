@@ -90,7 +90,7 @@ $kw = "tipos de compressores industriais, compressor parafuso vs pistão, qual c
 
           <div class="col-lg-5">
             <div class="list-img fix img-cover">
-              <img src="assets/img/services/sd-img-1.png" alt="Tipos de compressores industriais - pistão e parafuso">
+              <img src="{{ URL('/') }}/assets/img/services/sd-img-1.png" alt="Tipos de compressores industriais - pistão e parafuso">
             </div>
           </div>
         </div>

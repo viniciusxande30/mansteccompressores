@@ -96,7 +96,7 @@ $kw = "dimensionar compressor de ar, como calcular compressor industrial, vazão
 
           <div class="col-lg-5">
             <div class="list-img fix img-cover">
-              <img src="assets/img/services/sd-img-1.png" alt="Dimensionamento de compressor de ar industrial">
+              <img src="{{ URL('/') }}/assets/img/services/sd-img-1.png" alt="Dimensionamento de compressor de ar industrial">
             </div>
           </div>
         </div>

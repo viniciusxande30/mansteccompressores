@@ -48,7 +48,7 @@ $kw = "Blog Manstec - Vazamentos de Ar Comprimido"
           </div>
           <div class="col-lg-5">
             <div class="list-img fix img-cover">
-              <img src="assets/img/services/sd-img-1.png" alt="Detecção de vazamentos em sistemas de ar comprimido - Manstec">
+              <img src="{{ URL('/') }}/assets/img/services/sd-img-1.png" alt="Detecção de vazamentos em sistemas de ar comprimido - Manstec">
             </div>
           </div>
         </div>

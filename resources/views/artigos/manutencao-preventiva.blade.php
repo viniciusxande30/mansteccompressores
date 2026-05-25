@@ -48,7 +48,7 @@ $kw = "Blog Manstec - Manutenção Preventiva em Compressores"
           </div>
           <div class="col-lg-5">
             <div class="list-img fix img-cover">
-              <img src="assets/img/services/sd-img-1.png" alt="Manutenção preventiva em compressores de ar - Manstec">
+              <img src="{{ URL('/') }}/assets/img/services/sd-img-1.png" alt="Manutenção preventiva em compressores de ar - Manstec">
             </div>
           </div>
         </div>
@@ -103,3 +103,4 @@ $kw = "Blog Manstec - Manutenção Preventiva em Compressores"
 </div>
 
 @include('includes.footer')
+

@@ -89,7 +89,7 @@ $kw = "secador de ar comprimido, tipos de secadores ar comprimido, secador refri
 
           <div class="col-lg-5">
             <div class="list-img fix img-cover">
-              <img src="assets/img/services/sd-img-1.png" alt="Secador de ar comprimido industrial">
+              <img src="{{ URL('/') }}/assets/img/services/sd-img-1.png" alt="Secador de ar comprimido industrial">
             </div>
           </div>
         </div>

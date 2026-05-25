@@ -70,7 +70,7 @@ $kw = "instalação de compressores de ar, erros instalação compressor industr
 
           <div class="col-lg-5">
             <div class="list-img fix img-cover">
-              <img src="assets/img/services/sd-img-1.png" alt="Instalação de compressores industriais">
+              <img src="{{ URL('/') }}/assets/img/services/sd-img-1.png" alt="Instalação de compressores industriais">
             </div>
           </div>
         </div>

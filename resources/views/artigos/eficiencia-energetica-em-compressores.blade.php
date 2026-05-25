@@ -71,7 +71,7 @@ $kw = "reduzir consumo compressor de ar, eficiência energética ar comprimido, 
 
           <div class="col-lg-5">
             <div class="list-img fix img-cover">
-              <img src="assets/img/services/sd-img-1.png" alt="Eficiência energética em compressores industriais">
+              <img src="{{ URL('/') }}/assets/img/services/sd-img-1.png" alt="Eficiência energética em compressores industriais">
             </div>
           </div>
         </div>

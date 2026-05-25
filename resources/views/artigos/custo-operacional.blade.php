@@ -171,7 +171,7 @@ $kw = "Blog Manstec - Custo Operacional"
                         <div class="fx-contact-us-1-right">
                             
                             <div class="fx-contact-us-1-img fix img-cover">
-                                <img src="{{ URL('/') }}/assets/img/contact/c2-img-1.png" alt="">
+                                <img src="{{ URL('/') }}/assets/img/contact/c2-img-1.png" alt="Equipe tecnica da Manstec em manutencao de compressores">
                             </div>
 
                             <div class="fx-contact-us-1-content fix">

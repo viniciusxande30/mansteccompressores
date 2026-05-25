@@ -79,7 +79,7 @@ $kw = "como funciona compressor de ar, compressor de ar industrial funcionamento
 
           <div class="col-lg-5">
             <div class="list-img fix img-cover">
-              <img src="assets/img/services/sd-img-1.png" alt="Funcionamento de compressor de ar industrial">
+              <img src="{{ URL('/') }}/assets/img/services/sd-img-1.png" alt="Funcionamento de compressor de ar industrial">
             </div>
           </div>
         </div>

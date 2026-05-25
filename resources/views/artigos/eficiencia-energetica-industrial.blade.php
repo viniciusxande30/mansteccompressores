@@ -70,7 +70,7 @@ $kw = "eficiência energética industrial, otimização ar comprimido, reduzir c
 
                     <div class="col-lg-5">
                         <div class="list-img fix img-cover">
-                            <img src="assets/img/services/sd-img-1.png" alt="Eficiência energética em sistemas de ar comprimido">
+                            <img src="{{ URL('/') }}/assets/img/services/sd-img-1.png" alt="Eficiência energética em sistemas de ar comprimido">
                         </div>
                     </div>
 
@@ -213,3 +213,4 @@ $kw = "eficiência energética industrial, otimização ar comprimido, reduzir c
 </div>
 
 @include('includes.footer')
+

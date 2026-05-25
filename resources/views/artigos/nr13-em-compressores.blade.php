@@ -60,7 +60,7 @@ $kw = "NR-13 compressores de ar, inspeção NR13 compressor, vaso de pressão NR
 
           <div class="col-lg-5">
             <div class="list-img fix img-cover">
-              <img src="assets/img/services/sd-img-1.png" alt="NR-13 em compressores de ar - inspeção e segurança industrial">
+              <img src="{{ URL('/') }}/assets/img/services/sd-img-1.png" alt="NR-13 em compressores de ar - inspeção e segurança industrial">
             </div>
           </div>
         </div>

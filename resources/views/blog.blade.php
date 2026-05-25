@@ -1,5 +1,5 @@
 @php
-$kw = "Manstec Compressores de Ar - Sobre Nós"
+$kw = "blog manstec compressores, manutencao de compressores de ar, eficiencia energetica industrial, ar comprimido industrial"
 @endphp
 @include('includes.top')
 
@@ -111,7 +111,7 @@ details {
 </style>
 
 <!-- ====== BREADCRUMB ====== -->
-<div class="breadcrumb-area bg-default" data-background="assets/img/hero/h2-bg-1.png" role="region" aria-label="Trilha de navegação">
+<div class="breadcrumb-area bg-default" data-background="{{ URL('/') }}/assets/img/hero/h2-bg-1.png" role="region" aria-label="Trilha de navegação">
   <div class="container fx-container-1">
     <div class="breadcrumb-wrap">
       <div class="breadcrumb-content text-center">
@@ -142,7 +142,7 @@ details {
                     <!-- single-item -->
                     <div class="fx-serve-1-slider-item" style="margin-top:30px">
                         <div class="item-img fix img-cover">
-                            <img src="assets/img/serve/s1-img-1.png" alt="">
+                            <img src="{{ URL('/') }}/assets/img/serve/s1-img-1.png" alt="Artigo tecnico da Manstec sobre compressores de ar">
                         </div>
 
                         <div class="content">
@@ -159,10 +159,30 @@ details {
 
                     </div>
 
+                    <!-- single-item -->
+                    <div class="fx-serve-1-slider-item" style="margin-top:30px">
+                        <div class="item-img fix img-cover">
+                            <img src="{{ URL('/') }}/assets/img/serve/s1-img-1.png" alt="Artigo tecnico da Manstec sobre compressores de ar">
+                        </div>
+
+                        <div class="content">
+                            <h5 class="item-title fx-heading-1 fx-font-500">
+                                <a href="{{ url('/') }}/blog/manutencao-preditiva-compressores" aria-label="name">Manuten&ccedil;&atilde;o Preditiva em Compressores: Como Antecipar Falhas e Evitar Paradas</a>
+                            </h5>
+                            
+                            <a class="item-btn" href="{{ url('/') }}/blog/manutencao-preditiva-compressores" aria-label="name">
+                                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M40 20C40 8.97219 31.0278 -3.92187e-07 20 -8.74228e-07C8.97219 -1.35627e-06 -3.92187e-07 8.97219 -8.74228e-07 20C-1.35627e-06 31.0278 8.97219 40 20 40C31.0278 40 40 31.0278 40 20ZM2.5 20C2.5 10.3503 10.3503 2.5 20 2.5C29.6497 2.5 37.5 10.3503 37.5 20C37.5 29.6497 29.6497 37.5 20 37.5C10.3503 37.5 2.5 29.6497 2.5 20ZM22.1337 27.1338C21.6453 27.6222 20.8544 27.6222 20.3662 27.1338C20.1222 26.8897 20 26.5697 20 26.25C20 25.9303 20.1222 25.6103 20.3662 25.3662L24.4825 21.25L12.5 21.25C11.8091 21.25 11.25 20.6903 11.25 20C11.25 19.3097 11.8091 18.75 12.5 18.75L24.4825 18.75L20.3663 14.6337C19.8778 14.1453 19.8778 13.3544 20.3663 12.8662C20.8547 12.3781 21.6456 12.3778 22.1337 12.8662L28.3837 19.1163C28.8722 19.6047 28.8722 20.3956 28.3837 20.8838L22.1337 27.1338Z" fill="#FC5220"></path>
+                                </svg>
+                            </a>
+                        </div>
+
+                    </div>
+
                      <!-- single-item -->
                     <div class="fx-serve-1-slider-item" style="margin-top:30px">
                         <div class="item-img fix img-cover">
-                            <img src="assets/img/serve/s1-img-1.png" alt="">
+                            <img src="{{ URL('/') }}/assets/img/serve/s1-img-1.png" alt="Artigo tecnico da Manstec sobre compressores de ar">
                         </div>
 
                         <div class="content">
@@ -183,7 +203,7 @@ details {
                    <!-- single-item -->
                     <div class="fx-serve-1-slider-item" style="margin-top:30px">
                         <div class="item-img fix img-cover">
-                            <img src="assets/img/serve/s1-img-1.png" alt="">
+                            <img src="{{ URL('/') }}/assets/img/serve/s1-img-1.png" alt="Artigo tecnico da Manstec sobre compressores de ar">
                         </div>
 
                         <div class="content">
@@ -209,7 +229,7 @@ details {
                     <!-- single-item -->
                     <div class="fx-serve-1-slider-item" style="margin-top:30px">
                         <div class="item-img fix img-cover">
-                            <img src="assets/img/serve/s1-img-1.png" alt="">
+                            <img src="{{ URL('/') }}/assets/img/serve/s1-img-1.png" alt="Artigo tecnico da Manstec sobre compressores de ar">
                         </div>
 
                         <div class="content">
@@ -229,7 +249,7 @@ details {
                      <!-- single-item -->
                     <div class="fx-serve-1-slider-item" style="margin-top:30px">
                         <div class="item-img fix img-cover">
-                            <img src="assets/img/serve/s1-img-1.png" alt="">
+                            <img src="{{ URL('/') }}/assets/img/serve/s1-img-1.png" alt="Artigo tecnico da Manstec sobre compressores de ar">
                         </div>
 
                         <div class="content">
@@ -248,7 +268,7 @@ details {
                    <!-- single-item -->
                     <div class="fx-serve-1-slider-item" style="margin-top:30px">
                         <div class="item-img fix img-cover">
-                            <img src="assets/img/serve/s1-img-1.png" alt="">
+                            <img src="{{ URL('/') }}/assets/img/serve/s1-img-1.png" alt="Artigo tecnico da Manstec sobre compressores de ar">
                         </div>
 
                         <div class="content">
@@ -274,7 +294,7 @@ details {
                     <!-- single-item -->
                     <div class="fx-serve-1-slider-item" style="margin-top:30px">
                         <div class="item-img fix img-cover">
-                            <img src="assets/img/serve/s1-img-1.png" alt="">
+                            <img src="{{ URL('/') }}/assets/img/serve/s1-img-1.png" alt="Artigo tecnico da Manstec sobre compressores de ar">
                         </div>
 
                         <div class="content">
@@ -294,7 +314,7 @@ details {
                      <!-- single-item -->
                     <div class="fx-serve-1-slider-item" style="margin-top:30px">
                         <div class="item-img fix img-cover">
-                            <img src="assets/img/serve/s1-img-1.png" alt="">
+                            <img src="{{ URL('/') }}/assets/img/serve/s1-img-1.png" alt="Artigo tecnico da Manstec sobre compressores de ar">
                         </div>
 
                         <div class="content">
@@ -313,12 +333,12 @@ details {
                    <!-- single-item -->
                     <div class="fx-serve-1-slider-item" style="margin-top:30px">
                         <div class="item-img fix img-cover">
-                            <img src="assets/img/serve/s1-img-1.png" alt="">
+                            <img src="{{ URL('/') }}/assets/img/serve/s1-img-1.png" alt="Artigo tecnico da Manstec sobre compressores de ar">
                         </div>
 
                         <div class="content">
                             <h5 class="item-title fx-heading-1 fx-font-500">
-                                <a href="{{ url('/') }}//blog/custo-do-ar-comprimido" aria-label="name">Quanto Custa o Ar Comprimido na Indústria? Entenda Onde Está o Desperdício</a>
+                                <a href="{{ url('/') }}/blog/custo-do-ar-comprimido" aria-label="name">Quanto Custa o Ar Comprimido na Indústria? Entenda Onde Está o Desperdício</a>
                             </h5>
                             
                             <a class="item-btn" href="{{ url('/') }}/blog/custo-do-ar-comprimido" aria-label="name">
@@ -339,7 +359,7 @@ details {
                     <!-- single-item -->
                     <div class="fx-serve-1-slider-item" style="margin-top:30px">
                         <div class="item-img fix img-cover">
-                            <img src="assets/img/serve/s1-img-1.png" alt="">
+                            <img src="{{ URL('/') }}/assets/img/serve/s1-img-1.png" alt="Artigo tecnico da Manstec sobre compressores de ar">
                         </div>
 
                         <div class="content">
@@ -359,7 +379,7 @@ details {
                      <!-- single-item -->
                     <div class="fx-serve-1-slider-item" style="margin-top:30px">
                         <div class="item-img fix img-cover">
-                            <img src="assets/img/serve/s1-img-1.png" alt="">
+                            <img src="{{ URL('/') }}/assets/img/serve/s1-img-1.png" alt="Artigo tecnico da Manstec sobre compressores de ar">
                         </div>
 
                         <div class="content">
@@ -378,7 +398,7 @@ details {
                    <!-- single-item -->
                     <div class="fx-serve-1-slider-item" style="margin-top:30px">
                         <div class="item-img fix img-cover">
-                            <img src="assets/img/serve/s1-img-1.png" alt="">
+                            <img src="{{ URL('/') }}/assets/img/serve/s1-img-1.png" alt="Artigo tecnico da Manstec sobre compressores de ar">
                         </div>
 
                         <div class="content">
@@ -403,7 +423,7 @@ details {
                     <!-- single-item -->
                     <div class="fx-serve-1-slider-item" style="margin-top:30px">
                         <div class="item-img fix img-cover">
-                            <img src="assets/img/serve/s1-img-1.png" alt="">
+                            <img src="{{ URL('/') }}/assets/img/serve/s1-img-1.png" alt="Artigo tecnico da Manstec sobre compressores de ar">
                         </div>
 
                         <div class="content">
@@ -423,7 +443,7 @@ details {
                      <!-- single-item -->
                     <div class="fx-serve-1-slider-item" style="margin-top:30px">
                         <div class="item-img fix img-cover">
-                            <img src="assets/img/serve/s1-img-1.png" alt="">
+                            <img src="{{ URL('/') }}/assets/img/serve/s1-img-1.png" alt="Artigo tecnico da Manstec sobre compressores de ar">
                         </div>
 
                         <div class="content">
@@ -442,7 +462,7 @@ details {
                    <!-- single-item -->
                     <div class="fx-serve-1-slider-item" style="margin-top:30px">
                         <div class="item-img fix img-cover">
-                            <img src="assets/img/serve/s1-img-1.png" alt="">
+                            <img src="{{ URL('/') }}/assets/img/serve/s1-img-1.png" alt="Artigo tecnico da Manstec sobre compressores de ar">
                         </div>
 
                         <div class="content">
@@ -467,7 +487,7 @@ details {
                     <!-- single-item -->
                     <div class="fx-serve-1-slider-item" style="margin-top:30px">
                         <div class="item-img fix img-cover">
-                            <img src="assets/img/serve/s1-img-1.png" alt="">
+                            <img src="{{ URL('/') }}/assets/img/serve/s1-img-1.png" alt="Artigo tecnico da Manstec sobre compressores de ar">
                         </div>
 
                         <div class="content">
@@ -487,7 +507,7 @@ details {
                      <!-- single-item -->
                     <div class="fx-serve-1-slider-item" style="margin-top:30px">
                         <div class="item-img fix img-cover">
-                            <img src="assets/img/serve/s1-img-1.png" alt="">
+                            <img src="{{ URL('/') }}/assets/img/serve/s1-img-1.png" alt="Artigo tecnico da Manstec sobre compressores de ar">
                         </div>
 
                         <div class="content">
@@ -506,7 +526,7 @@ details {
                    <!-- single-item -->
                     <div class="fx-serve-1-slider-item" style="margin-top:30px">
                         <div class="item-img fix img-cover">
-                            <img src="assets/img/serve/s1-img-1.png" alt="">
+                            <img src="{{ URL('/') }}/assets/img/serve/s1-img-1.png" alt="Artigo tecnico da Manstec sobre compressores de ar">
                         </div>
 
                         <div class="content">
@@ -531,7 +551,7 @@ details {
                     <!-- single-item -->
                     <div class="fx-serve-1-slider-item" style="margin-top:30px">
                         <div class="item-img fix img-cover">
-                            <img src="assets/img/serve/s1-img-1.png" alt="">
+                            <img src="{{ URL('/') }}/assets/img/serve/s1-img-1.png" alt="Artigo tecnico da Manstec sobre compressores de ar">
                         </div>
 
                         <div class="content">
@@ -551,7 +571,7 @@ details {
                      <!-- single-item -->
                     <div class="fx-serve-1-slider-item" style="margin-top:30px">
                         <div class="item-img fix img-cover">
-                            <img src="assets/img/serve/s1-img-1.png" alt="">
+                            <img src="{{ URL('/') }}/assets/img/serve/s1-img-1.png" alt="Artigo tecnico da Manstec sobre compressores de ar">
                         </div>
 
                         <div class="content">
@@ -570,7 +590,7 @@ details {
                    <!-- single-item -->
                     <div class="fx-serve-1-slider-item" style="margin-top:30px">
                         <div class="item-img fix img-cover">
-                            <img src="assets/img/serve/s1-img-1.png" alt="">
+                            <img src="{{ URL('/') }}/assets/img/serve/s1-img-1.png" alt="Artigo tecnico da Manstec sobre compressores de ar">
                         </div>
 
                         <div class="content">
@@ -595,7 +615,7 @@ details {
                     <!-- single-item -->
                     <div class="fx-serve-1-slider-item" style="margin-top:30px">
                         <div class="item-img fix img-cover">
-                            <img src="assets/img/serve/s1-img-1.png" alt="">
+                            <img src="{{ URL('/') }}/assets/img/serve/s1-img-1.png" alt="Artigo tecnico da Manstec sobre compressores de ar">
                         </div>
 
                         <div class="content">
@@ -615,7 +635,7 @@ details {
                      <!-- single-item -->
                     <div class="fx-serve-1-slider-item" style="margin-top:30px">
                         <div class="item-img fix img-cover">
-                            <img src="assets/img/serve/s1-img-1.png" alt="">
+                            <img src="{{ URL('/') }}/assets/img/serve/s1-img-1.png" alt="Artigo tecnico da Manstec sobre compressores de ar">
                         </div>
 
                         <div class="content">
@@ -635,7 +655,7 @@ details {
                     <!-- single-item -->
                     <div class="fx-serve-1-slider-item" style="margin-top:30px">
                         <div class="item-img fix img-cover">
-                            <img src="assets/img/serve/s1-img-1.png" alt="">
+                            <img src="{{ URL('/') }}/assets/img/serve/s1-img-1.png" alt="Artigo tecnico da Manstec sobre compressores de ar">
                         </div>
 
                         <div class="content">
@@ -739,13 +759,13 @@ details {
                         <div class="fx-contact-us-1-right">
                             
                             <div class="fx-contact-us-1-img fix img-cover">
-                                <img src="assets/img/contact/c2-img-1.png" alt="">
+                                <img src="{{ URL('/') }}/assets/img/contact/c2-img-1.png" alt="Equipe tecnica da Manstec">
                             </div>
 
                             <div class="fx-contact-us-1-content fix">
 
                                 <!-- single-box -->
-                                <div class="fx-contact-us-1-info-box fix txxaslideup bg-default" data-background="assets/img/contact/c2-box-bg-1.png">
+                                <div class="fx-contact-us-1-info-box fix txxaslideup bg-default" data-background="{{ URL('/') }}/assets/img/contact/c2-box-bg-1.png">
                                     <h6 class="box-title fx-heading-1 fx-font-400">Endereço:</h6>
                                     <p class="address fx-para-1 has-clr-white">
                                         <span class="txxaslideup-item fx-cube-1">Rua Arapiraca, 311 - Jardim Napoli Itaquaquecetuba - SP 08595-620 - Brasil</span>
@@ -753,7 +773,7 @@ details {
                                 </div>
 
                                 <!-- single-box -->
-                                <div class="fx-contact-us-1-info-box txxaslideup fix bg-default"  data-background="assets/img/contact/c2-box-bg-2.png">
+                                <div class="fx-contact-us-1-info-box txxaslideup fix bg-default"  data-background="{{ URL('/') }}/assets/img/contact/c2-box-bg-2.png">
                                     <h6 class="box-title fx-heading-1 fx-font-400">Fale com nossos Especialistas</h6>
                                     <ul class="info-list txxaslideup-item fx-cube-1" >
                                         <li>
@@ -796,4 +816,6 @@ details {
         </div>
        
 @include('includes.footer')
+
+
 

@@ -63,7 +63,7 @@ $kw = "manutenção preventiva vs corretiva, manutenção compressores industria
 
           <div class="col-lg-5">
             <div class="list-img fix img-cover">
-              <img src="assets/img/services/sd-img-1.png" alt="Manutenção preventiva e corretiva em compressores">
+              <img src="{{ URL('/') }}/assets/img/services/sd-img-1.png" alt="Manutenção preventiva e corretiva em compressores">
             </div>
           </div>
         </div>

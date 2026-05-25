@@ -48,7 +48,7 @@ $kw = "secador refrigerado vs adsorção, qual secador ar comprimido escolher, p
 
         </div>
         <div class="col-lg-5">
-          <img src="assets/img/services/sd-img-1.png" alt="Secadores industriais">
+          <img src="{{ URL('/') }}/assets/img/services/sd-img-1.png" alt="Secadores industriais">
         </div>
       </div>
 

@@ -72,7 +72,7 @@ $kw = "checklist manutenção compressor de ar, manutenção preventiva compress
 
           <div class="col-lg-5">
             <div class="list-img fix img-cover">
-              <img src="assets/img/services/sd-img-1.png" alt="Checklist manutenção compressores industriais">
+              <img src="{{ URL('/') }}/assets/img/services/sd-img-1.png" alt="Checklist manutenção compressores industriais">
             </div>
           </div>
         </div>

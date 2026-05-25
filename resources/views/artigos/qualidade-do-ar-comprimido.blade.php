@@ -74,7 +74,7 @@ $kw = "qualidade do ar comprimido ISO 8573, classes ISO ar comprimido, contamina
 
           <div class="col-lg-5">
             <div class="list-img fix img-cover">
-              <img src="assets/img/services/sd-img-1.png" alt="Qualidade do ar comprimido ISO 8573 indústria">
+              <img src="{{ URL('/') }}/assets/img/services/sd-img-1.png" alt="Qualidade do ar comprimido ISO 8573 indústria">
             </div>
           </div>
         </div>
