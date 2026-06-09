@@ -1,5 +1,10 @@
 @php
-$kw = "NR-13 compressores de ar, inspeção NR13 compressor, vaso de pressão NR13, manutenção NR13 compressores, adequação NR13 indústria"
+$kw = "NR-13 compressores de ar, inspeção NR13 compressor, vaso de pressão NR13, manutenção NR13 compressores, adequação NR13 indústria";
+$metaTitle = "NR-13 em Compressores | Manstec";
+$metaDescription = "Guia técnico da Manstec sobre NR-13 em Compressores. Entenda boas práticas, manutenção e formas de reduzir custos em sistemas de ar comprimido.";
+$schemaType = "Article";
+$datePublished = "2026-06-09";
+$dateModified = "2026-06-09";
 @endphp
 @include('includes.top')
 

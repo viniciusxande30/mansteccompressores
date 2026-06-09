@@ -1,5 +1,7 @@
 @php
-$kw = "Manstec Compressores de Ar - Kits de Serviço"
+$kw = "kits de serviço compressores, peças para compressores de ar, filtros compressor, manutenção compressor industrial";
+$metaTitle = "Kits de Serviço para Compressores de Ar | Peças e Filtros";
+$metaDescription = "Kits de serviço e peças para compressores de ar industriais, com suporte técnico para manutenção segura e maior vida útil.";
 @endphp
 
 @include('includes.top')
@@ -41,7 +43,7 @@ $kw = "Manstec Compressores de Ar - Kits de Serviço"
           </div>
           <div class="col-lg-5">
             <div class="list-img fix img-cover">
-              <img src="assets/img/services/sd-img-1.png" alt="Kit de serviços para compressores e secadores">
+              <img src="{{ URL('/') }}/assets/img/services/sd-img-1.png" alt="Kit de serviços para compressores e secadores">
             </div>
           </div>
         </div>

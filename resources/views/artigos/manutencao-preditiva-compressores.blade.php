@@ -1,5 +1,10 @@
 @php
-$kw = "manutencao preditiva em compressores, monitoramento de compressores de ar, reduzir paradas na industria, sensores para compressor de ar, confiabilidade industrial"
+$kw = "manutenção preditiva em compressores, monitoramento de compressores de ar, reduzir paradas na indústria, sensores para compressor de ar, confiabilidade industrial";
+$metaTitle = "Manutenção Preditiva em Compressores | Evite Paradas Industriais";
+$metaDescription = "Saiba como a manutenção preditiva em compressores de ar antecipa falhas, reduz paradas não planejadas e melhora a confiabilidade industrial.";
+$schemaType = "Article";
+$datePublished = "2026-06-09";
+$dateModified = "2026-06-09";
 @endphp
 @include('includes.top')
 

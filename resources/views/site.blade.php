@@ -1,3 +1,8 @@
+@php
+$kw = "compressores de ar, manutenção de compressores, assistência técnica compressores, ar comprimido industrial, Manstec";
+$metaTitle = "Manstec Compressores de Ar | Manutenção e Assistência Técnica";
+$metaDescription = "Manutenção de compressores de ar, redes de ar comprimido, auditorias, peças, contratos e suporte técnico para reduzir paradas industriais.";
+@endphp
 @include('includes.top')
 
 <style>
@@ -109,7 +114,7 @@ details {
 
 
 		<!-- hero-start -->
-        <div class="fx-hero-2-area p-relative fix bg-default" data-background="assets/img/hero/h2-bg-1.png" >
+        <div class="fx-hero-2-area p-relative fix bg-default" data-background="{{ URL('/') }}/assets/img/hero/h2-bg-1.png" >
             <div class="fx-hero-2-slider">
                 <div class="swiper-container fx-hero-2-active fix">
                     <div class="swiper-wrapper">
@@ -119,7 +124,7 @@ details {
                             <div class="fx-hero-2-slider-item">
 
                                 <div class="fx-hero-2-slider-item-img ">
-                                    <img  src="assets/img/hero/h2-img-1.png" alt="">
+                                    <img  src="{{ URL('/') }}/assets/img/hero/h2-img-1.png" alt="Manutenção de compressores de ar industriais">
                                 </div>
 
                                 <div class="container fx-container-1">
@@ -164,7 +169,7 @@ details {
                     <!-- single-item -->
                     <div class="fx-serve-1-slider-item">
                         <div class="item-img fix img-cover">
-                            <img src="assets/img/serve/s1-img-1.png" alt="">
+                            <img src="{{ URL('/') }}/assets/img/serve/s1-img-1.png" alt="Manutenção preventiva de compressores de ar">
                         </div>
 
                         <div class="content">
@@ -183,7 +188,7 @@ details {
                     
                     <div class="fx-serve-1-slider-item">
                         <div class="item-img fix img-cover">
-                            <img src="assets/img/serve/s1-img-2.png" alt="">
+                            <img src="{{ URL('/') }}/assets/img/serve/s1-img-2.png" alt="Manutenção corretiva e diagnóstico de compressores">
                         </div>
                         <div class="content">
                             <h5 class="item-title fx-heading-1 fx-font-500">
@@ -200,7 +205,7 @@ details {
 
                     <div class="fx-serve-1-slider-item">
                         <div class="item-img fix img-cover">
-                            <img src="assets/img/serve/s1-img-3.png" alt="">
+                            <img src="{{ URL('/') }}/assets/img/serve/s1-img-3.png" alt="Kits de serviço e peças para compressores">
                         </div>
                         <div class="content">
                             <h5 class="item-title fx-heading-1 fx-font-500">
@@ -217,7 +222,7 @@ details {
 
                     <div class="fx-serve-1-slider-item">
                         <div class="item-img fix img-cover">
-                            <img src="assets/img/serve/s1-img-4.png" alt="">
+                            <img src="{{ URL('/') }}/assets/img/serve/s1-img-4.png" alt="Contratos de serviço para compressores industriais">
                         </div>
                         <div class="content">
                             <h5 class="item-title fx-heading-1 fx-font-500">
@@ -234,7 +239,7 @@ details {
 
                     <div class="fx-serve-1-slider-item">
                         <div class="item-img fix img-cover">
-                            <img src="assets/img/serve/s1-img-5.png" alt="">
+                            <img src="{{ URL('/') }}/assets/img/serve/s1-img-5.png" alt="Auditoria e inspeção de sistemas de ar comprimido">
                         </div>
                         <div class="content">
                             <h5 class="item-title fx-heading-1 fx-font-500">
@@ -251,7 +256,7 @@ details {
 
                      <div class="fx-serve-1-slider-item">
                         <div class="item-img fix img-cover">
-                            <img src="assets/img/contact/c2-img-1.png" alt="">
+                            <img src="{{ URL('/') }}/assets/img/contact/c2-img-1.png" alt="Projetos e manutenção em redes de ar comprimido">
                         </div>
                         <div class="content">
                             <h5 class="item-title fx-heading-1 fx-font-500">
@@ -317,7 +322,7 @@ details {
 		
 
         <!-- services-start -->
-        <div class="fx-services-2-area bg-default pt-120 pb-120 p-relative " data-background="assets/img/services/s2-bg-1.png">
+        <div class="fx-services-2-area bg-default pt-120 pb-120 p-relative " data-background="{{ URL('/') }}/assets/img/services/s2-bg-1.png">
             <div class="container fx-container-1">
                 <!-- section-title -->
                 <div class="fx-services-2-scn-title mb-55">
@@ -332,9 +337,9 @@ details {
 
                     <!-- single-card -->
                     <div class="fx-services-2-card">
-                        <img src="assets/img/services/s2-card-illus.png" alt="" class="card-shape">
+                        <img src="{{ URL('/') }}/assets/img/services/s2-card-illus.png" alt="" class="card-shape">
                         <div class="card-bg img-cover fix">
-                            <img src="assets/img/services/s2-card-bg.png" alt="">
+                            <img src="{{ URL('/') }}/assets/img/services/s2-card-bg.png" alt="">
                         </div>
                        
                         <h5 class="card-title fx-heading-2 fx-font-600 has-clr-white">
@@ -346,9 +351,9 @@ details {
 
                     <!-- single-card -->
                     <div class="fx-services-2-card">
-                        <img src="assets/img/services/s2-card-illus.png" alt="" class="card-shape">
+                        <img src="{{ URL('/') }}/assets/img/services/s2-card-illus.png" alt="" class="card-shape">
                         <div class="card-bg img-cover fix">
-                            <img src="assets/img/services/s2-card-bg.png" alt="">
+                            <img src="{{ URL('/') }}/assets/img/services/s2-card-bg.png" alt="">
                         </div>
                         
                         <h5 class="card-title fx-heading-2 fx-font-600 has-clr-white">
@@ -360,10 +365,10 @@ details {
 
                     <!-- single-card -->
                     <div class="fx-services-2-card">
-                        <img src="assets/img/services/s2-card-illus.png" alt="" class="card-shape">
+                        <img src="{{ URL('/') }}/assets/img/services/s2-card-illus.png" alt="" class="card-shape">
                         
                          <div class="card-bg img-cover fix">
-                            <img src="assets/img/services/s2-card-bg.png" alt="">
+                            <img src="{{ URL('/') }}/assets/img/services/s2-card-bg.png" alt="">
                         </div>
                         <h5 class="card-title fx-heading-2 fx-font-600 has-clr-white">
                             Suporte ao Cliente
@@ -374,9 +379,9 @@ details {
 
                     <!-- single-card -->
                     <div class="fx-services-2-card">
-                        <img src="assets/img/services/s2-card-illus.png" alt="" class="card-shape">
+                        <img src="{{ URL('/') }}/assets/img/services/s2-card-illus.png" alt="" class="card-shape">
                         <div class="card-bg img-cover fix">
-                            <img src="assets/img/services/s2-card-bg.png" alt="">
+                            <img src="{{ URL('/') }}/assets/img/services/s2-card-bg.png" alt="">
                         </div>
                         
                         <h5 class="card-title fx-heading-2 fx-font-600 has-clr-white">
@@ -396,7 +401,7 @@ details {
                 </div>
             </div>
             <div class="fx-services-2-bg-img fix">
-                <img class="txaaslideright fx-cube-1" src="assets/img/services/s2-img-1.png" alt="">
+                <img class="txaaslideright fx-cube-1" src="{{ URL('/') }}/assets/img/services/s2-img-1.png" alt="Compressores de ar e soluções industriais Manstec">
             </div>
         </div>
         <!-- services-end -->
@@ -447,7 +452,7 @@ details {
                                     </div>
     
                                     <div class="fx-core-1-slider-item-img fix img-cover">
-                                        <img src="{{ URL('/') }}/assets/img/services/s2-img-1.png" alt="">
+                                        <img src="{{ URL('/') }}/assets/img/services/s2-img-1.png" alt="Peças para compressores de ar">
                                     </div>
     
                                     <div class="fx-core-1-slider-item-feature">
@@ -525,7 +530,7 @@ details {
                                     </div>
     
                                     <div class="fx-core-1-slider-item-img fix img-cover">
-                                        <img src="assets/img/services/core-1-img-2.png" alt="">
+                                        <img src="{{ URL('/') }}/assets/img/services/core-1-img-2.png" alt="Manutenção de compressores de ar industriais">
                                     </div>
     
                                     <div class="fx-core-1-slider-item-feature">
@@ -603,7 +608,7 @@ details {
                                     </div>
     
                                     <div class="fx-core-1-slider-item-img fix img-cover">
-                                        <img src="assets/img/services/core-1-img-3.png" alt="">
+                                        <img src="{{ URL('/') }}/assets/img/services/core-1-img-3.png" alt="Compressor de ar industrial em operação">
                                     </div>
     
                                     <div class="fx-core-1-slider-item-feature">
@@ -675,7 +680,7 @@ details {
                                     </div>
     
                                     <div class="fx-core-1-slider-item-img fix img-cover">
-                                        <img src="assets/img/services/core-1-img-3.png" alt="">
+                                        <img src="{{ URL('/') }}/assets/img/services/core-1-img-3.png" alt="Soluções para rede de ar comprimido industrial">
                                     </div>
     
                                     <div class="fx-core-1-slider-item-feature">
@@ -742,7 +747,7 @@ details {
 
             </div>
             <div class="fx-core-1-bg img-cover fix">
-                <img src="assets/img/services/core1-bg.png" alt="">
+                <img src="{{ URL('/') }}/assets/img/services/core1-bg.png" alt="">
             </div>            
         </div>
         <!-- core-services-end -->
@@ -817,13 +822,13 @@ details {
                         <div class="fx-contact-us-1-right">
                             
                             <div class="fx-contact-us-1-img fix img-cover">
-                                <img src="assets/img/contact/c2-img-1.png" alt="">
+                                <img src="{{ URL('/') }}/assets/img/contact/c2-img-1.png" alt="Equipe técnica da Manstec para atendimento industrial">
                             </div>
 
                             <div class="fx-contact-us-1-content fix">
 
                                 <!-- single-box -->
-                                <div class="fx-contact-us-1-info-box fix txxaslideup bg-default" data-background="assets/img/contact/c2-box-bg-1.png">
+                                <div class="fx-contact-us-1-info-box fix txxaslideup bg-default" data-background="{{ URL('/') }}/assets/img/contact/c2-box-bg-1.png">
                                     <h6 class="box-title fx-heading-1 fx-font-400">Endereço:</h6>
                                     <p class="address fx-para-1 has-clr-white">
                                         <span class="txxaslideup-item fx-cube-1">Rua Arapiraca, 311 - Jardim Napoli Itaquaquecetuba - SP 08595-620 - Brasil</span>
@@ -831,7 +836,7 @@ details {
                                 </div>
 
                                 <!-- single-box -->
-                                <div class="fx-contact-us-1-info-box txxaslideup fix bg-default"  data-background="assets/img/contact/c2-box-bg-2.png">
+                                <div class="fx-contact-us-1-info-box txxaslideup fix bg-default"  data-background="{{ URL('/') }}/assets/img/contact/c2-box-bg-2.png">
                                     <h6 class="box-title fx-heading-1 fx-font-400">Fale com nossos Especialistas</h6>
                                     <ul class="info-list txxaslideup-item fx-cube-1" >
                                         <li>

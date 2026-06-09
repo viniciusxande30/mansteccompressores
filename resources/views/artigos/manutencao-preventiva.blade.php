@@ -1,5 +1,10 @@
 @php
-$kw = "Blog Manstec - Manutenção Preventiva em Compressores"
+$kw = "Blog Manstec - Manutenção Preventiva em Compressores";
+$metaTitle = "Manutenção Preventiva em Compressores | Manstec";
+$metaDescription = "Guia técnico da Manstec sobre Manutenção Preventiva em Compressores. Entenda boas práticas, manutenção e formas de reduzir custos em sistemas de ar.";
+$schemaType = "Article";
+$datePublished = "2026-06-09";
+$dateModified = "2026-06-09";
 @endphp
 @include('includes.top')
 

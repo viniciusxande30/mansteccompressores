@@ -1,5 +1,7 @@
 @php
-$kw = "Manstec Compressores de Ar - Sobre Nós"
+$kw = "Manstec Compressores, empresa de manutenção de compressores, assistência técnica ar comprimido, compressores industriais";
+$metaTitle = "Sobre a Manstec | Especialistas em Compressores de Ar";
+$metaDescription = "Conheça a Manstec Compressores, especialista em manutenção, suporte técnico, redes de ar comprimido e soluções para a indústria.";
 @endphp
 @include('includes.top')
 
@@ -111,7 +113,7 @@ details {
 </style>
 
 <!-- ====== BREADCRUMB ====== -->
-<div class="breadcrumb-area bg-default" data-background="assets/img/hero/h2-bg-1.png" role="region" aria-label="Trilha de navegação">
+<div class="breadcrumb-area bg-default" data-background="{{ URL('/') }}/assets/img/hero/h2-bg-1.png" role="region" aria-label="Trilha de navegação">
   <div class="container fx-container-1">
     <div class="breadcrumb-wrap">
       <div class="breadcrumb-content text-center">

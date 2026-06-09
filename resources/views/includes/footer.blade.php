@@ -12,8 +12,8 @@
                     <!-- single-widget -->
                     <div class="fx-footer-1-widget-single has-footer-2">
                         <div class="fx-footer-1-logo fix txxaslideup">
-                            <a class="txxaslideup-item fx-cube-1" href="index-2.html" aria-label="logo">
-                                <img src="{{ url('/') }}/assets/img/manstec.png" alt="">
+                            <a class="txxaslideup-item fx-cube-1" href="{{ url('/') }}" aria-label="Manstec Compressores">
+                                <img src="{{ url('/') }}/assets/img/manstec.png" alt="Manstec Compressores de Ar">
                             </a>
                         </div>
                     </div>
@@ -62,13 +62,13 @@
                                 <a href="{{url('/')}}/manutencao-corretiva" aria-label="name">Manutenção Corretiva e Diagnósticos</a>
                             </li>
                             <li>
-                                <a href="{{url('/')}}/kits-de-servicos" aria-label="name">Kits de Serviço e Peças Originais</a>
+                                <a href="{{url('/')}}/kits-de-servico" aria-label="name">Kits de Serviço e Peças Originais</a>
                             </li>
                             <li>
                                 <a href="{{url('/')}}/contratos-de-servico" aria-label="name">Contratos de Serviço Fixo</a>
                             </li>
                             <li>
-                                <a href="{{url('/')}}/auditorias-e-inspecoes" aria-label="name">Auditorias e Inspeções</a>
+                                <a href="{{url('/')}}/auditoria-e-inspecoes" aria-label="name">Auditorias e Inspeções</a>
                             </li>
 							<li>
                                 <a href="{{url('/')}}/monitoramento-e-upgrade" aria-label="name">Monitoramento e Upgrades</a>
@@ -86,13 +86,13 @@
                                 Rua Arapiraca, 311 - Jardim Napoli Itaquaquecetuba - SP 08595-620 - Brasil
                             </li>
                             <li>
-                                <a href="#" aria-label="name">
+                                <a href="mailto:comercial@mansteccompressores.com.br" aria-label="Enviar e-mail para Manstec">
                                     <i class="fa-regular fa-envelope"></i>
                                     comercial@mansteccompressores.com.br
                                 </a>
                             </li>
                             <li>
-                                <a href="#" aria-label="name">
+                                <a href="tel:+351969558556" aria-label="Ligar para emergencia Manstec">
                                     <i class="fa-regular fa-phone-volume"></i>
                                     +351 969 558 556
                                 </a>
@@ -100,15 +100,15 @@
                             <li>
                                         </li>
                                         <li>
-                                            <a href="#" aria-label="name">
+                                            <a href="tel:+5511959781897" aria-label="Ligar para Manstec">
                                                 <i class="fa-light fa-phone-volume"></i>
                                                 +55 (11) 95978-1897
                                             </a><br>
                                         </li>
                                         <li>
-                                            <a href="#" aria-label="name">
+                                            <a href="tel:+551146478222" aria-label="Ligar para Manstec">
                                                 <i class="fa-light fa-phone-volume"></i>
-                                                +351 (11) 4647-8222
+                                                +55 (11) 4647-8222
                                             </a><br>
                                         </li>
                             <li>

@@ -1,5 +1,10 @@
 @php
-$kw = "retrofit de compressores industriais, modernizacao de compressores de ar, upgrade sistema ar comprimido, reduzir custo operacional compressor, aumento de eficiencia industrial"
+$kw = "retrofit de compressores industriais, modernização de compressores de ar, upgrade sistema ar comprimido, reduzir custo operacional compressor, aumento de eficiência industrial";
+$metaTitle = "Retrofit de Compressores Industriais | Modernização e Economia";
+$metaDescription = "Veja quando o retrofit de compressores industriais vale a pena, quais melhorias aplicar e como reduzir custo operacional sem trocar todo o equipamento.";
+$schemaType = "Article";
+$datePublished = "2026-06-09";
+$dateModified = "2026-06-09";
 @endphp
 @include('includes.top')
 

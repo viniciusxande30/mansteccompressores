@@ -1,5 +1,10 @@
 @php
-$kw = "Blog Manstec - Vazamentos de Ar Comprimido"
+$kw = "Blog Manstec - Vazamentos de Ar Comprimido";
+$metaTitle = "Vazamentos de Ar Comprimido | Manstec";
+$metaDescription = "Guia técnico da Manstec sobre Vazamentos de Ar Comprimido. Entenda boas práticas, manutenção e formas de reduzir custos em sistemas de ar comprimido.";
+$schemaType = "Article";
+$datePublished = "2026-06-09";
+$dateModified = "2026-06-09";
 @endphp
 @include('includes.top')
 

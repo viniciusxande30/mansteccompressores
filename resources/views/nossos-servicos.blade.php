@@ -1,5 +1,7 @@
 @php
-$kw = "Manstec Compressores de Ar - Nossos Serviços"
+$kw = "serviços para compressores de ar, manutenção preventiva, manutenção corretiva, redes de ar comprimido, contratos de serviço";
+$metaTitle = "Serviços para Compressores de Ar | Manstec Compressores";
+$metaDescription = "Serviços técnicos para compressores de ar: manutenção preventiva, corretiva, peças, contratos, auditorias, redes e monitoramento.";
 @endphp
 @include('includes.top')
 
@@ -50,7 +52,7 @@ $kw = "Manstec Compressores de Ar - Nossos Serviços"
       <!-- Manutenção em compressores e secadores -->
       <div class="fx-serve-1-slider-item">
         <div class="item-img fix img-cover">
-          <img src="assets/img/serve/s1-img-1.png" alt="Manutenção em compressores e secadores">
+          <img src="{{ URL('/') }}/assets/img/serve/s1-img-1.png" alt="Manutenção em compressores e secadores">
         </div>
         <div class="content">
           <h5 class="item-title fx-heading-1 fx-font-500">
@@ -69,7 +71,7 @@ $kw = "Manstec Compressores de Ar - Nossos Serviços"
       <!-- Redes de ar comprimido -->
       <div class="fx-serve-1-slider-item">
         <div class="item-img fix img-cover">
-          <img src="assets/img/serve/s1-img-2.png" alt="Redes de ar comprimido">
+          <img src="{{ URL('/') }}/assets/img/serve/s1-img-2.png" alt="Redes de ar comprimido">
         </div>
         <div class="content">
           <h5 class="item-title fx-heading-1 fx-font-500">
@@ -86,7 +88,7 @@ $kw = "Manstec Compressores de Ar - Nossos Serviços"
       <!-- Contratos de manutenção -->
       <div class="fx-serve-1-slider-item">
         <div class="item-img fix img-cover">
-          <img src="assets/img/serve/s1-img-3.png" alt="Contratos de manutenção">
+          <img src="{{ URL('/') }}/assets/img/serve/s1-img-3.png" alt="Contratos de manutenção">
         </div>
         <div class="content">
           <h5 class="item-title fx-heading-1 fx-font-500">
@@ -103,7 +105,7 @@ $kw = "Manstec Compressores de Ar - Nossos Serviços"
       <!-- Laudos NR-13 para vasos de pressão -->
       <div class="fx-serve-1-slider-item">
         <div class="item-img fix img-cover">
-          <img src="assets/img/serve/s1-img-4.png" alt="Laudos NR-13 para vasos de pressão">
+          <img src="{{ URL('/') }}/assets/img/serve/s1-img-4.png" alt="Laudos NR-13 para vasos de pressão">
         </div>
         <div class="content">
           <h5 class="item-title fx-heading-1 fx-font-500">
@@ -120,7 +122,7 @@ $kw = "Manstec Compressores de Ar - Nossos Serviços"
       <!-- Secadores e tratamento do ar -->
       <div class="fx-serve-1-slider-item">
         <div class="item-img fix img-cover">
-          <img src="assets/img/serve/s1-img-5.png" alt="Secadores e tratamento do ar">
+          <img src="{{ URL('/') }}/assets/img/serve/s1-img-5.png" alt="Secadores e tratamento do ar">
         </div>
         <div class="content">
           <h5 class="item-title fx-heading-1 fx-font-500">
@@ -137,7 +139,7 @@ $kw = "Manstec Compressores de Ar - Nossos Serviços"
       <!-- Peças, kits e otimização/eficiência -->
       <div class="fx-serve-1-slider-item">
         <div class="item-img fix img-cover">
-          <img src="assets/img/serve/s1-img-6.png" alt="Peças, kits e eficiência energética">
+          <img src="{{ URL('/') }}/assets/img/serve/s1-img-6.png" alt="Peças, kits e eficiência energética">
         </div>
         <div class="content">
           <h5 class="item-title fx-heading-1 fx-font-500">

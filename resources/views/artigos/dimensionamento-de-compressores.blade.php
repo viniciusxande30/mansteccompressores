@@ -1,5 +1,10 @@
 @php
-$kw = "dimensionar compressor de ar, como calcular compressor industrial, vazão compressor ar, pressão compressor industrial, dimensionamento sistema ar comprimido"
+$kw = "dimensionar compressor de ar, como calcular compressor industrial, vazão compressor ar, pressão compressor industrial, dimensionamento sistema ar comprimido";
+$metaTitle = "Dimensionamento de Compressores | Manstec";
+$metaDescription = "Guia técnico da Manstec sobre Dimensionamento de Compressores. Entenda boas práticas, manutenção e formas de reduzir custos em sistemas de ar comprimido.";
+$schemaType = "Article";
+$datePublished = "2026-06-09";
+$dateModified = "2026-06-09";
 @endphp
 @include('includes.top')
 

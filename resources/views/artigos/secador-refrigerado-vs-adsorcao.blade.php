@@ -1,5 +1,10 @@
 @php
-$kw = "secador refrigerado vs adsorção, qual secador ar comprimido escolher, ponto de orvalho ar comprimido, secador industrial comparação"
+$kw = "secador refrigerado vs adsorção, qual secador ar comprimido escolher, ponto de orvalho ar comprimido, secador industrial comparação";
+$metaTitle = "Secador Refrigerado vs Adsorção | Manstec";
+$metaDescription = "Guia técnico da Manstec sobre Secador Refrigerado vs Adsorção. Entenda boas práticas, manutenção e formas de reduzir custos em sistemas de ar comprimido.";
+$schemaType = "Article";
+$datePublished = "2026-06-09";
+$dateModified = "2026-06-09";
 @endphp
 @include('includes.top')
 

@@ -1,5 +1,10 @@
 @php
-$kw = "Blog Manstec - Custo Operacional"
+$kw = "Blog Manstec - Custo Operacional";
+$metaTitle = "Redução de Custos Operacionais | Manstec";
+$metaDescription = "Guia técnico da Manstec sobre Redução de Custos Operacionais. Entenda boas práticas, manutenção e formas de reduzir custos em sistemas de ar comprimido.";
+$schemaType = "Article";
+$datePublished = "2026-06-09";
+$dateModified = "2026-06-09";
 @endphp
 @include('includes.top')
 

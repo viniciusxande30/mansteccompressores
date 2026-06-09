@@ -1,5 +1,7 @@
 @php
-$kw = "Manstec - Projetos e Manutenção em Redes de Ar"
+$kw = "redes de ar comprimido, projeto de rede pneumática, manutenção rede de ar, tubulação ar comprimido industrial";
+$metaTitle = "Redes de Ar Comprimido | Projeto e Manutenção Industrial";
+$metaDescription = "Projetos, instalação e manutenção de redes de ar comprimido para reduzir perda de carga, vazamentos e desperdício de energia.";
 @endphp
 @include('includes.top')
 

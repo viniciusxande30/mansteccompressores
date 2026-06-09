@@ -1,5 +1,10 @@
 @php
-$kw = "empresa manutenção compressores, manutenção compressor industrial empresa, assistência técnica compressores de ar, como escolher manutenção industrial, manutenção ar comprimido especializada"
+$kw = "empresa manutenção compressores, manutenção compressor industrial empresa, assistência técnica compressores de ar, como escolher manutenção industrial, manutenção ar comprimido especializada";
+$metaTitle = "Empresa de Manutenção | Manstec";
+$metaDescription = "Guia técnico da Manstec sobre Empresa de Manutenção. Entenda boas práticas, manutenção e formas de reduzir custos em sistemas de ar comprimido.";
+$schemaType = "Article";
+$datePublished = "2026-06-09";
+$dateModified = "2026-06-09";
 @endphp
 @include('includes.top')
 

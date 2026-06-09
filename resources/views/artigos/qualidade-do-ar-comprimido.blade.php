@@ -1,5 +1,10 @@
 @php
-$kw = "qualidade do ar comprimido ISO 8573, classes ISO ar comprimido, contaminantes ar comprimido, pureza ar industrial, padrão ISO ar comprimido indústria"
+$kw = "qualidade do ar comprimido ISO 8573, classes ISO ar comprimido, contaminantes ar comprimido, pureza ar industrial, padrão ISO ar comprimido indústria";
+$metaTitle = "Qualidade do Ar Comprimido | Manstec";
+$metaDescription = "Guia técnico da Manstec sobre Qualidade do Ar Comprimido. Entenda boas práticas, manutenção e formas de reduzir custos em sistemas de ar comprimido.";
+$schemaType = "Article";
+$datePublished = "2026-06-09";
+$dateModified = "2026-06-09";
 @endphp
 @include('includes.top')
 

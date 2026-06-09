@@ -1,5 +1,10 @@
 @php
-$kw = "pressão ideal compressor de ar, ajuste pressão compressor industrial, pressão ar comprimido correta, economia energia pressão compressor"
+$kw = "pressão ideal compressor de ar, ajuste pressão compressor industrial, pressão ar comprimido correta, economia energia pressão compressor";
+$metaTitle = "Pressão Ideal | Manstec";
+$metaDescription = "Guia técnico da Manstec sobre Pressão Ideal. Entenda boas práticas, manutenção e formas de reduzir custos em sistemas de ar comprimido.";
+$schemaType = "Article";
+$datePublished = "2026-06-09";
+$dateModified = "2026-06-09";
 @endphp
 @include('includes.top')
 

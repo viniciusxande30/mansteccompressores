@@ -1,5 +1,10 @@
 @php
-$kw = "falhas em compressores de ar, problemas compressor industrial, compressor não funciona causas, manutenção compressor industrial falhas, defeitos comuns compressor ar"
+$kw = "falhas em compressores de ar, problemas compressor industrial, compressor não funciona causas, manutenção compressor industrial falhas, defeitos comuns compressor ar";
+$metaTitle = "Falhas em Compressores | Manstec";
+$metaDescription = "Guia técnico da Manstec sobre Falhas em Compressores. Entenda boas práticas, manutenção e formas de reduzir custos em sistemas de ar comprimido.";
+$schemaType = "Article";
+$datePublished = "2026-06-09";
+$dateModified = "2026-06-09";
 @endphp
 @include('includes.top')
 

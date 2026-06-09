@@ -1,5 +1,10 @@
 @php
-$kw = "reduzir consumo compressor de ar, eficiência energética ar comprimido, economia energia compressor industrial, consumo energia compressor ar, otimização sistema ar comprimido"
+$kw = "reduzir consumo compressor de ar, eficiência energética ar comprimido, economia energia compressor industrial, consumo energia compressor ar, otimização sistema ar comprimido";
+$metaTitle = "Eficiência Energética em Compressores | Manstec";
+$metaDescription = "Guia técnico da Manstec sobre Eficiência Energética em Compressores. Entenda boas práticas, manutenção e formas de reduzir custos em sistemas de ar.";
+$schemaType = "Article";
+$datePublished = "2026-06-09";
+$dateModified = "2026-06-09";
 @endphp
 @include('includes.top')
 

@@ -112,9 +112,15 @@ $router->get('/nossos-servicos', 'TransporteController@servicos');
 $router->get('/manutencao-preventiva', 'TransporteController@manutencaoPreventiva');
 $router->get('/manutencao-corretiva', 'TransporteController@manutencaoCorretiva');
 $router->get('/kits-de-servico', 'TransporteController@kits');
+$router->get('/kits-de-servicos', function () {
+    return redirect('/kits-de-servico', 301);
+});
 $router->get('/monitoramento-e-upgrade', 'TransporteController@monitoramento');
 $router->get('/contratos-de-servico', 'TransporteController@contratos');
 $router->get('/auditoria-e-inspecoes', 'TransporteController@auditoria');
+$router->get('/auditorias-e-inspecoes', function () {
+    return redirect('/auditoria-e-inspecoes', 301);
+});
 $router->get('/redes-de-ar', 'TransporteController@redes');
 
 $router->get('/politicas-de-privacidade', 'TransporteController@politicas');
@@ -128,6 +134,7 @@ $router->get('/blog/checklist-completo', function () {return view('artigos.check
 $router->get('/blog/como-funciona-um-compressor', function () {return view('artigos.como-funciona-um-compressor');});
 $router->get('/blog/como-identificar-vazamento-em-ar', function () {return view('artigos.como-identificar-vazamento-em-ar');});
 $router->get('/blog/compressor-com-inversor', function () {return view('artigos.compressor-com-inversor');});
+$router->get('/blog/contrato-manutencao-compressores', function () {return view('artigos.contrato-manutencao-compressores');});
 $router->get('/blog/custo-do-ar-comprimido', function () {return view('artigos.custo-do-ar-comprimido');});
 $router->get('/blog/custo-operacional', function () {return view('artigos.custo-operacional');});
 $router->get('/blog/dimensionamento-de-compressores', function () {return view('artigos.dimensionamento-de-compressores');});
@@ -141,6 +148,7 @@ $router->get('/blog/manutencao-preditiva-compressores', function () {return view
 $router->get('/blog/manutencao-preventiva-compressores', function () {return view('artigos.manutencao-preventiva');});
 $router->get('/blog/manutencao-preventiva-vs-corretiva', function () {return view('artigos.manutencao-preventiva-vs-corretiva');});
 $router->get('/blog/nr13-em-compressores', function () {return view('artigos.nr13-em-compressores');});
+$router->get('/blog/pecas-para-compressores-de-ar', function () {return view('artigos.pecas-para-compressores-de-ar');});
 $router->get('/blog/pressao-ideal-em-compressores', function () {return view('artigos.pressao-ideal-em-compressores');});
 $router->get('/blog/qualidade-do-ar-comprimido', function () {return view('artigos.qualidade-do-ar-comprimido');});
 $router->get('/blog/retrofit-compressores-industriais', function () {return view('artigos.retrofit-compressores-industriais');});
@@ -150,5 +158,77 @@ $router->get('/blog/tipos-de-compressores', function () {return view('artigos.ti
 $router->get('/blog/vazamentos-de-ar-comprimido', function () {return view('artigos.vazamentos-de-ar-comprimido');});
 $router->get('/blog/vida-util-de-compressores', function () {return view('artigos.vida-util-de-compressores');});
 
+$router->get('/sitemap.xml', function () {
+    $urls = [
+        '/',
+        '/sobre-nos',
+        '/compressores-de-ar',
+        '/contato',
+        '/blog',
+        '/manutencao-preventiva',
+        '/manutencao-corretiva',
+        '/kits-de-servico',
+        '/monitoramento-e-upgrade',
+        '/contratos-de-servico',
+        '/auditoria-e-inspecoes',
+        '/redes-de-ar',
+        '/blog/automacao-com-ar-comprimido',
+        '/blog/auditoria-energetica-ar-comprimido',
+        '/blog/checklist-completo',
+        '/blog/como-funciona-um-compressor',
+        '/blog/como-identificar-vazamento-em-ar',
+        '/blog/compressor-com-inversor',
+        '/blog/contrato-manutencao-compressores',
+        '/blog/custo-do-ar-comprimido',
+        '/blog/custo-operacional',
+        '/blog/dimensionamento-de-compressores',
+        '/blog/eficiencia-energetica-em-compressores',
+        '/blog/eficiencia-energetica-industrial',
+        '/blog/empresa-de-manutencao',
+        '/blog/erros-na-instalacao-de-compressores',
+        '/blog/falhas-comuns-e-como-evitar',
+        '/blog/linha-de-ar-comprimido',
+        '/blog/manutencao-preditiva-compressores',
+        '/blog/manutencao-preventiva-compressores',
+        '/blog/manutencao-preventiva-vs-corretiva',
+        '/blog/nr13-em-compressores',
+        '/blog/pecas-para-compressores-de-ar',
+        '/blog/pressao-ideal-em-compressores',
+        '/blog/qualidade-do-ar-comprimido',
+        '/blog/retrofit-compressores-industriais',
+        '/blog/secador-refrigerado-vs-adsorcao',
+        '/blog/secadores-de-ar-comprimido',
+        '/blog/tipos-de-compressores',
+        '/blog/vazamentos-de-ar-comprimido',
+        '/blog/vida-util-de-compressores',
+    ];
+
+    $baseUrl = rtrim(url('/'), '/');
+    $xml = '<?xml version="1.0" encoding="UTF-8"?>' . "\n";
+    $xml .= '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' . "\n";
+
+    foreach ($urls as $path) {
+        $loc = htmlspecialchars($baseUrl . $path, ENT_XML1, 'UTF-8');
+        $priority = $path === '/' ? '1.0' : (strpos($path, '/blog/') === 0 ? '0.8' : '0.9');
+
+        $xml .= "  <url>\n";
+        $xml .= "    <loc>{$loc}</loc>\n";
+        $xml .= "    <changefreq>weekly</changefreq>\n";
+        $xml .= "    <priority>{$priority}</priority>\n";
+        $xml .= "  </url>\n";
+    }
+
+    $xml .= '</urlset>';
+
+    return new \Illuminate\Http\Response($xml, 200, ['Content-Type' => 'application/xml; charset=UTF-8']);
+});
+
+$router->get('/robots.txt', function () {
+    $content = "User-agent: *\n";
+    $content .= "Allow: /\n";
+    $content .= "Sitemap: " . url('/sitemap.xml') . "\n";
+
+    return new \Illuminate\Http\Response($content, 200, ['Content-Type' => 'text/plain; charset=UTF-8']);
+});
 
 // $router->get('/teste', 'Controller@teste');

@@ -1,5 +1,10 @@
 @php
-$kw = "auditoria energetica ar comprimido, eficiencia energetica industrial, reduzir consumo compressor, diagnostico de ar comprimido, economia de energia na industria"
+$kw = "auditoria energética ar comprimido, eficiência energética industrial, reduzir consumo compressor, diagnóstico de ar comprimido, economia de energia na indústria";
+$metaTitle = "Auditoria Energética em Ar Comprimido | Reduza Custos Industriais";
+$metaDescription = "Entenda como a auditoria energética em sistemas de ar comprimido identifica desperdícios, reduz consumo de energia e aumenta a eficiência industrial.";
+$schemaType = "Article";
+$datePublished = "2026-06-09";
+$dateModified = "2026-06-09";
 @endphp
 @include('includes.top')
 

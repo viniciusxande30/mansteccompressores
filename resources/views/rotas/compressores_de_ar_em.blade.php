@@ -1,5 +1,7 @@
 @php
-$kw = "Compressores de Ar em  $destino"
+$kw = "compressores de ar em {$destino}, manutenção de compressores em {$destino}, assistência técnica compressor de ar";
+$metaTitle = "Compressores de Ar em {$destino} | Manutenção e Assistência";
+$metaDescription = "Atendimento técnico para compressores de ar em {$destino}: manutenção, diagnóstico, peças, redes de ar comprimido e suporte industrial.";
 @endphp
 @include('includes.top')
 

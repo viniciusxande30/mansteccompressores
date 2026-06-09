@@ -1,5 +1,10 @@
 @php
-$kw = "checklist manutenção compressor de ar, manutenção preventiva compressores industrial, inspeção compressor industrial, rotina manutenção ar comprimido, manutenção sistema pneumático checklist"
+$kw = "checklist manutenção compressor de ar, manutenção preventiva compressores industrial, inspeção compressor industrial, rotina manutenção ar comprimido, manutenção sistema pneumático checklist";
+$metaTitle = "Checklist de Manutenção | Manstec";
+$metaDescription = "Guia técnico da Manstec sobre Checklist de Manutenção. Entenda boas práticas, manutenção e formas de reduzir custos em sistemas de ar comprimido.";
+$schemaType = "Article";
+$datePublished = "2026-06-09";
+$dateModified = "2026-06-09";
 @endphp
 @include('includes.top')
 

@@ -1,10 +1,12 @@
 @php
-$kw = "Lista de Cidades Atendidas pela Manstec"
+$kw = "compressores de ar, assistência técnica compressores, manutenção de compressores por cidade, Manstec";
+$metaTitle = "Compressores de Ar | Áreas Atendidas pela Manstec";
+$metaDescription = "Consulte as cidades atendidas pela Manstec para manutenção, assistência técnica, peças e soluções em compressores de ar industriais.";
 @endphp
 @include('includes.top')
 
 
-        <div class="breadcrumb-area bg-default " data-background="assets/img/hero/h2-bg-1.png">
+        <div class="breadcrumb-area bg-default " data-background="{{ URL('/') }}/assets/img/hero/h2-bg-1.png">
             <div class="container fx-container-1">
                 <div class="breadcrumb-wrap">
 

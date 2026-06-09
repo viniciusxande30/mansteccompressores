@@ -1,5 +1,10 @@
 @php
-$kw = "secador de ar comprimido, tipos de secadores ar comprimido, secador refrigerado ou adsorção, qualidade do ar comprimido industrial, como escolher secador de ar"
+$kw = "secador de ar comprimido, tipos de secadores ar comprimido, secador refrigerado ou adsorção, qualidade do ar comprimido industrial, como escolher secador de ar";
+$metaTitle = "Secadores de Ar Comprimido | Manstec";
+$metaDescription = "Guia técnico da Manstec sobre Secadores de Ar Comprimido. Entenda boas práticas, manutenção e formas de reduzir custos em sistemas de ar comprimido.";
+$schemaType = "Article";
+$datePublished = "2026-06-09";
+$dateModified = "2026-06-09";
 @endphp
 @include('includes.top')
 

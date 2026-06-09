@@ -1,5 +1,10 @@
 @php
-$kw = "linha de ar comprimido industrial, projeto rede ar comprimido, dimensionamento tubulação ar comprimido, perda de carga ar comprimido, sistema ar comprimido eficiente"
+$kw = "linha de ar comprimido industrial, projeto rede ar comprimido, dimensionamento tubulação ar comprimido, perda de carga ar comprimido, sistema ar comprimido eficiente";
+$metaTitle = "Linha de Ar Comprimido | Manstec";
+$metaDescription = "Guia técnico da Manstec sobre Linha de Ar Comprimido. Entenda boas práticas, manutenção e formas de reduzir custos em sistemas de ar comprimido.";
+$schemaType = "Article";
+$datePublished = "2026-06-09";
+$dateModified = "2026-06-09";
 @endphp
 @include('includes.top')
 

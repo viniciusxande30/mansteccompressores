@@ -1,5 +1,10 @@
 @php
-$kw = "detectar vazamentos ar comprimido, como identificar vazamento compressor, perdas ar comprimido, economia energia vazamentos"
+$kw = "detectar vazamentos ar comprimido, como identificar vazamento compressor, perdas ar comprimido, economia energia vazamentos";
+$metaTitle = "Vazamentos | Manstec";
+$metaDescription = "Guia técnico da Manstec sobre Vazamentos. Entenda boas práticas, manutenção e formas de reduzir custos em sistemas de ar comprimido.";
+$schemaType = "Article";
+$datePublished = "2026-06-09";
+$dateModified = "2026-06-09";
 @endphp
 @include('includes.top')
 

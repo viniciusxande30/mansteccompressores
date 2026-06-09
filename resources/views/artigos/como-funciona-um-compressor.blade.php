@@ -1,5 +1,10 @@
 @php
-$kw = "como funciona compressor de ar, compressor de ar industrial funcionamento, sistema ar comprimido explicação, compressor parafuso funcionamento, compressor pistão como funciona"
+$kw = "como funciona compressor de ar, compressor de ar industrial funcionamento, sistema ar comprimido explicação, compressor parafuso funcionamento, compressor pistão como funciona";
+$metaTitle = "Como Funciona um Compressor | Manstec";
+$metaDescription = "Guia técnico da Manstec sobre Como Funciona um Compressor. Entenda boas práticas, manutenção e formas de reduzir custos em sistemas de ar comprimido.";
+$schemaType = "Article";
+$datePublished = "2026-06-09";
+$dateModified = "2026-06-09";
 @endphp
 @include('includes.top')
 

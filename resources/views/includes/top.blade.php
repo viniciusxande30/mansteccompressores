@@ -13,17 +13,86 @@
     </script>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    
-    {{-- Se existir a variável $kw, monta o título dinâmico --}}
-    <title>
-        @isset($kw) {{ $kw }} @else Manstec - Compressores de Ar @endisset
-    </title>
-
-    {{-- Description dinâmica com fallback --}}
-    <meta name="description" content="@isset($kw) Conheça nossos serviços especializados, trabalhamos com {{ $kw }}. @else Soluções completas em manutenção de compressores de ar. @endisset">
-    
+    @php
+        $pageTitle = $metaTitle ?? ($title ?? (isset($kw) ? $kw : 'Manstec - Compressores de Ar'));
+        $pageDescription = $metaDescription ?? (isset($kw)
+            ? 'Solucoes tecnicas da Manstec para compressores de ar, ar comprimido industrial, manutencao, eficiencia energetica e reducao de paradas.'
+            : 'Solucoes completas em manutencao de compressores de ar, redes de ar comprimido, eficiencia energetica e suporte tecnico industrial.');
+        $pageKeywords = $metaKeywords ?? ($kw ?? 'manutencao de compressores de ar, compressores industriais, ar comprimido industrial, Manstec');
+        $requestPath = trim(app('request')->getPathInfo(), '/');
+        $pageCanonical = $canonicalUrl ?? rtrim(URL('/'), '/') . ($requestPath ? '/' . $requestPath : '');
+        $pageImage = $metaImage ?? URL('/') . '/assets/img/manstec.png';
+        $pageType = $schemaType ?? 'website';
+    @endphp
+    <title>{{ $pageTitle }}</title>
+    <meta name="description" content="{{ $pageDescription }}">
+    <meta name="keywords" content="{{ $pageKeywords }}">
+    <meta name="robots" content="index, follow, max-image-preview:large">
+    <link rel="canonical" href="{{ $pageCanonical }}">
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:type" content="{{ $pageType === 'Article' ? 'article' : 'website' }}">
+    <meta property="og:title" content="{{ $pageTitle }}">
+    <meta property="og:description" content="{{ $pageDescription }}">
+    <meta property="og:url" content="{{ $pageCanonical }}">
+    <meta property="og:site_name" content="Manstec Compressores">
+    <meta property="og:image" content="{{ $pageImage }}">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ $pageTitle }}">
+    <meta name="twitter:description" content="{{ $pageDescription }}">
+    <meta name="twitter:image" content="{{ $pageImage }}">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" type="image/x-icon" href="{{ URL('/') }}/assets/img/manstec.png">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "@id": "{{ URL('/') }}/#manstec",
+      "name": "Manstec Compressores",
+      "url": "{{ URL('/') }}",
+      "image": "{{ URL('/') }}/assets/img/manstec.png",
+      "email": "comercial@mansteccompressores.com.br",
+      "telephone": ["+351969558556", "+5511959781897", "+551146478222"],
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Rua Arapiraca, 311 - Jardim Napoli",
+        "addressLocality": "Itaquaquecetuba",
+        "addressRegion": "SP",
+        "postalCode": "08595-620",
+        "addressCountry": "BR"
+      },
+      "areaServed": "Brasil",
+      "sameAs": ["https://www.instagram.com/manstec_compressores/"],
+      "description": "Manutencao de compressores de ar, redes de ar comprimido, auditoria tecnica, eficiencia energetica e suporte industrial."
+    }
+    </script>
+
+    @if(($schemaType ?? '') === 'Article')
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": {!! json_encode($pageTitle, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) !!},
+      "description": {!! json_encode($pageDescription, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) !!},
+      "image": {!! json_encode($pageImage, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) !!},
+      "author": {
+        "@type": "Organization",
+        "name": "Manstec Compressores"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Manstec Compressores",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "{{ URL('/') }}/assets/img/manstec.png"
+        }
+      },
+      "datePublished": {!! json_encode($datePublished ?? '2026-06-09') !!},
+      "dateModified": {!! json_encode($dateModified ?? '2026-06-09') !!},
+      "mainEntityOfPage": {!! json_encode($pageCanonical, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) !!}
+    }
+    </script>
+    @endif
 
     <!-- CSS -->
     <link rel="stylesheet" href="{{ URL('/') }}/assets/css/bootstrap.min.css">
@@ -46,7 +115,7 @@
   <div class="cotacao-modal">
     <div class="cotacao-modal-header">
       <span><i class="fa-solid fa-truck"></i> Cotação de Frete Via WhatsApp</span>
-      <span class="cotacao-modal-close" onclick="closeCotacaoModal()">×</span>
+      <span class="cotacao-modal-close" onclick="closeCotacaoModal()">�-</span>
     </div>
     <div class="cotacao-modal-body">
       <div class="cotacao-modal-info">
@@ -85,8 +154,8 @@
 
                     <!-- logo -->
                     <div class="fx-header-2-logo-box">
-                        <a href="{{url('/')}}" aria-label="name" class="fx-header-2-main-logo">
-                            <img src="{{ url('/') }}/assets/img/manstec.png" alt=""  style="width:150px">
+                        <a href="{{url('/')}}" aria-label="Manstec Compressores" class="fx-header-2-main-logo">
+                            <img src="{{ url('/') }}/assets/img/manstec.png" alt="Manstec Compressores de Ar"  style="width:150px">
                         </a>
                     </div>
 
@@ -143,25 +212,25 @@
                                         <a href="{{URL('/')}}/#nossos-servicos">Nossos Serviços</a>
                                         <ul class="dropdown-menu clearfix">
                                             <li>
-                                                <a href="manutencao-preventiva">Manutenção Preventiva</a>
+                                                <a href="{{ url('/') }}/manutencao-preventiva">Manutenção Preventiva</a>
                                             </li>
                                             <li>
-                                                <a href="manutencao-corretiva">Manutenção Corretiva e Diagnósticos</a>
+                                                <a href="{{ url('/') }}/manutencao-corretiva">Manutenção Corretiva e Diagnósticos</a>
                                             </li>
                                             <li>
-                                                <a href="kits-de-servico">Kits de Serviço e Peças Originais</a>
+                                                <a href="{{ url('/') }}/kits-de-servico">Kits de Serviço e Peças Originais</a>
                                             </li>
                                             <li>
-                                                <a href="contratos-de-servico">Contratos de Serviço Fixo</a>
+                                                <a href="{{ url('/') }}/contratos-de-servico">Contratos de Serviço Fixo</a>
                                             </li>
                                             <li>
-                                                <a href="auditoria-e-inspecoes">Auditorias e Inspeções</a>
+                                                <a href="{{ url('/') }}/auditoria-e-inspecoes">Auditorias e Inspeções</a>
                                             </li>
                                             <li>
-                                                <a href="monitoramento-e-upgrade">Monitoramento e Upgrade</a>
+                                                <a href="{{ url('/') }}/monitoramento-e-upgrade">Monitoramento e Upgrade</a>
                                             </li>
                                             <li>
-                                                <a href="redes-de-ar">Projetos e Manutenção em Redes de Ar</a>
+                                                <a href="{{ url('/') }}/redes-de-ar">Projetos e Manutenção em Redes de Ar</a>
                                             </li>
                                         </ul>
                                     </li>
@@ -190,12 +259,12 @@
 
                               
                                 <!-- pr-btn -->
-                                <a href="{{ URL('/') }}/contato" aria-label="name" class="fx-pr-btn-1 has-hover-border">
+                                <a href="{{ URL('/') }}/contato" aria-label="Solicitar cotacao com a Manstec" class="fx-pr-btn-1 has-hover-border">
                                     <span class="text" data-back="Solicite sua Cotação" data-front="Solicite sua Cotação"></span>
                                 </a>
 
                                 <!-- sidebar-btn -->
-                                <button type="button" aria-label="name" class="fx-menu-btn-1 offcanvas_toggle" >
+                                <button type="button" aria-label="Abrir menu" class="fx-menu-btn-1 offcanvas_toggle" >
                                     <span></span>
                                     <span></span>
                                     <span></span>

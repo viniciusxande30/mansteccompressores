@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://mansteccompressores.com.br/sitemap.xml

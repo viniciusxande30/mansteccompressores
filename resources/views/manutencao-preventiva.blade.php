@@ -1,5 +1,7 @@
 @php
-$kw = "Manstec Compressores de Ar - Manutenção Preventiva"
+$kw = "manutenção preventiva compressores, manutenção de compressores de ar, preventiva compressor industrial, assistência técnica";
+$metaTitle = "Manutenção Preventiva de Compressores de Ar | Manstec";
+$metaDescription = "Evite paradas e reduza custos com manutenção preventiva especializada em compressores de ar industriais. Solicite uma avaliação.";
 @endphp
 @include('includes.top')
 
@@ -40,7 +42,7 @@ $kw = "Manstec Compressores de Ar - Manutenção Preventiva"
           </div>
           <div class="col-lg-5">
             <div class="list-img fix img-cover">
-              <img src="assets/img/services/sd-img-1.png" alt="Imagem de Manutenção Preventiva">
+              <img src="{{ URL('/') }}/assets/img/services/sd-img-1.png" alt="Imagem de Manutenção Preventiva">
             </div>
           </div>
         </div>

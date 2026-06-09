@@ -1,5 +1,7 @@
 @php
-$kw = "Manstec Compressores de Ar- Entre em Contato"
+$kw = "contato Manstec Compressores, cotação compressor de ar, assistência técnica compressores, manutenção industrial";
+$metaTitle = "Contato Manstec | Solicite Cotação para Compressores de Ar";
+$metaDescription = "Fale com a Manstec para manutenção, assistência técnica, peças, contratos e soluções em compressores de ar industriais.";
 @endphp
 
 @include('includes.top')

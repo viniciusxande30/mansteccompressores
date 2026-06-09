@@ -1,5 +1,10 @@
 @php
-$kw = "automação com ar comprimido, sistemas pneumáticos industriais, eficiência industrial automação pneumática, ar comprimido automação indústria, produtividade industrial ar comprimido"
+$kw = "automação com ar comprimido, sistemas pneumáticos industriais, eficiência industrial automação pneumática, ar comprimido automação indústria, produtividade industrial ar comprimido";
+$metaTitle = "Automação com Ar Comprimido | Manstec";
+$metaDescription = "Guia técnico da Manstec sobre Automação com Ar Comprimido. Entenda boas práticas, manutenção e formas de reduzir custos em sistemas de ar comprimido.";
+$schemaType = "Article";
+$datePublished = "2026-06-09";
+$dateModified = "2026-06-09";
 @endphp
 @include('includes.top')
 

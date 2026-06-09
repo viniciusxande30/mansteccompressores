@@ -1,5 +1,10 @@
 @php
-$kw = "instalação de compressores de ar, erros instalação compressor industrial, layout ar comprimido, instalação sistema ar comprimido indústria, otimização rede ar comprimido"
+$kw = "instalação de compressores de ar, erros instalação compressor industrial, layout ar comprimido, instalação sistema ar comprimido indústria, otimização rede ar comprimido";
+$metaTitle = "Instalação de Compressores | Manstec";
+$metaDescription = "Guia técnico da Manstec sobre Instalação de Compressores. Entenda boas práticas, manutenção e formas de reduzir custos em sistemas de ar comprimido.";
+$schemaType = "Article";
+$datePublished = "2026-06-09";
+$dateModified = "2026-06-09";
 @endphp
 @include('includes.top')
 

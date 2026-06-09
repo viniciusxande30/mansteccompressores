@@ -1,5 +1,10 @@
 @php
-$kw = "custo do ar comprimido industrial, quanto custa ar comprimido, consumo compressor industrial custo, economia energia compressor, reduzir custo ar comprimido indústria"
+$kw = "custo do ar comprimido industrial, quanto custa ar comprimido, consumo compressor industrial custo, economia energia compressor, reduzir custo ar comprimido indústria";
+$metaTitle = "Custo do Ar Comprimido | Manstec";
+$metaDescription = "Guia técnico da Manstec sobre Custo do Ar Comprimido. Entenda boas práticas, manutenção e formas de reduzir custos em sistemas de ar comprimido.";
+$schemaType = "Article";
+$datePublished = "2026-06-09";
+$dateModified = "2026-06-09";
 @endphp
 @include('includes.top')
 

@@ -1,5 +1,10 @@
 @php
-$kw = "compressor com inversor de frequência, VSD compressor vale a pena, economia energia compressor VSD, compressor velocidade variável industrial, reduzir consumo energia compressor"
+$kw = "compressor com inversor de frequência, VSD compressor vale a pena, economia energia compressor VSD, compressor velocidade variável industrial, reduzir consumo energia compressor";
+$metaTitle = "Compressor com Inversor (VSD) | Manstec";
+$metaDescription = "Guia técnico da Manstec sobre Compressor com Inversor (VSD). Entenda boas práticas, manutenção e formas de reduzir custos em sistemas de ar comprimido.";
+$schemaType = "Article";
+$datePublished = "2026-06-09";
+$dateModified = "2026-06-09";
 @endphp
 @include('includes.top')
 

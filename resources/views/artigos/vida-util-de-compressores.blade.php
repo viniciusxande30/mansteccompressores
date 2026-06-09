@@ -1,5 +1,10 @@
 @php
-$kw = "vida útil compressor industrial, quanto dura um compressor de ar, aumentar vida útil compressor, desgaste compressor industrial, manutenção compressores durabilidade"
+$kw = "vida útil compressor industrial, quanto dura um compressor de ar, aumentar vida útil compressor, desgaste compressor industrial, manutenção compressores durabilidade";
+$metaTitle = "Vida Útil de Compressores | Manstec";
+$metaDescription = "Guia técnico da Manstec sobre Vida Útil de Compressores. Entenda boas práticas, manutenção e formas de reduzir custos em sistemas de ar comprimido.";
+$schemaType = "Article";
+$datePublished = "2026-06-09";
+$dateModified = "2026-06-09";
 @endphp
 @include('includes.top')
 

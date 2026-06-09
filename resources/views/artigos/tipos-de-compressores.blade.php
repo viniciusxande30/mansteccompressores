@@ -1,5 +1,10 @@
 @php
-$kw = "tipos de compressores industriais, compressor parafuso vs pistão, qual compressor escolher indústria, compressor ar industrial qual melhor, dimensionamento compressor industrial"
+$kw = "tipos de compressores industriais, compressor parafuso vs pistão, qual compressor escolher indústria, compressor ar industrial qual melhor, dimensionamento compressor industrial";
+$metaTitle = "Tipos de Compressores | Manstec";
+$metaDescription = "Guia técnico da Manstec sobre Tipos de Compressores. Entenda boas práticas, manutenção e formas de reduzir custos em sistemas de ar comprimido.";
+$schemaType = "Article";
+$datePublished = "2026-06-09";
+$dateModified = "2026-06-09";
 @endphp
 @include('includes.top')
 

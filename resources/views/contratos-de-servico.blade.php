@@ -1,5 +1,7 @@
 @php
-$kw = "Manstec Compressores de Ar - Contratos de Serviço"
+$kw = "contrato de manutenção compressores, contrato de serviço compressor, manutenção industrial recorrente, ar comprimido";
+$metaTitle = "Contratos de Manutenção para Compressores de Ar | Manstec";
+$metaDescription = "Contratos de serviço para compressores de ar com manutenção planejada, suporte técnico e mais previsibilidade para sua indústria.";
 @endphp
 
 @include('includes.top')
@@ -41,7 +43,7 @@ $kw = "Manstec Compressores de Ar - Contratos de Serviço"
           </div>
           <div class="col-lg-5">
             <div class="list-img fix img-cover">
-              <img src="assets/img/services/sd-img-1.png" alt="Contrato de manutenção técnica Manstec">
+              <img src="{{ URL('/') }}/assets/img/services/sd-img-1.png" alt="Contrato de manutenção técnica Manstec">
             </div>
           </div>
         </div>

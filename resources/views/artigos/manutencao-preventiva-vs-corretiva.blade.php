@@ -1,5 +1,10 @@
 @php
-$kw = "manutenção preventiva vs corretiva, manutenção compressores industrial, custo manutenção corretiva, vantagens manutenção preventiva, manutenção industrial eficiência"
+$kw = "manutenção preventiva vs corretiva, manutenção compressores industrial, custo manutenção corretiva, vantagens manutenção preventiva, manutenção industrial eficiência";
+$metaTitle = "Manutenção Preventiva vs Corretiva | Manstec";
+$metaDescription = "Guia técnico da Manstec sobre Manutenção Preventiva vs Corretiva. Entenda boas práticas, manutenção e formas de reduzir custos em sistemas de ar.";
+$schemaType = "Article";
+$datePublished = "2026-06-09";
+$dateModified = "2026-06-09";
 @endphp
 @include('includes.top')
 
