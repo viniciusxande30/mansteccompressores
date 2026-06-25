@@ -129,11 +129,13 @@ $router->get('/blog', 'TransporteController@blog');
 
 
 $router->get('/blog/automacao-com-ar-comprimido', function () {return view('artigos.automacao-com-ar-comprimido');});
+$router->get('/blog/assistencia-tecnica-compressores-de-ar', function () {return view('artigos.assistencia-tecnica-compressores-de-ar');});
 $router->get('/blog/auditoria-energetica-ar-comprimido', function () {return view('artigos.auditoria-energetica-ar-comprimido');});
 $router->get('/blog/checklist-completo', function () {return view('artigos.checklist-completo');});
 $router->get('/blog/como-funciona-um-compressor', function () {return view('artigos.como-funciona-um-compressor');});
 $router->get('/blog/como-identificar-vazamento-em-ar', function () {return view('artigos.como-identificar-vazamento-em-ar');});
 $router->get('/blog/compressor-com-inversor', function () {return view('artigos.compressor-com-inversor');});
+$router->get('/blog/compressor-de-parafuso-industrial', function () {return view('artigos.compressor-de-parafuso-industrial');});
 $router->get('/blog/contrato-manutencao-compressores', function () {return view('artigos.contrato-manutencao-compressores');});
 $router->get('/blog/custo-do-ar-comprimido', function () {return view('artigos.custo-do-ar-comprimido');});
 $router->get('/blog/custo-operacional', function () {return view('artigos.custo-operacional');});
@@ -173,11 +175,13 @@ $router->get('/sitemap.xml', function () {
         '/auditoria-e-inspecoes',
         '/redes-de-ar',
         '/blog/automacao-com-ar-comprimido',
+        '/blog/assistencia-tecnica-compressores-de-ar',
         '/blog/auditoria-energetica-ar-comprimido',
         '/blog/checklist-completo',
         '/blog/como-funciona-um-compressor',
         '/blog/como-identificar-vazamento-em-ar',
         '/blog/compressor-com-inversor',
+        '/blog/compressor-de-parafuso-industrial',
         '/blog/contrato-manutencao-compressores',
         '/blog/custo-do-ar-comprimido',
         '/blog/custo-operacional',
