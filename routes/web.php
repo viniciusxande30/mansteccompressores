@@ -151,10 +151,12 @@ $router->get('/blog/manutencao-preventiva-compressores', function () {return vie
 $router->get('/blog/manutencao-preventiva-vs-corretiva', function () {return view('artigos.manutencao-preventiva-vs-corretiva');});
 $router->get('/blog/nr13-em-compressores', function () {return view('artigos.nr13-em-compressores');});
 $router->get('/blog/pecas-para-compressores-de-ar', function () {return view('artigos.pecas-para-compressores-de-ar');});
+$router->get('/blog/ponto-de-orvalho-em-ar-comprimido', function () {return view('artigos.ponto-de-orvalho-em-ar-comprimido');});
 $router->get('/blog/perda-de-carga-na-rede-de-ar-comprimido', function () {return view('artigos.perda-de-carga-na-rede-de-ar-comprimido');});
 $router->get('/blog/pressao-ideal-em-compressores', function () {return view('artigos.pressao-ideal-em-compressores');});
 $router->get('/blog/qualidade-do-ar-comprimido', function () {return view('artigos.qualidade-do-ar-comprimido');});
 $router->get('/blog/reservatorio-de-ar-comprimido', function () {return view('artigos.reservatorio-de-ar-comprimido');});
+$router->get('/blog/tratamento-de-condensado-em-ar-comprimido', function () {return view('artigos.tratamento-de-condensado-em-ar-comprimido');});
 $router->get('/blog/retrofit-compressores-industriais', function () {return view('artigos.retrofit-compressores-industriais');});
 $router->get('/blog/secador-refrigerado-vs-adsorcao', function () {return view('artigos.secador-refrigerado-vs-adsorcao');});
 $router->get('/blog/secadores-de-ar-comprimido', function () {return view('artigos.secadores-de-ar-comprimido');});
@@ -199,10 +201,12 @@ $router->get('/sitemap.xml', function () {
         '/blog/manutencao-preventiva-vs-corretiva',
         '/blog/nr13-em-compressores',
         '/blog/pecas-para-compressores-de-ar',
+        '/blog/ponto-de-orvalho-em-ar-comprimido',
         '/blog/perda-de-carga-na-rede-de-ar-comprimido',
         '/blog/pressao-ideal-em-compressores',
         '/blog/qualidade-do-ar-comprimido',
         '/blog/reservatorio-de-ar-comprimido',
+        '/blog/tratamento-de-condensado-em-ar-comprimido',
         '/blog/retrofit-compressores-industriais',
         '/blog/secador-refrigerado-vs-adsorcao',
         '/blog/secadores-de-ar-comprimido',
