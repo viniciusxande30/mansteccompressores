@@ -151,8 +151,10 @@ $router->get('/blog/manutencao-preventiva-compressores', function () {return vie
 $router->get('/blog/manutencao-preventiva-vs-corretiva', function () {return view('artigos.manutencao-preventiva-vs-corretiva');});
 $router->get('/blog/nr13-em-compressores', function () {return view('artigos.nr13-em-compressores');});
 $router->get('/blog/pecas-para-compressores-de-ar', function () {return view('artigos.pecas-para-compressores-de-ar');});
+$router->get('/blog/pressostato-do-compressor-de-ar', function () {return view('artigos.pressostato-do-compressor-de-ar');});
 $router->get('/blog/filtro-coalescente-em-ar-comprimido', function () {return view('artigos.filtro-coalescente-em-ar-comprimido');});
 $router->get('/blog/ponto-de-orvalho-em-ar-comprimido', function () {return view('artigos.ponto-de-orvalho-em-ar-comprimido');});
+$router->get('/blog/valvula-de-seguranca-do-compressor-de-ar', function () {return view('artigos.valvula-de-seguranca-do-compressor-de-ar');});
 $router->get('/blog/separador-agua-oleo-em-ar-comprimido', function () {return view('artigos.separador-agua-oleo-em-ar-comprimido');});
 $router->get('/blog/perda-de-carga-na-rede-de-ar-comprimido', function () {return view('artigos.perda-de-carga-na-rede-de-ar-comprimido');});
 $router->get('/blog/pressao-ideal-em-compressores', function () {return view('artigos.pressao-ideal-em-compressores');});
@@ -203,8 +205,10 @@ $router->get('/sitemap.xml', function () {
         '/blog/manutencao-preventiva-vs-corretiva',
         '/blog/nr13-em-compressores',
         '/blog/pecas-para-compressores-de-ar',
+        '/blog/pressostato-do-compressor-de-ar',
         '/blog/filtro-coalescente-em-ar-comprimido',
         '/blog/ponto-de-orvalho-em-ar-comprimido',
+        '/blog/valvula-de-seguranca-do-compressor-de-ar',
         '/blog/separador-agua-oleo-em-ar-comprimido',
         '/blog/perda-de-carga-na-rede-de-ar-comprimido',
         '/blog/pressao-ideal-em-compressores',
