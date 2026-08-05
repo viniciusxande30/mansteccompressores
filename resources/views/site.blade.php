@@ -2,6 +2,12 @@
 $kw = "compressores de ar, manutenção de compressores, assistência técnica compressores, ar comprimido industrial, Manstec";
 $metaTitle = "Manstec Compressores de Ar | Manutenção e Assistência Técnica";
 $metaDescription = "Manutenção de compressores de ar, redes de ar comprimido, auditorias, peças, contratos e suporte técnico para reduzir paradas industriais.";
+ $homeHeroImage = URL('/') . '/assets/img/hero/h2-img-1-opt.webp';
+ $homeHeroBackground = URL('/') . '/assets/img/hero/h2-bg-1-opt.jpg';
+ $preloadImages = [
+   ['href' => $homeHeroImage, 'fetchpriority' => 'high'],
+   ['href' => $homeHeroBackground],
+ ];
 @endphp
 @include('includes.top')
 
@@ -114,7 +120,7 @@ details {
 
 
 		<!-- hero-start -->
-        <div class="fx-hero-2-area p-relative fix bg-default" data-background="{{ URL('/') }}/assets/img/hero/h2-bg-1.png" >
+        <div class="fx-hero-2-area p-relative fix bg-default" data-background="{{ $homeHeroBackground }}" style="background-image:url('{{ $homeHeroBackground }}');">
             <div class="fx-hero-2-slider">
                 <div class="swiper-container fx-hero-2-active fix">
                     <div class="swiper-wrapper">
@@ -124,7 +130,7 @@ details {
                             <div class="fx-hero-2-slider-item">
 
                                 <div class="fx-hero-2-slider-item-img ">
-                                    <img  src="{{ URL('/') }}/assets/img/hero/h2-img-1.png" alt="Manutenção de compressores de ar industriais">
+                                    <img src="{{ $homeHeroImage }}" alt="Manutenção de compressores de ar industriais" width="840" height="1065" loading="eager" fetchpriority="high" decoding="async">
                                 </div>
 
                                 <div class="container fx-container-1">
@@ -169,7 +175,7 @@ details {
                     <!-- single-item -->
                     <div class="fx-serve-1-slider-item">
                         <div class="item-img fix img-cover">
-                            <img src="{{ URL('/') }}/assets/img/serve/s1-img-1.png" alt="Manutenção preventiva de compressores de ar">
+                            <img src="{{ URL('/') }}/assets/img/serve/s1-img-1-opt.jpg" alt="Manutenção preventiva de compressores de ar" width="1536" height="1024" loading="lazy" decoding="async">
                         </div>
 
                         <div class="content">
@@ -188,7 +194,7 @@ details {
                     
                     <div class="fx-serve-1-slider-item">
                         <div class="item-img fix img-cover">
-                            <img src="{{ URL('/') }}/assets/img/serve/s1-img-2.png" alt="Manutenção corretiva e diagnóstico de compressores">
+                            <img src="{{ URL('/') }}/assets/img/serve/s1-img-2-opt.jpg" alt="Manutenção corretiva e diagnóstico de compressores" width="1080" height="1350" loading="lazy" decoding="async">
                         </div>
                         <div class="content">
                             <h5 class="item-title fx-heading-1 fx-font-500">
@@ -205,7 +211,7 @@ details {
 
                     <div class="fx-serve-1-slider-item">
                         <div class="item-img fix img-cover">
-                            <img src="{{ URL('/') }}/assets/img/serve/s1-img-3.png" alt="Kits de serviço e peças para compressores">
+                            <img src="{{ URL('/') }}/assets/img/serve/s1-img-3-opt.jpg" alt="Kits de serviço e peças para compressores" width="900" height="525" loading="lazy" decoding="async">
                         </div>
                         <div class="content">
                             <h5 class="item-title fx-heading-1 fx-font-500">
@@ -222,7 +228,7 @@ details {
 
                     <div class="fx-serve-1-slider-item">
                         <div class="item-img fix img-cover">
-                            <img src="{{ URL('/') }}/assets/img/serve/s1-img-4.png" alt="Contratos de serviço para compressores industriais">
+                            <img src="{{ URL('/') }}/assets/img/serve/s1-img-4.png" alt="Contratos de serviço para compressores industriais" width="384" height="256" loading="lazy" decoding="async">
                         </div>
                         <div class="content">
                             <h5 class="item-title fx-heading-1 fx-font-500">
@@ -239,7 +245,7 @@ details {
 
                     <div class="fx-serve-1-slider-item">
                         <div class="item-img fix img-cover">
-                            <img src="{{ URL('/') }}/assets/img/serve/s1-img-5.png" alt="Auditoria e inspeção de sistemas de ar comprimido">
+                            <img src="{{ URL('/') }}/assets/img/serve/s1-img-5-opt.jpg" alt="Auditoria e inspeção de sistemas de ar comprimido" width="1024" height="1536" loading="lazy" decoding="async">
                         </div>
                         <div class="content">
                             <h5 class="item-title fx-heading-1 fx-font-500">
@@ -256,7 +262,7 @@ details {
 
                      <div class="fx-serve-1-slider-item">
                         <div class="item-img fix img-cover">
-                            <img src="{{ URL('/') }}/assets/img/contact/c2-img-1.png" alt="Projetos e manutenção em redes de ar comprimido">
+                            <img src="{{ URL('/') }}/assets/img/contact/c2-img-1-opt.jpg" alt="Projetos e manutenção em redes de ar comprimido" width="800" height="1000" loading="lazy" decoding="async">
                         </div>
                         <div class="content">
                             <h5 class="item-title fx-heading-1 fx-font-500">
@@ -299,7 +305,7 @@ details {
                 ?>
                   <img src="{{ URL('/') }}/assets/img/marcas/<?= $i ?>.png" 
                        class="img-fluid" 
-                       alt="Marca <?= $i ?>">
+                       alt="Marca <?= $i ?>" loading="lazy" decoding="async">
                 <?php endfor; ?>
               </div>
             </div>
@@ -337,9 +343,9 @@ details {
 
                     <!-- single-card -->
                     <div class="fx-services-2-card">
-                        <img src="{{ URL('/') }}/assets/img/services/s2-card-illus.png" alt="" class="card-shape">
+                        <img src="{{ URL('/') }}/assets/img/services/s2-card-illus.png" alt="" class="card-shape" loading="lazy" decoding="async">
                         <div class="card-bg img-cover fix">
-                            <img src="{{ URL('/') }}/assets/img/services/s2-card-bg.png" alt="">
+                            <img src="{{ URL('/') }}/assets/img/services/s2-card-bg.png" alt="" loading="lazy" decoding="async">
                         </div>
                        
                         <h5 class="card-title fx-heading-2 fx-font-600 has-clr-white">
@@ -351,9 +357,9 @@ details {
 
                     <!-- single-card -->
                     <div class="fx-services-2-card">
-                        <img src="{{ URL('/') }}/assets/img/services/s2-card-illus.png" alt="" class="card-shape">
+                        <img src="{{ URL('/') }}/assets/img/services/s2-card-illus.png" alt="" class="card-shape" loading="lazy" decoding="async">
                         <div class="card-bg img-cover fix">
-                            <img src="{{ URL('/') }}/assets/img/services/s2-card-bg.png" alt="">
+                            <img src="{{ URL('/') }}/assets/img/services/s2-card-bg.png" alt="" loading="lazy" decoding="async">
                         </div>
                         
                         <h5 class="card-title fx-heading-2 fx-font-600 has-clr-white">
@@ -365,10 +371,10 @@ details {
 
                     <!-- single-card -->
                     <div class="fx-services-2-card">
-                        <img src="{{ URL('/') }}/assets/img/services/s2-card-illus.png" alt="" class="card-shape">
+                        <img src="{{ URL('/') }}/assets/img/services/s2-card-illus.png" alt="" class="card-shape" loading="lazy" decoding="async">
                         
                          <div class="card-bg img-cover fix">
-                            <img src="{{ URL('/') }}/assets/img/services/s2-card-bg.png" alt="">
+                            <img src="{{ URL('/') }}/assets/img/services/s2-card-bg.png" alt="" loading="lazy" decoding="async">
                         </div>
                         <h5 class="card-title fx-heading-2 fx-font-600 has-clr-white">
                             Suporte ao Cliente
@@ -379,9 +385,9 @@ details {
 
                     <!-- single-card -->
                     <div class="fx-services-2-card">
-                        <img src="{{ URL('/') }}/assets/img/services/s2-card-illus.png" alt="" class="card-shape">
+                        <img src="{{ URL('/') }}/assets/img/services/s2-card-illus.png" alt="" class="card-shape" loading="lazy" decoding="async">
                         <div class="card-bg img-cover fix">
-                            <img src="{{ URL('/') }}/assets/img/services/s2-card-bg.png" alt="">
+                            <img src="{{ URL('/') }}/assets/img/services/s2-card-bg.png" alt="" loading="lazy" decoding="async">
                         </div>
                         
                         <h5 class="card-title fx-heading-2 fx-font-600 has-clr-white">
@@ -401,7 +407,7 @@ details {
                 </div>
             </div>
             <div class="fx-services-2-bg-img fix">
-                <img class="txaaslideright fx-cube-1" src="{{ URL('/') }}/assets/img/services/s2-img-1.png" alt="Compressores de ar e soluções industriais Manstec">
+                <img class="txaaslideright fx-cube-1" src="{{ URL('/') }}/assets/img/services/s2-img-1-opt.jpg" alt="Compressores de ar e soluções industriais Manstec" width="640" height="960" loading="lazy" decoding="async">
             </div>
         </div>
         <!-- services-end -->
@@ -452,7 +458,7 @@ details {
                                     </div>
     
                                     <div class="fx-core-1-slider-item-img fix img-cover">
-                                        <img src="{{ URL('/') }}/assets/img/services/s2-img-1.png" alt="Peças para compressores de ar">
+                                        <img src="{{ URL('/') }}/assets/img/services/s2-img-1-opt.jpg" alt="Peças para compressores de ar" width="640" height="960" loading="lazy" decoding="async">
                                     </div>
     
                                     <div class="fx-core-1-slider-item-feature">
@@ -530,7 +536,7 @@ details {
                                     </div>
     
                                     <div class="fx-core-1-slider-item-img fix img-cover">
-                                        <img src="{{ URL('/') }}/assets/img/services/core-1-img-2.png" alt="Manutenção de compressores de ar industriais">
+                                        <img src="{{ URL('/') }}/assets/img/services/core-1-img-2-opt.jpg" alt="Manutenção de compressores de ar industriais" width="640" height="960" loading="lazy" decoding="async">
                                     </div>
     
                                     <div class="fx-core-1-slider-item-feature">
@@ -608,7 +614,7 @@ details {
                                     </div>
     
                                     <div class="fx-core-1-slider-item-img fix img-cover">
-                                        <img src="{{ URL('/') }}/assets/img/services/core-1-img-3.png" alt="Compressor de ar industrial em operação">
+                                        <img src="{{ URL('/') }}/assets/img/services/core-1-img-3-opt.jpg" alt="Compressor de ar industrial em operação" width="640" height="960" loading="lazy" decoding="async">
                                     </div>
     
                                     <div class="fx-core-1-slider-item-feature">
@@ -680,7 +686,7 @@ details {
                                     </div>
     
                                     <div class="fx-core-1-slider-item-img fix img-cover">
-                                        <img src="{{ URL('/') }}/assets/img/services/core-1-img-3.png" alt="Soluções para rede de ar comprimido industrial">
+                                        <img src="{{ URL('/') }}/assets/img/services/core-1-img-3-opt.jpg" alt="Soluções para rede de ar comprimido industrial" width="640" height="960" loading="lazy" decoding="async">
                                     </div>
     
                                     <div class="fx-core-1-slider-item-feature">
@@ -747,7 +753,7 @@ details {
 
             </div>
             <div class="fx-core-1-bg img-cover fix">
-                <img src="{{ URL('/') }}/assets/img/services/core1-bg.png" alt="">
+                <img src="{{ URL('/') }}/assets/img/services/core1-bg.png" alt="" loading="lazy" decoding="async">
             </div>            
         </div>
         <!-- core-services-end -->
@@ -822,7 +828,7 @@ details {
                         <div class="fx-contact-us-1-right">
                             
                             <div class="fx-contact-us-1-img fix img-cover">
-                                <img src="{{ URL('/') }}/assets/img/contact/c2-img-1.png" alt="Equipe técnica da Manstec para atendimento industrial">
+                                <img src="{{ URL('/') }}/assets/img/contact/c2-img-1-opt.jpg" alt="Equipe técnica da Manstec para atendimento industrial" width="800" height="1000" loading="lazy" decoding="async">
                             </div>
 
                             <div class="fx-contact-us-1-content fix">

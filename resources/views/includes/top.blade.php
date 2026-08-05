@@ -23,6 +23,21 @@
         $pageCanonical = $canonicalUrl ?? rtrim(URL('/'), '/') . ($requestPath ? '/' . $requestPath : '');
         $pageImage = $metaImage ?? URL('/') . '/assets/img/manstec.png';
         $pageType = $schemaType ?? 'website';
+        $baseAssetUrl = rtrim(URL('/'), '/');
+        $preloadImages = $preloadImages ?? [];
+        $criticalStyles = [
+            '/assets/css/bootstrap.min.css',
+            '/assets/css/swiper.min.css',
+            '/assets/css/main.css',
+        ];
+        $deferredStyles = [
+            '/assets/css/all.min.css',
+            '/assets/css/animate.css',
+            '/assets/css/magnific-popup.css',
+            '/assets/css/nice-select.css',
+            '/assets/css/custom_style.css',
+            '/assets/css/style.css',
+        ];
     @endphp
     <title>{{ $pageTitle }}</title>
     <meta name="description" content="{{ $pageDescription }}">
@@ -42,6 +57,11 @@
     <meta name="twitter:image" content="{{ $pageImage }}">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" type="image/x-icon" href="{{ URL('/') }}/assets/img/manstec.png">
+    <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin>
+
+    @foreach ($preloadImages as $preloadImage)
+    <link rel="preload" as="image" href="{{ $preloadImage['href'] }}"@if(!empty($preloadImage['fetchpriority'])) fetchpriority="{{ $preloadImage['fetchpriority'] }}"@endif>
+    @endforeach
 
     <script type="application/ld+json">
     {
@@ -95,15 +115,14 @@
     @endif
 
     <!-- CSS -->
-    <link rel="stylesheet" href="{{ URL('/') }}/assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="{{ URL('/') }}/assets/css/all.min.css">
-    <link rel="stylesheet" href="{{ URL('/') }}/assets/css/nice-select.css">
-    <link rel="stylesheet" href="{{ URL('/') }}/assets/css/swiper.min.css">
-    <link rel="stylesheet" href="{{ URL('/') }}/assets/css/animate.css">
-    <link rel="stylesheet" href="{{ URL('/') }}/assets/css/magnific-popup.css">
-    <link rel="stylesheet" href="{{ URL('/') }}/assets/css/main.css">
-    <link rel="stylesheet" href="{{ URL('/') }}/assets/css/custom_style.css">
-    <link rel="stylesheet" href="{{ URL('/') }}/assets/css/style.css">
+    @foreach ($criticalStyles as $criticalStyle)
+    <link rel="stylesheet" href="{{ $baseAssetUrl . $criticalStyle }}">
+    @endforeach
+
+    @foreach ($deferredStyles as $deferredStyle)
+    <link rel="preload" as="style" href="{{ $baseAssetUrl . $deferredStyle }}" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="{{ $baseAssetUrl . $deferredStyle }}"></noscript>
+    @endforeach
 </head>
 
 
@@ -155,7 +174,7 @@
                     <!-- logo -->
                     <div class="fx-header-2-logo-box">
                         <a href="{{url('/')}}" aria-label="Manstec Compressores" class="fx-header-2-main-logo">
-                            <img src="{{ url('/') }}/assets/img/manstec.png" alt="Manstec Compressores de Ar"  style="width:150px">
+                            <img src="{{ url('/') }}/assets/img/manstec.png" alt="Manstec Compressores de Ar" width="150" height="150" decoding="async" style="width:150px;height:auto;">
                         </a>
                     </div>
 

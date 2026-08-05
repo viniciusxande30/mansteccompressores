@@ -145,15 +145,9 @@
         <script src="{{ URL('/') }}/assets/js/jquery-3.7.1.min.js"></script>
         <script src="{{ URL('/') }}/assets/js/bootstrap.bundle.min.js"></script>
         <script src="{{ URL('/') }}/assets/js/swiper-bundle.min.js"></script>
-        <script src="{{ URL('/') }}/assets/js/wow.js"></script>
-        <script src="{{ URL('/') }}/assets/js/nice-select.min.js"></script>
-        <script src="{{ URL('/') }}/assets/js/marquee.min.js"></script>
-        <script src="{{ URL('/') }}/assets/js/magnific-popup.min.js"></script>
         <script src="{{ URL('/') }}/assets/js/SplitText.min.js"></script>
         <script src="{{ URL('/') }}/assets/js/gsap.min.js"></script>
         <script src="{{ URL('/') }}/assets/js/CustomEase.min.js"></script>
-        <script src="{{ URL('/') }}/assets/js/counterup.min.js"></script>
-        <script src="{{ URL('/') }}/assets/js/waypoints.min.js"></script>
         <script src="{{ URL('/') }}/assets/js/lenis.min.js"></script>
         <script src="{{ URL('/') }}/assets/js/ScrollTrigger.min.js"></script>
         <script src="{{ URL('/') }}/assets/js/main.js"></script>
