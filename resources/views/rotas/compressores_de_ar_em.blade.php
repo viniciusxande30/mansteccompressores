@@ -6,7 +6,7 @@ $metaDescription = "Atendimento técnico para compressores de ar em {$destino}: 
 @include('includes.top')
 
 
-<div class="breadcrumb-area bg-default " data-background="{{URL('/')}}/assets/img/hero/h2-bg-1.png">
+<div class="breadcrumb-area bg-default " data-background="{{URL('/')}}/assets/img/hero/h2-bg-1-opt.jpg">
             <div class="container fx-container-1">
                 <div class="breadcrumb-wrap">
 

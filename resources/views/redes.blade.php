@@ -5,7 +5,7 @@ $metaDescription = "Projetos, instalação e manutenção de redes de ar comprim
 @endphp
 @include('includes.top')
 
-<div class="breadcrumb-area bg-default" data-background="{{URL('/')}}/assets/img/hero/h2-bg-1.png">
+<div class="breadcrumb-area bg-default" data-background="{{URL('/')}}/assets/img/hero/h2-bg-1-opt.jpg">
   <div class="container fx-container-1">
     <div class="breadcrumb-wrap">
       <div class="breadcrumb-content">
@@ -48,7 +48,7 @@ $metaDescription = "Projetos, instalação e manutenção de redes de ar comprim
           </div>
           <div class="col-lg-5">
             <div class="list-img fix img-cover">
-              <img src="{{URL('/')}}/assets/img/services/sd-img-1.png" 
+              <img src="{{URL('/')}}/assets/img/services/sd-img-1-opt.webp" 
                    alt="Projetos e manutenção em redes de ar comprimido">
             </div>
           </div>

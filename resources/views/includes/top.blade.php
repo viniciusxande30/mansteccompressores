@@ -2,14 +2,25 @@
 <html class="no-js" lang="pt-br">
     
     <head>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-7WM4MWQR9N"></script>
     <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+    window.addEventListener('load', function () {
+        var loadAnalytics = function () {
+            var analyticsScript = document.createElement('script');
+            analyticsScript.src = 'https://www.googletagmanager.com/gtag/js?id=G-7WM4MWQR9N';
+            analyticsScript.async = true;
+            document.head.appendChild(analyticsScript);
+            gtag('js', new Date());
+            gtag('config', 'G-7WM4MWQR9N');
+        };
 
-    gtag('config', 'G-7WM4MWQR9N');
+        if ('requestIdleCallback' in window) {
+            requestIdleCallback(loadAnalytics, { timeout: 2000 });
+        } else {
+            setTimeout(loadAnalytics, 1200);
+        }
+    }, { once: true });
     </script>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -25,7 +36,12 @@
         $pageType = $schemaType ?? 'website';
         $baseAssetUrl = rtrim(URL('/'), '/');
         $preloadImages = $preloadImages ?? [];
+        $fontPreloads = [
+            '/assets/fonts/roboto-latin.woff2',
+            '/assets/fonts/teko-latin.woff2',
+        ];
         $criticalStyles = [
+            '/assets/css/local-fonts.css',
             '/assets/css/bootstrap.min.css',
             '/assets/css/swiper.min.css',
             '/assets/css/main.css',
@@ -58,6 +74,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" type="image/x-icon" href="{{ URL('/') }}/assets/img/manstec.png">
     <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin>
+
+    @foreach ($fontPreloads as $fontPreload)
+    <link rel="preload" as="font" href="{{ $baseAssetUrl . $fontPreload }}" type="font/woff2" crossorigin>
+    @endforeach
 
     @foreach ($preloadImages as $preloadImage)
     <link rel="preload" as="image" href="{{ $preloadImage['href'] }}"@if(!empty($preloadImage['fetchpriority'])) fetchpriority="{{ $preloadImage['fetchpriority'] }}"@endif>
@@ -174,7 +194,7 @@
                     <!-- logo -->
                     <div class="fx-header-2-logo-box">
                         <a href="{{url('/')}}" aria-label="Manstec Compressores" class="fx-header-2-main-logo">
-                            <img src="{{ url('/') }}/assets/img/manstec.png" alt="Manstec Compressores de Ar" width="150" height="150" decoding="async" style="width:150px;height:auto;">
+                            <img src="{{ url('/') }}/assets/img/manstec-opt.webp" alt="Manstec Compressores de Ar" width="150" height="150" decoding="async" fetchpriority="high" style="width:150px;height:auto;">
                         </a>
                     </div>
 

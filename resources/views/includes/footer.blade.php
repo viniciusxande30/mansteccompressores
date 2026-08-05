@@ -5,7 +5,7 @@
         <div class="fx-gap-12"></div>
 
         <!-- footer-start -->
-        <div class="fx-footer-1-area fix  bg-default" data-background="{{ url('/') }}/assets/img/footer/f2-bg-1.png">
+        <div class="fx-footer-1-area fix  bg-default" data-background="{{ url('/') }}/assets/img/footer/f2-bg-1-opt.webp">
             <div class="container fx-container-1">
                 <div class="fx-footer-1-widget pt-120 pb-95">
 
@@ -13,7 +13,7 @@
                     <div class="fx-footer-1-widget-single has-footer-2">
                         <div class="fx-footer-1-logo fix txxaslideup">
                             <a class="txxaslideup-item fx-cube-1" href="{{ url('/') }}" aria-label="Manstec Compressores">
-                                <img src="{{ url('/') }}/assets/img/manstec.png" alt="Manstec Compressores de Ar">
+                                <img src="{{ url('/') }}/assets/img/manstec-opt.webp" alt="Manstec Compressores de Ar" width="160" height="160" loading="lazy" decoding="async" style="width:160px;height:auto;">
                             </a>
                         </div>
                     </div>
@@ -142,15 +142,15 @@
         </div>
         
 		<!-- JS here -->
-        <script src="{{ URL('/') }}/assets/js/jquery-3.7.1.min.js"></script>
-        <script src="{{ URL('/') }}/assets/js/bootstrap.bundle.min.js"></script>
-        <script src="{{ URL('/') }}/assets/js/swiper-bundle.min.js"></script>
-        <script src="{{ URL('/') }}/assets/js/SplitText.min.js"></script>
-        <script src="{{ URL('/') }}/assets/js/gsap.min.js"></script>
-        <script src="{{ URL('/') }}/assets/js/CustomEase.min.js"></script>
-        <script src="{{ URL('/') }}/assets/js/lenis.min.js"></script>
-        <script src="{{ URL('/') }}/assets/js/ScrollTrigger.min.js"></script>
-        <script src="{{ URL('/') }}/assets/js/main.js"></script>
+        <script defer src="{{ URL('/') }}/assets/js/jquery-3.7.1.min.js"></script>
+        <script defer src="{{ URL('/') }}/assets/js/bootstrap.bundle.min.js"></script>
+        <script defer src="{{ URL('/') }}/assets/js/swiper-bundle.min.js"></script>
+        <script defer src="{{ URL('/') }}/assets/js/gsap.min.js"></script>
+        <script defer src="{{ URL('/') }}/assets/js/ScrollTrigger.min.js"></script>
+        <script defer src="{{ URL('/') }}/assets/js/SplitText.min.js"></script>
+        <script defer src="{{ URL('/') }}/assets/js/CustomEase.min.js"></script>
+        <script defer src="{{ URL('/') }}/assets/js/lenis.min.js"></script>
+        <script defer src="{{ URL('/') }}/assets/js/main.js"></script>
         @include('includes.emergency-popup-script')
 
 

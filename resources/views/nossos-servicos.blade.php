@@ -8,7 +8,7 @@ $metaDescription = "Serviços técnicos para compressores de ar: manutenção pr
 
 
 
-<div class="breadcrumb-area bg-default " data-background="{{URL('/')}}/assets/img/hero/h2-bg-1.png">
+<div class="breadcrumb-area bg-default " data-background="{{URL('/')}}/assets/img/hero/h2-bg-1-opt.jpg">
             <div class="container fx-container-1">
                 <div class="breadcrumb-wrap">
 
@@ -52,7 +52,7 @@ $metaDescription = "Serviços técnicos para compressores de ar: manutenção pr
       <!-- Manutenção em compressores e secadores -->
       <div class="fx-serve-1-slider-item">
         <div class="item-img fix img-cover">
-          <img src="{{ URL('/') }}/assets/img/serve/s1-img-1.png" alt="Manutenção em compressores e secadores">
+          <img loading="lazy" decoding="async" src="{{ URL('/') }}/assets/img/serve/s1-img-1-opt.jpg" alt="Manutenção em compressores e secadores">
         </div>
         <div class="content">
           <h5 class="item-title fx-heading-1 fx-font-500">
@@ -71,7 +71,7 @@ $metaDescription = "Serviços técnicos para compressores de ar: manutenção pr
       <!-- Redes de ar comprimido -->
       <div class="fx-serve-1-slider-item">
         <div class="item-img fix img-cover">
-          <img src="{{ URL('/') }}/assets/img/serve/s1-img-2.png" alt="Redes de ar comprimido">
+          <img loading="lazy" decoding="async" src="{{ URL('/') }}/assets/img/serve/s1-img-2-opt.jpg" alt="Redes de ar comprimido">
         </div>
         <div class="content">
           <h5 class="item-title fx-heading-1 fx-font-500">
@@ -88,7 +88,7 @@ $metaDescription = "Serviços técnicos para compressores de ar: manutenção pr
       <!-- Contratos de manutenção -->
       <div class="fx-serve-1-slider-item">
         <div class="item-img fix img-cover">
-          <img src="{{ URL('/') }}/assets/img/serve/s1-img-3.png" alt="Contratos de manutenção">
+          <img loading="lazy" decoding="async" src="{{ URL('/') }}/assets/img/serve/s1-img-3-opt.jpg" alt="Contratos de manutenção">
         </div>
         <div class="content">
           <h5 class="item-title fx-heading-1 fx-font-500">
@@ -105,7 +105,7 @@ $metaDescription = "Serviços técnicos para compressores de ar: manutenção pr
       <!-- Laudos NR-13 para vasos de pressão -->
       <div class="fx-serve-1-slider-item">
         <div class="item-img fix img-cover">
-          <img src="{{ URL('/') }}/assets/img/serve/s1-img-4.png" alt="Laudos NR-13 para vasos de pressão">
+          <img loading="lazy" decoding="async" src="{{ URL('/') }}/assets/img/serve/s1-img-4.png" alt="Laudos NR-13 para vasos de pressão">
         </div>
         <div class="content">
           <h5 class="item-title fx-heading-1 fx-font-500">
@@ -122,7 +122,7 @@ $metaDescription = "Serviços técnicos para compressores de ar: manutenção pr
       <!-- Secadores e tratamento do ar -->
       <div class="fx-serve-1-slider-item">
         <div class="item-img fix img-cover">
-          <img src="{{ URL('/') }}/assets/img/serve/s1-img-5.png" alt="Secadores e tratamento do ar">
+          <img loading="lazy" decoding="async" src="{{ URL('/') }}/assets/img/serve/s1-img-5-opt.jpg" alt="Secadores e tratamento do ar">
         </div>
         <div class="content">
           <h5 class="item-title fx-heading-1 fx-font-500">
@@ -139,7 +139,7 @@ $metaDescription = "Serviços técnicos para compressores de ar: manutenção pr
       <!-- Peças, kits e otimização/eficiência -->
       <div class="fx-serve-1-slider-item">
         <div class="item-img fix img-cover">
-          <img src="{{ URL('/') }}/assets/img/serve/s1-img-6.png" alt="Peças, kits e eficiência energética">
+          <img loading="lazy" decoding="async" src="{{ URL('/') }}/assets/img/serve/s1-img-6.png" alt="Peças, kits e eficiência energética">
         </div>
         <div class="content">
           <h5 class="item-title fx-heading-1 fx-font-500">

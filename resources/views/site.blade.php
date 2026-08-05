@@ -328,7 +328,7 @@ details {
 		
 
         <!-- services-start -->
-        <div class="fx-services-2-area bg-default pt-120 pb-120 p-relative " data-background="{{ URL('/') }}/assets/img/services/s2-bg-1.png">
+        <div class="fx-services-2-area bg-default pt-120 pb-120 p-relative " data-background="{{ URL('/') }}/assets/img/services/s2-bg-1-opt.webp">
             <div class="container fx-container-1">
                 <!-- section-title -->
                 <div class="fx-services-2-scn-title mb-55">

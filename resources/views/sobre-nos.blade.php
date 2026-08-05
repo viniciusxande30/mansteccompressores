@@ -113,7 +113,7 @@ details {
 </style>
 
 <!-- ====== BREADCRUMB ====== -->
-<div class="breadcrumb-area bg-default" data-background="{{ URL('/') }}/assets/img/hero/h2-bg-1.png" role="region" aria-label="Trilha de navegação">
+<div class="breadcrumb-area bg-default" data-background="{{ URL('/') }}/assets/img/hero/h2-bg-1-opt.jpg" role="region" aria-label="Trilha de navegação">
   <div class="container fx-container-1">
     <div class="breadcrumb-wrap">
       <div class="breadcrumb-content text-center">

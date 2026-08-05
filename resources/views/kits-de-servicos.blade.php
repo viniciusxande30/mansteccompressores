@@ -6,7 +6,7 @@ $metaDescription = "Kits de serviço e peças para compressores de ar industriai
 
 @include('includes.top')
 
-<div class="breadcrumb-area bg-default" data-background="{{URL('/')}}/assets/img/hero/h2-bg-1.png">
+<div class="breadcrumb-area bg-default" data-background="{{URL('/')}}/assets/img/hero/h2-bg-1-opt.jpg">
   <div class="container fx-container-1">
     <div class="breadcrumb-wrap">
       <div class="breadcrumb-content">
@@ -43,7 +43,7 @@ $metaDescription = "Kits de serviço e peças para compressores de ar industriai
           </div>
           <div class="col-lg-5">
             <div class="list-img fix img-cover">
-              <img src="{{ URL('/') }}/assets/img/services/sd-img-1.png" alt="Kit de serviços para compressores e secadores">
+              <img src="{{ URL('/') }}/assets/img/services/sd-img-1-opt.webp" alt="Kit de serviços para compressores e secadores">
             </div>
           </div>
         </div>

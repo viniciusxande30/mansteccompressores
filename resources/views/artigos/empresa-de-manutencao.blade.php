@@ -8,7 +8,7 @@ $dateModified = "2026-06-09";
 @endphp
 @include('includes.top')
 
-<div class="breadcrumb-area bg-default" data-background="{{URL('/')}}/assets/img/hero/h2-bg-1.png">
+<div class="breadcrumb-area bg-default" data-background="{{URL('/')}}/assets/img/hero/h2-bg-1-opt.jpg">
   <div class="container fx-container-1">
     <div class="breadcrumb-wrap">
       <div class="breadcrumb-content">
@@ -99,7 +99,7 @@ $dateModified = "2026-06-09";
 
           <div class="col-lg-5">
             <div class="list-img fix img-cover">
-              <img src="{{ URL('/') }}/assets/img/services/sd-img-1.png" alt="Empresa de manutenção de compressores industriais">
+              <img src="{{ URL('/') }}/assets/img/services/sd-img-1-opt.webp" alt="Empresa de manutenção de compressores industriais">
             </div>
           </div>
         </div>
