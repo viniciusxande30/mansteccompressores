@@ -1758,7 +1758,7 @@ input:focus::placeholder, textarea:focus::placeholder {
   color: #000;
   line-height: 1;
   margin-bottom: 0;
-  opacity: 64%;
+  opacity: 92%;
   margin-bottom: 20px;
   font-weight: 400;
 }
@@ -4805,7 +4805,7 @@ input:focus::placeholder, textarea:focus::placeholder {
   margin-bottom: 23px;
 }
 .fx-hero-2-slider-item-number span {
-  opacity: 40%;
+  opacity: 78%;
 }
 .fx-hero-2-slider-item-number span:nth-child(1) {
   opacity: 1;

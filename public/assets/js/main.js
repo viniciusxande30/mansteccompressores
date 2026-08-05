@@ -57,183 +57,183 @@ if (manstecMotionEnabled && typeof Lenis !== "undefined") {
 document.addEventListener("DOMContentLoaded", function () {
 
 	let preloader = document.querySelector("#preloader");
+	const hasMultipleSlides = function (selector) {
+		return document.querySelectorAll(selector + " .swiper-slide").length > 1;
+	};
+	const initializeAboveFoldUi = function () {
+		/* 
+			home-1-hero
+		*/
+		if($('.fx-hero-1-active').length && hasMultipleSlides('.fx-hero-1-active')) {
+			let slider = new Swiper('.fx-hero-1-active', {
+				loop: true,
+				spaceBetween: 0,
+				speed: 500,
+				effect: "fade",
+				fadeEffect: {
+					crossFade: true
+				},
+				autoplay: {
+					delay: 4000,
+				},
+		
+				pagination: {
+					el: ".fx-hero-1-pagination",
+					clickable: true,
+				},
+		
+		
+			});
+		}
+
+		/* 
+			home-2-hero
+		*/
+		if($('.fx-hero-2-active').length && hasMultipleSlides('.fx-hero-2-active')) {
+			let slider = new Swiper('.fx-hero-2-active', {
+				loop: true,
+				spaceBetween: 0,
+				speed: 500,
+				autoplay: {
+					delay: 4000,
+				},
+		
+				pagination: {
+					el: ".fx-hero-2-pagination",
+					clickable: true,
+				  },
+		
+		
+			});
+		}
+
+		/* 
+			home-3-hero
+		*/
+		if($('.fx-hero-3-active').length && hasMultipleSlides('.fx-hero-3-active')) {
+			let slider = new Swiper('.fx-hero-3-active', {
+				loop: true,
+				spaceBetween: 0,
+				speed: 500,
+				autoplay: {
+					delay: 4000,
+				},
+		
+				pagination: {
+					el: ".fx-hero-3-pagination",
+					clickable: true,
+				},
+		
+				navigation: {
+					nextEl: ".fx-h3-slider-next",
+					prevEl: ".fx-h3-slider-prev",
+				},
+		
+			});
+		}
+
+		/* 
+			home-4-hero
+		*/
+		if($('.fx-hero-4-active').length && hasMultipleSlides('.fx-hero-4-active')) {
+			let slider = new Swiper('.fx-hero-4-active', {
+				loop: true,
+				spaceBetween: 0,
+				speed: 500,
+				autoplay: {
+					delay: 4000,
+				},
+
+		
+				pagination: {
+					el: ".fx-hero-4-pagination",
+					clickable: true,
+				},
+		
+
+			});
+		}
+
+		/* 
+			home-5-hero
+		*/
+		if($('.fx-h5-active').length && hasMultipleSlides('.fx-h5-active')) {
+			let slider = new Swiper('.fx-h5-active', {
+				loop: true,
+				spaceBetween: 40,
+				speed: 500,
+				direction: "vertical",
+				mousewheel: true,
+				autoplay: {
+					delay: 4000,
+				},
+		
+				pagination: {
+					el: ".fx-hero-5-pagination",
+					clickable: true,
+				},
+		
+		
+			});
+		}
+
+		/* 
+			home-3-hero
+		*/
+		if($('.fx-h6-active').length && hasMultipleSlides('.fx-h6-active')) {
+			let slider = new Swiper('.fx-h6-active', {
+				loop: true,
+				spaceBetween: 0,
+				speed: 500,
+				autoplay: {
+					delay: 4000,
+				},
+		
+			});
+		}
+
+		if($('.fx-h6-active2').length && hasMultipleSlides('.fx-h6-active2')) {
+			let slider = new Swiper('.fx-h6-active2', {
+				loop: true,
+				spaceBetween: 0,
+				speed: 500,
+				autoplay: {
+					delay: 5000,
+				},
+		
+				navigation: {
+					nextEl: ".fx-h6-slider-next",
+					prevEl: ".fx-h6-slider-prev",
+				},
+		
+			});
+		}
+
+		if (manstecHasGsap) {
+			var fxh6imgglow = gsap.timeline();
+			fxh6imgglow.to(".fx-hero-6-bg-glow" , { opacity: .7,  duration:1 })
+			fxh6imgglow.to(".fx-hero-6-img-glow" , { xPercent: -100,  duration:1 },"<.5")
+			fxh6imgglow.to(".fx-hero-6-img-glow-2" , { xPercent: -100,  duration:1 , })
+		}
+
+		/* 
+			breadcrumb
+		*/
+		if (manstecHasGsap) {
+			var breadcrumb = gsap.timeline();
+			breadcrumb.to(".breadcrumb-title .split-line div" , { yPercent: -100, delay: -.5, })
+			breadcrumb.to(".breadcrumb-slideup" , { yPercent: -100, })
+		}
+	};
 
 	window.addEventListener('load', function(){
 
 		if (preloader) {
 			preloader.classList.add("preloaded");
-			setTimeout(function () {
-				  preloader.remove();
-			}, 1000 ) ;
-
+			preloader.remove();
 		}
 
-		setTimeout(function() {
-			/* 
-				home-1-hero
-			*/
-			if($('.fx-hero-1-active').length) {
-				let slider = new Swiper('.fx-hero-1-active', {
-					loop: true,
-					spaceBetween: 0,
-					speed: 500,
-					effect: "fade",
-					fadeEffect: {
-						crossFade: true
-					},
-					autoplay: {
-						delay: 4000,
-					},
-			
-					pagination: {
-						el: ".fx-hero-1-pagination",
-						clickable: true,
-					},
-			
-			
-				});
-			}
-
-			/* 
-				home-2-hero
-			*/
-			if($('.fx-hero-2-active').length) {
-				let slider = new Swiper('.fx-hero-2-active', {
-					loop: true,
-					spaceBetween: 0,
-					speed: 500,
-					autoplay: {
-						delay: 4000,
-					},
-			
-					pagination: {
-						el: ".fx-hero-2-pagination",
-						clickable: true,
-					  },
-			
-			
-				});
-			}
-
-			/* 
-				home-3-hero
-			*/
-			if($('.fx-hero-3-active').length) {
-				let slider = new Swiper('.fx-hero-3-active', {
-					loop: true,
-					spaceBetween: 0,
-					speed: 500,
-					autoplay: {
-						delay: 4000,
-					},
-			
-					pagination: {
-						el: ".fx-hero-3-pagination",
-						clickable: true,
-					},
-			
-					navigation: {
-						nextEl: ".fx-h3-slider-next",
-						prevEl: ".fx-h3-slider-prev",
-					},
-			
-				});
-			}
-
-			/* 
-				home-4-hero
-			*/
-			if($('.fx-hero-4-active').length) {
-				let slider = new Swiper('.fx-hero-4-active', {
-					loop: true,
-					spaceBetween: 0,
-					speed: 500,
-					autoplay: {
-						delay: 4000,
-					},
-
-			
-					pagination: {
-						el: ".fx-hero-4-pagination",
-						clickable: true,
-					},
-			
-
-				});
-			}
-
-			/* 
-				home-5-hero
-			*/
-			if($('.fx-h5-active').length) {
-				let slider = new Swiper('.fx-h5-active', {
-					loop: true,
-					spaceBetween: 40,
-					speed: 500,
-					direction: "vertical",
-					mousewheel: true,
-					autoplay: {
-						delay: 4000,
-					},
-			
-					pagination: {
-						el: ".fx-hero-5-pagination",
-						clickable: true,
-					},
-			
-			
-				});
-			}
-
-			/* 
-				home-3-hero
-			*/
-			if($('.fx-h6-active').length) {
-				let slider = new Swiper('.fx-h6-active', {
-					loop: true,
-					spaceBetween: 0,
-					speed: 500,
-					autoplay: {
-						delay: 4000,
-					},
-			
-				});
-			}
-
-			if($('.fx-h6-active2').length) {
-				let slider = new Swiper('.fx-h6-active2', {
-					loop: true,
-					spaceBetween: 0,
-					speed: 500,
-					autoplay: {
-						delay: 5000,
-					},
-			
-					navigation: {
-						nextEl: ".fx-h6-slider-next",
-						prevEl: ".fx-h6-slider-prev",
-					},
-			
-				});
-			}
-
-			if (manstecHasGsap) {
-				var fxh6imgglow = gsap.timeline();
-				fxh6imgglow.to(".fx-hero-6-bg-glow" , { opacity: .7,  duration:1 })
-				fxh6imgglow.to(".fx-hero-6-img-glow" , { xPercent: -100,  duration:1 },"<.5")
-				fxh6imgglow.to(".fx-hero-6-img-glow-2" , { xPercent: -100,  duration:1 , })
-			}
-
-			/* 
-				breadcrumb
-			*/
-			if (manstecHasGsap) {
-				var breadcrumb = gsap.timeline();
-				breadcrumb.to(".breadcrumb-title .split-line div" , { yPercent: -100, delay: -.5, })
-				breadcrumb.to(".breadcrumb-slideup" , { yPercent: -100, })
-			}
-
-		}, 500);
+		initializeAboveFoldUi();
 
 		/* 
 			title-animation
