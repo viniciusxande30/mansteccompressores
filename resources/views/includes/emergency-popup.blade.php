@@ -13,7 +13,7 @@
   font-weight: 700;
   box-shadow: 0 16px 34px rgba(255, 95, 0, 0.35);
   transition: transform 0.25s ease, box-shadow 0.25s ease;
-  animation: manstecLeadPulse 3s ease-in-out 2;
+  animation: manstecLeadPulse 1.7s infinite;
 }
 
 .cbh-phone {
@@ -45,30 +45,8 @@ body.manstec-popup-open .cbh-phone {
   50% { transform: translateY(-2px); }
 }
 
-@media (prefers-reduced-motion: reduce) {
-  .manstec-lead-fab {
-    animation: none;
-  }
-
-  .manstec-popup-card {
-    animation: none;
-  }
-}
-
 .manstec-popup-open {
   overflow: hidden;
-}
-
-.manstec-lead-modal {
-  display: none;
-}
-
-.manstec-lead-modal.show {
-  display: block;
-}
-
-.modal-backdrop {
-  display: none;
 }
 
 .manstec-lead-modal .modal-dialog {
@@ -451,7 +429,7 @@ body.manstec-popup-open .cbh-phone {
   <span>Fale agora com um especialista</span>
 </button>
 
-<div class="modal fade manstec-lead-modal" id="manstec-contact-popup" tabindex="-1" aria-labelledby="manstec-popup-title" aria-hidden="true" style="display:none;">
+<div class="modal fade manstec-lead-modal" id="manstec-contact-popup" tabindex="-1" aria-labelledby="manstec-popup-title" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl modal-fullscreen-sm-down">
     <div class="modal-content manstec-popup-card">
       <div class="modal-body">

@@ -4,16 +4,8 @@
     <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
-    (function () {
-        var analyticsLoaded = false;
-
+    window.addEventListener('load', function () {
         var loadAnalytics = function () {
-            if (analyticsLoaded) {
-                return;
-            }
-
-            analyticsLoaded = true;
-
             var analyticsScript = document.createElement('script');
             analyticsScript.src = 'https://www.googletagmanager.com/gtag/js?id=G-7WM4MWQR9N';
             analyticsScript.async = true;
@@ -22,18 +14,12 @@
             gtag('config', 'G-7WM4MWQR9N');
         };
 
-        var scheduleAnalytics = function () {
-            if ('requestIdleCallback' in window) {
-                requestIdleCallback(loadAnalytics, { timeout: 3000 });
-            } else {
-                setTimeout(loadAnalytics, 1500);
-            }
-        };
-
-        ['pointerdown', 'keydown', 'touchstart', 'scroll'].forEach(function (eventName) {
-            window.addEventListener(eventName, scheduleAnalytics, { once: true, passive: true });
-        });
-    })();
+        if ('requestIdleCallback' in window) {
+            requestIdleCallback(loadAnalytics, { timeout: 2000 });
+        } else {
+            setTimeout(loadAnalytics, 1200);
+        }
+    }, { once: true });
     </script>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -44,9 +30,8 @@
             : 'Solucoes completas em manutencao de compressores de ar, redes de ar comprimido, eficiencia energetica e suporte tecnico industrial.');
         $pageKeywords = $metaKeywords ?? ($kw ?? 'manutencao de compressores de ar, compressores industriais, ar comprimido industrial, Manstec');
         $requestPath = trim(app('request')->getPathInfo(), '/');
-        $isHomePage = $requestPath === '';
         $pageCanonical = $canonicalUrl ?? rtrim(URL('/'), '/') . ($requestPath ? '/' . $requestPath : '');
-        $pageImage = $metaImage ?? URL('/') . '/assets/img/manstec-opt.webp';
+        $pageImage = $metaImage ?? URL('/') . '/assets/img/manstec.png';
         $pageType = $schemaType ?? 'website';
         $baseAssetUrl = rtrim(URL('/'), '/');
         $preloadImages = $preloadImages ?? [];
@@ -54,37 +39,20 @@
             '/assets/fonts/roboto-latin.woff2',
             '/assets/fonts/teko-latin.woff2',
         ];
-        $inlineStyleFiles = [
-            'assets/css/local-fonts.css',
-            'assets/css/critical.css',
-        ];
-
-        if ($isHomePage) {
-            $inlineStyleFiles[] = 'assets/css/icons.css';
-        }
-
-        $inlineStyles = '';
-        foreach ($inlineStyleFiles as $inlineStyleFile) {
-            $inlineStylePath = base_path('public/' . ltrim($inlineStyleFile, '/'));
-            if (is_file($inlineStylePath)) {
-                $inlineStyles .= file_get_contents($inlineStylePath) . PHP_EOL;
-            }
-        }
-
-        $deferredStyles = [
+        $criticalStyles = [
+            '/assets/css/local-fonts.css',
             '/assets/css/bootstrap.min.css',
             '/assets/css/swiper.min.css',
-            '/assets/css/main.min.css',
+            '/assets/css/main.css',
+        ];
+        $deferredStyles = [
+            '/assets/css/all.min.css',
             '/assets/css/animate.css',
             '/assets/css/magnific-popup.css',
             '/assets/css/nice-select.css',
             '/assets/css/custom_style.css',
             '/assets/css/style.css',
         ];
-
-        if (!$isHomePage) {
-            array_unshift($deferredStyles, '/assets/css/all.min.css');
-        }
     @endphp
     <title>{{ $pageTitle }}</title>
     <meta name="description" content="{{ $pageDescription }}">
@@ -103,7 +71,8 @@
     <meta name="twitter:description" content="{{ $pageDescription }}">
     <meta name="twitter:image" content="{{ $pageImage }}">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/png" sizes="32x32" href="{{ URL('/') }}/assets/img/favicon-32.png">
+    <link rel="shortcut icon" type="image/x-icon" href="{{ URL('/') }}/assets/img/manstec.png">
+    <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin>
 
     @foreach ($fontPreloads as $fontPreload)
     <link rel="preload" as="font" href="{{ $baseAssetUrl . $fontPreload }}" type="font/woff2" crossorigin>
@@ -120,7 +89,7 @@
       "@id": "{{ URL('/') }}/#manstec",
       "name": "Manstec Compressores",
       "url": "{{ URL('/') }}",
-      "image": "{{ $pageImage }}",
+      "image": "{{ URL('/') }}/assets/img/manstec.png",
       "email": "comercial@mansteccompressores.com.br",
       "telephone": ["+351969558556", "+5511959781897", "+551146478222"],
       "address": {
@@ -154,7 +123,7 @@
         "name": "Manstec Compressores",
         "logo": {
           "@type": "ImageObject",
-          "url": "{{ $pageImage }}"
+          "url": "{{ URL('/') }}/assets/img/manstec.png"
         }
       },
       "datePublished": {!! json_encode($datePublished ?? '2026-06-09') !!},
@@ -164,9 +133,10 @@
     </script>
     @endif
 
-    @if ($inlineStyles !== '')
-    <style>{!! $inlineStyles !!}</style>
-    @endif
+    <!-- CSS -->
+    @foreach ($criticalStyles as $criticalStyle)
+    <link rel="stylesheet" href="{{ $baseAssetUrl . $criticalStyle }}">
+    @endforeach
 
     @foreach ($deferredStyles as $deferredStyle)
     <link rel="preload" as="style" href="{{ $baseAssetUrl . $deferredStyle }}" onload="this.onload=null;this.rel='stylesheet'">
@@ -174,7 +144,7 @@
     @endforeach
 </head>
 
-    <body class="{{ $bodyClass ?? 'fd-home-1' }}">
+    <body class="fd-home-1" >
 
         <div id="cotacao-modal" class="cotacao-modal-bg" style="display: none;">
             <div class="cotacao-modal">
@@ -207,14 +177,7 @@
             </div>
         </div>
 
-        <div class="phone-call cbh-phone cbh-green cbh-show cbh-static" id="clbh_phone_div" style="">
-            <a id="WhatsApp-button" href="https://wa.me/351969558556?text=Ol%C3%A1,%20gostaria%20de%20falar%20com%20voc%C3%AA!" target="_blank" rel="noopener" class="phoneJs" aria-label="Falar com a Manstec no WhatsApp">
-                <span class="visually-hidden">Falar com a Manstec no WhatsApp</span>
-                <div class="cbh-ph-circle"></div>
-                <div class="cbh-ph-circle-fill"></div>
-                <div class="cbh-ph-img-circle1"></div>
-            </a>
-        </div>
+<div class="phone-call cbh-phone cbh-green cbh-show  cbh-static" id="clbh_phone_div" style=""><a id="WhatsApp-button" href="https://wa.me/351969558556?text=Ol%C3%A1,%20gostaria%20de%20falar%20com%20voc%C3%AA!" target="_blank" class="phoneJs" title=""><div class="cbh-ph-circle"></div><div class="cbh-ph-circle-fill"></div><div class="cbh-ph-img-circle1"></div></a></div>
 
 @include('includes.emergency-popup')
 
@@ -231,22 +194,29 @@
                         <div class="fx-header-2-top">
                             <ul class="fx-contact-list">
                                 <li>
-                                    <a href="mailto:comercial@mansteccompressores.com.br" aria-label="Enviar e-mail para a Manstec">
+                                    <a href="mailto:comercial@mansteccompressores.com.br" aria-label="name">
                                         <i class="fa-regular fa-envelope"></i>
                                         comercial@mansteccompressores.com.br
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="https://wa.me/5511959781897?text=Ol%C3%A1,%20gostaria%20de%20falar%20com%20voc%C3%AA!" aria-label="Falar com a equipe comercial da Manstec no WhatsApp" target="_blank" rel="noopener">
+                                    <a href="https://wa.me/5511959781897?text=Ol%C3%A1,%20gostaria%20de%20falar%20com%20voc%C3%AA!" aria-label="name" TARGET="_blank">
                                         <i class="fa-regular fa-phone-volume"></i>
                                         +55 (11) 95978-1897
                                     </a>
                                 </li>
                             </ul>
                             <div class="fx-social-icon">
-                                <a href="https://www.instagram.com/manstec_compressores/" class="fx-social-icon-btn" aria-label="Instagram da Manstec" target="_blank" rel="noopener">
+								 <a href="https://www.instagram.com/manstec_compressores/" class="fx-social-icon-btn" aria-label="name" target="_BLANK">
                                     <i class="fa-brands fa-instagram"></i>
                                 </a>
+                                <a href="#" class="fx-social-icon-btn" aria-label="name">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </a>
+                                <a href="#" class="fx-social-icon-btn" aria-label="name">
+                                    <i class="fa-brands fa-linkedin-in"></i>
+                                </a>
+                               
                             </div>
                         </div>
 
@@ -309,4 +279,3 @@
             </div>
         </div>
 
-        <main id="main-content">
