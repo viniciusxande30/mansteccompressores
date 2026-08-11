@@ -128,6 +128,7 @@ $router->get('/termos-de-uso', 'TransporteController@termos');
 $router->get('/blog', 'TransporteController@blog');
 
 
+$router->get('/blog/analise-de-demanda-de-ar-comprimido', function () {return view('artigos.analise-de-demanda-de-ar-comprimido');});
 $router->get('/blog/automacao-com-ar-comprimido', function () {return view('artigos.automacao-com-ar-comprimido');});
 $router->get('/blog/assistencia-tecnica-compressores-de-ar', function () {return view('artigos.assistencia-tecnica-compressores-de-ar');});
 $router->get('/blog/auditoria-energetica-ar-comprimido', function () {return view('artigos.auditoria-energetica-ar-comprimido');});
@@ -139,6 +140,7 @@ $router->get('/blog/compressor-de-parafuso-industrial', function () {return view
 $router->get('/blog/contrato-manutencao-compressores', function () {return view('artigos.contrato-manutencao-compressores');});
 $router->get('/blog/custo-do-ar-comprimido', function () {return view('artigos.custo-do-ar-comprimido');});
 $router->get('/blog/custo-operacional', function () {return view('artigos.custo-operacional');});
+$router->get('/blog/deteccao-ultrassonica-de-vazamentos', function () {return view('artigos.deteccao-ultrassonica-de-vazamentos');});
 $router->get('/blog/dimensionamento-de-compressores', function () {return view('artigos.dimensionamento-de-compressores');});
 $router->get('/blog/eficiencia-energetica-em-compressores', function () {return view('artigos.eficiencia-energetica-em-compressores');});
 $router->get('/blog/eficiencia-energetica-industrial', function () {return view('artigos.eficiencia-energetica-industrial');});
@@ -160,6 +162,7 @@ $router->get('/blog/separador-agua-oleo-em-ar-comprimido', function () {return v
 $router->get('/blog/perda-de-carga-na-rede-de-ar-comprimido', function () {return view('artigos.perda-de-carga-na-rede-de-ar-comprimido');});
 $router->get('/blog/pressao-ideal-em-compressores', function () {return view('artigos.pressao-ideal-em-compressores');});
 $router->get('/blog/qualidade-do-ar-comprimido', function () {return view('artigos.qualidade-do-ar-comprimido');});
+$router->get('/blog/recuperacao-de-calor-em-compressores', function () {return view('artigos.recuperacao-de-calor-em-compressores');});
 $router->get('/blog/reservatorio-de-ar-comprimido', function () {return view('artigos.reservatorio-de-ar-comprimido');});
 $router->get('/blog/tratamento-de-condensado-em-ar-comprimido', function () {return view('artigos.tratamento-de-condensado-em-ar-comprimido');});
 $router->get('/blog/retrofit-compressores-industriais', function () {return view('artigos.retrofit-compressores-industriais');});
@@ -183,6 +186,7 @@ $router->get('/sitemap.xml', function () {
         '/contratos-de-servico',
         '/auditoria-e-inspecoes',
         '/redes-de-ar',
+        '/blog/analise-de-demanda-de-ar-comprimido',
         '/blog/automacao-com-ar-comprimido',
         '/blog/assistencia-tecnica-compressores-de-ar',
         '/blog/auditoria-energetica-ar-comprimido',
@@ -194,6 +198,7 @@ $router->get('/sitemap.xml', function () {
         '/blog/contrato-manutencao-compressores',
         '/blog/custo-do-ar-comprimido',
         '/blog/custo-operacional',
+        '/blog/deteccao-ultrassonica-de-vazamentos',
         '/blog/dimensionamento-de-compressores',
         '/blog/eficiencia-energetica-em-compressores',
         '/blog/eficiencia-energetica-industrial',
@@ -215,6 +220,7 @@ $router->get('/sitemap.xml', function () {
         '/blog/perda-de-carga-na-rede-de-ar-comprimido',
         '/blog/pressao-ideal-em-compressores',
         '/blog/qualidade-do-ar-comprimido',
+        '/blog/recuperacao-de-calor-em-compressores',
         '/blog/reservatorio-de-ar-comprimido',
         '/blog/tratamento-de-condensado-em-ar-comprimido',
         '/blog/retrofit-compressores-industriais',
