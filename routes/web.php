@@ -151,6 +151,7 @@ $router->get('/blog/linha-de-ar-comprimido', function () {return view('artigos.l
 $router->get('/blog/manutencao-preditiva-compressores', function () {return view('artigos.manutencao-preditiva-compressores');});
 $router->get('/blog/manutencao-preventiva-compressores', function () {return view('artigos.manutencao-preventiva');});
 $router->get('/blog/manutencao-preventiva-vs-corretiva', function () {return view('artigos.manutencao-preventiva-vs-corretiva');});
+$router->get('/blog/monitoramento-remoto-de-compressores', function () {return view('artigos.monitoramento-remoto-de-compressores');});
 $router->get('/blog/nr13-em-compressores', function () {return view('artigos.nr13-em-compressores');});
 $router->get('/blog/pecas-para-compressores-de-ar', function () {return view('artigos.pecas-para-compressores-de-ar');});
 $router->get('/blog/pressostato-do-compressor-de-ar', function () {return view('artigos.pressostato-do-compressor-de-ar');});
@@ -159,11 +160,13 @@ $router->get('/blog/ponto-de-orvalho-em-ar-comprimido', function () {return view
 $router->get('/blog/valvula-de-seguranca-do-compressor-de-ar', function () {return view('artigos.valvula-de-seguranca-do-compressor-de-ar');});
 $router->get('/blog/dreno-automatico-compressor-de-ar', function () {return view('artigos.dreno-automatico-compressor-de-ar');});
 $router->get('/blog/separador-agua-oleo-em-ar-comprimido', function () {return view('artigos.separador-agua-oleo-em-ar-comprimido');});
+$router->get('/blog/sequenciamento-de-compressores-de-ar', function () {return view('artigos.sequenciamento-de-compressores-de-ar');});
 $router->get('/blog/perda-de-carga-na-rede-de-ar-comprimido', function () {return view('artigos.perda-de-carga-na-rede-de-ar-comprimido');});
 $router->get('/blog/pressao-ideal-em-compressores', function () {return view('artigos.pressao-ideal-em-compressores');});
 $router->get('/blog/qualidade-do-ar-comprimido', function () {return view('artigos.qualidade-do-ar-comprimido');});
 $router->get('/blog/recuperacao-de-calor-em-compressores', function () {return view('artigos.recuperacao-de-calor-em-compressores');});
 $router->get('/blog/reservatorio-de-ar-comprimido', function () {return view('artigos.reservatorio-de-ar-comprimido');});
+$router->get('/blog/sala-de-compressores-industrial', function () {return view('artigos.sala-de-compressores-industrial');});
 $router->get('/blog/tratamento-de-condensado-em-ar-comprimido', function () {return view('artigos.tratamento-de-condensado-em-ar-comprimido');});
 $router->get('/blog/retrofit-compressores-industriais', function () {return view('artigos.retrofit-compressores-industriais');});
 $router->get('/blog/secador-refrigerado-vs-adsorcao', function () {return view('artigos.secador-refrigerado-vs-adsorcao');});
@@ -209,6 +212,7 @@ $router->get('/sitemap.xml', function () {
         '/blog/manutencao-preditiva-compressores',
         '/blog/manutencao-preventiva-compressores',
         '/blog/manutencao-preventiva-vs-corretiva',
+        '/blog/monitoramento-remoto-de-compressores',
         '/blog/nr13-em-compressores',
         '/blog/pecas-para-compressores-de-ar',
         '/blog/pressostato-do-compressor-de-ar',
@@ -217,11 +221,13 @@ $router->get('/sitemap.xml', function () {
         '/blog/valvula-de-seguranca-do-compressor-de-ar',
         '/blog/dreno-automatico-compressor-de-ar',
         '/blog/separador-agua-oleo-em-ar-comprimido',
+        '/blog/sequenciamento-de-compressores-de-ar',
         '/blog/perda-de-carga-na-rede-de-ar-comprimido',
         '/blog/pressao-ideal-em-compressores',
         '/blog/qualidade-do-ar-comprimido',
         '/blog/recuperacao-de-calor-em-compressores',
         '/blog/reservatorio-de-ar-comprimido',
+        '/blog/sala-de-compressores-industrial',
         '/blog/tratamento-de-condensado-em-ar-comprimido',
         '/blog/retrofit-compressores-industriais',
         '/blog/secador-refrigerado-vs-adsorcao',
