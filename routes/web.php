@@ -150,6 +150,10 @@ $router->get('/blog/erros-na-instalacao-de-compressores', function () {return vi
 $router->get('/blog/falhas-comuns-e-como-evitar', function () {return view('artigos.falhas-comuns-e-como-evitar');});
 $router->get('/blog/linha-de-ar-comprimido', function () {return view('artigos.linha-de-ar-comprimido');});
 $router->get('/blog/manutencao-de-secador-de-ar-comprimido', function () {return view('artigos.manutencao-de-secador-de-ar-comprimido');});
+$router->get('/blog/manutencao-de-compressor-de-pistao', function () {return view('artigos.manutencao-de-compressor-de-pistao');});
+$router->get('/blog/manutencao-de-reservatorio-de-ar-comprimido', function () {return view('artigos.manutencao-de-reservatorio-de-ar-comprimido');});
+$router->get('/blog/manutencao-compressor-de-parafuso', function () {return view('artigos.manutencao-compressor-de-parafuso');});
+$router->get('/blog/manutencao-multimarcas-de-compressores', function () {return view('artigos.manutencao-multimarcas-de-compressores');});
 $router->get('/blog/manutencao-preditiva-compressores', function () {return view('artigos.manutencao-preditiva-compressores');});
 $router->get('/blog/manutencao-preventiva-compressores', function () {return view('artigos.manutencao-preventiva');});
 $router->get('/blog/manutencao-preventiva-vs-corretiva', function () {return view('artigos.manutencao-preventiva-vs-corretiva');});
@@ -166,10 +170,13 @@ $router->get('/blog/sequenciamento-de-compressores-de-ar', function () {return v
 $router->get('/blog/perda-de-carga-na-rede-de-ar-comprimido', function () {return view('artigos.perda-de-carga-na-rede-de-ar-comprimido');});
 $router->get('/blog/pressao-ideal-em-compressores', function () {return view('artigos.pressao-ideal-em-compressores');});
 $router->get('/blog/qualidade-do-ar-comprimido', function () {return view('artigos.qualidade-do-ar-comprimido');});
+$router->get('/blog/revisao-de-compressor-de-ar', function () {return view('artigos.revisao-de-compressor-de-ar');});
 $router->get('/blog/recuperacao-de-calor-em-compressores', function () {return view('artigos.recuperacao-de-calor-em-compressores');});
 $router->get('/blog/reservatorio-de-ar-comprimido', function () {return view('artigos.reservatorio-de-ar-comprimido');});
 $router->get('/blog/sala-de-compressores-industrial', function () {return view('artigos.sala-de-compressores-industrial');});
 $router->get('/blog/tratamento-de-condensado-em-ar-comprimido', function () {return view('artigos.tratamento-de-condensado-em-ar-comprimido');});
+$router->get('/blog/troca-de-filtros-compressor-de-ar', function () {return view('artigos.troca-de-filtros-compressor-de-ar');});
+$router->get('/blog/troca-de-oleo-compressor-de-ar', function () {return view('artigos.troca-de-oleo-compressor-de-ar');});
 $router->get('/blog/retrofit-compressores-industriais', function () {return view('artigos.retrofit-compressores-industriais');});
 $router->get('/blog/secador-refrigerado-vs-adsorcao', function () {return view('artigos.secador-refrigerado-vs-adsorcao');});
 $router->get('/blog/secadores-de-ar-comprimido', function () {return view('artigos.secadores-de-ar-comprimido');});
@@ -177,6 +184,9 @@ $router->get('/blog/tipos-de-compressores', function () {return view('artigos.ti
 $router->get('/blog/unidade-frl-em-ar-comprimido', function () {return view('artigos.unidade-frl-em-ar-comprimido');});
 $router->get('/blog/vazamentos-de-ar-comprimido', function () {return view('artigos.vazamentos-de-ar-comprimido');});
 $router->get('/blog/vida-util-de-compressores', function () {return view('artigos.vida-util-de-compressores');});
+$router->get('/blog/assistencia-tecnica-urgente-compressor', function () {return view('artigos.assistencia-tecnica-urgente-compressor');});
+$router->get('/blog/orcamento-manutencao-compressor', function () {return view('artigos.orcamento-manutencao-compressor');});
+$router->get('/blog/plano-de-manutencao-de-compressores', function () {return view('artigos.plano-de-manutencao-de-compressores');});
 
 $router->get('/sitemap.xml', function () {
     $urls = [
@@ -214,6 +224,10 @@ $router->get('/sitemap.xml', function () {
         '/blog/falhas-comuns-e-como-evitar',
         '/blog/linha-de-ar-comprimido',
         '/blog/manutencao-de-secador-de-ar-comprimido',
+        '/blog/manutencao-de-compressor-de-pistao',
+        '/blog/manutencao-de-reservatorio-de-ar-comprimido',
+        '/blog/manutencao-compressor-de-parafuso',
+        '/blog/manutencao-multimarcas-de-compressores',
         '/blog/manutencao-preditiva-compressores',
         '/blog/manutencao-preventiva-compressores',
         '/blog/manutencao-preventiva-vs-corretiva',
@@ -230,10 +244,13 @@ $router->get('/sitemap.xml', function () {
         '/blog/perda-de-carga-na-rede-de-ar-comprimido',
         '/blog/pressao-ideal-em-compressores',
         '/blog/qualidade-do-ar-comprimido',
+        '/blog/revisao-de-compressor-de-ar',
         '/blog/recuperacao-de-calor-em-compressores',
         '/blog/reservatorio-de-ar-comprimido',
         '/blog/sala-de-compressores-industrial',
         '/blog/tratamento-de-condensado-em-ar-comprimido',
+        '/blog/troca-de-filtros-compressor-de-ar',
+        '/blog/troca-de-oleo-compressor-de-ar',
         '/blog/retrofit-compressores-industriais',
         '/blog/secador-refrigerado-vs-adsorcao',
         '/blog/secadores-de-ar-comprimido',
@@ -241,6 +258,9 @@ $router->get('/sitemap.xml', function () {
         '/blog/unidade-frl-em-ar-comprimido',
         '/blog/vazamentos-de-ar-comprimido',
         '/blog/vida-util-de-compressores',
+        '/blog/assistencia-tecnica-urgente-compressor',
+        '/blog/orcamento-manutencao-compressor',
+        '/blog/plano-de-manutencao-de-compressores',
     ];
 
     $baseUrl = rtrim(url('/'), '/');

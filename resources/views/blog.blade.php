@@ -2,6 +2,18 @@
 $kw = "blog manstec compressores, manutenção de compressores de ar, eficiência energética industrial, ar comprimido industrial";
 $metaTitle = "Blog Manstec | Compressores de Ar, Manutenção e Eficiência";
 $metaDescription = "Conteúdos técnicos sobre compressores de ar, manutenção industrial, eficiência energética, redes de ar comprimido e redução de paradas.";
+$maintenanceCluster = [
+  ['slug' => 'orcamento-manutencao-compressor', 'title' => 'Orçamento de Manutenção de Compressor: Como Solicitar uma Cotação Mais Precisa', 'image' => 's1-img-1-opt.jpg'],
+  ['slug' => 'assistencia-tecnica-urgente-compressor', 'title' => 'Assistência Técnica Urgente para Compressor: Como Reduzir o Tempo de Parada', 'image' => 's1-img-2-opt.jpg'],
+  ['slug' => 'manutencao-compressor-de-parafuso', 'title' => 'Manutenção de Compressor de Parafuso: Como Evitar Paradas e Custos', 'image' => 's1-img-3-opt.jpg'],
+  ['slug' => 'revisao-de-compressor-de-ar', 'title' => 'Revisão de Compressor de Ar: Quando Fazer e o que Avaliar', 'image' => 's1-img-1-opt.jpg'],
+  ['slug' => 'troca-de-oleo-compressor-de-ar', 'title' => 'Troca de Óleo de Compressor de Ar: Prazo, Cuidados e Desempenho', 'image' => 's1-img-2-opt.jpg'],
+  ['slug' => 'troca-de-filtros-compressor-de-ar', 'title' => 'Troca de Filtros de Compressor de Ar: Como Evitar Falhas', 'image' => 's1-img-3-opt.jpg'],
+  ['slug' => 'manutencao-multimarcas-de-compressores', 'title' => 'Manutenção Multimarcas de Compressores: Atendimento para Sua Fábrica', 'image' => 's1-img-1-opt.jpg'],
+  ['slug' => 'plano-de-manutencao-de-compressores', 'title' => 'Plano de Manutenção de Compressores: Mais Disponibilidade Industrial', 'image' => 's1-img-2-opt.jpg'],
+  ['slug' => 'manutencao-de-compressor-de-pistao', 'title' => 'Manutenção de Compressor de Pistão: Cuidados Essenciais', 'image' => 's1-img-3-opt.jpg'],
+  ['slug' => 'manutencao-de-reservatorio-de-ar-comprimido', 'title' => 'Manutenção de Reservatório de Ar Comprimido: Segurança e Confiabilidade', 'image' => 's1-img-1-opt.jpg'],
+];
 @endphp
 @include('includes.top')
 
@@ -140,6 +152,21 @@ details {
 
 
                 <div class="fx-services-page-item">
+                    @foreach ($maintenanceCluster as $article)
+                    <div class="fx-serve-1-slider-item" style="margin-top:30px">
+                        <div class="item-img fix img-cover">
+                            <img loading="lazy" decoding="async" src="{{ URL('/') }}/assets/img/serve/{{ $article['image'] }}" alt="{{ $article['title'] }}">
+                        </div>
+                        <div class="content">
+                            <h5 class="item-title fx-heading-1 fx-font-500">
+                                <a href="{{ url('/') }}/blog/{{ $article['slug'] }}" aria-label="Abrir artigo: {{ $article['title'] }}">{{ $article['title'] }}</a>
+                            </h5>
+                            <a class="item-btn" href="{{ url('/') }}/blog/{{ $article['slug'] }}" aria-label="Abrir artigo: {{ $article['title'] }}">
+                                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M40 20C40 8.97219 31.0278 0 20 0S0 8.97219 0 20s8.97219 20 20 20 20-8.97219 20-20ZM2.5 20C2.5 10.3503 10.3503 2.5 20 2.5S37.5 10.3503 37.5 20 29.6497 37.5 20 37.5 2.5 29.6497 2.5 20ZM22.1337 27.1338c-.4885.4884-1.2793.4884-1.7675 0-.244-.2441-.3662-.5641-.3662-.8838 0-.3197.1222-.6397.3662-.8838l4.1163-4.1162H12.5c-.6904 0-1.25-.5597-1.25-1.25s.5596-1.25 1.25-1.25h11.9825l-4.1162-4.1163c-.4885-.4884-.4885-1.2793 0-1.7675.4884-.4881 1.2793-.4884 1.7674 0l6.25 6.2501c.4885.4884.4885 1.2793 0 1.7675l-6.25 6.25Z" fill="#FC5220"/></svg>
+                            </a>
+                        </div>
+                    </div>
+                    @endforeach
                     <!-- single-item -->
                     <div class="fx-serve-1-slider-item" style="margin-top:30px">
                         <div class="item-img fix img-cover">
