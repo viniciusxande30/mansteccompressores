@@ -137,7 +137,12 @@ $router->get('/blog/como-funciona-um-compressor', function () {return view('arti
 $router->get('/blog/como-identificar-vazamento-em-ar', function () {return view('artigos.como-identificar-vazamento-em-ar');});
 $router->get('/blog/compressor-com-inversor', function () {return view('artigos.compressor-com-inversor');});
 $router->get('/blog/compressor-de-parafuso-industrial', function () {return view('artigos.compressor-de-parafuso-industrial');});
+$router->get('/blog/compressor-de-ar-nao-liga', function () {return view('artigos.compressor-de-ar-nao-liga');});
+$router->get('/blog/compressor-desarmando', function () {return view('artigos.compressor-desarmando');});
 $router->get('/blog/compressor-isento-de-oleo', function () {return view('artigos.compressor-isento-de-oleo');});
+$router->get('/blog/compressor-nao-atinge-pressao', function () {return view('artigos.compressor-nao-atinge-pressao');});
+$router->get('/blog/compressor-superaquecendo', function () {return view('artigos.compressor-superaquecendo');});
+$router->get('/blog/compressor-vazando-oleo', function () {return view('artigos.compressor-vazando-oleo');});
 $router->get('/blog/contrato-manutencao-compressores', function () {return view('artigos.contrato-manutencao-compressores');});
 $router->get('/blog/custo-do-ar-comprimido', function () {return view('artigos.custo-do-ar-comprimido');});
 $router->get('/blog/custo-operacional', function () {return view('artigos.custo-operacional');});
@@ -211,7 +216,12 @@ $router->get('/sitemap.xml', function () {
         '/blog/como-identificar-vazamento-em-ar',
         '/blog/compressor-com-inversor',
         '/blog/compressor-de-parafuso-industrial',
+        '/blog/compressor-de-ar-nao-liga',
+        '/blog/compressor-desarmando',
         '/blog/compressor-isento-de-oleo',
+        '/blog/compressor-nao-atinge-pressao',
+        '/blog/compressor-superaquecendo',
+        '/blog/compressor-vazando-oleo',
         '/blog/contrato-manutencao-compressores',
         '/blog/custo-do-ar-comprimido',
         '/blog/custo-operacional',

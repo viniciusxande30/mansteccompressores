@@ -3,6 +3,11 @@ $kw = "blog manstec compressores, manutenção de compressores de ar, eficiênci
 $metaTitle = "Blog Manstec | Compressores de Ar, Manutenção e Eficiência";
 $metaDescription = "Conteúdos técnicos sobre compressores de ar, manutenção industrial, eficiência energética, redes de ar comprimido e redução de paradas.";
 $maintenanceCluster = [
+  ['slug' => 'compressor-de-ar-nao-liga', 'title' => 'Compressor de Ar Não Liga: Causas e Quando Chamar Manutenção', 'image' => 's1-img-2-opt.jpg'],
+  ['slug' => 'compressor-nao-atinge-pressao', 'title' => 'Compressor Não Atinge Pressão: Como Identificar a Causa', 'image' => 's1-img-3-opt.jpg'],
+  ['slug' => 'compressor-desarmando', 'title' => 'Compressor Desarmando: Causas e Como Agir com Segurança', 'image' => 's1-img-1-opt.jpg'],
+  ['slug' => 'compressor-superaquecendo', 'title' => 'Compressor Superaquecendo: Causas, Riscos e Manutenção', 'image' => 's1-img-2-opt.jpg'],
+  ['slug' => 'compressor-vazando-oleo', 'title' => 'Compressor Vazando Óleo: Causas e Quando Solicitar Manutenção', 'image' => 's1-img-3-opt.jpg'],
   ['slug' => 'orcamento-manutencao-compressor', 'title' => 'Orçamento de Manutenção de Compressor: Como Solicitar uma Cotação Mais Precisa', 'image' => 's1-img-1-opt.jpg'],
   ['slug' => 'assistencia-tecnica-urgente-compressor', 'title' => 'Assistência Técnica Urgente para Compressor: Como Reduzir o Tempo de Parada', 'image' => 's1-img-2-opt.jpg'],
   ['slug' => 'manutencao-compressor-de-parafuso', 'title' => 'Manutenção de Compressor de Parafuso: Como Evitar Paradas e Custos', 'image' => 's1-img-3-opt.jpg'],
