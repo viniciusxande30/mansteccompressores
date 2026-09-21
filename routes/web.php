@@ -132,15 +132,20 @@ $router->get('/blog/analise-de-demanda-de-ar-comprimido', function () {return vi
 $router->get('/blog/automacao-com-ar-comprimido', function () {return view('artigos.automacao-com-ar-comprimido');});
 $router->get('/blog/assistencia-tecnica-compressores-de-ar', function () {return view('artigos.assistencia-tecnica-compressores-de-ar');});
 $router->get('/blog/auditoria-energetica-ar-comprimido', function () {return view('artigos.auditoria-energetica-ar-comprimido');});
+$router->get('/blog/agua-na-linha-de-ar-comprimido', function () {return view('artigos.agua-na-linha-de-ar-comprimido');});
 $router->get('/blog/checklist-completo', function () {return view('artigos.checklist-completo');});
 $router->get('/blog/como-funciona-um-compressor', function () {return view('artigos.como-funciona-um-compressor');});
 $router->get('/blog/como-identificar-vazamento-em-ar', function () {return view('artigos.como-identificar-vazamento-em-ar');});
 $router->get('/blog/compressor-com-inversor', function () {return view('artigos.compressor-com-inversor');});
 $router->get('/blog/compressor-de-parafuso-industrial', function () {return view('artigos.compressor-de-parafuso-industrial');});
 $router->get('/blog/compressor-de-ar-nao-liga', function () {return view('artigos.compressor-de-ar-nao-liga');});
+$router->get('/blog/compressor-consumindo-muito-oleo', function () {return view('artigos.compressor-consumindo-muito-oleo');});
 $router->get('/blog/compressor-desarmando', function () {return view('artigos.compressor-desarmando');});
+$router->get('/blog/compressor-fazendo-barulho', function () {return view('artigos.compressor-fazendo-barulho');});
 $router->get('/blog/compressor-isento-de-oleo', function () {return view('artigos.compressor-isento-de-oleo');});
 $router->get('/blog/compressor-nao-atinge-pressao', function () {return view('artigos.compressor-nao-atinge-pressao');});
+$router->get('/blog/compressor-nao-desliga', function () {return view('artigos.compressor-nao-desliga');});
+$router->get('/blog/compressor-perde-pressao', function () {return view('artigos.compressor-perde-pressao');});
 $router->get('/blog/compressor-superaquecendo', function () {return view('artigos.compressor-superaquecendo');});
 $router->get('/blog/compressor-vazando-oleo', function () {return view('artigos.compressor-vazando-oleo');});
 $router->get('/blog/contrato-manutencao-compressores', function () {return view('artigos.contrato-manutencao-compressores');});
@@ -211,15 +216,20 @@ $router->get('/sitemap.xml', function () {
         '/blog/automacao-com-ar-comprimido',
         '/blog/assistencia-tecnica-compressores-de-ar',
         '/blog/auditoria-energetica-ar-comprimido',
+        '/blog/agua-na-linha-de-ar-comprimido',
         '/blog/checklist-completo',
         '/blog/como-funciona-um-compressor',
         '/blog/como-identificar-vazamento-em-ar',
         '/blog/compressor-com-inversor',
         '/blog/compressor-de-parafuso-industrial',
         '/blog/compressor-de-ar-nao-liga',
+        '/blog/compressor-consumindo-muito-oleo',
         '/blog/compressor-desarmando',
+        '/blog/compressor-fazendo-barulho',
         '/blog/compressor-isento-de-oleo',
         '/blog/compressor-nao-atinge-pressao',
+        '/blog/compressor-nao-desliga',
+        '/blog/compressor-perde-pressao',
         '/blog/compressor-superaquecendo',
         '/blog/compressor-vazando-oleo',
         '/blog/contrato-manutencao-compressores',

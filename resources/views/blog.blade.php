@@ -3,6 +3,11 @@ $kw = "blog manstec compressores, manutenção de compressores de ar, eficiênci
 $metaTitle = "Blog Manstec | Compressores de Ar, Manutenção e Eficiência";
 $metaDescription = "Conteúdos técnicos sobre compressores de ar, manutenção industrial, eficiência energética, redes de ar comprimido e redução de paradas.";
 $maintenanceCluster = [
+  ['slug' => 'compressor-nao-desliga', 'title' => 'Compressor Não Desliga: Causas, Riscos e Diagnóstico Técnico', 'image' => 's1-img-1-opt.jpg'],
+  ['slug' => 'agua-na-linha-de-ar-comprimido', 'title' => 'Água na Linha de Ar Comprimido: Causas e Como Resolver', 'image' => 's1-img-2-opt.jpg'],
+  ['slug' => 'compressor-fazendo-barulho', 'title' => 'Compressor Fazendo Barulho: Quando o Ruído Indica Manutenção', 'image' => 's1-img-3-opt.jpg'],
+  ['slug' => 'compressor-consumindo-muito-oleo', 'title' => 'Compressor Consumindo Muito Óleo: Como Identificar a Causa', 'image' => 's1-img-1-opt.jpg'],
+  ['slug' => 'compressor-perde-pressao', 'title' => 'Compressor Perde Pressão: Como Localizar a Perda de Ar', 'image' => 's1-img-2-opt.jpg'],
   ['slug' => 'compressor-de-ar-nao-liga', 'title' => 'Compressor de Ar Não Liga: Causas e Quando Chamar Manutenção', 'image' => 's1-img-2-opt.jpg'],
   ['slug' => 'compressor-nao-atinge-pressao', 'title' => 'Compressor Não Atinge Pressão: Como Identificar a Causa', 'image' => 's1-img-3-opt.jpg'],
   ['slug' => 'compressor-desarmando', 'title' => 'Compressor Desarmando: Causas e Como Agir com Segurança', 'image' => 's1-img-1-opt.jpg'],
