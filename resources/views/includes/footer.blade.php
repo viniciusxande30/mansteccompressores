@@ -84,7 +84,7 @@
             <div class="fx-footer-1-copyright pt-40 pb-40">
                 <div class="container fx-container-1">
                     <div class="fx-footer-1-copyright-flex d-flex align-items-center">
-                        <p class="fx-footer-1-copyright-text fx-para-1 has-footer-2">©2025, Feito com carinho pela <a href="https://idsolutions.tec.br/" target="_blank" rel="noopener">ID Solutions</a>. Todos os direitos reservados.</p>
+                        <p class="fx-footer-1-copyright-text fx-para-1 has-footer-2">©{{ date('Y') }}, Feito com carinho pela <a href="https://idsolutions.tec.br/" target="_blank" rel="noopener">ID Solutions</a>. Todos os direitos reservados.</p>
 
                         <ul class="fx-footer-1-copyright-menu has-footer-2">
                             <li><a href="{{ url('/') }}/politicas-de-privacidade">Políticas de Privacidade</a></li>

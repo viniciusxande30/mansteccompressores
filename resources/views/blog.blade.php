@@ -168,9 +168,9 @@ details {
                             <img loading="lazy" decoding="async" src="{{ URL('/') }}/assets/img/serve/{{ $article['image'] }}" alt="{{ $article['title'] }}">
                         </div>
                         <div class="content">
-                            <h5 class="item-title fx-heading-1 fx-font-500">
+                            <h3 class="item-title fx-heading-1 fx-font-500">
                                 <a href="{{ url('/') }}/blog/{{ $article['slug'] }}" aria-label="Abrir artigo: {{ $article['title'] }}">{{ $article['title'] }}</a>
-                            </h5>
+                            </h3>
                             <a class="item-btn" href="{{ url('/') }}/blog/{{ $article['slug'] }}" aria-label="Abrir artigo: {{ $article['title'] }}">
                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M40 20C40 8.97219 31.0278 0 20 0S0 8.97219 0 20s8.97219 20 20 20 20-8.97219 20-20ZM2.5 20C2.5 10.3503 10.3503 2.5 20 2.5S37.5 10.3503 37.5 20 29.6497 37.5 20 37.5 2.5 29.6497 2.5 20ZM22.1337 27.1338c-.4885.4884-1.2793.4884-1.7675 0-.244-.2441-.3662-.5641-.3662-.8838 0-.3197.1222-.6397.3662-.8838l4.1163-4.1162H12.5c-.6904 0-1.25-.5597-1.25-1.25s.5596-1.25 1.25-1.25h11.9825l-4.1162-4.1163c-.4885-.4884-.4885-1.2793 0-1.7675.4884-.4881 1.2793-.4884 1.7674 0l6.25 6.2501c.4885.4884.4885 1.2793 0 1.7675l-6.25 6.25Z" fill="#FC5220"/></svg>
                             </a>
@@ -184,9 +184,9 @@ details {
                         </div>
 
                         <div class="content">
-                            <h5 class="item-title fx-heading-1 fx-font-500">
+                            <h3 class="item-title fx-heading-1 fx-font-500">
                                 <a href="{{ url('/') }}/blog/compressor-isento-de-oleo" aria-label="Abrir artigo sobre compressor isento de óleo">Compressor Isento de Óleo: Quando Vale a Pena e Como Garantir Ar Mais Puro</a>
-                            </h5>
+                            </h3>
                             
                             <a class="item-btn" href="{{ url('/') }}/blog/compressor-isento-de-oleo" aria-label="Abrir artigo sobre compressor isento de óleo">
                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -204,9 +204,9 @@ details {
                         </div>
 
                         <div class="content">
-                            <h5 class="item-title fx-heading-1 fx-font-500">
+                            <h3 class="item-title fx-heading-1 fx-font-500">
                                 <a href="{{ url('/') }}/blog/unidade-frl-em-ar-comprimido" aria-label="Abrir artigo sobre unidade FRL em ar comprimido">Unidade FRL em Ar Comprimido: Como Proteger Equipamentos no Ponto de Uso</a>
-                            </h5>
+                            </h3>
                             
                             <a class="item-btn" href="{{ url('/') }}/blog/unidade-frl-em-ar-comprimido" aria-label="Abrir artigo sobre unidade FRL em ar comprimido">
                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -224,9 +224,9 @@ details {
                         </div>
 
                         <div class="content">
-                            <h5 class="item-title fx-heading-1 fx-font-500">
+                            <h3 class="item-title fx-heading-1 fx-font-500">
                                 <a href="{{ url('/') }}/blog/manutencao-de-secador-de-ar-comprimido" aria-label="Abrir artigo sobre manutenção de secador de ar comprimido">Manutenção de Secador de Ar Comprimido: Como Evitar Umidade, Falhas e Desperdícios</a>
-                            </h5>
+                            </h3>
                             
                             <a class="item-btn" href="{{ url('/') }}/blog/manutencao-de-secador-de-ar-comprimido" aria-label="Abrir artigo sobre manutenção de secador de ar comprimido">
                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -244,9 +244,9 @@ details {
                         </div>
 
                         <div class="content">
-                            <h5 class="item-title fx-heading-1 fx-font-500">
+                            <h3 class="item-title fx-heading-1 fx-font-500">
                                 <a href="{{ url('/') }}/blog/sequenciamento-de-compressores-de-ar" aria-label="Abrir artigo sobre sequenciamento de compressores de ar">Sequenciamento de Compressores de Ar: Como Reduzir Consumo e Ganhar Estabilidade</a>
-                            </h5>
+                            </h3>
                             
                             <a class="item-btn" href="{{ url('/') }}/blog/sequenciamento-de-compressores-de-ar" aria-label="Abrir artigo sobre sequenciamento de compressores de ar">
                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -264,9 +264,9 @@ details {
                         </div>
 
                         <div class="content">
-                            <h5 class="item-title fx-heading-1 fx-font-500">
+                            <h3 class="item-title fx-heading-1 fx-font-500">
                                 <a href="{{ url('/') }}/blog/monitoramento-remoto-de-compressores" aria-label="Abrir artigo sobre monitoramento remoto de compressores">Monitoramento Remoto de Compressores: Como Antecipar Falhas e Melhorar a Eficiência</a>
-                            </h5>
+                            </h3>
                             
                             <a class="item-btn" href="{{ url('/') }}/blog/monitoramento-remoto-de-compressores" aria-label="Abrir artigo sobre monitoramento remoto de compressores">
                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -284,9 +284,9 @@ details {
                         </div>
 
                         <div class="content">
-                            <h5 class="item-title fx-heading-1 fx-font-500">
+                            <h3 class="item-title fx-heading-1 fx-font-500">
                                 <a href="{{ url('/') }}/blog/sala-de-compressores-industrial" aria-label="Abrir artigo sobre sala de compressores industrial">Sala de Compressores Industrial: Como Projetar um Ambiente Seguro e Eficiente</a>
-                            </h5>
+                            </h3>
                             
                             <a class="item-btn" href="{{ url('/') }}/blog/sala-de-compressores-industrial" aria-label="Abrir artigo sobre sala de compressores industrial">
                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -304,9 +304,9 @@ details {
                         </div>
 
                         <div class="content">
-                            <h5 class="item-title fx-heading-1 fx-font-500">
+                            <h3 class="item-title fx-heading-1 fx-font-500">
                                 <a href="{{ url('/') }}/blog/analise-de-demanda-de-ar-comprimido" aria-label="Abrir artigo sobre análise de demanda de ar comprimido">Análise de Demanda de Ar Comprimido: Como Dimensionar a Produção sem Desperdícios</a>
-                            </h5>
+                            </h3>
                             
                             <a class="item-btn" href="{{ url('/') }}/blog/analise-de-demanda-de-ar-comprimido" aria-label="Abrir artigo sobre análise de demanda de ar comprimido">
                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -324,9 +324,9 @@ details {
                         </div>
 
                         <div class="content">
-                            <h5 class="item-title fx-heading-1 fx-font-500">
+                            <h3 class="item-title fx-heading-1 fx-font-500">
                                 <a href="{{ url('/') }}/blog/deteccao-ultrassonica-de-vazamentos" aria-label="Abrir artigo sobre detecção ultrassônica de vazamentos">Detecção Ultrassônica de Vazamentos em Ar Comprimido: Como Encontrar Perdas Invisíveis</a>
-                            </h5>
+                            </h3>
                             
                             <a class="item-btn" href="{{ url('/') }}/blog/deteccao-ultrassonica-de-vazamentos" aria-label="Abrir artigo sobre detecção ultrassônica de vazamentos">
                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -344,9 +344,9 @@ details {
                         </div>
 
                         <div class="content">
-                            <h5 class="item-title fx-heading-1 fx-font-500">
+                            <h3 class="item-title fx-heading-1 fx-font-500">
                                 <a href="{{ url('/') }}/blog/recuperacao-de-calor-em-compressores" aria-label="Abrir artigo sobre recuperação de calor em compressores">Recuperação de Calor em Compressores de Ar: Como Transformar Desperdício em Economia</a>
-                            </h5>
+                            </h3>
                             
                             <a class="item-btn" href="{{ url('/') }}/blog/recuperacao-de-calor-em-compressores" aria-label="Abrir artigo sobre recuperação de calor em compressores">
                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -364,11 +364,11 @@ details {
                         </div>
 
                         <div class="content">
-                            <h5 class="item-title fx-heading-1 fx-font-500">
-                                <a href="{{ url('/') }}/blog/compressor-de-parafuso-industrial" aria-label="name">Compressor de Parafuso Industrial: Guia Completo para Reduzir Custos</a>
-                            </h5>
+                            <h3 class="item-title fx-heading-1 fx-font-500">
+                                <a href="{{ url('/') }}/blog/compressor-de-parafuso-industrial">Compressor de Parafuso Industrial: Guia Completo para Reduzir Custos</a>
+                            </h3>
                             
-                            <a class="item-btn" href="{{ url('/') }}/blog/compressor-de-parafuso-industrial" aria-label="name">
+                            <a class="item-btn" href="{{ url('/') }}/blog/compressor-de-parafuso-industrial" aria-label="Ler artigo">
                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M40 20C40 8.97219 31.0278 -3.92187e-07 20 -8.74228e-07C8.97219 -1.35627e-06 -3.92187e-07 8.97219 -8.74228e-07 20C-1.35627e-06 31.0278 8.97219 40 20 40C31.0278 40 40 31.0278 40 20ZM2.5 20C2.5 10.3503 10.3503 2.5 20 2.5C29.6497 2.5 37.5 10.3503 37.5 20C37.5 29.6497 29.6497 37.5 20 37.5C10.3503 37.5 2.5 29.6497 2.5 20ZM22.1337 27.1338C21.6453 27.6222 20.8544 27.6222 20.3662 27.1338C20.1222 26.8897 20 26.5697 20 26.25C20 25.9303 20.1222 25.6103 20.3662 25.3662L24.4825 21.25L12.5 21.25C11.8091 21.25 11.25 20.6903 11.25 20C11.25 19.3097 11.8091 18.75 12.5 18.75L24.4825 18.75L20.3663 14.6337C19.8778 14.1453 19.8778 13.3544 20.3663 12.8662C20.8547 12.3781 21.6456 12.3778 22.1337 12.8662L28.3837 19.1163C28.8722 19.6047 28.8722 20.3956 28.3837 20.8838L22.1337 27.1338Z" fill="#FC5220"></path>
                                 </svg>                            </a>
@@ -383,11 +383,11 @@ details {
                         </div>
 
                         <div class="content">
-                            <h5 class="item-title fx-heading-1 fx-font-500">
-                                <a href="{{ url('/') }}/blog/assistencia-tecnica-compressores-de-ar" aria-label="name">Assist&ecirc;ncia T&eacute;cnica para Compressores de Ar: Quando Chamar?</a>
-                            </h5>
+                            <h3 class="item-title fx-heading-1 fx-font-500">
+                                <a href="{{ url('/') }}/blog/assistencia-tecnica-compressores-de-ar">Assist&ecirc;ncia T&eacute;cnica para Compressores de Ar: Quando Chamar?</a>
+                            </h3>
                             
-                            <a class="item-btn" href="{{ url('/') }}/blog/assistencia-tecnica-compressores-de-ar" aria-label="name">
+                            <a class="item-btn" href="{{ url('/') }}/blog/assistencia-tecnica-compressores-de-ar" aria-label="Ler artigo">
                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M40 20C40 8.97219 31.0278 -3.92187e-07 20 -8.74228e-07C8.97219 -1.35627e-06 -3.92187e-07 8.97219 -8.74228e-07 20C-1.35627e-06 31.0278 8.97219 40 20 40C31.0278 40 40 31.0278 40 20ZM2.5 20C2.5 10.3503 10.3503 2.5 20 2.5C29.6497 2.5 37.5 10.3503 37.5 20C37.5 29.6497 29.6497 37.5 20 37.5C10.3503 37.5 2.5 29.6497 2.5 20ZM22.1337 27.1338C21.6453 27.6222 20.8544 27.6222 20.3662 27.1338C20.1222 26.8897 20 26.5697 20 26.25C20 25.9303 20.1222 25.6103 20.3662 25.3662L24.4825 21.25L12.5 21.25C11.8091 21.25 11.25 20.6903 11.25 20C11.25 19.3097 11.8091 18.75 12.5 18.75L24.4825 18.75L20.3663 14.6337C19.8778 14.1453 19.8778 13.3544 20.3663 12.8662C20.8547 12.3781 21.6456 12.3778 22.1337 12.8662L28.3837 19.1163C28.8722 19.6047 28.8722 20.3956 28.3837 20.8838L22.1337 27.1338Z" fill="#FC5220"></path>
                                 </svg>                            </a>
@@ -402,11 +402,11 @@ details {
                         </div>
 
                         <div class="content">
-                            <h5 class="item-title fx-heading-1 fx-font-500">
-                                <a href="{{ url('/') }}/blog/pecas-para-compressores-de-ar" aria-label="name">Pe&ccedil;as para Compressores de Ar: Como Escolher e Evitar Paradas</a>
-                            </h5>
+                            <h3 class="item-title fx-heading-1 fx-font-500">
+                                <a href="{{ url('/') }}/blog/pecas-para-compressores-de-ar">Pe&ccedil;as para Compressores de Ar: Como Escolher e Evitar Paradas</a>
+                            </h3>
                             
-                            <a class="item-btn" href="{{ url('/') }}/blog/pecas-para-compressores-de-ar" aria-label="name">
+                            <a class="item-btn" href="{{ url('/') }}/blog/pecas-para-compressores-de-ar" aria-label="Ler artigo">
                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M40 20C40 8.97219 31.0278 -3.92187e-07 20 -8.74228e-07C8.97219 -1.35627e-06 -3.92187e-07 8.97219 -8.74228e-07 20C-1.35627e-06 31.0278 8.97219 40 20 40C31.0278 40 40 31.0278 40 20ZM2.5 20C2.5 10.3503 10.3503 2.5 20 2.5C29.6497 2.5 37.5 10.3503 37.5 20C37.5 29.6497 29.6497 37.5 20 37.5C10.3503 37.5 2.5 29.6497 2.5 20ZM22.1337 27.1338C21.6453 27.6222 20.8544 27.6222 20.3662 27.1338C20.1222 26.8897 20 26.5697 20 26.25C20 25.9303 20.1222 25.6103 20.3662 25.3662L24.4825 21.25L12.5 21.25C11.8091 21.25 11.25 20.6903 11.25 20C11.25 19.3097 11.8091 18.75 12.5 18.75L24.4825 18.75L20.3663 14.6337C19.8778 14.1453 19.8778 13.3544 20.3663 12.8662C20.8547 12.3781 21.6456 12.3778 22.1337 12.8662L28.3837 19.1163C28.8722 19.6047 28.8722 20.3956 28.3837 20.8838L22.1337 27.1338Z" fill="#FC5220"></path>
                                 </svg>                            </a>
@@ -421,11 +421,11 @@ details {
                         </div>
 
                         <div class="content">
-                            <h5 class="item-title fx-heading-1 fx-font-500">
-                                <a href="{{ url('/') }}/blog/contrato-manutencao-compressores" aria-label="name">Contrato de Manuten&ccedil;&atilde;o para Compressores: Quando Vale a Pena?</a>
-                            </h5>
+                            <h3 class="item-title fx-heading-1 fx-font-500">
+                                <a href="{{ url('/') }}/blog/contrato-manutencao-compressores">Contrato de Manuten&ccedil;&atilde;o para Compressores: Quando Vale a Pena?</a>
+                            </h3>
                             
-                            <a class="item-btn" href="{{ url('/') }}/blog/contrato-manutencao-compressores" aria-label="name">
+                            <a class="item-btn" href="{{ url('/') }}/blog/contrato-manutencao-compressores" aria-label="Ler artigo">
                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M40 20C40 8.97219 31.0278 -3.92187e-07 20 -8.74228e-07C8.97219 -1.35627e-06 -3.92187e-07 8.97219 -8.74228e-07 20C-1.35627e-06 31.0278 8.97219 40 20 40C31.0278 40 40 31.0278 40 20ZM2.5 20C2.5 10.3503 10.3503 2.5 20 2.5C29.6497 2.5 37.5 10.3503 37.5 20C37.5 29.6497 29.6497 37.5 20 37.5C10.3503 37.5 2.5 29.6497 2.5 20ZM22.1337 27.1338C21.6453 27.6222 20.8544 27.6222 20.3662 27.1338C20.1222 26.8897 20 26.5697 20 26.25C20 25.9303 20.1222 25.6103 20.3662 25.3662L24.4825 21.25L12.5 21.25C11.8091 21.25 11.25 20.6903 11.25 20C11.25 19.3097 11.8091 18.75 12.5 18.75L24.4825 18.75L20.3663 14.6337C19.8778 14.1453 19.8778 13.3544 20.3663 12.8662C20.8547 12.3781 21.6456 12.3778 22.1337 12.8662L28.3837 19.1163C28.8722 19.6047 28.8722 20.3956 28.3837 20.8838L22.1337 27.1338Z" fill="#FC5220"></path>
                                 </svg>                            </a>
@@ -442,11 +442,11 @@ details {
                         </div>
 
                         <div class="content">
-                            <h5 class="item-title fx-heading-1 fx-font-500">
-                                <a href="{{ url('/') }}/blog/custo-operacional" aria-label="name">5 Erros que Aumentam o Custo da Operação Industrial</a>
-                            </h5>
+                            <h3 class="item-title fx-heading-1 fx-font-500">
+                                <a href="{{ url('/') }}/blog/custo-operacional">5 Erros que Aumentam o Custo da Operação Industrial</a>
+                            </h3>
                             
-                            <a class="item-btn" href="{{ url('/') }}/blog/custo-operacional" aria-label="name">
+                            <a class="item-btn" href="{{ url('/') }}/blog/custo-operacional" aria-label="Ler artigo">
                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M40 20C40 8.97219 31.0278 -3.92187e-07 20 -8.74228e-07C8.97219 -1.35627e-06 -3.92187e-07 8.97219 -8.74228e-07 20C-1.35627e-06 31.0278 8.97219 40 20 40C31.0278 40 40 31.0278 40 20ZM2.5 20C2.5 10.3503 10.3503 2.5 20 2.5C29.6497 2.5 37.5 10.3503 37.5 20C37.5 29.6497 29.6497 37.5 20 37.5C10.3503 37.5 2.5 29.6497 2.5 20ZM22.1337 27.1338C21.6453 27.6222 20.8544 27.6222 20.3662 27.1338C20.1222 26.8897 20 26.5697 20 26.25C20 25.9303 20.1222 25.6103 20.3662 25.3662L24.4825 21.25L12.5 21.25C11.8091 21.25 11.25 20.6903 11.25 20C11.25 19.3097 11.8091 18.75 12.5 18.75L24.4825 18.75L20.3663 14.6337C19.8778 14.1453 19.8778 13.3544 20.3663 12.8662C20.8547 12.3781 21.6456 12.3778 22.1337 12.8662L28.3837 19.1163C28.8722 19.6047 28.8722 20.3956 28.3837 20.8838L22.1337 27.1338Z" fill="#FC5220"></path>
                                 </svg>
@@ -462,11 +462,11 @@ details {
                         </div>
 
                         <div class="content">
-                            <h5 class="item-title fx-heading-1 fx-font-500">
-                                <a href="{{ url('/') }}/blog/manutencao-preditiva-compressores" aria-label="name">Manuten&ccedil;&atilde;o Preditiva em Compressores: Como Antecipar Falhas e Evitar Paradas</a>
-                            </h5>
+                            <h3 class="item-title fx-heading-1 fx-font-500">
+                                <a href="{{ url('/') }}/blog/manutencao-preditiva-compressores">Manuten&ccedil;&atilde;o Preditiva em Compressores: Como Antecipar Falhas e Evitar Paradas</a>
+                            </h3>
                             
-                            <a class="item-btn" href="{{ url('/') }}/blog/manutencao-preditiva-compressores" aria-label="name">
+                            <a class="item-btn" href="{{ url('/') }}/blog/manutencao-preditiva-compressores" aria-label="Ler artigo">
                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M40 20C40 8.97219 31.0278 -3.92187e-07 20 -8.74228e-07C8.97219 -1.35627e-06 -3.92187e-07 8.97219 -8.74228e-07 20C-1.35627e-06 31.0278 8.97219 40 20 40C31.0278 40 40 31.0278 40 20ZM2.5 20C2.5 10.3503 10.3503 2.5 20 2.5C29.6497 2.5 37.5 10.3503 37.5 20C37.5 29.6497 29.6497 37.5 20 37.5C10.3503 37.5 2.5 29.6497 2.5 20ZM22.1337 27.1338C21.6453 27.6222 20.8544 27.6222 20.3662 27.1338C20.1222 26.8897 20 26.5697 20 26.25C20 25.9303 20.1222 25.6103 20.3662 25.3662L24.4825 21.25L12.5 21.25C11.8091 21.25 11.25 20.6903 11.25 20C11.25 19.3097 11.8091 18.75 12.5 18.75L24.4825 18.75L20.3663 14.6337C19.8778 14.1453 19.8778 13.3544 20.3663 12.8662C20.8547 12.3781 21.6456 12.3778 22.1337 12.8662L28.3837 19.1163C28.8722 19.6047 28.8722 20.3956 28.3837 20.8838L22.1337 27.1338Z" fill="#FC5220"></path>
                                 </svg>
@@ -482,11 +482,11 @@ details {
                         </div>
 
                         <div class="content">
-                            <h5 class="item-title fx-heading-1 fx-font-500">
-                                <a href="{{ url('/') }}/blog/auditoria-energetica-ar-comprimido" aria-label="name">Auditoria Energ&eacute;tica em Ar Comprimido: Como Reduzir Custos Industriais</a>
-                            </h5>
+                            <h3 class="item-title fx-heading-1 fx-font-500">
+                                <a href="{{ url('/') }}/blog/auditoria-energetica-ar-comprimido">Auditoria Energ&eacute;tica em Ar Comprimido: Como Reduzir Custos Industriais</a>
+                            </h3>
                             
-                            <a class="item-btn" href="{{ url('/') }}/blog/auditoria-energetica-ar-comprimido" aria-label="name">
+                            <a class="item-btn" href="{{ url('/') }}/blog/auditoria-energetica-ar-comprimido" aria-label="Ler artigo">
                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M40 20C40 8.97219 31.0278 -3.92187e-07 20 -8.74228e-07C8.97219 -1.35627e-06 -3.92187e-07 8.97219 -8.74228e-07 20C-1.35627e-06 31.0278 8.97219 40 20 40C31.0278 40 40 31.0278 40 20ZM2.5 20C2.5 10.3503 10.3503 2.5 20 2.5C29.6497 2.5 37.5 10.3503 37.5 20C37.5 29.6497 29.6497 37.5 20 37.5C10.3503 37.5 2.5 29.6497 2.5 20ZM22.1337 27.1338C21.6453 27.6222 20.8544 27.6222 20.3662 27.1338C20.1222 26.8897 20 26.5697 20 26.25C20 25.9303 20.1222 25.6103 20.3662 25.3662L24.4825 21.25L12.5 21.25C11.8091 21.25 11.25 20.6903 11.25 20C11.25 19.3097 11.8091 18.75 12.5 18.75L24.4825 18.75L20.3663 14.6337C19.8778 14.1453 19.8778 13.3544 20.3663 12.8662C20.8547 12.3781 21.6456 12.3778 22.1337 12.8662L28.3837 19.1163C28.8722 19.6047 28.8722 20.3956 28.3837 20.8838L22.1337 27.1338Z" fill="#FC5220"></path>
                                 </svg>
@@ -502,11 +502,11 @@ details {
                         </div>
 
                         <div class="content">
-                            <h5 class="item-title fx-heading-1 fx-font-500">
-                                <a href="{{ url('/') }}/blog/retrofit-compressores-industriais" aria-label="name">Retrofit de Compressores Industriais: Quando Modernizar Vale Mais</a>
-                            </h5>
+                            <h3 class="item-title fx-heading-1 fx-font-500">
+                                <a href="{{ url('/') }}/blog/retrofit-compressores-industriais">Retrofit de Compressores Industriais: Quando Modernizar Vale Mais</a>
+                            </h3>
                             
-                            <a class="item-btn" href="{{ url('/') }}/blog/retrofit-compressores-industriais" aria-label="name">
+                            <a class="item-btn" href="{{ url('/') }}/blog/retrofit-compressores-industriais" aria-label="Ler artigo">
                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M40 20C40 8.97219 31.0278 -3.92187e-07 20 -8.74228e-07C8.97219 -1.35627e-06 -3.92187e-07 8.97219 -8.74228e-07 20C-1.35627e-06 31.0278 8.97219 40 20 40C31.0278 40 40 31.0278 40 20ZM2.5 20C2.5 10.3503 10.3503 2.5 20 2.5C29.6497 2.5 37.5 10.3503 37.5 20C37.5 29.6497 29.6497 37.5 20 37.5C10.3503 37.5 2.5 29.6497 2.5 20ZM22.1337 27.1338C21.6453 27.6222 20.8544 27.6222 20.3662 27.1338C20.1222 26.8897 20 26.5697 20 26.25C20 25.9303 20.1222 25.6103 20.3662 25.3662L24.4825 21.25L12.5 21.25C11.8091 21.25 11.25 20.6903 11.25 20C11.25 19.3097 11.8091 18.75 12.5 18.75L24.4825 18.75L20.3663 14.6337C19.8778 14.1453 19.8778 13.3544 20.3663 12.8662C20.8547 12.3781 21.6456 12.3778 22.1337 12.8662L28.3837 19.1163C28.8722 19.6047 28.8722 20.3956 28.3837 20.8838L22.1337 27.1338Z" fill="#FC5220"></path>
                                 </svg>
@@ -522,11 +522,11 @@ details {
                         </div>
 
                         <div class="content">
-                            <h5 class="item-title fx-heading-1 fx-font-500">
-                                <a href="{{ url('/') }}/blog/pressostato-do-compressor-de-ar" aria-label="name">Pressostato do Compressor de Ar: como funciona e como regular</a>
-                            </h5>
+                            <h3 class="item-title fx-heading-1 fx-font-500">
+                                <a href="{{ url('/') }}/blog/pressostato-do-compressor-de-ar">Pressostato do Compressor de Ar: como funciona e como regular</a>
+                            </h3>
                             
-                            <a class="item-btn" href="{{ url('/') }}/blog/pressostato-do-compressor-de-ar" aria-label="name">
+                            <a class="item-btn" href="{{ url('/') }}/blog/pressostato-do-compressor-de-ar" aria-label="Ler artigo">
                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M40 20C40 8.97219 31.0278 -3.92187e-07 20 -8.74228e-07C8.97219 -1.35627e-06 -3.92187e-07 8.97219 -8.74228e-07 20C-1.35627e-06 31.0278 8.97219 40 20 40C31.0278 40 40 31.0278 40 20ZM2.5 20C2.5 10.3503 10.3503 2.5 20 2.5C29.6497 2.5 37.5 10.3503 37.5 20C37.5 29.6497 29.6497 37.5 20 37.5C10.3503 37.5 2.5 29.6497 2.5 20ZM22.1337 27.1338C21.6453 27.6222 20.8544 27.6222 20.3662 27.1338C20.1222 26.8897 20 26.5697 20 26.25C20 25.9303 20.1222 25.6103 20.3662 25.3662L24.4825 21.25L12.5 21.25C11.8091 21.25 11.25 20.6903 11.25 20C11.25 19.3097 11.8091 18.75 12.5 18.75L24.4825 18.75L20.3663 14.6337C19.8778 14.1453 19.8778 13.3544 20.3663 12.8662C20.8547 12.3781 21.6456 12.3778 22.1337 12.8662L28.3837 19.1163C28.8722 19.6047 28.8722 20.3956 28.3837 20.8838L22.1337 27.1338Z" fill="#FC5220"></path>
                                 </svg>
@@ -542,11 +542,11 @@ details {
                         </div>
 
                         <div class="content">
-                            <h5 class="item-title fx-heading-1 fx-font-500">
-                                <a href="{{ url('/') }}/blog/valvula-de-seguranca-do-compressor-de-ar" aria-label="name">Válvula de Segurança do Compressor de Ar: por que é indispensável</a>
-                            </h5>
+                            <h3 class="item-title fx-heading-1 fx-font-500">
+                                <a href="{{ url('/') }}/blog/valvula-de-seguranca-do-compressor-de-ar">Válvula de Segurança do Compressor de Ar: por que é indispensável</a>
+                            </h3>
                             
-                            <a class="item-btn" href="{{ url('/') }}/blog/valvula-de-seguranca-do-compressor-de-ar" aria-label="name">
+                            <a class="item-btn" href="{{ url('/') }}/blog/valvula-de-seguranca-do-compressor-de-ar" aria-label="Ler artigo">
                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M40 20C40 8.97219 31.0278 -3.92187e-07 20 -8.74228e-07C8.97219 -1.35627e-06 -3.92187e-07 8.97219 -8.74228e-07 20C-1.35627e-06 31.0278 8.97219 40 20 40C31.0278 40 40 31.0278 40 20ZM2.5 20C2.5 10.3503 10.3503 2.5 20 2.5C29.6497 2.5 37.5 10.3503 37.5 20C37.5 29.6497 29.6497 37.5 20 37.5C10.3503 37.5 2.5 29.6497 2.5 20ZM22.1337 27.1338C21.6453 27.6222 20.8544 27.6222 20.3662 27.1338C20.1222 26.8897 20 26.5697 20 26.25C20 25.9303 20.1222 25.6103 20.3662 25.3662L24.4825 21.25L12.5 21.25C11.8091 21.25 11.25 20.6903 11.25 20C11.25 19.3097 11.8091 18.75 12.5 18.75L24.4825 18.75L20.3663 14.6337C19.8778 14.1453 19.8778 13.3544 20.3663 12.8662C20.8547 12.3781 21.6456 12.3778 22.1337 12.8662L28.3837 19.1163C28.8722 19.6047 28.8722 20.3956 28.3837 20.8838L22.1337 27.1338Z" fill="#FC5220"></path>
                                 </svg>
@@ -562,11 +562,11 @@ details {
                         </div>
 
                         <div class="content">
-                            <h5 class="item-title fx-heading-1 fx-font-500">
-                                <a href="{{ url('/') }}/blog/dreno-automatico-compressor-de-ar" aria-label="name">Dreno Automático do Compressor de Ar: como funciona e quando usar</a>
-                            </h5>
+                            <h3 class="item-title fx-heading-1 fx-font-500">
+                                <a href="{{ url('/') }}/blog/dreno-automatico-compressor-de-ar">Dreno Automático do Compressor de Ar: como funciona e quando usar</a>
+                            </h3>
                             
-                            <a class="item-btn" href="{{ url('/') }}/blog/dreno-automatico-compressor-de-ar" aria-label="name">
+                            <a class="item-btn" href="{{ url('/') }}/blog/dreno-automatico-compressor-de-ar" aria-label="Ler artigo">
                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M40 20C40 8.97219 31.0278 -3.92187e-07 20 -8.74228e-07C8.97219 -1.35627e-06 -3.92187e-07 8.97219 -8.74228e-07 20C-1.35627e-06 31.0278 8.97219 40 20 40C31.0278 40 40 31.0278 40 20ZM2.5 20C2.5 10.3503 10.3503 2.5 20 2.5C29.6497 2.5 37.5 10.3503 37.5 20C37.5 29.6497 29.6497 37.5 20 37.5C10.3503 37.5 2.5 29.6497 2.5 20ZM22.1337 27.1338C21.6453 27.6222 20.8544 27.6222 20.3662 27.1338C20.1222 26.8897 20 26.5697 20 26.25C20 25.9303 20.1222 25.6103 20.3662 25.3662L24.4825 21.25L12.5 21.25C11.8091 21.25 11.25 20.6903 11.25 20C11.25 19.3097 11.8091 18.75 12.5 18.75L24.4825 18.75L20.3663 14.6337C19.8778 14.1453 19.8778 13.3544 20.3663 12.8662C20.8547 12.3781 21.6456 12.3778 22.1337 12.8662L28.3837 19.1163C28.8722 19.6047 28.8722 20.3956 28.3837 20.8838L22.1337 27.1338Z" fill="#FC5220"></path>
                                 </svg>
@@ -581,11 +581,11 @@ details {
                         </div>
 
                         <div class="content">
-                            <h5 class="item-title fx-heading-1 fx-font-500">
-                                <a href="{{ url('/') }}/blog/manutencao-preventiva-compressores" aria-label="name">Manutenção Preventiva em Compressores de Ar: como reduzir custos e evitar paradas</a>
-                            </h5>
+                            <h3 class="item-title fx-heading-1 fx-font-500">
+                                <a href="{{ url('/') }}/blog/manutencao-preventiva-compressores">Manutenção Preventiva em Compressores de Ar: como reduzir custos e evitar paradas</a>
+                            </h3>
                             
-                            <a class="item-btn" href="{{ url('/') }}/blog/manutencao-preventiva-compressores" aria-label="name">
+                            <a class="item-btn" href="{{ url('/') }}/blog/manutencao-preventiva-compressores" aria-label="Ler artigo">
                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M40 20C40 8.97219 31.0278 -3.92187e-07 20 -8.74228e-07C8.97219 -1.35627e-06 -3.92187e-07 8.97219 -8.74228e-07 20C-1.35627e-06 31.0278 8.97219 40 20 40C31.0278 40 40 31.0278 40 20ZM2.5 20C2.5 10.3503 10.3503 2.5 20 2.5C29.6497 2.5 37.5 10.3503 37.5 20C37.5 29.6497 29.6497 37.5 20 37.5C10.3503 37.5 2.5 29.6497 2.5 20ZM22.1337 27.1338C21.6453 27.6222 20.8544 27.6222 20.3662 27.1338C20.1222 26.8897 20 26.5697 20 26.25C20 25.9303 20.1222 25.6103 20.3662 25.3662L24.4825 21.25L12.5 21.25C11.8091 21.25 11.25 20.6903 11.25 20C11.25 19.3097 11.8091 18.75 12.5 18.75L24.4825 18.75L20.3663 14.6337C19.8778 14.1453 19.8778 13.3544 20.3663 12.8662C20.8547 12.3781 21.6456 12.3778 22.1337 12.8662L28.3837 19.1163C28.8722 19.6047 28.8722 20.3956 28.3837 20.8838L22.1337 27.1338Z" fill="#FC5220"></path>
                                 </svg>
@@ -601,11 +601,11 @@ details {
                         </div>
 
                         <div class="content">
-                            <h5 class="item-title fx-heading-1 fx-font-500">
-                                <a href="{{ url('/') }}/blog/filtro-coalescente-em-ar-comprimido" aria-label="name">Filtro Coalescente em Ar Comprimido: o que é e quando trocar</a>
-                            </h5>
+                            <h3 class="item-title fx-heading-1 fx-font-500">
+                                <a href="{{ url('/') }}/blog/filtro-coalescente-em-ar-comprimido">Filtro Coalescente em Ar Comprimido: o que é e quando trocar</a>
+                            </h3>
                             
-                            <a class="item-btn" href="{{ url('/') }}/blog/filtro-coalescente-em-ar-comprimido" aria-label="name">
+                            <a class="item-btn" href="{{ url('/') }}/blog/filtro-coalescente-em-ar-comprimido" aria-label="Ler artigo">
                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M40 20C40 8.97219 31.0278 -3.92187e-07 20 -8.74228e-07C8.97219 -1.35627e-06 -3.92187e-07 8.97219 -8.74228e-07 20C-1.35627e-06 31.0278 8.97219 40 20 40C31.0278 40 40 31.0278 40 20ZM2.5 20C2.5 10.3503 10.3503 2.5 20 2.5C29.6497 2.5 37.5 10.3503 37.5 20C37.5 29.6497 29.6497 37.5 20 37.5C10.3503 37.5 2.5 29.6497 2.5 20ZM22.1337 27.1338C21.6453 27.6222 20.8544 27.6222 20.3662 27.1338C20.1222 26.8897 20 26.5697 20 26.25C20 25.9303 20.1222 25.6103 20.3662 25.3662L24.4825 21.25L12.5 21.25C11.8091 21.25 11.25 20.6903 11.25 20C11.25 19.3097 11.8091 18.75 12.5 18.75L24.4825 18.75L20.3663 14.6337C19.8778 14.1453 19.8778 13.3544 20.3663 12.8662C20.8547 12.3781 21.6456 12.3778 22.1337 12.8662L28.3837 19.1163C28.8722 19.6047 28.8722 20.3956 28.3837 20.8838L22.1337 27.1338Z" fill="#FC5220"></path>
                                 </svg>
@@ -621,11 +621,11 @@ details {
                         </div>
 
                         <div class="content">
-                            <h5 class="item-title fx-heading-1 fx-font-500">
-                                <a href="{{ url('/') }}/blog/separador-agua-oleo-em-ar-comprimido" aria-label="name">Separador de Água e Óleo em Ar Comprimido: como funciona</a>
-                            </h5>
+                            <h3 class="item-title fx-heading-1 fx-font-500">
+                                <a href="{{ url('/') }}/blog/separador-agua-oleo-em-ar-comprimido">Separador de Água e Óleo em Ar Comprimido: como funciona</a>
+                            </h3>
                             
-                            <a class="item-btn" href="{{ url('/') }}/blog/separador-agua-oleo-em-ar-comprimido" aria-label="name">
+                            <a class="item-btn" href="{{ url('/') }}/blog/separador-agua-oleo-em-ar-comprimido" aria-label="Ler artigo">
                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M40 20C40 8.97219 31.0278 -3.92187e-07 20 -8.74228e-07C8.97219 -1.35627e-06 -3.92187e-07 8.97219 -8.74228e-07 20C-1.35627e-06 31.0278 8.97219 40 20 40C31.0278 40 40 31.0278 40 20ZM2.5 20C2.5 10.3503 10.3503 2.5 20 2.5C29.6497 2.5 37.5 10.3503 37.5 20C37.5 29.6497 29.6497 37.5 20 37.5C10.3503 37.5 2.5 29.6497 2.5 20ZM22.1337 27.1338C21.6453 27.6222 20.8544 27.6222 20.3662 27.1338C20.1222 26.8897 20 26.5697 20 26.25C20 25.9303 20.1222 25.6103 20.3662 25.3662L24.4825 21.25L12.5 21.25C11.8091 21.25 11.25 20.6903 11.25 20C11.25 19.3097 11.8091 18.75 12.5 18.75L24.4825 18.75L20.3663 14.6337C19.8778 14.1453 19.8778 13.3544 20.3663 12.8662C20.8547 12.3781 21.6456 12.3778 22.1337 12.8662L28.3837 19.1163C28.8722 19.6047 28.8722 20.3956 28.3837 20.8838L22.1337 27.1338Z" fill="#FC5220"></path>
                                 </svg>
@@ -640,11 +640,11 @@ details {
                         </div>
 
                         <div class="content">
-                            <h5 class="item-title fx-heading-1 fx-font-500">
-                                <a href="{{ url('/') }}/blog/tratamento-de-condensado-em-ar-comprimido" aria-label="name">Tratamento de Condensado em Ar Comprimido: como reduzir riscos e custos</a>
-                            </h5>
+                            <h3 class="item-title fx-heading-1 fx-font-500">
+                                <a href="{{ url('/') }}/blog/tratamento-de-condensado-em-ar-comprimido">Tratamento de Condensado em Ar Comprimido: como reduzir riscos e custos</a>
+                            </h3>
                             
-                            <a class="item-btn" href="{{ url('/') }}/blog/tratamento-de-condensado-em-ar-comprimido" aria-label="name">
+                            <a class="item-btn" href="{{ url('/') }}/blog/tratamento-de-condensado-em-ar-comprimido" aria-label="Ler artigo">
                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M40 20C40 8.97219 31.0278 -3.92187e-07 20 -8.74228e-07C8.97219 -1.35627e-06 -3.92187e-07 8.97219 -8.74228e-07 20C-1.35627e-06 31.0278 8.97219 40 20 40C31.0278 40 40 31.0278 40 20ZM2.5 20C2.5 10.3503 10.3503 2.5 20 2.5C29.6497 2.5 37.5 10.3503 37.5 20C37.5 29.6497 29.6497 37.5 20 37.5C10.3503 37.5 2.5 29.6497 2.5 20ZM22.1337 27.1338C21.6453 27.6222 20.8544 27.6222 20.3662 27.1338C20.1222 26.8897 20 26.5697 20 26.25C20 25.9303 20.1222 25.6103 20.3662 25.3662L24.4825 21.25L12.5 21.25C11.8091 21.25 11.25 20.6903 11.25 20C11.25 19.3097 11.8091 18.75 12.5 18.75L24.4825 18.75L20.3663 14.6337C19.8778 14.1453 19.8778 13.3544 20.3663 12.8662C20.8547 12.3781 21.6456 12.3778 22.1337 12.8662L28.3837 19.1163C28.8722 19.6047 28.8722 20.3956 28.3837 20.8838L22.1337 27.1338Z" fill="#FC5220"></path>
                                 </svg>
@@ -660,11 +660,11 @@ details {
                         </div>
 
                         <div class="content">
-                            <h5 class="item-title fx-heading-1 fx-font-500">
-                                <a href="{{ url('/') }}/blog/ponto-de-orvalho-em-ar-comprimido" aria-label="name">Ponto de Orvalho em Ar Comprimido: como controlar a umidade</a>
-                            </h5>
+                            <h3 class="item-title fx-heading-1 fx-font-500">
+                                <a href="{{ url('/') }}/blog/ponto-de-orvalho-em-ar-comprimido">Ponto de Orvalho em Ar Comprimido: como controlar a umidade</a>
+                            </h3>
                             
-                            <a class="item-btn" href="{{ url('/') }}/blog/ponto-de-orvalho-em-ar-comprimido" aria-label="name">
+                            <a class="item-btn" href="{{ url('/') }}/blog/ponto-de-orvalho-em-ar-comprimido" aria-label="Ler artigo">
                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M40 20C40 8.97219 31.0278 -3.92187e-07 20 -8.74228e-07C8.97219 -1.35627e-06 -3.92187e-07 8.97219 -8.74228e-07 20C-1.35627e-06 31.0278 8.97219 40 20 40C31.0278 40 40 31.0278 40 20ZM2.5 20C2.5 10.3503 10.3503 2.5 20 2.5C29.6497 2.5 37.5 10.3503 37.5 20C37.5 29.6497 29.6497 37.5 20 37.5C10.3503 37.5 2.5 29.6497 2.5 20ZM22.1337 27.1338C21.6453 27.6222 20.8544 27.6222 20.3662 27.1338C20.1222 26.8897 20 26.5697 20 26.25C20 25.9303 20.1222 25.6103 20.3662 25.3662L24.4825 21.25L12.5 21.25C11.8091 21.25 11.25 20.6903 11.25 20C11.25 19.3097 11.8091 18.75 12.5 18.75L24.4825 18.75L20.3663 14.6337C19.8778 14.1453 19.8778 13.3544 20.3663 12.8662C20.8547 12.3781 21.6456 12.3778 22.1337 12.8662L28.3837 19.1163C28.8722 19.6047 28.8722 20.3956 28.3837 20.8838L22.1337 27.1338Z" fill="#FC5220"></path>
                                 </svg>
@@ -679,11 +679,11 @@ details {
                         </div>
 
                         <div class="content">
-                            <h5 class="item-title fx-heading-1 fx-font-500">
-                                <a href="{{ url('/') }}/blog/reservatorio-de-ar-comprimido" aria-label="name">Reservat&oacute;rio de Ar Comprimido: Como Dimensionar e Usar</a>
-                            </h5>
+                            <h3 class="item-title fx-heading-1 fx-font-500">
+                                <a href="{{ url('/') }}/blog/reservatorio-de-ar-comprimido">Reservat&oacute;rio de Ar Comprimido: Como Dimensionar e Usar</a>
+                            </h3>
                             
-                            <a class="item-btn" href="{{ url('/') }}/blog/reservatorio-de-ar-comprimido" aria-label="name">
+                            <a class="item-btn" href="{{ url('/') }}/blog/reservatorio-de-ar-comprimido" aria-label="Ler artigo">
                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M40 20C40 8.97219 31.0278 -3.92187e-07 20 -8.74228e-07C8.97219 -1.35627e-06 -3.92187e-07 8.97219 -8.74228e-07 20C-1.35627e-06 31.0278 8.97219 40 20 40C31.0278 40 40 31.0278 40 20ZM2.5 20C2.5 10.3503 10.3503 2.5 20 2.5C29.6497 2.5 37.5 10.3503 37.5 20C37.5 29.6497 29.6497 37.5 20 37.5C10.3503 37.5 2.5 29.6497 2.5 20ZM22.1337 27.1338C21.6453 27.6222 20.8544 27.6222 20.3662 27.1338C20.1222 26.8897 20 26.5697 20 26.25C20 25.9303 20.1222 25.6103 20.3662 25.3662L24.4825 21.25L12.5 21.25C11.8091 21.25 11.25 20.6903 11.25 20C11.25 19.3097 11.8091 18.75 12.5 18.75L24.4825 18.75L20.3663 14.6337C19.8778 14.1453 19.8778 13.3544 20.3663 12.8662C20.8547 12.3781 21.6456 12.3778 22.1337 12.8662L28.3837 19.1163C28.8722 19.6047 28.8722 20.3956 28.3837 20.8838L22.1337 27.1338Z" fill="#FC5220"></path>
                                 </svg>                            </a>
@@ -698,11 +698,11 @@ details {
                         </div>
 
                         <div class="content">
-                            <h5 class="item-title fx-heading-1 fx-font-500">
-                                <a href="{{ url('/') }}/blog/perda-de-carga-na-rede-de-ar-comprimido" aria-label="name">Perda de Carga na Rede de Ar Comprimido: Como Reduzir</a>
-                            </h5>
+                            <h3 class="item-title fx-heading-1 fx-font-500">
+                                <a href="{{ url('/') }}/blog/perda-de-carga-na-rede-de-ar-comprimido">Perda de Carga na Rede de Ar Comprimido: Como Reduzir</a>
+                            </h3>
                             
-                            <a class="item-btn" href="{{ url('/') }}/blog/perda-de-carga-na-rede-de-ar-comprimido" aria-label="name">
+                            <a class="item-btn" href="{{ url('/') }}/blog/perda-de-carga-na-rede-de-ar-comprimido" aria-label="Ler artigo">
                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M40 20C40 8.97219 31.0278 -3.92187e-07 20 -8.74228e-07C8.97219 -1.35627e-06 -3.92187e-07 8.97219 -8.74228e-07 20C-1.35627e-06 31.0278 8.97219 40 20 40C31.0278 40 40 31.0278 40 20ZM2.5 20C2.5 10.3503 10.3503 2.5 20 2.5C29.6497 2.5 37.5 10.3503 37.5 20C37.5 29.6497 29.6497 37.5 20 37.5C10.3503 37.5 2.5 29.6497 2.5 20ZM22.1337 27.1338C21.6453 27.6222 20.8544 27.6222 20.3662 27.1338C20.1222 26.8897 20 26.5697 20 26.25C20 25.9303 20.1222 25.6103 20.3662 25.3662L24.4825 21.25L12.5 21.25C11.8091 21.25 11.25 20.6903 11.25 20C11.25 19.3097 11.8091 18.75 12.5 18.75L24.4825 18.75L20.3663 14.6337C19.8778 14.1453 19.8778 13.3544 20.3663 12.8662C20.8547 12.3781 21.6456 12.3778 22.1337 12.8662L28.3837 19.1163C28.8722 19.6047 28.8722 20.3956 28.3837 20.8838L22.1337 27.1338Z" fill="#FC5220"></path>
                                 </svg>                            </a>
@@ -717,11 +717,11 @@ details {
                         </div>
 
                         <div class="content">
-                            <h5 class="item-title fx-heading-1 fx-font-500">
-                                <a href="{{ url('/') }}/blog/vazamentos-de-ar-comprimido" aria-label="name">Vazamentos de Ar Comprimido: o inimigo silencioso dos custos industriais</a>
-                            </h5>
+                            <h3 class="item-title fx-heading-1 fx-font-500">
+                                <a href="{{ url('/') }}/blog/vazamentos-de-ar-comprimido">Vazamentos de Ar Comprimido: o inimigo silencioso dos custos industriais</a>
+                            </h3>
                             
-                            <a class="item-btn" href="{{ url('/') }}/blog/vazamentos-de-ar-comprimido" aria-label="name">
+                            <a class="item-btn" href="{{ url('/') }}/blog/vazamentos-de-ar-comprimido" aria-label="Ler artigo">
                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M40 20C40 8.97219 31.0278 -3.92187e-07 20 -8.74228e-07C8.97219 -1.35627e-06 -3.92187e-07 8.97219 -8.74228e-07 20C-1.35627e-06 31.0278 8.97219 40 20 40C31.0278 40 40 31.0278 40 20ZM2.5 20C2.5 10.3503 10.3503 2.5 20 2.5C29.6497 2.5 37.5 10.3503 37.5 20C37.5 29.6497 29.6497 37.5 20 37.5C10.3503 37.5 2.5 29.6497 2.5 20ZM22.1337 27.1338C21.6453 27.6222 20.8544 27.6222 20.3662 27.1338C20.1222 26.8897 20 26.5697 20 26.25C20 25.9303 20.1222 25.6103 20.3662 25.3662L24.4825 21.25L12.5 21.25C11.8091 21.25 11.25 20.6903 11.25 20C11.25 19.3097 11.8091 18.75 12.5 18.75L24.4825 18.75L20.3663 14.6337C19.8778 14.1453 19.8778 13.3544 20.3663 12.8662C20.8547 12.3781 21.6456 12.3778 22.1337 12.8662L28.3837 19.1163C28.8722 19.6047 28.8722 20.3956 28.3837 20.8838L22.1337 27.1338Z" fill="#FC5220"></path>
                                 </svg>
@@ -744,11 +744,11 @@ details {
                         </div>
 
                         <div class="content">
-                            <h5 class="item-title fx-heading-1 fx-font-500">
-                                <a href="{{ url('/') }}/blog/automacao-com-ar-comprimido" aria-label="name">Automação com Ar Comprimido: Como Aumentar a Eficiência da Sua Indústria</a>
-                            </h5>
+                            <h3 class="item-title fx-heading-1 fx-font-500">
+                                <a href="{{ url('/') }}/blog/automacao-com-ar-comprimido">Automação com Ar Comprimido: Como Aumentar a Eficiência da Sua Indústria</a>
+                            </h3>
                             
-                            <a class="item-btn" href="{{ url('/') }}/blog/automacao-com-ar-comprimido" aria-label="name">
+                            <a class="item-btn" href="{{ url('/') }}/blog/automacao-com-ar-comprimido" aria-label="Ler artigo">
                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M40 20C40 8.97219 31.0278 -3.92187e-07 20 -8.74228e-07C8.97219 -1.35627e-06 -3.92187e-07 8.97219 -8.74228e-07 20C-1.35627e-06 31.0278 8.97219 40 20 40C31.0278 40 40 31.0278 40 20ZM2.5 20C2.5 10.3503 10.3503 2.5 20 2.5C29.6497 2.5 37.5 10.3503 37.5 20C37.5 29.6497 29.6497 37.5 20 37.5C10.3503 37.5 2.5 29.6497 2.5 20ZM22.1337 27.1338C21.6453 27.6222 20.8544 27.6222 20.3662 27.1338C20.1222 26.8897 20 26.5697 20 26.25C20 25.9303 20.1222 25.6103 20.3662 25.3662L24.4825 21.25L12.5 21.25C11.8091 21.25 11.25 20.6903 11.25 20C11.25 19.3097 11.8091 18.75 12.5 18.75L24.4825 18.75L20.3663 14.6337C19.8778 14.1453 19.8778 13.3544 20.3663 12.8662C20.8547 12.3781 21.6456 12.3778 22.1337 12.8662L28.3837 19.1163C28.8722 19.6047 28.8722 20.3956 28.3837 20.8838L22.1337 27.1338Z" fill="#FC5220"></path>
                                 </svg>
@@ -764,11 +764,11 @@ details {
                         </div>
 
                         <div class="content">
-                            <h5 class="item-title fx-heading-1 fx-font-500">
-                                <a href="{{ url('/') }}/blog/checklist-completo" aria-label="name">Checklist Completo de Manutenção em Compressores de Ar Industriais</a>
-                            </h5>
+                            <h3 class="item-title fx-heading-1 fx-font-500">
+                                <a href="{{ url('/') }}/blog/checklist-completo">Checklist Completo de Manutenção em Compressores de Ar Industriais</a>
+                            </h3>
                             
-                            <a class="item-btn" href="{{ url('/') }}/blog/checklist-completo" aria-label="name">
+                            <a class="item-btn" href="{{ url('/') }}/blog/checklist-completo" aria-label="Ler artigo">
                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M40 20C40 8.97219 31.0278 -3.92187e-07 20 -8.74228e-07C8.97219 -1.35627e-06 -3.92187e-07 8.97219 -8.74228e-07 20C-1.35627e-06 31.0278 8.97219 40 20 40C31.0278 40 40 31.0278 40 20ZM2.5 20C2.5 10.3503 10.3503 2.5 20 2.5C29.6497 2.5 37.5 10.3503 37.5 20C37.5 29.6497 29.6497 37.5 20 37.5C10.3503 37.5 2.5 29.6497 2.5 20ZM22.1337 27.1338C21.6453 27.6222 20.8544 27.6222 20.3662 27.1338C20.1222 26.8897 20 26.5697 20 26.25C20 25.9303 20.1222 25.6103 20.3662 25.3662L24.4825 21.25L12.5 21.25C11.8091 21.25 11.25 20.6903 11.25 20C11.25 19.3097 11.8091 18.75 12.5 18.75L24.4825 18.75L20.3663 14.6337C19.8778 14.1453 19.8778 13.3544 20.3663 12.8662C20.8547 12.3781 21.6456 12.3778 22.1337 12.8662L28.3837 19.1163C28.8722 19.6047 28.8722 20.3956 28.3837 20.8838L22.1337 27.1338Z" fill="#FC5220"></path>
                                 </svg>
@@ -783,11 +783,11 @@ details {
                         </div>
 
                         <div class="content">
-                            <h5 class="item-title fx-heading-1 fx-font-500">
-                                <a href="{{ url('/') }}/blog/como-funciona-um-compressor" aria-label="name">Como Funciona um Compressor de Ar Industrial: Guia Completo</a>
-                            </h5>
+                            <h3 class="item-title fx-heading-1 fx-font-500">
+                                <a href="{{ url('/') }}/blog/como-funciona-um-compressor">Como Funciona um Compressor de Ar Industrial: Guia Completo</a>
+                            </h3>
                             
-                            <a class="item-btn" href="{{ url('/') }}/blog/como-funciona-um-compressor" aria-label="name">
+                            <a class="item-btn" href="{{ url('/') }}/blog/como-funciona-um-compressor" aria-label="Ler artigo">
                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M40 20C40 8.97219 31.0278 -3.92187e-07 20 -8.74228e-07C8.97219 -1.35627e-06 -3.92187e-07 8.97219 -8.74228e-07 20C-1.35627e-06 31.0278 8.97219 40 20 40C31.0278 40 40 31.0278 40 20ZM2.5 20C2.5 10.3503 10.3503 2.5 20 2.5C29.6497 2.5 37.5 10.3503 37.5 20C37.5 29.6497 29.6497 37.5 20 37.5C10.3503 37.5 2.5 29.6497 2.5 20ZM22.1337 27.1338C21.6453 27.6222 20.8544 27.6222 20.3662 27.1338C20.1222 26.8897 20 26.5697 20 26.25C20 25.9303 20.1222 25.6103 20.3662 25.3662L24.4825 21.25L12.5 21.25C11.8091 21.25 11.25 20.6903 11.25 20C11.25 19.3097 11.8091 18.75 12.5 18.75L24.4825 18.75L20.3663 14.6337C19.8778 14.1453 19.8778 13.3544 20.3663 12.8662C20.8547 12.3781 21.6456 12.3778 22.1337 12.8662L28.3837 19.1163C28.8722 19.6047 28.8722 20.3956 28.3837 20.8838L22.1337 27.1338Z" fill="#FC5220"></path>
                                 </svg>
@@ -810,11 +810,11 @@ details {
                         </div>
 
                         <div class="content">
-                            <h5 class="item-title fx-heading-1 fx-font-500">
-                                <a href="{{ url('/') }}/blog/como-identificar-vazamento-em-ar" aria-label="name">Como Identificar Vazamentos em Sistemas de Ar Comprimido</a>
-                            </h5>
+                            <h3 class="item-title fx-heading-1 fx-font-500">
+                                <a href="{{ url('/') }}/blog/como-identificar-vazamento-em-ar">Como Identificar Vazamentos em Sistemas de Ar Comprimido</a>
+                            </h3>
                             
-                            <a class="item-btn" href="{{ url('/') }}/blog/como-identificar-vazamento-em-ar" aria-label="name">
+                            <a class="item-btn" href="{{ url('/') }}/blog/como-identificar-vazamento-em-ar" aria-label="Ler artigo">
                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M40 20C40 8.97219 31.0278 -3.92187e-07 20 -8.74228e-07C8.97219 -1.35627e-06 -3.92187e-07 8.97219 -8.74228e-07 20C-1.35627e-06 31.0278 8.97219 40 20 40C31.0278 40 40 31.0278 40 20ZM2.5 20C2.5 10.3503 10.3503 2.5 20 2.5C29.6497 2.5 37.5 10.3503 37.5 20C37.5 29.6497 29.6497 37.5 20 37.5C10.3503 37.5 2.5 29.6497 2.5 20ZM22.1337 27.1338C21.6453 27.6222 20.8544 27.6222 20.3662 27.1338C20.1222 26.8897 20 26.5697 20 26.25C20 25.9303 20.1222 25.6103 20.3662 25.3662L24.4825 21.25L12.5 21.25C11.8091 21.25 11.25 20.6903 11.25 20C11.25 19.3097 11.8091 18.75 12.5 18.75L24.4825 18.75L20.3663 14.6337C19.8778 14.1453 19.8778 13.3544 20.3663 12.8662C20.8547 12.3781 21.6456 12.3778 22.1337 12.8662L28.3837 19.1163C28.8722 19.6047 28.8722 20.3956 28.3837 20.8838L22.1337 27.1338Z" fill="#FC5220"></path>
                                 </svg>
@@ -830,11 +830,11 @@ details {
                         </div>
 
                         <div class="content">
-                            <h5 class="item-title fx-heading-1 fx-font-500">
-                                <a href="{{ url('/') }}/blog/compressor-com-inversor" aria-label="name">Compressor com Inversor de Frequência (VSD): Vale a Pena Investir?</a>
-                            </h5>
+                            <h3 class="item-title fx-heading-1 fx-font-500">
+                                <a href="{{ url('/') }}/blog/compressor-com-inversor">Compressor com Inversor de Frequência (VSD): Vale a Pena Investir?</a>
+                            </h3>
                             
-                            <a class="item-btn" href="{{ url('/') }}/blog/compressor-com-inversor" aria-label="name">
+                            <a class="item-btn" href="{{ url('/') }}/blog/compressor-com-inversor" aria-label="Ler artigo">
                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M40 20C40 8.97219 31.0278 -3.92187e-07 20 -8.74228e-07C8.97219 -1.35627e-06 -3.92187e-07 8.97219 -8.74228e-07 20C-1.35627e-06 31.0278 8.97219 40 20 40C31.0278 40 40 31.0278 40 20ZM2.5 20C2.5 10.3503 10.3503 2.5 20 2.5C29.6497 2.5 37.5 10.3503 37.5 20C37.5 29.6497 29.6497 37.5 20 37.5C10.3503 37.5 2.5 29.6497 2.5 20ZM22.1337 27.1338C21.6453 27.6222 20.8544 27.6222 20.3662 27.1338C20.1222 26.8897 20 26.5697 20 26.25C20 25.9303 20.1222 25.6103 20.3662 25.3662L24.4825 21.25L12.5 21.25C11.8091 21.25 11.25 20.6903 11.25 20C11.25 19.3097 11.8091 18.75 12.5 18.75L24.4825 18.75L20.3663 14.6337C19.8778 14.1453 19.8778 13.3544 20.3663 12.8662C20.8547 12.3781 21.6456 12.3778 22.1337 12.8662L28.3837 19.1163C28.8722 19.6047 28.8722 20.3956 28.3837 20.8838L22.1337 27.1338Z" fill="#FC5220"></path>
                                 </svg>
@@ -849,11 +849,11 @@ details {
                         </div>
 
                         <div class="content">
-                            <h5 class="item-title fx-heading-1 fx-font-500">
-                                <a href="{{ url('/') }}/blog/custo-do-ar-comprimido" aria-label="name">Quanto Custa o Ar Comprimido na Indústria? Entenda Onde Está o Desperdício</a>
-                            </h5>
+                            <h3 class="item-title fx-heading-1 fx-font-500">
+                                <a href="{{ url('/') }}/blog/custo-do-ar-comprimido">Quanto Custa o Ar Comprimido na Indústria? Entenda Onde Está o Desperdício</a>
+                            </h3>
                             
-                            <a class="item-btn" href="{{ url('/') }}/blog/custo-do-ar-comprimido" aria-label="name">
+                            <a class="item-btn" href="{{ url('/') }}/blog/custo-do-ar-comprimido" aria-label="Ler artigo">
                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M40 20C40 8.97219 31.0278 -3.92187e-07 20 -8.74228e-07C8.97219 -1.35627e-06 -3.92187e-07 8.97219 -8.74228e-07 20C-1.35627e-06 31.0278 8.97219 40 20 40C31.0278 40 40 31.0278 40 20ZM2.5 20C2.5 10.3503 10.3503 2.5 20 2.5C29.6497 2.5 37.5 10.3503 37.5 20C37.5 29.6497 29.6497 37.5 20 37.5C10.3503 37.5 2.5 29.6497 2.5 20ZM22.1337 27.1338C21.6453 27.6222 20.8544 27.6222 20.3662 27.1338C20.1222 26.8897 20 26.5697 20 26.25C20 25.9303 20.1222 25.6103 20.3662 25.3662L24.4825 21.25L12.5 21.25C11.8091 21.25 11.25 20.6903 11.25 20C11.25 19.3097 11.8091 18.75 12.5 18.75L24.4825 18.75L20.3663 14.6337C19.8778 14.1453 19.8778 13.3544 20.3663 12.8662C20.8547 12.3781 21.6456 12.3778 22.1337 12.8662L28.3837 19.1163C28.8722 19.6047 28.8722 20.3956 28.3837 20.8838L22.1337 27.1338Z" fill="#FC5220"></path>
                                 </svg>
@@ -876,11 +876,11 @@ details {
                         </div>
 
                         <div class="content">
-                            <h5 class="item-title fx-heading-1 fx-font-500">
-                                <a href="{{ url('/') }}/blog/dimensionamento-de-compressores" aria-label="name">Como Dimensionar um Compressor de Ar Industrial: Guia Completo</a>
-                            </h5>
+                            <h3 class="item-title fx-heading-1 fx-font-500">
+                                <a href="{{ url('/') }}/blog/dimensionamento-de-compressores">Como Dimensionar um Compressor de Ar Industrial: Guia Completo</a>
+                            </h3>
                             
-                            <a class="item-btn" href="{{ url('/') }}/blog/dimensionamento-de-compressores" aria-label="name">
+                            <a class="item-btn" href="{{ url('/') }}/blog/dimensionamento-de-compressores" aria-label="Ler artigo">
                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M40 20C40 8.97219 31.0278 -3.92187e-07 20 -8.74228e-07C8.97219 -1.35627e-06 -3.92187e-07 8.97219 -8.74228e-07 20C-1.35627e-06 31.0278 8.97219 40 20 40C31.0278 40 40 31.0278 40 20ZM2.5 20C2.5 10.3503 10.3503 2.5 20 2.5C29.6497 2.5 37.5 10.3503 37.5 20C37.5 29.6497 29.6497 37.5 20 37.5C10.3503 37.5 2.5 29.6497 2.5 20ZM22.1337 27.1338C21.6453 27.6222 20.8544 27.6222 20.3662 27.1338C20.1222 26.8897 20 26.5697 20 26.25C20 25.9303 20.1222 25.6103 20.3662 25.3662L24.4825 21.25L12.5 21.25C11.8091 21.25 11.25 20.6903 11.25 20C11.25 19.3097 11.8091 18.75 12.5 18.75L24.4825 18.75L20.3663 14.6337C19.8778 14.1453 19.8778 13.3544 20.3663 12.8662C20.8547 12.3781 21.6456 12.3778 22.1337 12.8662L28.3837 19.1163C28.8722 19.6047 28.8722 20.3956 28.3837 20.8838L22.1337 27.1338Z" fill="#FC5220"></path>
                                 </svg>
@@ -896,11 +896,11 @@ details {
                         </div>
 
                         <div class="content">
-                            <h5 class="item-title fx-heading-1 fx-font-500">
-                                <a href="{{ url('/') }}/blog/eficiencia-energetica-em-compressores" aria-label="name">Como Reduzir o Consumo de Energia em Compressores de Ar: Guia Completo para Indústrias</a>
-                            </h5>
+                            <h3 class="item-title fx-heading-1 fx-font-500">
+                                <a href="{{ url('/') }}/blog/eficiencia-energetica-em-compressores">Como Reduzir o Consumo de Energia em Compressores de Ar: Guia Completo para Indústrias</a>
+                            </h3>
                             
-                            <a class="item-btn" href="{{ url('/') }}/blog/eficiencia-energetica-em-compressores" aria-label="name">
+                            <a class="item-btn" href="{{ url('/') }}/blog/eficiencia-energetica-em-compressores" aria-label="Ler artigo">
                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M40 20C40 8.97219 31.0278 -3.92187e-07 20 -8.74228e-07C8.97219 -1.35627e-06 -3.92187e-07 8.97219 -8.74228e-07 20C-1.35627e-06 31.0278 8.97219 40 20 40C31.0278 40 40 31.0278 40 20ZM2.5 20C2.5 10.3503 10.3503 2.5 20 2.5C29.6497 2.5 37.5 10.3503 37.5 20C37.5 29.6497 29.6497 37.5 20 37.5C10.3503 37.5 2.5 29.6497 2.5 20ZM22.1337 27.1338C21.6453 27.6222 20.8544 27.6222 20.3662 27.1338C20.1222 26.8897 20 26.5697 20 26.25C20 25.9303 20.1222 25.6103 20.3662 25.3662L24.4825 21.25L12.5 21.25C11.8091 21.25 11.25 20.6903 11.25 20C11.25 19.3097 11.8091 18.75 12.5 18.75L24.4825 18.75L20.3663 14.6337C19.8778 14.1453 19.8778 13.3544 20.3663 12.8662C20.8547 12.3781 21.6456 12.3778 22.1337 12.8662L28.3837 19.1163C28.8722 19.6047 28.8722 20.3956 28.3837 20.8838L22.1337 27.1338Z" fill="#FC5220"></path>
                                 </svg>
@@ -915,11 +915,11 @@ details {
                         </div>
 
                         <div class="content">
-                            <h5 class="item-title fx-heading-1 fx-font-500">
-                                <a href="{{ url('/') }}/blog/empresa-de-manutencao" aria-label="name">Como Escolher uma Empresa de Manutenção de Compressores de Ar (Guia Completo)</a>
-                            </h5>
+                            <h3 class="item-title fx-heading-1 fx-font-500">
+                                <a href="{{ url('/') }}/blog/empresa-de-manutencao">Como Escolher uma Empresa de Manutenção de Compressores de Ar (Guia Completo)</a>
+                            </h3>
                             
-                            <a class="item-btn" href="{{ url('/') }}/blog/empresa-de-manutencao" aria-label="name">
+                            <a class="item-btn" href="{{ url('/') }}/blog/empresa-de-manutencao" aria-label="Ler artigo">
                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M40 20C40 8.97219 31.0278 -3.92187e-07 20 -8.74228e-07C8.97219 -1.35627e-06 -3.92187e-07 8.97219 -8.74228e-07 20C-1.35627e-06 31.0278 8.97219 40 20 40C31.0278 40 40 31.0278 40 20ZM2.5 20C2.5 10.3503 10.3503 2.5 20 2.5C29.6497 2.5 37.5 10.3503 37.5 20C37.5 29.6497 29.6497 37.5 20 37.5C10.3503 37.5 2.5 29.6497 2.5 20ZM22.1337 27.1338C21.6453 27.6222 20.8544 27.6222 20.3662 27.1338C20.1222 26.8897 20 26.5697 20 26.25C20 25.9303 20.1222 25.6103 20.3662 25.3662L24.4825 21.25L12.5 21.25C11.8091 21.25 11.25 20.6903 11.25 20C11.25 19.3097 11.8091 18.75 12.5 18.75L24.4825 18.75L20.3663 14.6337C19.8778 14.1453 19.8778 13.3544 20.3663 12.8662C20.8547 12.3781 21.6456 12.3778 22.1337 12.8662L28.3837 19.1163C28.8722 19.6047 28.8722 20.3956 28.3837 20.8838L22.1337 27.1338Z" fill="#FC5220"></path>
                                 </svg>
@@ -941,11 +941,11 @@ details {
                         </div>
 
                         <div class="content">
-                            <h5 class="item-title fx-heading-1 fx-font-500">
-                                <a href="{{ url('/') }}/blog/erros-na-instalacao-de-compressores" aria-label="name">Erros na Instalação de Compressores de Ar que Aumentam o Custo da Operação</a>
-                            </h5>
+                            <h3 class="item-title fx-heading-1 fx-font-500">
+                                <a href="{{ url('/') }}/blog/erros-na-instalacao-de-compressores">Erros na Instalação de Compressores de Ar que Aumentam o Custo da Operação</a>
+                            </h3>
                             
-                            <a class="item-btn" href="{{ url('/') }}/blog/erros-na-instalacao-de-compressores" aria-label="name">
+                            <a class="item-btn" href="{{ url('/') }}/blog/erros-na-instalacao-de-compressores" aria-label="Ler artigo">
                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M40 20C40 8.97219 31.0278 -3.92187e-07 20 -8.74228e-07C8.97219 -1.35627e-06 -3.92187e-07 8.97219 -8.74228e-07 20C-1.35627e-06 31.0278 8.97219 40 20 40C31.0278 40 40 31.0278 40 20ZM2.5 20C2.5 10.3503 10.3503 2.5 20 2.5C29.6497 2.5 37.5 10.3503 37.5 20C37.5 29.6497 29.6497 37.5 20 37.5C10.3503 37.5 2.5 29.6497 2.5 20ZM22.1337 27.1338C21.6453 27.6222 20.8544 27.6222 20.3662 27.1338C20.1222 26.8897 20 26.5697 20 26.25C20 25.9303 20.1222 25.6103 20.3662 25.3662L24.4825 21.25L12.5 21.25C11.8091 21.25 11.25 20.6903 11.25 20C11.25 19.3097 11.8091 18.75 12.5 18.75L24.4825 18.75L20.3663 14.6337C19.8778 14.1453 19.8778 13.3544 20.3663 12.8662C20.8547 12.3781 21.6456 12.3778 22.1337 12.8662L28.3837 19.1163C28.8722 19.6047 28.8722 20.3956 28.3837 20.8838L22.1337 27.1338Z" fill="#FC5220"></path>
                                 </svg>
@@ -961,11 +961,11 @@ details {
                         </div>
 
                         <div class="content">
-                            <h5 class="item-title fx-heading-1 fx-font-500">
-                                <a href="{{ url('/') }}/blog/falhas-comuns-e-como-evitar" aria-label="name">Falhas Mais Comuns em Compressores de Ar e Como Evitar Paradas na Produção</a>
-                            </h5>
+                            <h3 class="item-title fx-heading-1 fx-font-500">
+                                <a href="{{ url('/') }}/blog/falhas-comuns-e-como-evitar">Falhas Mais Comuns em Compressores de Ar e Como Evitar Paradas na Produção</a>
+                            </h3>
                             
-                            <a class="item-btn" href="{{ url('/') }}/blog/falhas-comuns-e-como-evitar" aria-label="name">
+                            <a class="item-btn" href="{{ url('/') }}/blog/falhas-comuns-e-como-evitar" aria-label="Ler artigo">
                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M40 20C40 8.97219 31.0278 -3.92187e-07 20 -8.74228e-07C8.97219 -1.35627e-06 -3.92187e-07 8.97219 -8.74228e-07 20C-1.35627e-06 31.0278 8.97219 40 20 40C31.0278 40 40 31.0278 40 20ZM2.5 20C2.5 10.3503 10.3503 2.5 20 2.5C29.6497 2.5 37.5 10.3503 37.5 20C37.5 29.6497 29.6497 37.5 20 37.5C10.3503 37.5 2.5 29.6497 2.5 20ZM22.1337 27.1338C21.6453 27.6222 20.8544 27.6222 20.3662 27.1338C20.1222 26.8897 20 26.5697 20 26.25C20 25.9303 20.1222 25.6103 20.3662 25.3662L24.4825 21.25L12.5 21.25C11.8091 21.25 11.25 20.6903 11.25 20C11.25 19.3097 11.8091 18.75 12.5 18.75L24.4825 18.75L20.3663 14.6337C19.8778 14.1453 19.8778 13.3544 20.3663 12.8662C20.8547 12.3781 21.6456 12.3778 22.1337 12.8662L28.3837 19.1163C28.8722 19.6047 28.8722 20.3956 28.3837 20.8838L22.1337 27.1338Z" fill="#FC5220"></path>
                                 </svg>
@@ -980,11 +980,11 @@ details {
                         </div>
 
                         <div class="content">
-                            <h5 class="item-title fx-heading-1 fx-font-500">
-                                <a href="{{ url('/') }}/blog/linha-de-ar-comprimido" aria-label="name">Linha de Ar Comprimido: Como Projetar um Sistema Eficiente e Reduzir Custos</a>
-                            </h5>
+                            <h3 class="item-title fx-heading-1 fx-font-500">
+                                <a href="{{ url('/') }}/blog/linha-de-ar-comprimido">Linha de Ar Comprimido: Como Projetar um Sistema Eficiente e Reduzir Custos</a>
+                            </h3>
                             
-                            <a class="item-btn" href="{{ url('/') }}/blog/linha-de-ar-comprimido" aria-label="name">
+                            <a class="item-btn" href="{{ url('/') }}/blog/linha-de-ar-comprimido" aria-label="Ler artigo">
                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M40 20C40 8.97219 31.0278 -3.92187e-07 20 -8.74228e-07C8.97219 -1.35627e-06 -3.92187e-07 8.97219 -8.74228e-07 20C-1.35627e-06 31.0278 8.97219 40 20 40C31.0278 40 40 31.0278 40 20ZM2.5 20C2.5 10.3503 10.3503 2.5 20 2.5C29.6497 2.5 37.5 10.3503 37.5 20C37.5 29.6497 29.6497 37.5 20 37.5C10.3503 37.5 2.5 29.6497 2.5 20ZM22.1337 27.1338C21.6453 27.6222 20.8544 27.6222 20.3662 27.1338C20.1222 26.8897 20 26.5697 20 26.25C20 25.9303 20.1222 25.6103 20.3662 25.3662L24.4825 21.25L12.5 21.25C11.8091 21.25 11.25 20.6903 11.25 20C11.25 19.3097 11.8091 18.75 12.5 18.75L24.4825 18.75L20.3663 14.6337C19.8778 14.1453 19.8778 13.3544 20.3663 12.8662C20.8547 12.3781 21.6456 12.3778 22.1337 12.8662L28.3837 19.1163C28.8722 19.6047 28.8722 20.3956 28.3837 20.8838L22.1337 27.1338Z" fill="#FC5220"></path>
                                 </svg>
@@ -1006,11 +1006,11 @@ details {
                         </div>
 
                         <div class="content">
-                            <h5 class="item-title fx-heading-1 fx-font-500">
-                                <a href="{{ url('/') }}/blog/manutencao-preventiva-vs-corretiva" aria-label="name">Manutenção Preventiva vs Corretiva: Qual a Melhor Estratégia para Sua Indústria?</a>
-                            </h5>
+                            <h3 class="item-title fx-heading-1 fx-font-500">
+                                <a href="{{ url('/') }}/blog/manutencao-preventiva-vs-corretiva">Manutenção Preventiva vs Corretiva: Qual a Melhor Estratégia para Sua Indústria?</a>
+                            </h3>
                             
-                            <a class="item-btn" href="{{ url('/') }}/blog/manutencao-preventiva-vs-corretiva" aria-label="name">
+                            <a class="item-btn" href="{{ url('/') }}/blog/manutencao-preventiva-vs-corretiva" aria-label="Ler artigo">
                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M40 20C40 8.97219 31.0278 -3.92187e-07 20 -8.74228e-07C8.97219 -1.35627e-06 -3.92187e-07 8.97219 -8.74228e-07 20C-1.35627e-06 31.0278 8.97219 40 20 40C31.0278 40 40 31.0278 40 20ZM2.5 20C2.5 10.3503 10.3503 2.5 20 2.5C29.6497 2.5 37.5 10.3503 37.5 20C37.5 29.6497 29.6497 37.5 20 37.5C10.3503 37.5 2.5 29.6497 2.5 20ZM22.1337 27.1338C21.6453 27.6222 20.8544 27.6222 20.3662 27.1338C20.1222 26.8897 20 26.5697 20 26.25C20 25.9303 20.1222 25.6103 20.3662 25.3662L24.4825 21.25L12.5 21.25C11.8091 21.25 11.25 20.6903 11.25 20C11.25 19.3097 11.8091 18.75 12.5 18.75L24.4825 18.75L20.3663 14.6337C19.8778 14.1453 19.8778 13.3544 20.3663 12.8662C20.8547 12.3781 21.6456 12.3778 22.1337 12.8662L28.3837 19.1163C28.8722 19.6047 28.8722 20.3956 28.3837 20.8838L22.1337 27.1338Z" fill="#FC5220"></path>
                                 </svg>
@@ -1026,11 +1026,11 @@ details {
                         </div>
 
                         <div class="content">
-                            <h5 class="item-title fx-heading-1 fx-font-500">
-                                <a href="{{ url('/') }}/blog/nr13-em-compressores" aria-label="name">NR-13 em Compressores de Ar: Como Garantir Segurança, Evitar Multas e Manter sua Operação Regularizada</a>
-                            </h5>
+                            <h3 class="item-title fx-heading-1 fx-font-500">
+                                <a href="{{ url('/') }}/blog/nr13-em-compressores">NR-13 em Compressores de Ar: Como Garantir Segurança, Evitar Multas e Manter sua Operação Regularizada</a>
+                            </h3>
                             
-                            <a class="item-btn" href="{{ url('/') }}/blog/nr13-em-compressores" aria-label="name">
+                            <a class="item-btn" href="{{ url('/') }}/blog/nr13-em-compressores" aria-label="Ler artigo">
                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M40 20C40 8.97219 31.0278 -3.92187e-07 20 -8.74228e-07C8.97219 -1.35627e-06 -3.92187e-07 8.97219 -8.74228e-07 20C-1.35627e-06 31.0278 8.97219 40 20 40C31.0278 40 40 31.0278 40 20ZM2.5 20C2.5 10.3503 10.3503 2.5 20 2.5C29.6497 2.5 37.5 10.3503 37.5 20C37.5 29.6497 29.6497 37.5 20 37.5C10.3503 37.5 2.5 29.6497 2.5 20ZM22.1337 27.1338C21.6453 27.6222 20.8544 27.6222 20.3662 27.1338C20.1222 26.8897 20 26.5697 20 26.25C20 25.9303 20.1222 25.6103 20.3662 25.3662L24.4825 21.25L12.5 21.25C11.8091 21.25 11.25 20.6903 11.25 20C11.25 19.3097 11.8091 18.75 12.5 18.75L24.4825 18.75L20.3663 14.6337C19.8778 14.1453 19.8778 13.3544 20.3663 12.8662C20.8547 12.3781 21.6456 12.3778 22.1337 12.8662L28.3837 19.1163C28.8722 19.6047 28.8722 20.3956 28.3837 20.8838L22.1337 27.1338Z" fill="#FC5220"></path>
                                 </svg>
@@ -1045,11 +1045,11 @@ details {
                         </div>
 
                         <div class="content">
-                            <h5 class="item-title fx-heading-1 fx-font-500">
-                                <a href="{{ url('/') }}/blog/pressao-ideal-em-compressores" aria-label="name">Pressão Ideal em Compressores: Como Definir e Evitar Desperdício</a>
-                            </h5>
+                            <h3 class="item-title fx-heading-1 fx-font-500">
+                                <a href="{{ url('/') }}/blog/pressao-ideal-em-compressores">Pressão Ideal em Compressores: Como Definir e Evitar Desperdício</a>
+                            </h3>
                             
-                            <a class="item-btn" href="{{ url('/') }}/blog/pressao-ideal-em-compressores" aria-label="name">
+                            <a class="item-btn" href="{{ url('/') }}/blog/pressao-ideal-em-compressores" aria-label="Ler artigo">
                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M40 20C40 8.97219 31.0278 -3.92187e-07 20 -8.74228e-07C8.97219 -1.35627e-06 -3.92187e-07 8.97219 -8.74228e-07 20C-1.35627e-06 31.0278 8.97219 40 20 40C31.0278 40 40 31.0278 40 20ZM2.5 20C2.5 10.3503 10.3503 2.5 20 2.5C29.6497 2.5 37.5 10.3503 37.5 20C37.5 29.6497 29.6497 37.5 20 37.5C10.3503 37.5 2.5 29.6497 2.5 20ZM22.1337 27.1338C21.6453 27.6222 20.8544 27.6222 20.3662 27.1338C20.1222 26.8897 20 26.5697 20 26.25C20 25.9303 20.1222 25.6103 20.3662 25.3662L24.4825 21.25L12.5 21.25C11.8091 21.25 11.25 20.6903 11.25 20C11.25 19.3097 11.8091 18.75 12.5 18.75L24.4825 18.75L20.3663 14.6337C19.8778 14.1453 19.8778 13.3544 20.3663 12.8662C20.8547 12.3781 21.6456 12.3778 22.1337 12.8662L28.3837 19.1163C28.8722 19.6047 28.8722 20.3956 28.3837 20.8838L22.1337 27.1338Z" fill="#FC5220"></path>
                                 </svg>
@@ -1071,11 +1071,11 @@ details {
                         </div>
 
                         <div class="content">
-                            <h5 class="item-title fx-heading-1 fx-font-500">
-                                <a href="{{ url('/') }}/blog/qualidade-do-ar-comprimido" aria-label="name">Qualidade do Ar Comprimido: Classes ISO 8573 e Como Elas Impactam Sua Produção</a>
-                            </h5>
+                            <h3 class="item-title fx-heading-1 fx-font-500">
+                                <a href="{{ url('/') }}/blog/qualidade-do-ar-comprimido">Qualidade do Ar Comprimido: Classes ISO 8573 e Como Elas Impactam Sua Produção</a>
+                            </h3>
                             
-                            <a class="item-btn" href="{{ url('/') }}/blog/qualidade-do-ar-comprimido" aria-label="name">
+                            <a class="item-btn" href="{{ url('/') }}/blog/qualidade-do-ar-comprimido" aria-label="Ler artigo">
                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M40 20C40 8.97219 31.0278 -3.92187e-07 20 -8.74228e-07C8.97219 -1.35627e-06 -3.92187e-07 8.97219 -8.74228e-07 20C-1.35627e-06 31.0278 8.97219 40 20 40C31.0278 40 40 31.0278 40 20ZM2.5 20C2.5 10.3503 10.3503 2.5 20 2.5C29.6497 2.5 37.5 10.3503 37.5 20C37.5 29.6497 29.6497 37.5 20 37.5C10.3503 37.5 2.5 29.6497 2.5 20ZM22.1337 27.1338C21.6453 27.6222 20.8544 27.6222 20.3662 27.1338C20.1222 26.8897 20 26.5697 20 26.25C20 25.9303 20.1222 25.6103 20.3662 25.3662L24.4825 21.25L12.5 21.25C11.8091 21.25 11.25 20.6903 11.25 20C11.25 19.3097 11.8091 18.75 12.5 18.75L24.4825 18.75L20.3663 14.6337C19.8778 14.1453 19.8778 13.3544 20.3663 12.8662C20.8547 12.3781 21.6456 12.3778 22.1337 12.8662L28.3837 19.1163C28.8722 19.6047 28.8722 20.3956 28.3837 20.8838L22.1337 27.1338Z" fill="#FC5220"></path>
                                 </svg>
@@ -1091,11 +1091,11 @@ details {
                         </div>
 
                         <div class="content">
-                            <h5 class="item-title fx-heading-1 fx-font-500">
-                                <a href="{{ url('/') }}/blog/secador-refrigerado-vs-adsorcao" aria-label="name">Secador Refrigerado vs Adsorção: Qual Escolher para Sua Indústria?</a>
-                            </h5>
+                            <h3 class="item-title fx-heading-1 fx-font-500">
+                                <a href="{{ url('/') }}/blog/secador-refrigerado-vs-adsorcao">Secador Refrigerado vs Adsorção: Qual Escolher para Sua Indústria?</a>
+                            </h3>
                             
-                            <a class="item-btn" href="{{ url('/') }}/blog/secador-refrigerado-vs-adsorcao" aria-label="name">
+                            <a class="item-btn" href="{{ url('/') }}/blog/secador-refrigerado-vs-adsorcao" aria-label="Ler artigo">
                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M40 20C40 8.97219 31.0278 -3.92187e-07 20 -8.74228e-07C8.97219 -1.35627e-06 -3.92187e-07 8.97219 -8.74228e-07 20C-1.35627e-06 31.0278 8.97219 40 20 40C31.0278 40 40 31.0278 40 20ZM2.5 20C2.5 10.3503 10.3503 2.5 20 2.5C29.6497 2.5 37.5 10.3503 37.5 20C37.5 29.6497 29.6497 37.5 20 37.5C10.3503 37.5 2.5 29.6497 2.5 20ZM22.1337 27.1338C21.6453 27.6222 20.8544 27.6222 20.3662 27.1338C20.1222 26.8897 20 26.5697 20 26.25C20 25.9303 20.1222 25.6103 20.3662 25.3662L24.4825 21.25L12.5 21.25C11.8091 21.25 11.25 20.6903 11.25 20C11.25 19.3097 11.8091 18.75 12.5 18.75L24.4825 18.75L20.3663 14.6337C19.8778 14.1453 19.8778 13.3544 20.3663 12.8662C20.8547 12.3781 21.6456 12.3778 22.1337 12.8662L28.3837 19.1163C28.8722 19.6047 28.8722 20.3956 28.3837 20.8838L22.1337 27.1338Z" fill="#FC5220"></path>
                                 </svg>
@@ -1110,11 +1110,11 @@ details {
                         </div>
 
                         <div class="content">
-                            <h5 class="item-title fx-heading-1 fx-font-500">
-                                <a href="{{ url('/') }}/blog/secadores-de-ar-comprimido" aria-label="name">Secadores de Ar Comprimido: Por que são essenciais e como escolher o ideal para sua indústria</a>
-                            </h5>
+                            <h3 class="item-title fx-heading-1 fx-font-500">
+                                <a href="{{ url('/') }}/blog/secadores-de-ar-comprimido">Secadores de Ar Comprimido: Por que são essenciais e como escolher o ideal para sua indústria</a>
+                            </h3>
                             
-                            <a class="item-btn" href="{{ url('/') }}/blog/secadores-de-ar-comprimido" aria-label="name">
+                            <a class="item-btn" href="{{ url('/') }}/blog/secadores-de-ar-comprimido" aria-label="Ler artigo">
                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M40 20C40 8.97219 31.0278 -3.92187e-07 20 -8.74228e-07C8.97219 -1.35627e-06 -3.92187e-07 8.97219 -8.74228e-07 20C-1.35627e-06 31.0278 8.97219 40 20 40C31.0278 40 40 31.0278 40 20ZM2.5 20C2.5 10.3503 10.3503 2.5 20 2.5C29.6497 2.5 37.5 10.3503 37.5 20C37.5 29.6497 29.6497 37.5 20 37.5C10.3503 37.5 2.5 29.6497 2.5 20ZM22.1337 27.1338C21.6453 27.6222 20.8544 27.6222 20.3662 27.1338C20.1222 26.8897 20 26.5697 20 26.25C20 25.9303 20.1222 25.6103 20.3662 25.3662L24.4825 21.25L12.5 21.25C11.8091 21.25 11.25 20.6903 11.25 20C11.25 19.3097 11.8091 18.75 12.5 18.75L24.4825 18.75L20.3663 14.6337C19.8778 14.1453 19.8778 13.3544 20.3663 12.8662C20.8547 12.3781 21.6456 12.3778 22.1337 12.8662L28.3837 19.1163C28.8722 19.6047 28.8722 20.3956 28.3837 20.8838L22.1337 27.1338Z" fill="#FC5220"></path>
                                 </svg>
@@ -1136,11 +1136,11 @@ details {
                         </div>
 
                         <div class="content">
-                            <h5 class="item-title fx-heading-1 fx-font-500">
-                                <a href="{{ url('/') }}/blog/tipos-de-compressores" aria-label="name">Tipos de Compressores Industriais: Como Escolher o Ideal para Sua Operação</a>
-                            </h5>
+                            <h3 class="item-title fx-heading-1 fx-font-500">
+                                <a href="{{ url('/') }}/blog/tipos-de-compressores">Tipos de Compressores Industriais: Como Escolher o Ideal para Sua Operação</a>
+                            </h3>
                             
-                            <a class="item-btn" href="{{ url('/') }}/blog/tipos-de-compressores" aria-label="name">
+                            <a class="item-btn" href="{{ url('/') }}/blog/tipos-de-compressores" aria-label="Ler artigo">
                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M40 20C40 8.97219 31.0278 -3.92187e-07 20 -8.74228e-07C8.97219 -1.35627e-06 -3.92187e-07 8.97219 -8.74228e-07 20C-1.35627e-06 31.0278 8.97219 40 20 40C31.0278 40 40 31.0278 40 20ZM2.5 20C2.5 10.3503 10.3503 2.5 20 2.5C29.6497 2.5 37.5 10.3503 37.5 20C37.5 29.6497 29.6497 37.5 20 37.5C10.3503 37.5 2.5 29.6497 2.5 20ZM22.1337 27.1338C21.6453 27.6222 20.8544 27.6222 20.3662 27.1338C20.1222 26.8897 20 26.5697 20 26.25C20 25.9303 20.1222 25.6103 20.3662 25.3662L24.4825 21.25L12.5 21.25C11.8091 21.25 11.25 20.6903 11.25 20C11.25 19.3097 11.8091 18.75 12.5 18.75L24.4825 18.75L20.3663 14.6337C19.8778 14.1453 19.8778 13.3544 20.3663 12.8662C20.8547 12.3781 21.6456 12.3778 22.1337 12.8662L28.3837 19.1163C28.8722 19.6047 28.8722 20.3956 28.3837 20.8838L22.1337 27.1338Z" fill="#FC5220"></path>
                                 </svg>
@@ -1156,11 +1156,11 @@ details {
                         </div>
 
                         <div class="content">
-                            <h5 class="item-title fx-heading-1 fx-font-500">
-                                <a href="{{ url('/') }}/blog/vida-util-de-compressores" aria-label="name">Vida Útil de um Compressor Industrial: Como Aumentar e Evitar Desgaste Prematuro</a>
-                            </h5>
+                            <h3 class="item-title fx-heading-1 fx-font-500">
+                                <a href="{{ url('/') }}/blog/vida-util-de-compressores">Vida Útil de um Compressor Industrial: Como Aumentar e Evitar Desgaste Prematuro</a>
+                            </h3>
                             
-                            <a class="item-btn" href="{{ url('/') }}/blog/vida-util-de-compressores" aria-label="name">
+                            <a class="item-btn" href="{{ url('/') }}/blog/vida-util-de-compressores" aria-label="Ler artigo">
                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M40 20C40 8.97219 31.0278 -3.92187e-07 20 -8.74228e-07C8.97219 -1.35627e-06 -3.92187e-07 8.97219 -8.74228e-07 20C-1.35627e-06 31.0278 8.97219 40 20 40C31.0278 40 40 31.0278 40 20ZM2.5 20C2.5 10.3503 10.3503 2.5 20 2.5C29.6497 2.5 37.5 10.3503 37.5 20C37.5 29.6497 29.6497 37.5 20 37.5C10.3503 37.5 2.5 29.6497 2.5 20ZM22.1337 27.1338C21.6453 27.6222 20.8544 27.6222 20.3662 27.1338C20.1222 26.8897 20 26.5697 20 26.25C20 25.9303 20.1222 25.6103 20.3662 25.3662L24.4825 21.25L12.5 21.25C11.8091 21.25 11.25 20.6903 11.25 20C11.25 19.3097 11.8091 18.75 12.5 18.75L24.4825 18.75L20.3663 14.6337C19.8778 14.1453 19.8778 13.3544 20.3663 12.8662C20.8547 12.3781 21.6456 12.3778 22.1337 12.8662L28.3837 19.1163C28.8722 19.6047 28.8722 20.3956 28.3837 20.8838L22.1337 27.1338Z" fill="#FC5220"></path>
                                 </svg>
@@ -1176,11 +1176,11 @@ details {
                         </div>
 
                         <div class="content">
-                            <h5 class="item-title fx-heading-1 fx-font-500">
-                                <a href="{{ url('/') }}/blog/eficiencia-energetica-industrial" aria-label="name">Eficiência Energética Industrial: Como Reduzir Custos</a>
-                            </h5>
+                            <h3 class="item-title fx-heading-1 fx-font-500">
+                                <a href="{{ url('/') }}/blog/eficiencia-energetica-industrial">Eficiência Energética Industrial: Como Reduzir Custos</a>
+                            </h3>
                             
-                            <a class="item-btn" href="{{ url('/') }}/blog/eficiencia-energetica-industrial" aria-label="name">
+                            <a class="item-btn" href="{{ url('/') }}/blog/eficiencia-energetica-industrial" aria-label="Ler artigo">
                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M40 20C40 8.97219 31.0278 -3.92187e-07 20 -8.74228e-07C8.97219 -1.35627e-06 -3.92187e-07 8.97219 -8.74228e-07 20C-1.35627e-06 31.0278 8.97219 40 20 40C31.0278 40 40 31.0278 40 20ZM2.5 20C2.5 10.3503 10.3503 2.5 20 2.5C29.6497 2.5 37.5 10.3503 37.5 20C37.5 29.6497 29.6497 37.5 20 37.5C10.3503 37.5 2.5 29.6497 2.5 20ZM22.1337 27.1338C21.6453 27.6222 20.8544 27.6222 20.3662 27.1338C20.1222 26.8897 20 26.5697 20 26.25C20 25.9303 20.1222 25.6103 20.3662 25.3662L24.4825 21.25L12.5 21.25C11.8091 21.25 11.25 20.6903 11.25 20C11.25 19.3097 11.8091 18.75 12.5 18.75L24.4825 18.75L20.3663 14.6337C19.8778 14.1453 19.8778 13.3544 20.3663 12.8662C20.8547 12.3781 21.6456 12.3778 22.1337 12.8662L28.3837 19.1163C28.8722 19.6047 28.8722 20.3956 28.3837 20.8838L22.1337 27.1338Z" fill="#FC5220"></path>
                                 </svg>
@@ -1218,10 +1218,10 @@ details {
 
                             <!-- section-title -->
                             <div class="fx-blog-2-scn-title mb-30">
-                                <h6 class="fx-subtitle-1 has-mb-28">
+                                <p class="fx-subtitle-1 has-mb-28">
                                     <span>07</span>
                                     <span class="txaa-split-text-2 txaa-split-text-2-ani"  >Entre em Contato</span>
-                                </h6>
+                                </p>
                                 <h2 class="fx-scn-title-2 txaa-split-text-3 txaa-split-text-3-ani ">Entre em contato com nossos especialistas</h2>
                             </div>
 
@@ -1257,7 +1257,7 @@ details {
 
                                 <div class="fx-form-1-box fix txxaslideup">
                                     <span class="txxaslideup-item fx-cube-1">
-                                        <button type="submit" aria-label="name" class="fx-pr-btn-1 ">
+                                        <button type="submit" aria-label="Enviar solicitação de cotação" class="fx-pr-btn-1 ">
                                             <span class="text" data-back="Faça sua Cotação" data-front="Faça sua Cotação"></span>
                                             <i class="fa-solid fa-angle-right"></i>
                                         </button>
@@ -1283,7 +1283,7 @@ details {
 
                                 <!-- single-box -->
                                 <div class="fx-contact-us-1-info-box fix txxaslideup bg-default" data-background="{{ URL('/') }}/assets/img/contact/c2-box-bg-1.png">
-                                    <h6 class="box-title fx-heading-1 fx-font-400">Endereço:</h6>
+                                    <p class="box-title fx-heading-1 fx-font-400">Endereço:</p>
                                     <p class="address fx-para-1 has-clr-white">
                                         <span class="txxaslideup-item fx-cube-1">Rua Arapiraca, 311 - Jardim Napoli Itaquaquecetuba - SP 08595-620 - Brasil</span>
                                     </p>
@@ -1291,28 +1291,28 @@ details {
 
                                 <!-- single-box -->
                                 <div class="fx-contact-us-1-info-box txxaslideup fix bg-default"  data-background="{{ URL('/') }}/assets/img/contact/c2-box-bg-2.png">
-                                    <h6 class="box-title fx-heading-1 fx-font-400">Fale com nossos Especialistas</h6>
+                                    <p class="box-title fx-heading-1 fx-font-400">Fale com nossos Especialistas</p>
                                     <ul class="info-list txxaslideup-item fx-cube-1" >
                                         <li>
-                                            <a href="mailto:comercial@mansteccompressores.com.br" aria-label="name">
+                                            <a href="mailto:comercial@mansteccompressores.com.br" aria-label="Enviar e-mail para a Manstec">
                                                 <i class="fa-regular fa-envelope"></i>
                                                 Nosso E-mail
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#" aria-label="name">
+                                            <a href="tel:+351969558556" aria-label="Ligar para emergência Manstec Portugal">
                                                 <i class="fa-light fa-phone-volume"></i>
                                                 +351 969 558 556
                                             </a> <br>
                                         </li>
                                         <li>
-                                            <a href="#" aria-label="name">
+                                            <a href="tel:+5511959781897" aria-label="Ligar para Manstec Brasil celular">
                                                 <i class="fa-light fa-phone-volume"></i>
                                                 +55 (11) 95978-1897
                                             </a><br>
                                         </li>
                                         <li>
-                                            <a href="#" aria-label="name">
+                                            <a href="tel:+3511146478222" aria-label="Ligar para Manstec pelo telefone +351 (11) 4647-8222">
                                                 <i class="fa-light fa-phone-volume"></i>
                                                 +351 (11) 4647-8222
                                             </a><br>

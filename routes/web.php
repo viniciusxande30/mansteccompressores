@@ -205,6 +205,7 @@ $router->get('/sitemap.xml', function () {
         '/compressores-de-ar',
         '/contato',
         '/blog',
+        '/nossos-servicos',
         '/manutencao-preventiva',
         '/manutencao-corretiva',
         '/kits-de-servico',

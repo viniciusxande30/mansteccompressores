@@ -26,9 +26,9 @@
     @php
         $pageTitle = $metaTitle ?? ($title ?? (isset($kw) ? $kw : 'Manstec - Compressores de Ar'));
         $pageDescription = $metaDescription ?? (isset($kw)
-            ? 'Solucoes tecnicas da Manstec para compressores de ar, ar comprimido industrial, manutencao, eficiencia energetica e reducao de paradas.'
-            : 'Solucoes completas em manutencao de compressores de ar, redes de ar comprimido, eficiencia energetica e suporte tecnico industrial.');
-        $pageKeywords = $metaKeywords ?? ($kw ?? 'manutencao de compressores de ar, compressores industriais, ar comprimido industrial, Manstec');
+            ? 'Soluções técnicas da Manstec para compressores de ar, ar comprimido industrial, manutenção, eficiência energética e redução de paradas.'
+            : 'Soluções completas em manutenção de compressores de ar, redes de ar comprimido, eficiência energética e suporte técnico industrial.');
+        $pageKeywords = $metaKeywords ?? ($kw ?? 'manutenção de compressores de ar, compressores industriais, ar comprimido industrial, Manstec');
         $requestPath = trim(app('request')->getPathInfo(), '/');
         $pageCanonical = $canonicalUrl ?? rtrim(URL('/'), '/') . ($requestPath ? '/' . $requestPath : '');
         $pageImage = $metaImage ?? URL('/') . '/assets/img/manstec.png';
@@ -73,6 +73,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" type="image/x-icon" href="{{ URL('/') }}/assets/img/manstec.png">
     <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin>
+    <style>
+      .skip-link { position:absolute; left:1rem; top:-4rem; z-index:9999; padding:.75rem 1rem; background:#ffffff; color:#082a58; font-weight:700; }
+      .skip-link:focus { top:1rem; outline:3px solid #fc5220; }
+    </style>
 
     @foreach ($fontPreloads as $fontPreload)
     <link rel="preload" as="font" href="{{ $baseAssetUrl . $fontPreload }}" type="font/woff2" crossorigin>
@@ -85,7 +89,7 @@
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "LocalBusiness",
+      "@type": ["ProfessionalService", "LocalBusiness"],
       "@id": "{{ URL('/') }}/#manstec",
       "name": "Manstec Compressores",
       "url": "{{ URL('/') }}",
@@ -102,7 +106,7 @@
       },
       "areaServed": "Brasil",
       "sameAs": ["https://www.instagram.com/manstec_compressores/"],
-      "description": "Manutencao de compressores de ar, redes de ar comprimido, auditoria tecnica, eficiencia energetica e suporte industrial."
+      "description": "Manutenção de compressores de ar, redes de ar comprimido, auditoria técnica, eficiência energética e suporte industrial."
     }
     </script>
 
@@ -128,6 +132,7 @@
       },
       "datePublished": {!! json_encode($datePublished ?? '2026-06-09') !!},
       "dateModified": {!! json_encode($dateModified ?? '2026-06-09') !!},
+      "inLanguage": "pt-BR",
       "mainEntityOfPage": {!! json_encode($pageCanonical, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) !!}
     }
     </script>
@@ -145,6 +150,7 @@
 </head>
 
     <body class="fd-home-1" >
+        <a class="skip-link" href="#conteudo-principal">Pular para o conteúdo principal</a>
 
         <div id="cotacao-modal" class="cotacao-modal-bg" style="display: none;">
             <div class="cotacao-modal">
@@ -177,7 +183,7 @@
             </div>
         </div>
 
-<div class="phone-call cbh-phone cbh-green cbh-show  cbh-static" id="clbh_phone_div" style=""><a id="WhatsApp-button" href="https://wa.me/351969558556?text=Ol%C3%A1,%20gostaria%20de%20falar%20com%20voc%C3%AA!" target="_blank" class="phoneJs" title=""><div class="cbh-ph-circle"></div><div class="cbh-ph-circle-fill"></div><div class="cbh-ph-img-circle1"></div></a></div>
+<div class="phone-call cbh-phone cbh-green cbh-show cbh-static" id="clbh_phone_div"><a id="WhatsApp-button" href="https://wa.me/351969558556?text=Ol%C3%A1,%20gostaria%20de%20falar%20com%20voc%C3%AA!" target="_blank" rel="noopener" class="phoneJs" aria-label="Falar com a Manstec pelo WhatsApp"><div class="cbh-ph-circle"></div><div class="cbh-ph-circle-fill"></div><div class="cbh-ph-img-circle1"></div></a></div>
 
 @include('includes.emergency-popup')
 
@@ -194,27 +200,21 @@
                         <div class="fx-header-2-top">
                             <ul class="fx-contact-list">
                                 <li>
-                                    <a href="mailto:comercial@mansteccompressores.com.br" aria-label="name">
+                                    <a href="mailto:comercial@mansteccompressores.com.br" aria-label="Enviar e-mail para a Manstec">
                                         <i class="fa-regular fa-envelope"></i>
                                         comercial@mansteccompressores.com.br
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="https://wa.me/5511959781897?text=Ol%C3%A1,%20gostaria%20de%20falar%20com%20voc%C3%AA!" aria-label="name" TARGET="_blank">
+                                    <a href="https://wa.me/5511959781897?text=Ol%C3%A1,%20gostaria%20de%20falar%20com%20voc%C3%AA!" aria-label="Falar com a Manstec pelo WhatsApp" target="_blank" rel="noopener">
                                         <i class="fa-regular fa-phone-volume"></i>
                                         +55 (11) 95978-1897
                                     </a>
                                 </li>
                             </ul>
                             <div class="fx-social-icon">
-								 <a href="https://www.instagram.com/manstec_compressores/" class="fx-social-icon-btn" aria-label="name" target="_BLANK">
+							 <a href="https://www.instagram.com/manstec_compressores/" class="fx-social-icon-btn" aria-label="Abrir Instagram da Manstec" target="_blank" rel="noopener">
                                     <i class="fa-brands fa-instagram"></i>
-                                </a>
-                                <a href="#" class="fx-social-icon-btn" aria-label="name">
-                                    <i class="fa-brands fa-facebook-f"></i>
-                                </a>
-                                <a href="#" class="fx-social-icon-btn" aria-label="name">
-                                    <i class="fa-brands fa-linkedin-in"></i>
                                 </a>
                                
                             </div>
@@ -245,7 +245,7 @@
                                         </ul>
                                     </li>
                                     <li>
-                                        <a href="{{ url('/') }}">Projetos</a>
+                                        <a href="{{ url('/') }}/redes-de-ar">Redes de Ar</a>
                                     </li>
                                     <li>
                                         <a href="{{ url('/') }}/blog">Blog</a>
@@ -278,4 +278,5 @@
                 </div>
             </div>
         </div>
+        <main id="conteudo-principal">
 

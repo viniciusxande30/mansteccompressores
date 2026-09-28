@@ -179,9 +179,9 @@ details {
                         </div>
 
                         <div class="content">
-                            <h5 class="item-title fx-heading-1 fx-font-500">
+                            <h3 class="item-title fx-heading-1 fx-font-500">
                                 <a href="{{ url('/') }}/manutencao-preventiva" aria-label="Ver detalhes sobre manutencao preventiva">Manutenção Preventiva</a>
-                            </h5>
+                            </h3>
                             
                             <a class="item-btn" href="{{ url('/') }}/manutencao-preventiva" aria-label="Abrir pagina de manutencao preventiva">
                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -197,9 +197,9 @@ details {
                             <img src="{{ URL('/') }}/assets/img/serve/s1-img-2-opt.jpg" alt="Manutenção corretiva e diagnóstico de compressores" width="1080" height="1350" loading="lazy" decoding="async">
                         </div>
                         <div class="content">
-                            <h5 class="item-title fx-heading-1 fx-font-500">
+                            <h3 class="item-title fx-heading-1 fx-font-500">
                                 <a href="{{ url('/') }}/manutencao-corretiva" aria-label="Ver detalhes sobre manutencao corretiva e diagnosticos">Manutenção Corretiva e Diagnósticos</a>
-                            </h5>
+                            </h3>
                             
                             <a class="item-btn" href="{{ url('/') }}/manutencao-corretiva" aria-label="Abrir pagina de manutencao corretiva e diagnosticos">
                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -214,9 +214,9 @@ details {
                             <img src="{{ URL('/') }}/assets/img/serve/s1-img-3-opt.jpg" alt="Kits de serviço e peças para compressores" width="900" height="525" loading="lazy" decoding="async">
                         </div>
                         <div class="content">
-                            <h5 class="item-title fx-heading-1 fx-font-500">
+                            <h3 class="item-title fx-heading-1 fx-font-500">
                                 <a href="{{ url('/') }}/kits-de-servico" aria-label="Ver detalhes sobre kits de servico e pecas originais">Kits de Serviço e Peças Originais</a>
-                            </h5>
+                            </h3>
                             
                             <a class="item-btn" href="{{ url('/') }}/kits-de-servico" aria-label="Abrir pagina de kits de servico e pecas originais">
                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -231,9 +231,9 @@ details {
                             <img src="{{ URL('/') }}/assets/img/serve/s1-img-4.png" alt="Contratos de serviço para compressores industriais" width="384" height="256" loading="lazy" decoding="async">
                         </div>
                         <div class="content">
-                            <h5 class="item-title fx-heading-1 fx-font-500">
+                            <h3 class="item-title fx-heading-1 fx-font-500">
                                 <a href="{{ url('/') }}/contratos-de-servico" aria-label="Ver detalhes sobre contratos de servico fixo">Contratos de Serviço Fixo</a>
-                            </h5>
+                            </h3>
                             
                             <a class="item-btn" href="{{ url('/') }}/contratos-de-servico" aria-label="Abrir pagina de contratos de servico fixo">
                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -248,9 +248,9 @@ details {
                             <img src="{{ URL('/') }}/assets/img/serve/s1-img-5-opt.jpg" alt="Auditoria e inspeção de sistemas de ar comprimido" width="1024" height="1536" loading="lazy" decoding="async">
                         </div>
                         <div class="content">
-                            <h5 class="item-title fx-heading-1 fx-font-500">
+                            <h3 class="item-title fx-heading-1 fx-font-500">
                                 <a href="{{ url('/') }}/auditoria-e-inspecoes" aria-label="Ver detalhes sobre auditorias e inspecoes">Auditorias e Inspeções</a>
-                            </h5>
+                            </h3>
                             
                             <a class="item-btn" href="{{ url('/') }}/auditoria-e-inspecoes" aria-label="Abrir pagina de auditorias e inspecoes">
                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -265,9 +265,9 @@ details {
                             <img src="{{ URL('/') }}/assets/img/contact/c2-img-1-opt.jpg" alt="Projetos e manutenção em redes de ar comprimido" width="800" height="1000" loading="lazy" decoding="async">
                         </div>
                         <div class="content">
-                            <h5 class="item-title fx-heading-1 fx-font-500">
+                            <h3 class="item-title fx-heading-1 fx-font-500">
                                 <a href="{{ url('/') }}/redes-de-ar" aria-label="Ver detalhes sobre projetos e manutencao em redes de ar">Projetos e Manutenção em Redes de Ar</a>
-                            </h5>
+                            </h3>
                             
                             <a class="item-btn" href="{{ url('/') }}/redes-de-ar" aria-label="Abrir pagina de projetos e manutencao em redes de ar">
                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -332,11 +332,11 @@ details {
             <div class="container fx-container-1">
                 <!-- section-title -->
                 <div class="fx-services-2-scn-title mb-55">
-                    <h6 class="fx-subtitle-1 has-mb-28 has-clr-white">
+                    <p class="fx-subtitle-1 has-mb-28 has-clr-white">
                         <span>02</span>
                         <span class="txaa-split-text-2 txaa-split-text-2-ani"  >Quem Somos</span>
-                    </h6>
-                    <h2 class="fx-scn-title-2 txaa-split-text-3 txaa-split-text-3-ani has-clr-white">POR QUE ESCOLHER A MANSTEC COMO PARCEIRO DE MANUTENO?</h2>
+                    </p>
+                    <h2 class="fx-scn-title-2 txaa-split-text-3 txaa-split-text-3-ani has-clr-white">Por que escolher a Manstec como parceira de manutenção?</h2>
                 </div>
 
                 <div class="fx-services-2-wrap mb-55">
@@ -348,9 +348,9 @@ details {
                             <img src="{{ URL('/') }}/assets/img/services/s2-card-bg.png" alt="" loading="lazy" decoding="async">
                         </div>
                        
-                        <h5 class="card-title fx-heading-2 fx-font-600 has-clr-white">
+                        <h3 class="card-title fx-heading-2 fx-font-600 has-clr-white">
                             Cobertura em São Paulo
-                        </h5>
+                        </h3>
                         <p class="card-disc fx-para-1 has-opacity-7 has-clr-white has-opacity-7">Confie na nossa equipe de técnicos de manutenção com formação na fábrica para garantir que o seu ar comprimido tem 100% de disponibilidade.</p>
                         
                     </div>
@@ -362,9 +362,9 @@ details {
                             <img src="{{ URL('/') }}/assets/img/services/s2-card-bg.png" alt="" loading="lazy" decoding="async">
                         </div>
                         
-                        <h5 class="card-title fx-heading-2 fx-font-600 has-clr-white">
+                        <h3 class="card-title fx-heading-2 fx-font-600 has-clr-white">
                            Peças Originais para Compressores de Ar
-                        </h5>
+                        </h3>
                         <p class="card-disc fx-para-1 has-opacity-7 has-clr-white has-opacity-7">Peças originais para compressores mantém a sua instalação de ar comprimido nas melhores condições durante todo o ciclo de vida.</p>
                        
                     </div>
@@ -376,9 +376,9 @@ details {
                          <div class="card-bg img-cover fix">
                             <img src="{{ URL('/') }}/assets/img/services/s2-card-bg.png" alt="" loading="lazy" decoding="async">
                         </div>
-                        <h5 class="card-title fx-heading-2 fx-font-600 has-clr-white">
+                        <h3 class="card-title fx-heading-2 fx-font-600 has-clr-white">
                             Suporte ao Cliente
-                        </h5>
+                        </h3>
                         <p class="card-disc fx-para-1 has-opacity-7 has-clr-white has-opacity-7">Com técnicos qualificados e experientes, estamos sempre atentos ao seu equipamento para detectar anomalias e corrigi-las, se necessário.</p>
                         
                     </div>
@@ -390,9 +390,9 @@ details {
                             <img src="{{ URL('/') }}/assets/img/services/s2-card-bg.png" alt="" loading="lazy" decoding="async">
                         </div>
                         
-                        <h5 class="card-title fx-heading-2 fx-font-600 has-clr-white">
+                        <h3 class="card-title fx-heading-2 fx-font-600 has-clr-white">
                             Time Qualificado para a sua Demanda
-                        </h5>
+                        </h3>
                         <p class="card-disc fx-para-1 has-opacity-7 has-clr-white has-opacity-7">Trabalhamos com um time extremamente qualificado e com anos de experiência para resolver o seu problema.</p>
                         
                     </div>
@@ -429,14 +429,14 @@ details {
                                     <div class="fx-core-1-slider-item-content">
                 
                                         <div class="subtitle-flex">
-                                            <h6 class="fx-hero-2-slider-item-number fx-heading-1">
+                                            <p class="fx-hero-2-slider-item-number fx-heading-1">
                                                 <span>01</span>
                                                 <span>/</span>
                                                 <span>04</span>
-                                            </h6>
-                                            <h6 class="fx-subtitle-1 ">
+                                            </p>
+                                            <p class="fx-subtitle-1 ">
                                                 <span class="txaa-split-text-2 "  >Nossos Serviços</span>
-                                            </h6>
+                                            </p>
                                         </div>
     
                                         <div class="title-wrap">
@@ -444,7 +444,7 @@ details {
                                             <h2 class="fx-scn-title-2">Compressores de Ar</h2>
                                         </div>
     
-                                        <p class="fx-para-1 disc">Trabahamos com as melhores marcas de compressores de ar para melhor atender a sua empresa.</p>
+                                        <p class="fx-para-1 disc">Trabalhamos com as melhores marcas de compressores de ar para atender sua empresa.</p>
     
                                         <div class="btn-wrap fix">
                                             <span class="d-inline-block fx-core-1-slideinup" >
@@ -465,33 +465,33 @@ details {
     
                                         <!-- single-item -->
                                         <div class="fx-core-1-slider-item-feature-single">
-                                            <h5 class="item-title fx-heading-2 fx-font-600 fix">
+                                            <h3 class="item-title fx-heading-2 fx-font-600 fix">
                                                 <span class="fx-core-1-slideinup">Peças Genuínas, Resultados Garantidos</span>
-                                            </h5>
+                                            </h3>
                                             <p class="item-disc fx-para-1 has-opacity-7">Utilize somente peças originais e mantenha o máximo desempenho e vida útil do seu compressor.</p>
                                         </div>
     
                                         <!-- single-item -->
                                         <div class="fx-core-1-slider-item-feature-single">
-                                            <h5 class="item-title fx-heading-2 fx-font-600 fix">
+                                            <h3 class="item-title fx-heading-2 fx-font-600 fix">
                                                 <span class="fx-core-1-slideinup">Compatibilidade Total com Seu Equipamento</span>
-                                            </h5>
+                                            </h3>
                                             <p class="item-disc fx-para-1 has-opacity-7">Soluções desenvolvidas para todas as marcas, garantindo perfeita integração.</p>
                                         </div>
     
                                         <!-- single-item -->
                                         <div class="fx-core-1-slider-item-feature-single">
-                                            <h5 class="item-title fx-heading-2 fx-font-600 fix">
+                                            <h3 class="item-title fx-heading-2 fx-font-600 fix">
                                                 <span class="fx-core-1-slideinup">Menos Paradas, Mais Produção</span>
-                                            </h5>
+                                            </h3>
                                             <p class="item-disc fx-para-1 has-opacity-7">Reduza o tempo de inatividade com peças de reposição de rápida aplicação e alta durabilidade.</p>
                                         </div>
     
                                         <!-- single-item -->
                                         <div class="fx-core-1-slider-item-feature-single">
-                                            <h5 class="item-title fx-heading-2 fx-font-600 fix">
+                                            <h3 class="item-title fx-heading-2 fx-font-600 fix">
                                                 <span class="fx-core-1-slideinup">Confiança em Cada Intervenção</span>
-                                            </h5>
+                                            </h3>
                                             <p class="item-disc fx-para-1 has-opacity-7">Tenha a tranquilidade de saber que seu equipamento está protegido com peças aprovadas pela fabricante.</p>
                                         </div>
                                     </div>
@@ -507,18 +507,18 @@ details {
                                     <div class="fx-core-1-slider-item-content">
                 
                                         <div class="subtitle-flex">
-                                            <h6 class="fx-hero-2-slider-item-number fx-heading-1">
+                                            <p class="fx-hero-2-slider-item-number fx-heading-1">
                                                 <span>02</span>
                                                 <span>/</span>
                                                 <span>04</span>
-                                            </h6>
-                                            <h6 class="fx-subtitle-1 ">
+                                            </p>
+                                            <p class="fx-subtitle-1 ">
                                                 <span class="txaa-split-text-2 "  >Nossos Serviços</span>
-                                            </h6>
+                                            </p>
                                         </div>
     
                                         <div class="title-wrap">
-                                            <h2 class="fx-scn-title-2">MANUTENO DE </h2>
+                                            <h2 class="fx-scn-title-2">Manutenção de </h2>
                                             <h2 class="fx-scn-title-2">COMPRESSORES DE AR</h2>
                                         </div>
     
@@ -543,33 +543,33 @@ details {
     
                                         <!-- single-item -->
                                         <div class="fx-core-1-slider-item-feature-single">
-                                            <h5 class="item-title fx-heading-2 fx-font-600 fix">
+                                            <h3 class="item-title fx-heading-2 fx-font-600 fix">
                                                 <span class="fx-core-1-slideinup">Plano Personalizado para Sua Operação</span>
-                                            </h5>
+                                            </h3>
                                             <p class="item-disc fx-para-1 has-opacity-7">Criamos rotinas de manutenção sob medida para manter seus compressores sempre operando no máximo.</p>
                                         </div>
     
                                         <!-- single-item -->
                                         <div class="fx-core-1-slider-item-feature-single">
-                                            <h5 class="item-title fx-heading-2 fx-font-600 fix">
+                                            <h3 class="item-title fx-heading-2 fx-font-600 fix">
                                                 <span class="fx-core-1-slideinup">Reduza Custos com Eficiência</span>
-                                            </h5>
+                                            </h3>
                                             <p class="item-disc fx-para-1 has-opacity-7">Evite surpresas e gastos excessivos com manutenções corretivas  cuide antes e economize depois.</p>
                                         </div>
     
                                         <!-- single-item -->
                                         <div class="fx-core-1-slider-item-feature-single">
-                                            <h5 class="item-title fx-heading-2 fx-font-600 fix">
+                                            <h3 class="item-title fx-heading-2 fx-font-600 fix">
                                                 <span class="fx-core-1-slideinup">Equipe Técnica Especializada</span>
-                                            </h5>
+                                            </h3>
                                             <p class="item-disc fx-para-1 has-opacity-7">Contamos com profissionais treinados para atender qualquer necessidade com agilidade e precisão.</p>
                                         </div>
     
                                         <!-- single-item -->
                                         <div class="fx-core-1-slider-item-feature-single">
-                                            <h5 class="item-title fx-heading-2 fx-font-600 fix">
+                                            <h3 class="item-title fx-heading-2 fx-font-600 fix">
                                                 <span class="fx-core-1-slideinup">Manutenção Preventiva Inteligente</span>
-                                            </h5>
+                                            </h3>
                                             <p class="item-disc fx-para-1 has-opacity-7">Com tecnologia e planejamento, garantimos mais segurança e longevidade para seus compressores.</p>
                                         </div>
                                     </div>
@@ -585,14 +585,14 @@ details {
                                     <div class="fx-core-1-slider-item-content">
                 
                                         <div class="subtitle-flex">
-                                            <h6 class="fx-hero-2-slider-item-number fx-heading-1">
+                                            <p class="fx-hero-2-slider-item-number fx-heading-1">
                                                 <span>03</span>
                                                 <span>/</span>
                                                 <span>04</span>
-                                            </h6>
-                                            <h6 class="fx-subtitle-1 ">
+                                            </p>
+                                            <p class="fx-subtitle-1 ">
                                                 <span class="txaa-split-text-2 "  >Nossos Serviços</span>
-                                            </h6>
+                                            </p>
                                         </div>
     
                                         <div class="title-wrap">
@@ -621,17 +621,17 @@ details {
     
                                         <!-- single-item -->
                                         <div class="fx-core-1-slider-item-feature-single">
-                                            <h5 class="item-title fx-heading-2 fx-font-600 fix">
+                                            <h3 class="item-title fx-heading-2 fx-font-600 fix">
                                                 <span class="fx-core-1-slideinup">Diagnóstico Energético Avançado</span>
-                                            </h5>
+                                            </h3>
                                             <p class="item-disc fx-para-1 has-opacity-7">Analisamos o desempenho do seu sistema e indicamos melhorias reais na eficiência energética.</p>
                                         </div>
     
                                         <!-- single-item -->
                                         <div class="fx-core-1-slider-item-feature-single">
-                                            <h5 class="item-title fx-heading-2 fx-font-600 fix">
+                                            <h3 class="item-title fx-heading-2 fx-font-600 fix">
                                                 <span class="fx-core-1-slideinup">Economia Sustentável</span>
-                                            </h5>
+                                            </h3>
                                             <p class="item-disc fx-para-1 has-opacity-7">Reduza sua conta de energia com soluções que respeitam o meio ambiente e o seu orçamento.</p>
                                         </div>
     
@@ -639,9 +639,9 @@ details {
     
                                         <!-- single-item -->
                                         <div class="fx-core-1-slider-item-feature-single">
-                                            <h5 class="item-title fx-heading-2 fx-font-600 fix">
+                                            <h3 class="item-title fx-heading-2 fx-font-600 fix">
                                                 <span class="fx-core-1-slideinup">Otimização Contínua da Sala de Ar</span>
-                                            </h5>
+                                            </h3>
                                             <p class="item-disc fx-para-1 has-opacity-7">Identificamos gargalos e ajustamos seu sistema para um rendimento máximo e contínuo.</p>
                                         </div>
                                     </div>
@@ -657,18 +657,18 @@ details {
                                     <div class="fx-core-1-slider-item-content">
                 
                                         <div class="subtitle-flex">
-                                            <h6 class="fx-hero-2-slider-item-number fx-heading-1">
+                                            <p class="fx-hero-2-slider-item-number fx-heading-1">
                                                 <span>04</span>
                                                 <span>/</span>
                                                 <span>04</span>
-                                            </h6>
-                                            <h6 class="fx-subtitle-1 ">
+                                            </p>
+                                            <p class="fx-subtitle-1 ">
                                                 <span class="txaa-split-text-2 "  >Nossos Serviços</span>
-                                            </h6>
+                                            </p>
                                         </div>
     
                                         <div class="title-wrap">
-                                            <h2 class="fx-scn-title-2">SERVIOS PARA</h2>
+                                            <h2 class="fx-scn-title-2">Serviços para</h2>
                                             <h2 class="fx-scn-title-2"> Compressores de Ar</h2>
                                         </div>
     
@@ -693,33 +693,33 @@ details {
     
                                         <!-- single-item -->
                                         <div class="fx-core-1-slider-item-feature-single">
-                                            <h5 class="item-title fx-heading-2 fx-font-600 fix">
+                                            <h3 class="item-title fx-heading-2 fx-font-600 fix">
                                                 <span class="fx-core-1-slideinup">Agilidade no Atendimento Técnico</span>
-                                            </h5>
+                                            </h3>
                                             <p class="item-disc fx-para-1 has-opacity-7">Respostas rápidas e agendamentos flexíveis para manter sua produção em funcionamento.</p>
                                         </div>
     
                                         <!-- single-item -->
                                         <div class="fx-core-1-slider-item-feature-single">
-                                            <h5 class="item-title fx-heading-2 fx-font-600 fix">
+                                            <h3 class="item-title fx-heading-2 fx-font-600 fix">
                                                 <span class="fx-core-1-slideinup">Manutenção Especializada em Grandes Equipamentos</span>
-                                            </h5>
+                                            </h3>
                                             <p class="item-disc fx-para-1 has-opacity-7">Nossos especialistas cuidam do seu compressor de ar com precisão e segurança.</p>
                                         </div>
     
                                         <!-- single-item -->
                                         <div class="fx-core-1-slider-item-feature-single">
-                                            <h5 class="item-title fx-heading-2 fx-font-600 fix">
+                                            <h3 class="item-title fx-heading-2 fx-font-600 fix">
                                                 <span class="fx-core-1-slideinup">Reparos de Alta Performance</span>
-                                            </h5>
+                                            </h3>
                                             <p class="item-disc fx-para-1 has-opacity-7">Utilizamos tecnologia de ponta e peças de qualidade para restaurar o desempenho original.</p>
                                         </div>
     
                                         <!-- single-item -->
                                         <div class="fx-core-1-slider-item-feature-single">
-                                            <h5 class="item-title fx-heading-2 fx-font-600 fix">
+                                            <h3 class="item-title fx-heading-2 fx-font-600 fix">
                                                 <span class="fx-core-1-slideinup">Confiabilidade para Seu Processo Produtivo</span>
-                                            </h5>
+                                            </h3>
                                             <p class="item-disc fx-para-1 has-opacity-7">Minimize riscos e maximize resultados com serviços certificados para compressores de ar industriais.</p>
                                         </div>
                                     </div>
@@ -770,10 +770,10 @@ details {
 
                             <!-- section-title -->
                             <div class="fx-blog-2-scn-title mb-30">
-                                <h6 class="fx-subtitle-1 has-mb-28">
+                                <p class="fx-subtitle-1 has-mb-28">
                                     <span>07</span>
                                     <span class="txaa-split-text-2 txaa-split-text-2-ani"  >Entre em Contato</span>
-                                </h6>
+                                </p>
                                 <h2 class="fx-scn-title-2 txaa-split-text-3 txaa-split-text-3-ani ">Entre em contato com nossos especialistas</h2>
                             </div>
 
@@ -835,7 +835,7 @@ details {
 
                                 <!-- single-box -->
                                 <div class="fx-contact-us-1-info-box fix txxaslideup bg-default" data-background="{{ URL('/') }}/assets/img/contact/c2-box-bg-1.png">
-                                    <h6 class="box-title fx-heading-1 fx-font-400">Endereço:</h6>
+                                    <p class="box-title fx-heading-1 fx-font-400">Endereço:</p>
                                     <p class="address fx-para-1 has-clr-white">
                                         <span class="txxaslideup-item fx-cube-1">Rua Arapiraca, 311 - Jardim Napoli Itaquaquecetuba - SP 08595-620 - Brasil</span>
                                     </p>
@@ -843,7 +843,7 @@ details {
 
                                 <!-- single-box -->
                                 <div class="fx-contact-us-1-info-box txxaslideup fix bg-default"  data-background="{{ URL('/') }}/assets/img/contact/c2-box-bg-2.png">
-                                    <h6 class="box-title fx-heading-1 fx-font-400">Fale com nossos Especialistas</h6>
+                                    <p class="box-title fx-heading-1 fx-font-400">Fale com nossos Especialistas</p>
                                     <ul class="info-list txxaslideup-item fx-cube-1" >
                                         <li>
                                             <a href="mailto:comercial@mansteccompressores.com.br" aria-label="Enviar e-mail para a Manstec">

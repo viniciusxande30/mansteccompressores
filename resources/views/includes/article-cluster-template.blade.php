@@ -7,6 +7,18 @@
     </div>
 </div>
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "{{ URL('/') }}"},
+    {"@type": "ListItem", "position": 2, "name": "Blog", "item": "{{ URL('/') }}/blog"},
+    {"@type": "ListItem", "position": 3, "name": {!! json_encode($articleTitle, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) !!}, "item": {!! json_encode($pageCanonical ?? rtrim(URL('/'), '/') . '/' . trim(app('request')->getPathInfo(), '/'), JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) !!}}
+  ]
+}
+</script>
+
 <div class="fx-services-details-area pt-120 pb-120">
     <div class="container fx-container-1"><div class="fx-services-details-container"><article class="fx-services-details-content">
         <h2>{{ $articleHeadline }}</h2>

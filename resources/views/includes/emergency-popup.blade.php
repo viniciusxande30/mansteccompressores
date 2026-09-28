@@ -158,7 +158,7 @@ body.manstec-popup-open .cbh-phone {
   padding: 14px;
 }
 
-.manstec-emergency-box h5 {
+.manstec-emergency-title {
   color: #fff;
   margin: 0 0 10px;
   font-size: 16px;
@@ -350,7 +350,7 @@ body.manstec-popup-open .cbh-phone {
     border-radius: 10px;
   }
 
-  .manstec-emergency-box h5 {
+  .manstec-emergency-title {
     font-size: 13px;
     margin-bottom: 7px;
   }
@@ -447,7 +447,7 @@ body.manstec-popup-open .cbh-phone {
             </ul>
 
             <div class="manstec-emergency-box">
-              <h5>Telefones de emerg&ecirc;ncia</h5>
+              <p class="manstec-emergency-title">Telefones de emerg&ecirc;ncia</p>
               <a href="tel:+351969558556"><i class="fa-light fa-phone-volume"></i> +351 969 558 556</a>
               <a href="tel:+5511959781897"><i class="fa-light fa-phone-volume"></i> +55 (11) 95978-1897</a>
               <a href="tel:+551146478222"><i class="fa-light fa-phone-volume"></i> +55 (11) 4647-8222</a>
