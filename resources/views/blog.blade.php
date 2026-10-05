@@ -3,6 +3,9 @@ $kw = "blog manstec compressores, manutenção de compressores de ar, eficiênci
 $metaTitle = "Blog Manstec | Compressores de Ar, Manutenção e Eficiência";
 $metaDescription = "Conteúdos técnicos sobre compressores de ar, manutenção industrial, eficiência energética, redes de ar comprimido e redução de paradas.";
 $maintenanceCluster = [
+  ['slug' => 'filtro-de-ar-do-compressor-entupido', 'title' => 'Filtro de Ar do Compressor Entupido: Sinais, Riscos e Solução', 'image' => 's1-img-1-opt.jpg'],
+  ['slug' => 'valvula-de-retencao-do-compressor-de-ar', 'title' => 'Válvula de Retenção do Compressor de Ar: Falhas e Diagnóstico', 'image' => 's1-img-2-opt.jpg'],
+  ['slug' => 'correia-do-compressor-de-ar', 'title' => 'Correia do Compressor de Ar: Quando Revisar ou Trocar', 'image' => 's1-img-3-opt.jpg'],
   ['slug' => 'compressor-nao-desliga', 'title' => 'Compressor Não Desliga: Causas, Riscos e Diagnóstico Técnico', 'image' => 's1-img-1-opt.jpg'],
   ['slug' => 'agua-na-linha-de-ar-comprimido', 'title' => 'Água na Linha de Ar Comprimido: Causas e Como Resolver', 'image' => 's1-img-2-opt.jpg'],
   ['slug' => 'compressor-fazendo-barulho', 'title' => 'Compressor Fazendo Barulho: Quando o Ruído Indica Manutenção', 'image' => 's1-img-3-opt.jpg'],

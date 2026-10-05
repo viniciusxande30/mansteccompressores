@@ -1,0 +1,23 @@
+@php
+$kw = 'filtro de ar do compressor entupido, filtro compressor sujo, manutenção de filtro de compressor, compressor com pouca vazão';
+$metaTitle = 'Filtro de Ar do Compressor Entupido: Sinais e Solução | Manstec';
+$metaDescription = 'Saiba identificar filtro de ar do compressor entupido, evitar baixa vazão e reduzir riscos de superaquecimento. Solicite uma avaliação técnica.';
+$schemaType = 'Article'; $datePublished = '2026-10-05'; $dateModified = '2026-10-05';
+$articleTitle = 'Filtro de Ar do Compressor Entupido';
+$articleHeadline = 'Filtro de ar do compressor entupido: sinais, riscos e como agir';
+$articleIntro = ['O <strong>filtro de ar do compressor entupido</strong> reduz a entrada de ar na admissão e pode comprometer toda a operação. A restrição obriga o equipamento a trabalhar com maior esforço para atender à demanda, favorecendo aumento de temperatura, queda de vazão e consumo desnecessário.', 'Como a contaminação se acumula gradualmente, o problema muitas vezes passa despercebido. Um plano de inspeção e a troca no momento certo ajudam a manter a disponibilidade do compressor e a evitar paradas corretivas.'];
+$articleCalloutTitle = 'Sinais de filtro de admissão saturado';
+$articleCalloutText = 'Os sinais variam com o modelo e com o ambiente, mas devem ser investigados antes que afetem a produção.';
+$articleCalloutItems = ['Alerta de restrição ou manutenção no painel', 'Queda de vazão ou dificuldade para atingir a pressão de trabalho', 'Aumento da temperatura de operação', 'Mais poeira acumulada na área de admissão', 'Consumo de energia maior sem crescimento da produção'];
+$articleImageAlt = 'Inspeção de filtro de ar em compressor industrial';
+$articleSections = [
+ ['title' => 'Por que o filtro de ar entope?', 'paragraphs' => ['O filtro retém partículas antes que elas cheguem ao elemento compressor. Em ambientes com poeira, fibras, névoa de óleo ou ventilação inadequada, a saturação pode ocorrer bem antes do intervalo previsto no manual.', 'Também é importante avaliar a localização da tomada de ar. Captar ar quente ou contaminado dentro da sala de compressores reduz a vida útil dos elementos filtrantes e pode prejudicar o desempenho do conjunto.'], 'items' => ['Alta concentração de poeira no ambiente', 'Admissão próxima a fontes de calor ou contaminantes', 'Intervalos de manutenção incompatíveis com a operação', 'Filtro inadequado para o equipamento ou instalado incorretamente']],
+ ['title' => 'Quais riscos um filtro saturado traz para o compressor?', 'paragraphs' => ['A perda de carga na admissão limita o volume de ar disponível para compressão. Na prática, o compressor pode permanecer mais tempo carregado, elevar sua temperatura e entregar menos ar útil para os pontos de consumo.', 'Ignorar o sintoma pode desencadear outras falhas. Por isso, a inspeção do filtro deve fazer parte da rotina junto com a conferência de óleo, temperatura, correias e possíveis vazamentos.'], 'items' => ['Menor produtividade por baixa vazão', 'Sobreaquecimento e desgaste prematuro', 'Aumento do custo energético', 'Risco de entrada de contaminantes se o elemento estiver danificado']],
+ ['title' => 'Trocar ou limpar o filtro do compressor?', 'paragraphs' => ['A decisão deve seguir a recomendação do fabricante e a condição do elemento. Em muitos equipamentos, o procedimento seguro é substituir o filtro por uma peça compatível, pois tentativas de limpeza inadequada podem romper a mídia filtrante ou deixar partículas presas no componente.', 'A Manstec avalia o modelo do compressor, as horas de operação e as condições da sala para definir a intervenção correta e registrar o próximo intervalo de manutenção.'], 'items' => []],
+ ['title' => 'Como evitar que o problema volte?', 'paragraphs' => ['Além de programar a troca, vale corrigir a causa da contaminação excessiva. Melhorar a ventilação, manter a área limpa e revisar o ponto de captação de ar reduz a sobrecarga do filtro e protege o investimento no compressor.'], 'items' => ['Registrar horas e datas das trocas', 'Inspecionar a admissão em cada manutenção preventiva', 'Manter portas, venezianas e dutos de ventilação limpos', 'Usar elementos de reposição com especificação correta']],
+];
+$articleRelatedText = 'Veja o guia de <a href="'.URL('/').'/blog/troca-de-filtros-compressor-de-ar">troca de filtros de compressor de ar</a>, entenda as causas de um <a href="'.URL('/').'/blog/compressor-superaquecendo">compressor superaquecendo</a> e organize um <a href="'.URL('/').'/blog/plano-de-manutencao-de-compressores">plano de manutenção de compressores</a> para sua operação.';
+@endphp
+@include('includes.top')
+@include('includes.article-cluster-template')
+@include('includes.footer')

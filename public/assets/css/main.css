@@ -3803,6 +3803,39 @@ input:focus::placeholder, textarea:focus::placeholder {
   background: rgba(102, 102, 102, 0.6);
 }
 
+/* Keep desktop navigation horizontal and align the original header proportions. */
+@media (min-width: 1200px) {
+  .fx-header-2-wrap {
+    align-items: stretch;
+    gap: 24px;
+  }
+  .fx-header-2-logo-box {
+    max-width: 185px;
+    padding: 10px 0;
+    justify-content: center;
+  }
+  .fx-header-2-main-logo img {
+    width: 140px !important;
+    height: auto;
+    max-height: 110px;
+    object-fit: contain;
+  }
+  .fx-header-2-right {
+    min-width: 0;
+  }
+  .fx-header-2-main {
+    min-height: 76px;
+    padding-left: 24px;
+    align-items: center;
+  }
+  .main-navigation:is(.has-header-2) .navbar-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+}
+
 /* 
   header-2-css-end
 */
@@ -14462,7 +14495,7 @@ input:focus::placeholder, textarea:focus::placeholder {
 .breadcrumb-area {
   position: relative;
   z-index: 1;
-  padding-top: 85px;
+  padding-top: 190px;
   border-radius: 0 0 32px 32px;
   overflow: hidden;
 }

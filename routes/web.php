@@ -197,6 +197,9 @@ $router->get('/blog/vida-util-de-compressores', function () {return view('artigo
 $router->get('/blog/assistencia-tecnica-urgente-compressor', function () {return view('artigos.assistencia-tecnica-urgente-compressor');});
 $router->get('/blog/orcamento-manutencao-compressor', function () {return view('artigos.orcamento-manutencao-compressor');});
 $router->get('/blog/plano-de-manutencao-de-compressores', function () {return view('artigos.plano-de-manutencao-de-compressores');});
+$router->get('/blog/filtro-de-ar-do-compressor-entupido', function () {return view('artigos.filtro-de-ar-do-compressor-entupido');});
+$router->get('/blog/valvula-de-retencao-do-compressor-de-ar', function () {return view('artigos.valvula-de-retencao-do-compressor-de-ar');});
+$router->get('/blog/correia-do-compressor-de-ar', function () {return view('artigos.correia-do-compressor-de-ar');});
 
 $router->get('/sitemap.xml', function () {
     $urls = [
@@ -282,6 +285,9 @@ $router->get('/sitemap.xml', function () {
         '/blog/assistencia-tecnica-urgente-compressor',
         '/blog/orcamento-manutencao-compressor',
         '/blog/plano-de-manutencao-de-compressores',
+        '/blog/filtro-de-ar-do-compressor-entupido',
+        '/blog/valvula-de-retencao-do-compressor-de-ar',
+        '/blog/correia-do-compressor-de-ar',
     ];
 
     $baseUrl = rtrim(url('/'), '/');
