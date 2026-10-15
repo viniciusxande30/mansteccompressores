@@ -3,6 +3,11 @@ $kw = "blog manstec compressores, manutenção de compressores de ar, eficiênci
 $metaTitle = "Blog Manstec | Compressores de Ar, Manutenção e Eficiência";
 $metaDescription = "Conteúdos técnicos sobre compressores de ar, manutenção industrial, eficiência energética, redes de ar comprimido e redução de paradas.";
 $maintenanceCluster = [
+  ['slug' => 'manutencao-compressores-guarulhos', 'title' => 'Manutenção de Compressores em Guarulhos: Como Evitar Paradas', 'image' => 's1-img-1-opt.jpg'],
+  ['slug' => 'assistencia-tecnica-compressor-guarulhos', 'title' => 'Assistência Técnica de Compressor em Guarulhos: Quando Chamar', 'image' => 's1-img-2-opt.jpg'],
+  ['slug' => 'compressores-de-ar-cumbica-guarulhos', 'title' => 'Compressores de Ar em Cumbica, Guarulhos: Manutenção Industrial', 'image' => 's1-img-3-opt.jpg'],
+  ['slug' => 'vazamento-ar-comprimido-guarulhos', 'title' => 'Vazamento de Ar Comprimido em Guarulhos: Como Reduzir Perdas', 'image' => 's1-img-1-opt.jpg'],
+  ['slug' => 'manutencao-preventiva-compressor-guarulhos', 'title' => 'Manutenção Preventiva de Compressor em Guarulhos: Rotina Essencial', 'image' => 's1-img-2-opt.jpg'],
   ['slug' => 'filtro-de-ar-do-compressor-entupido', 'title' => 'Filtro de Ar do Compressor Entupido: Sinais, Riscos e Solução', 'image' => 's1-img-1-opt.jpg'],
   ['slug' => 'valvula-de-retencao-do-compressor-de-ar', 'title' => 'Válvula de Retenção do Compressor de Ar: Falhas e Diagnóstico', 'image' => 's1-img-2-opt.jpg'],
   ['slug' => 'correia-do-compressor-de-ar', 'title' => 'Correia do Compressor de Ar: Quando Revisar ou Trocar', 'image' => 's1-img-3-opt.jpg'],
@@ -162,6 +167,18 @@ details {
                 <div class="fx-serve-1-scn-title mb-45">
                     <h2 class="fx-scn-title-2 txaa-split-text-3 txaa-split-text-3-ani" id="nossos-servicos">Nosso Blog</h2>
 				</div>
+
+                <section class="mb-45 p-4 rounded-3" style="background:#f3f7fc; border:1px solid #d8e3f1;" aria-labelledby="blog-guarulhos-title">
+                    <h2 id="blog-guarulhos-title" class="fx-heading-1 fx-font-600 mb-2" style="font-size:26px;">Atendimento de compressores em Guarulhos</h2>
+                    <p class="mb-3">Procura manutenção, assistência técnica ou diagnóstico na região? Acesse o hub local e veja as áreas atendidas.</p>
+                    <div class="d-flex flex-wrap gap-3">
+                        <a href="{{ URL('/') }}/compressores-de-ar-em-guarulhos"><strong>Compressores de Ar em Guarulhos</strong></a>
+                        <a href="{{ URL('/') }}/compressores-de-ar-em-guarulhos/cumbica">Cumbica</a>
+                        <a href="{{ URL('/') }}/compressores-de-ar-em-guarulhos/centro">Centro</a>
+                        <a href="{{ URL('/') }}/compressores-de-ar-em-guarulhos/bonsucesso">Bonsucesso</a>
+                        <a href="{{ URL('/') }}/contato">Solicitar cotação</a>
+                    </div>
+                </section>
 
 
                 <div class="fx-services-page-item">

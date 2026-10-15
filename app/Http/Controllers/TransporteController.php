@@ -9,6 +9,10 @@ class TransporteController extends Controller
 {
     public function mostrarRota($destino)
     {
+        if ($destino === 'guarulhos-sp') {
+            return redirect('/compressores-de-ar-em-guarulhos', 301);
+        }
+
         $path = url('/');
         $jsonPath = base_path('public/js/cidades-brasileiras.json');
         if (!File::exists($jsonPath)) {

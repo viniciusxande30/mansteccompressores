@@ -103,6 +103,25 @@ $router->post('/send-cotacao-frete-whatsapp', function (\Illuminate\Http\Request
 });
 
 
+$guarulhosAreas = [
+    'centro' => ['slug' => 'centro', 'name' => 'Centro'],
+    'cumbica' => ['slug' => 'cumbica', 'name' => 'Cumbica'],
+    'bonsucesso' => ['slug' => 'bonsucesso', 'name' => 'Bonsucesso'],
+    'ponte-grande' => ['slug' => 'ponte-grande', 'name' => 'Ponte Grande'],
+    'vila-galvao' => ['slug' => 'vila-galvao', 'name' => 'Vila Galvão'],
+];
+
+$router->get('/compressores-de-ar-em-guarulhos', function () {
+    return view('locations.guarulhos');
+});
+$router->get('/compressores-de-ar-em-guarulhos/{bairro}', function ($bairro) use ($guarulhosAreas) {
+    if (!isset($guarulhosAreas[$bairro])) {
+        abort(404);
+    }
+
+    return view('locations.guarulhos', ['area' => $guarulhosAreas[$bairro]]);
+});
+
 $router->get('/compressores-de-ar/{destino}', 'TransporteController@mostrarRota');
 $router->get('/compressores-de-ar', 'TransporteController@listarRotas');
 $router->get('/contato', 'TransporteController@contato');
@@ -200,12 +219,23 @@ $router->get('/blog/plano-de-manutencao-de-compressores', function () {return vi
 $router->get('/blog/filtro-de-ar-do-compressor-entupido', function () {return view('artigos.filtro-de-ar-do-compressor-entupido');});
 $router->get('/blog/valvula-de-retencao-do-compressor-de-ar', function () {return view('artigos.valvula-de-retencao-do-compressor-de-ar');});
 $router->get('/blog/correia-do-compressor-de-ar', function () {return view('artigos.correia-do-compressor-de-ar');});
+$router->get('/blog/manutencao-compressores-guarulhos', function () {return view('artigos.manutencao-compressores-guarulhos');});
+$router->get('/blog/assistencia-tecnica-compressor-guarulhos', function () {return view('artigos.assistencia-tecnica-compressor-guarulhos');});
+$router->get('/blog/compressores-de-ar-cumbica-guarulhos', function () {return view('artigos.compressores-de-ar-cumbica-guarulhos');});
+$router->get('/blog/vazamento-ar-comprimido-guarulhos', function () {return view('artigos.vazamento-ar-comprimido-guarulhos');});
+$router->get('/blog/manutencao-preventiva-compressor-guarulhos', function () {return view('artigos.manutencao-preventiva-compressor-guarulhos');});
 
 $router->get('/sitemap.xml', function () {
     $urls = [
         '/',
         '/sobre-nos',
         '/compressores-de-ar',
+        '/compressores-de-ar-em-guarulhos',
+        '/compressores-de-ar-em-guarulhos/centro',
+        '/compressores-de-ar-em-guarulhos/cumbica',
+        '/compressores-de-ar-em-guarulhos/bonsucesso',
+        '/compressores-de-ar-em-guarulhos/ponte-grande',
+        '/compressores-de-ar-em-guarulhos/vila-galvao',
         '/contato',
         '/blog',
         '/nossos-servicos',
@@ -288,6 +318,11 @@ $router->get('/sitemap.xml', function () {
         '/blog/filtro-de-ar-do-compressor-entupido',
         '/blog/valvula-de-retencao-do-compressor-de-ar',
         '/blog/correia-do-compressor-de-ar',
+        '/blog/manutencao-compressores-guarulhos',
+        '/blog/assistencia-tecnica-compressor-guarulhos',
+        '/blog/compressores-de-ar-cumbica-guarulhos',
+        '/blog/vazamento-ar-comprimido-guarulhos',
+        '/blog/manutencao-preventiva-compressor-guarulhos',
     ];
 
     $baseUrl = rtrim(url('/'), '/');

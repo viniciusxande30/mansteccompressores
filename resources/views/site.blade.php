@@ -757,6 +757,36 @@ details {
             </div>            
         </div>
         <!-- core-services-end -->
+
+        <section class="fx-serve-1-area fix pt-100 pb-100" aria-labelledby="guarulhos-title">
+            <div class="container fx-container-1">
+                <div class="row align-items-center g-4">
+                    <div class="col-lg-7">
+                        <p class="fx-subtitle-1 has-mb-28"><span>08</span><span>Atendimento Regional</span></p>
+                        <h2 id="guarulhos-title" class="fx-scn-title-2">Compressores de Ar em Guarulhos</h2>
+                        <p class="fx-para-1 mt-20">A Manstec atende empresas de Guarulhos com manutenção preventiva e corretiva, assistência técnica, revisão, peças e diagnóstico de sistemas de ar comprimido.</p>
+                        <p class="fx-para-1">Encontre o atendimento adequado para sua operação, consulte os bairros atendidos e solicite uma cotação técnica.</p>
+                        <div class="d-flex flex-wrap gap-3 mt-30">
+                            <a href="{{ URL('/') }}/compressores-de-ar-em-guarulhos" class="fx-pr-btn-1" aria-label="Conhecer atendimento de compressores de ar em Guarulhos"><span class="text" data-back="Atendimento em Guarulhos" data-front="Atendimento em Guarulhos"></span><i class="fa-solid fa-angle-right"></i></a>
+                            <a href="{{ URL('/') }}/contato" class="fx-pr-btn-1 has-hover-border" aria-label="Solicitar cotação para Guarulhos"><span class="text" data-back="Solicitar cotação" data-front="Solicitar cotação"></span></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="p-4 rounded-3" style="background:#f3f7fc; border:1px solid #d8e3f1;">
+                            <h3 class="fx-heading-1 fx-font-600 mb-3" style="font-size:24px;">Regiões em destaque</h3>
+                            <ul class="mb-4" style="columns:2;">
+                                <li><a href="{{ URL('/') }}/compressores-de-ar-em-guarulhos/centro">Centro</a></li>
+                                <li><a href="{{ URL('/') }}/compressores-de-ar-em-guarulhos/cumbica">Cumbica</a></li>
+                                <li><a href="{{ URL('/') }}/compressores-de-ar-em-guarulhos/bonsucesso">Bonsucesso</a></li>
+                                <li><a href="{{ URL('/') }}/compressores-de-ar-em-guarulhos/ponte-grande">Ponte Grande</a></li>
+                                <li><a href="{{ URL('/') }}/compressores-de-ar-em-guarulhos/vila-galvao">Vila Galvão</a></li>
+                            </ul>
+                            <p class="mb-0"><a href="{{ URL('/') }}/blog/manutencao-compressores-guarulhos"><strong>Leia o guia de manutenção de compressores em Guarulhos.</strong></a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
        
         <div class="fx-gap-12"></div>
 
