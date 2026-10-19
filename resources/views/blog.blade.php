@@ -3,6 +3,11 @@ $kw = "blog manstec compressores, manutenção de compressores de ar, eficiênci
 $metaTitle = "Blog Manstec | Compressores de Ar, Manutenção e Eficiência";
 $metaDescription = "Conteúdos técnicos sobre compressores de ar, manutenção industrial, eficiência energética, redes de ar comprimido e redução de paradas.";
 $maintenanceCluster = [
+  ['slug' => 'como-calcular-vazao-compressor-pcm', 'title' => 'Como Calcular a Vazão do Compressor em PCM', 'image' => 's1-img-1-opt.jpg'],
+  ['slug' => 'compressor-parafuso-ou-pistao', 'title' => 'Compressor de Parafuso ou Pistão: Qual Escolher?', 'image' => 's1-img-2-opt.jpg'],
+  ['slug' => 'compressor-de-ar-para-pintura-industrial', 'title' => 'Compressor de Ar para Pintura Industrial: Como Escolher', 'image' => 's1-img-3-opt.jpg'],
+  ['slug' => 'compressor-para-ferramentas-pneumaticas', 'title' => 'Compressor para Ferramentas Pneumáticas: Como Dimensionar', 'image' => 's1-img-1-opt.jpg'],
+  ['slug' => 'compressor-de-ar-industria-alimenticia', 'title' => 'Ar Comprimido na Indústria Alimentícia: Cuidados Essenciais', 'image' => 's1-img-2-opt.jpg'],
   ['slug' => 'manutencao-compressores-guarulhos', 'title' => 'Manutenção de Compressores em Guarulhos: Como Evitar Paradas', 'image' => 's1-img-1-opt.jpg'],
   ['slug' => 'assistencia-tecnica-compressor-guarulhos', 'title' => 'Assistência Técnica de Compressor em Guarulhos: Quando Chamar', 'image' => 's1-img-2-opt.jpg'],
   ['slug' => 'compressores-de-ar-cumbica-guarulhos', 'title' => 'Compressores de Ar em Cumbica, Guarulhos: Manutenção Industrial', 'image' => 's1-img-3-opt.jpg'],

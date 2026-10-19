@@ -224,6 +224,11 @@ $router->get('/blog/assistencia-tecnica-compressor-guarulhos', function () {retu
 $router->get('/blog/compressores-de-ar-cumbica-guarulhos', function () {return view('artigos.compressores-de-ar-cumbica-guarulhos');});
 $router->get('/blog/vazamento-ar-comprimido-guarulhos', function () {return view('artigos.vazamento-ar-comprimido-guarulhos');});
 $router->get('/blog/manutencao-preventiva-compressor-guarulhos', function () {return view('artigos.manutencao-preventiva-compressor-guarulhos');});
+$router->get('/blog/como-calcular-vazao-compressor-pcm', function () {return view('artigos.como-calcular-vazao-compressor-pcm');});
+$router->get('/blog/compressor-parafuso-ou-pistao', function () {return view('artigos.compressor-parafuso-ou-pistao');});
+$router->get('/blog/compressor-de-ar-para-pintura-industrial', function () {return view('artigos.compressor-de-ar-para-pintura-industrial');});
+$router->get('/blog/compressor-para-ferramentas-pneumaticas', function () {return view('artigos.compressor-para-ferramentas-pneumaticas');});
+$router->get('/blog/compressor-de-ar-industria-alimenticia', function () {return view('artigos.compressor-de-ar-industria-alimenticia');});
 
 $router->get('/sitemap.xml', function () {
     $urls = [
@@ -323,6 +328,11 @@ $router->get('/sitemap.xml', function () {
         '/blog/compressores-de-ar-cumbica-guarulhos',
         '/blog/vazamento-ar-comprimido-guarulhos',
         '/blog/manutencao-preventiva-compressor-guarulhos',
+        '/blog/como-calcular-vazao-compressor-pcm',
+        '/blog/compressor-parafuso-ou-pistao',
+        '/blog/compressor-de-ar-para-pintura-industrial',
+        '/blog/compressor-para-ferramentas-pneumaticas',
+        '/blog/compressor-de-ar-industria-alimenticia',
     ];
 
     $baseUrl = rtrim(url('/'), '/');
