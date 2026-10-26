@@ -25,6 +25,13 @@ $app = new Laravel\Lumen\Application(
 
 $app->withFacades();
 
+// Lumen may not infer the host correctly when the project is served from a
+// subdirectory (for example, /MANSTEC/public on XAMPP). Respect APP_URL so
+// generated links, images, scripts and styles always use a valid base URL.
+if ($appUrl = env('APP_URL')) {
+    $app->make('url')->forceRootUrl($appUrl);
+}
+
 // $app->withEloquent();
 
 /*

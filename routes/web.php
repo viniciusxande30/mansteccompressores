@@ -122,6 +122,59 @@ $router->get('/compressores-de-ar-em-guarulhos/{bairro}', function ($bairro) use
     return view('locations.guarulhos', ['area' => $guarulhosAreas[$bairro]]);
 });
 
+$guarulhosServices = [
+    'manutencao-de-compressores-em-guarulhos' => [
+        'path' => '/manutencao-de-compressores-em-guarulhos', 'shortTitle' => 'Manutenção de Compressores',
+        'title' => 'Manutenção de Compressores em Guarulhos', 'serviceType' => 'Manutenção de compressores de ar',
+        'keywords' => 'manutenção de compressores em Guarulhos, manutenção compressor de ar Guarulhos, revisão de compressor Guarulhos',
+        'description' => 'Manutenção preventiva e corretiva de compressores em Guarulhos. Solicite avaliação técnica para reduzir paradas e perdas de desempenho.',
+        'heading' => 'Manutenção preventiva e corretiva de compressores em Guarulhos',
+        'intro' => ['A Manstec atende empresas em Guarulhos com manutenção de compressores de ar, revisão técnica e diagnóstico de falhas.', 'A rotina é definida conforme o tipo de equipamento, horas de trabalho, condições de operação e impacto da parada na produção.'],
+        'assessmentText' => 'A avaliação reúne inspeção do compressor e dos componentes que influenciam sua disponibilidade.',
+        'items' => ['Filtros, óleo e componentes de desgaste', 'Temperatura, pressão e alarmes', 'Vazamentos e condições da rede', 'Histórico de falhas e manutenção'],
+        'related' => 'Veja o <a href="' . url('/') . '/blog/plano-de-manutencao-de-compressores">plano de manutenção de compressores</a>, a diferença entre <a href="' . url('/') . '/blog/manutencao-preventiva-vs-corretiva">preventiva e corretiva</a> e o <a href="' . url('/') . '/compressores-de-ar-em-guarulhos">hub de Guarulhos</a>.',
+    ],
+    'assistencia-tecnica-de-compressores-em-guarulhos' => [
+        'path' => '/assistencia-tecnica-de-compressores-em-guarulhos', 'shortTitle' => 'Assistência Técnica',
+        'title' => 'Assistência Técnica de Compressores em Guarulhos', 'serviceType' => 'Assistência técnica de compressores de ar',
+        'keywords' => 'assistência técnica de compressores em Guarulhos, conserto de compressor Guarulhos, técnico de compressor de ar',
+        'description' => 'Assistência técnica para compressores de ar em Guarulhos, com diagnóstico de falhas e orientação para reduzir tempo de parada.',
+        'heading' => 'Assistência técnica para compressor de ar em Guarulhos',
+        'intro' => ['Queda de pressão, aquecimento, ruído, vazamento e alarmes são sinais que pedem diagnóstico técnico.', 'A Manstec organiza o atendimento conforme os sintomas, modelo do equipamento e urgência informada pela operação.'],
+        'assessmentText' => 'O diagnóstico verifica os parâmetros do equipamento e os componentes relacionados ao sintoma.',
+        'items' => ['Leitura de alarmes e parâmetros', 'Condição de válvulas, filtros e transmissão', 'Pressão e vazão na operação', 'Possíveis perdas de ar comprimido'],
+        'related' => 'Veja quando buscar <a href="' . url('/') . '/blog/assistencia-tecnica-urgente-compressor">assistência técnica urgente</a>, causas de <a href="' . url('/') . '/blog/compressor-desarmando">compressor desarmando</a> e o <a href="' . url('/') . '/compressores-de-ar-em-guarulhos">atendimento em Guarulhos</a>.',
+    ],
+    'pecas-para-compressores-em-guarulhos' => [
+        'path' => '/pecas-para-compressores-em-guarulhos', 'shortTitle' => 'Peças para Compressores',
+        'title' => 'Peças para Compressores em Guarulhos', 'serviceType' => 'Peças e componentes para compressores de ar',
+        'keywords' => 'peças para compressores em Guarulhos, filtro compressor Guarulhos, peças compressor de ar industrial',
+        'description' => 'Peças e componentes para manutenção de compressores em Guarulhos. Solicite avaliação e cotação com especificação compatível.',
+        'heading' => 'Peças e componentes para compressores de ar em Guarulhos',
+        'intro' => ['A peça correta depende do modelo, série, pressão de trabalho e condição do equipamento. Informações incompletas podem levar a uma reposição incompatível.', 'A Manstec orienta a identificação de componentes de manutenção e itens relacionados ao sistema de ar comprimido.'],
+        'assessmentText' => 'A identificação técnica reduz erros de compra e ajuda a preservar o desempenho do equipamento.',
+        'items' => ['Filtros de ar, óleo e linha', 'Óleo e separadores compatíveis', 'Correias, válvulas e componentes de reposição', 'Itens para secagem e tratamento do ar'],
+        'related' => 'Consulte o guia de <a href="' . url('/') . '/blog/pecas-para-compressores-de-ar">peças para compressores</a>, a <a href="' . url('/') . '/blog/troca-de-filtros-compressor-de-ar">troca de filtros</a> e o <a href="' . url('/') . '/compressores-de-ar-em-guarulhos">hub local</a>.',
+    ],
+    'redes-de-ar-comprimido-em-guarulhos' => [
+        'path' => '/redes-de-ar-comprimido-em-guarulhos', 'shortTitle' => 'Redes de Ar Comprimido',
+        'title' => 'Redes de Ar Comprimido em Guarulhos', 'serviceType' => 'Projetos e manutenção de redes de ar comprimido',
+        'keywords' => 'redes de ar comprimido em Guarulhos, instalação rede de ar Guarulhos, vazamento de ar comprimido Guarulhos',
+        'description' => 'Análise e manutenção de redes de ar comprimido em Guarulhos para reduzir perda de pressão, vazamentos e desperdício de energia.',
+        'heading' => 'Redes de ar comprimido para indústrias em Guarulhos',
+        'intro' => ['Uma rede inadequada pode reduzir a pressão disponível no ponto de uso e fazer o compressor trabalhar mais para compensar perdas.', 'A análise da distribuição considera vazamentos, queda de pressão, tratamento de ar e as necessidades dos equipamentos conectados.'],
+        'assessmentText' => 'O objetivo é identificar restrições e perdas que comprometem a eficiência do sistema.',
+        'items' => ['Vazamentos e conexões', 'Perda de carga e diâmetro de tubulação', 'Drenos, filtros e tratamento de ar', 'Pressão requerida nos pontos de uso'],
+        'related' => 'Saiba mais sobre <a href="' . url('/') . '/blog/vazamentos-de-ar-comprimido">vazamentos de ar comprimido</a>, <a href="' . url('/') . '/blog/perda-de-carga-na-rede-de-ar-comprimido">perda de carga</a> e o <a href="' . url('/') . '/compressores-de-ar-em-guarulhos">atendimento em Guarulhos</a>.',
+    ],
+];
+
+foreach ($guarulhosServices as $slug => $service) {
+    $router->get('/' . $slug, function () use ($service) {
+        return view('locations.guarulhos-service', ['localService' => $service]);
+    });
+}
+
 $router->get('/compressores-de-ar/{destino}', 'TransporteController@mostrarRota');
 $router->get('/compressores-de-ar', 'TransporteController@listarRotas');
 $router->get('/contato', 'TransporteController@contato');
@@ -241,6 +294,10 @@ $router->get('/sitemap.xml', function () {
         '/compressores-de-ar-em-guarulhos/bonsucesso',
         '/compressores-de-ar-em-guarulhos/ponte-grande',
         '/compressores-de-ar-em-guarulhos/vila-galvao',
+        '/manutencao-de-compressores-em-guarulhos',
+        '/assistencia-tecnica-de-compressores-em-guarulhos',
+        '/pecas-para-compressores-em-guarulhos',
+        '/redes-de-ar-comprimido-em-guarulhos',
         '/contato',
         '/blog',
         '/nossos-servicos',
