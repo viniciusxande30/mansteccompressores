@@ -32,11 +32,17 @@ $request = Illuminate\Http\Request::capture();
 $host = $request->headers->get('host');
 if ($host) {
     $basePath = rtrim(str_replace('/index.php', '', $request->getBaseUrl()), '/');
-    $scheme = $request->getScheme();
+    $forwardedProto = strtolower(trim(explode(',', (string) $request->headers->get('x-forwarded-proto'))[0]));
+    $configuredScheme = parse_url((string) env('APP_URL', ''), PHP_URL_SCHEME);
+    $serverHttps = strtolower((string) $request->server('HTTPS'));
 
-    if ($request->headers->get('x-forwarded-proto') === 'https') {
-        $scheme = 'https';
-    }
+    // SSL can be terminated by a proxy before PHP receives the request. In
+    // that case getScheme() reports http, even though the browser is on HTTPS.
+    $isHttps = $request->isSecure()
+        || $forwardedProto === 'https'
+        || in_array($serverHttps, ['on', '1'], true)
+        || $configuredScheme === 'https';
+    $scheme = $isHttps ? 'https' : 'http';
 
     $app->make('url')->forceRootUrl($scheme . '://' . $host . $basePath);
 }
