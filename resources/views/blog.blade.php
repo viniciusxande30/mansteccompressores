@@ -1256,7 +1256,7 @@ details {
     </div>
 @endif
 
-                            <form action="{{ url('/') }}/send-email-home" method="POST" class="fx-form-1">
+                            <form action="{{ rtrim((string) env('APP_URL', url('/')), '/') }}/send-email-home" method="POST" class="fx-form-1">
 								<input type="text" name="id" value="form_contato" hidden>
 
                                 <!-- single-box -->

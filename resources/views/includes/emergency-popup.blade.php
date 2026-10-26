@@ -1,3 +1,4 @@
+@php $siteUrl = rtrim((string) env('APP_URL', url('/')), '/'); @endphp
 <style>
 .manstec-lead-fab {
   position: fixed;
@@ -464,7 +465,7 @@ body.manstec-popup-open .cbh-phone {
               </div>
             @endif
 
-            <form action="{{ url('/send-email-home') }}" method="POST" class="manstec-popup-form">
+            <form action="{{ $siteUrl }}/send-email-home" method="POST" class="manstec-popup-form">
               <input type="text" name="id" value="form_popup_home" hidden>
               <input type="text" name="subject" value="Popup Site - Contato de emerg&ecirc;ncia" hidden>
 

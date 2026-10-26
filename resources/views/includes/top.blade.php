@@ -30,10 +30,15 @@
             : 'Soluções completas em manutenção de compressores de ar, redes de ar comprimido, eficiência energética e suporte técnico industrial.');
         $pageKeywords = $metaKeywords ?? ($kw ?? 'manutenção de compressores de ar, compressores industriais, ar comprimido industrial, Manstec');
         $requestPath = trim(app('request')->getPathInfo(), '/');
-        $pageCanonical = $canonicalUrl ?? rtrim(URL('/'), '/') . ($requestPath ? '/' . $requestPath : '');
-        $pageImage = $metaImage ?? URL('/') . '/assets/img/manstec.png';
+        // APP_URL remains reliable when HTTPS is terminated before PHP by a proxy.
+        $siteUrl = rtrim((string) env('APP_URL', ''), '/');
+        if ($siteUrl === '') {
+            $siteUrl = rtrim(URL('/'), '/');
+        }
+        $pageCanonical = $canonicalUrl ?? $siteUrl . ($requestPath ? '/' . $requestPath : '');
+        $pageImage = $metaImage ?? $siteUrl . '/assets/img/manstec.png';
         $pageType = $schemaType ?? 'website';
-        $baseAssetUrl = rtrim(URL('/'), '/');
+        $baseAssetUrl = $siteUrl;
         $preloadImages = $preloadImages ?? [];
         $fontPreloads = [
             '/assets/fonts/roboto-latin.woff2',
@@ -71,7 +76,7 @@
     <meta name="twitter:description" content="{{ $pageDescription }}">
     <meta name="twitter:image" content="{{ $pageImage }}">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" type="image/x-icon" href="{{ URL('/') }}/assets/img/manstec.png">
+    <link rel="shortcut icon" type="image/x-icon" href="{{ $siteUrl }}/assets/img/manstec.png">
     <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin>
     <style>
       .skip-link { position:absolute; left:1rem; top:-4rem; z-index:9999; padding:.75rem 1rem; background:#ffffff; color:#082a58; font-weight:700; }
@@ -90,10 +95,10 @@
     {
       "@context": "https://schema.org",
       "@type": ["ProfessionalService", "LocalBusiness"],
-      "@id": "{{ URL('/') }}/#manstec",
+      "@id": "{{ $siteUrl }}/#manstec",
       "name": "Manstec Compressores",
-      "url": "{{ URL('/') }}",
-      "image": "{{ URL('/') }}/assets/img/manstec.png",
+      "url": "{{ $siteUrl }}",
+      "image": "{{ $siteUrl }}/assets/img/manstec.png",
       "email": "comercial@mansteccompressores.com.br",
       "telephone": ["+351969558556", "+5511959781897", "+551146478222"],
       "address": {
@@ -127,7 +132,7 @@
         "name": "Manstec Compressores",
         "logo": {
           "@type": "ImageObject",
-          "url": "{{ URL('/') }}/assets/img/manstec.png"
+          "url": "{{ $siteUrl }}/assets/img/manstec.png"
         }
       },
       "datePublished": {!! json_encode($datePublished ?? '2026-06-09') !!},
@@ -192,7 +197,7 @@
                 <div class="fx-header-2-wrap">
                     <div class="fx-header-2-logo-box">
                         <a href="{{ url('/') }}" aria-label="Manstec Compressores" class="fx-header-2-main-logo">
-                            <img src="{{ url('/') }}/assets/img/manstec-opt.webp" alt="Manstec Compressores de Ar" width="150" height="150" decoding="async" fetchpriority="high" style="width:150px;height:auto;">
+                            <img src="{{ $siteUrl }}/assets/img/manstec-opt.webp" alt="Manstec Compressores de Ar" width="150" height="150" decoding="async" fetchpriority="high" style="width:150px;height:auto;">
                         </a>
                     </div>
 
