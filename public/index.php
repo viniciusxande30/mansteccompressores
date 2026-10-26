@@ -26,4 +26,19 @@ $app = require __DIR__.'/../bootstrap/app.php';
 */
 
 $request = Illuminate\Http\Request::capture();
+
+// Build absolute asset and page URLs from the active host. This avoids invalid
+// URLs such as "http://:/assets/..." when Apache/PHP does not expose SERVER_NAME.
+$host = $request->headers->get('host');
+if ($host) {
+    $basePath = rtrim(str_replace('/index.php', '', $request->getBaseUrl()), '/');
+    $scheme = $request->getScheme();
+
+    if ($request->headers->get('x-forwarded-proto') === 'https') {
+        $scheme = 'https';
+    }
+
+    $app->make('url')->forceRootUrl($scheme . '://' . $host . $basePath);
+}
+
 $app->run($request);
