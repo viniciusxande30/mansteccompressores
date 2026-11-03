@@ -1,5 +1,9 @@
 @php
 $isNeighborhood = !empty($area);
+$locationBaseUrl = rtrim((string) env('APP_URL', ''), '/');
+if ($locationBaseUrl === '') {
+    $locationBaseUrl = rtrim(URL('/'), '/');
+}
 $placeName = $isNeighborhood ? $area['name'] . ', Guarulhos' : 'Guarulhos';
 $pagePath = $isNeighborhood ? '/compressores-de-ar-em-guarulhos/' . $area['slug'] : '/compressores-de-ar-em-guarulhos';
 $kw = $isNeighborhood
@@ -7,7 +11,7 @@ $kw = $isNeighborhood
     : 'compressores de ar em Guarulhos, manutenção de compressores Guarulhos, assistência técnica compressor de ar Guarulhos';
 $metaTitle = "Compressores de Ar em {$placeName} | Manstec";
 $metaDescription = "Manutenção, assistência técnica, peças e diagnóstico para compressores de ar em {$placeName}. Solicite uma cotação com a Manstec.";
-$canonicalUrl = URL('/') . $pagePath;
+$canonicalUrl = $locationBaseUrl . $pagePath;
 $schemaType = 'Service';
 $areas = [
     ['slug' => 'centro', 'name' => 'Centro'],
@@ -19,12 +23,12 @@ $areas = [
 @endphp
 @include('includes.top')
 
-<div class="breadcrumb-area bg-default" data-background="{{ URL('/') }}/assets/img/hero/h2-bg-1-opt.jpg">
+<div class="breadcrumb-area bg-default" data-background="{{ $locationBaseUrl }}/assets/img/hero/h2-bg-1-opt.jpg">
     <div class="container fx-container-1"><div class="breadcrumb-wrap"><div class="breadcrumb-content">
         <nav class="breadcrumb-list" aria-label="Trilha de navegação">
-            <a href="{{ URL('/') }}">Home</a>
-            <a href="{{ URL('/') }}/compressores-de-ar">Áreas atendidas</a>
-            @if($isNeighborhood)<a href="{{ URL('/') }}/compressores-de-ar-em-guarulhos">Guarulhos</a>@endif
+            <a href="{{ $locationBaseUrl }}">Home</a>
+            <a href="{{ $locationBaseUrl }}/compressores-de-ar">Áreas atendidas</a>
+            @if($isNeighborhood)<a href="{{ $locationBaseUrl }}/compressores-de-ar-em-guarulhos">Guarulhos</a>@endif
             <span>{{ $placeName }}</span>
         </nav>
         <h1 class="breadcrumb-title fx-heading-1 text-uppercase">Compressores de Ar em {{ $placeName }}</h1>
@@ -37,7 +41,7 @@ $areas = [
   "@type": "Service",
   "name": {!! json_encode('Manutenção de Compressores de Ar em ' . $placeName, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES) !!},
   "url": {!! json_encode($canonicalUrl, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES) !!},
-  "provider": {"@type": "ProfessionalService", "name": "Manstec Compressores", "url": "{{ URL('/') }}"},
+  "provider": {"@id": "{{ $locationBaseUrl }}/#manstec"},
   "areaServed": {"@type": "City", "name": "Guarulhos", "address": {"@type": "PostalAddress", "addressRegion": "SP", "addressCountry": "BR"}},
   "serviceType": ["Manutenção de compressores", "Assistência técnica de compressores de ar", "Redes de ar comprimido"]
 }
@@ -53,8 +57,8 @@ $areas = [
 @endif
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[
- {"@type":"ListItem","position":1,"name":"Home","item":"{{ URL('/') }}"},
- {"@type":"ListItem","position":2,"name":"Compressores de Ar em Guarulhos","item":"{{ URL('/') }}/compressores-de-ar-em-guarulhos"}@if($isNeighborhood),
+ {"@type":"ListItem","position":1,"name":"Home","item":"{{ $locationBaseUrl }}"},
+ {"@type":"ListItem","position":2,"name":"Compressores de Ar em Guarulhos","item":"{{ $locationBaseUrl }}/compressores-de-ar-em-guarulhos"}@if($isNeighborhood),
  {"@type":"ListItem","position":3,"name":{!! json_encode($area['name'], JSON_UNESCAPED_UNICODE) !!},"item":{!! json_encode($canonicalUrl, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES) !!}}@endif
 ]}
 </script>
@@ -77,7 +81,7 @@ $areas = [
                     <li>Análise de vazamentos e rede de ar comprimido</li>
                 </ul>
             </div>
-            <div class="col-lg-5"><div class="list-img fix img-cover"><img src="{{ URL('/') }}/assets/img/services/sd-img-1-opt.webp" alt="Manutenção de compressor de ar em {{ $placeName }}"></div></div>
+            <div class="col-lg-5"><div class="list-img fix img-cover"><img src="{{ $locationBaseUrl }}/assets/img/services/sd-img-1-opt.webp" alt="Manutenção de compressor de ar em {{ $placeName }}"></div></div>
         </div>
 
         <section>
@@ -91,10 +95,10 @@ $areas = [
             <h2>Serviços para compressores de ar em Guarulhos</h2>
             <p>Escolha o assunto mais próximo da necessidade da sua empresa para conhecer o atendimento e solicitar uma cotação com informações mais precisas.</p>
             <ul>
-                <li><a href="{{ URL('/') }}/manutencao-de-compressores-em-guarulhos">Manutenção de compressores em Guarulhos</a></li>
-                <li><a href="{{ URL('/') }}/assistencia-tecnica-de-compressores-em-guarulhos">Assistência técnica de compressores em Guarulhos</a></li>
-                <li><a href="{{ URL('/') }}/pecas-para-compressores-em-guarulhos">Peças para compressores em Guarulhos</a></li>
-                <li><a href="{{ URL('/') }}/redes-de-ar-comprimido-em-guarulhos">Redes de ar comprimido em Guarulhos</a></li>
+                <li><a href="{{ $locationBaseUrl }}/manutencao-de-compressores-em-guarulhos">Manutenção de compressores em Guarulhos</a></li>
+                <li><a href="{{ $locationBaseUrl }}/assistencia-tecnica-de-compressores-em-guarulhos">Assistência técnica de compressores em Guarulhos</a></li>
+                <li><a href="{{ $locationBaseUrl }}/pecas-para-compressores-em-guarulhos">Peças para compressores em Guarulhos</a></li>
+                <li><a href="{{ $locationBaseUrl }}/redes-de-ar-comprimido-em-guarulhos">Redes de ar comprimido em Guarulhos</a></li>
             </ul>
         </section>
         @endif
@@ -104,20 +108,34 @@ $areas = [
             <p>Atendemos empresas em diferentes regiões do município. Consulte conteúdos específicos para cada área:</p>
             <ul>
                 @foreach($areas as $localArea)
-                <li><a href="{{ URL('/') }}/compressores-de-ar-em-guarulhos/{{ $localArea['slug'] }}">Compressores de ar em {{ $localArea['name'] }}, Guarulhos</a></li>
+                <li><a href="{{ $locationBaseUrl }}/compressores-de-ar-em-guarulhos/{{ $localArea['slug'] }}">Compressores de ar em {{ $localArea['name'] }}, Guarulhos</a></li>
                 @endforeach
             </ul>
         </section>
 
         <section>
             <h2>Conteúdos para manter seu sistema disponível</h2>
-            <p>Veja como montar um <a href="{{ URL('/') }}/blog/plano-de-manutencao-de-compressores">plano de manutenção de compressores</a>, saiba o que fazer quando o <a href="{{ URL('/') }}/blog/compressor-nao-atinge-pressao">compressor não atinge pressão</a> e confira como identificar <a href="{{ URL('/') }}/blog/vazamentos-de-ar-comprimido">vazamentos de ar comprimido</a>.</p>
+            <p>Veja como montar um <a href="{{ $locationBaseUrl }}/blog/plano-de-manutencao-de-compressores">plano de manutenção de compressores</a>, saiba o que fazer quando o <a href="{{ $locationBaseUrl }}/blog/compressor-nao-atinge-pressao">compressor não atinge pressão</a> e confira como identificar <a href="{{ $locationBaseUrl }}/blog/vazamentos-de-ar-comprimido">vazamentos de ar comprimido</a>.</p>
         </section>
+
+        @if(!$isNeighborhood)
+        <section>
+            <h2>Guias sobre compressores e manutenção em Guarulhos</h2>
+            <p>Consulte conteúdos práticos para diagnosticar necessidades comuns antes de solicitar uma avaliação:</p>
+            <ul>
+                <li><a href="{{ $locationBaseUrl }}/blog/conserto-compressor-de-ar-guarulhos">Conserto de compressor de ar em Guarulhos</a></li>
+                <li><a href="{{ $locationBaseUrl }}/blog/compressor-de-parafuso-guarulhos">Compressor de parafuso em Guarulhos</a></li>
+                <li><a href="{{ $locationBaseUrl }}/blog/secador-de-ar-comprimido-guarulhos">Secador de ar comprimido em Guarulhos</a></li>
+                <li><a href="{{ $locationBaseUrl }}/blog/perda-de-pressao-compressor-guarulhos">Perda de pressão no compressor em Guarulhos</a></li>
+                <li><a href="{{ $locationBaseUrl }}/blog/cotacao-manutencao-compressor-guarulhos">Como solicitar cotação de manutenção de compressor em Guarulhos</a></li>
+            </ul>
+        </section>
+        @endif
 
         <section>
             <h2>Solicite uma cotação em Guarulhos</h2>
             <p>Informe o modelo do compressor, os sintomas e a urgência da sua operação. A equipe da Manstec retorna com a orientação inicial e o escopo de atendimento mais adequado.</p>
-            <p><a href="{{ URL('/') }}/contato"><strong>Solicite uma cotação de manutenção de compressor em Guarulhos.</strong></a></p>
+            <p><a href="{{ $locationBaseUrl }}/contato"><strong>Solicite uma cotação de manutenção de compressor em Guarulhos.</strong></a></p>
         </section>
 
         @if(!$isNeighborhood)

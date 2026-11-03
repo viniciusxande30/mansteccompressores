@@ -38,6 +38,10 @@
         $pageCanonical = $canonicalUrl ?? $siteUrl . ($requestPath ? '/' . $requestPath : '');
         $pageImage = $metaImage ?? $siteUrl . '/assets/img/manstec.png';
         $pageType = $schemaType ?? 'website';
+        $schemaAbout = $schemaAbout ?? [];
+        $schemaMentions = $schemaMentions ?? [];
+        $articleLocation = $articleLocation ?? null;
+        $articleFaq = $articleFaq ?? [];
         $baseAssetUrl = $siteUrl;
         $preloadImages = $preloadImages ?? [];
         $fontPreloads = [
@@ -64,6 +68,7 @@
     <meta name="keywords" content="{{ $pageKeywords }}">
     <meta name="robots" content="index, follow, max-image-preview:large">
     <link rel="canonical" href="{{ $pageCanonical }}">
+    <link rel="describedby" href="{{ $siteUrl }}/llms.txt">
     <meta property="og:locale" content="pt_BR">
     <meta property="og:type" content="{{ $pageType === 'Article' ? 'article' : 'website' }}">
     <meta property="og:title" content="{{ $pageTitle }}">
@@ -94,24 +99,55 @@
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": ["ProfessionalService", "LocalBusiness"],
-      "@id": "{{ $siteUrl }}/#manstec",
-      "name": "Manstec Compressores",
-      "url": "{{ $siteUrl }}",
-      "image": "{{ $siteUrl }}/assets/img/manstec.png",
-      "email": "comercial@mansteccompressores.com.br",
-      "telephone": ["+351969558556", "+5511959781897", "+551146478222"],
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Rua Arapiraca, 311 - Jardim Napoli",
-        "addressLocality": "Itaquaquecetuba",
-        "addressRegion": "SP",
-        "postalCode": "08595-620",
-        "addressCountry": "BR"
-      },
-      "areaServed": "Brasil",
-      "sameAs": ["https://www.instagram.com/manstec_compressores/"],
-      "description": "Manutenção de compressores de ar, redes de ar comprimido, auditoria técnica, eficiência energética e suporte industrial."
+      "@graph": [
+        {
+          "@type": ["ProfessionalService", "LocalBusiness"],
+          "@id": "{{ $siteUrl }}/#manstec",
+          "name": "Manstec Compressores",
+          "url": "{{ $siteUrl }}",
+          "image": "{{ $siteUrl }}/assets/img/manstec.png",
+          "email": "comercial@mansteccompressores.com.br",
+          "telephone": ["+351969558556", "+5511959781897", "+551146478222"],
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Rua Arapiraca, 311 - Jardim Napoli",
+            "addressLocality": "Itaquaquecetuba",
+            "addressRegion": "SP",
+            "postalCode": "08595-620",
+            "addressCountry": "BR"
+          },
+          "areaServed": [
+            {"@type": "Country", "name": "Brasil"},
+            {"@type": "City", "name": "Guarulhos", "address": {"@type": "PostalAddress", "addressRegion": "SP", "addressCountry": "BR"}},
+            {"@type": "City", "name": "Itaquaquecetuba", "address": {"@type": "PostalAddress", "addressRegion": "SP", "addressCountry": "BR"}}
+          ],
+          "contactPoint": [
+            {"@type": "ContactPoint", "telephone": "+5511959781897", "email": "comercial@mansteccompressores.com.br", "contactType": "atendimento comercial", "availableLanguage": ["pt-BR"]},
+            {"@type": "ContactPoint", "telephone": "+351969558556", "contactType": "atendimento de emergencia", "availableLanguage": ["pt-BR"]}
+          ],
+          "knowsAbout": ["Compressores de ar", "Manutenção de compressores", "Ar comprimido industrial", "Redes de ar comprimido", "Eficiência energética industrial"],
+          "sameAs": ["https://www.instagram.com/manstec_compressores/"],
+          "description": "Manutenção de compressores de ar, redes de ar comprimido, auditoria técnica, eficiência energética e suporte industrial."
+        },
+        {
+          "@type": "WebSite",
+          "@id": "{{ $siteUrl }}/#website",
+          "url": "{{ $siteUrl }}",
+          "name": "Manstec Compressores",
+          "inLanguage": "pt-BR",
+          "publisher": {"@id": "{{ $siteUrl }}/#manstec"}
+        },
+        {
+          "@type": "WebPage",
+          "@id": {!! json_encode($pageCanonical . '#webpage', JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) !!},
+          "url": {!! json_encode($pageCanonical, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) !!},
+          "name": {!! json_encode($pageTitle, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) !!},
+          "description": {!! json_encode($pageDescription, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) !!},
+          "inLanguage": "pt-BR",
+          "isPartOf": {"@id": "{{ $siteUrl }}/#website"},
+          "about": {"@id": "{{ $siteUrl }}/#manstec"}
+        }
+      ]
     }
     </script>
 
@@ -123,23 +159,32 @@
       "headline": {!! json_encode($pageTitle, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) !!},
       "description": {!! json_encode($pageDescription, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) !!},
       "image": {!! json_encode($pageImage, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) !!},
-      "author": {
-        "@type": "Organization",
-        "name": "Manstec Compressores"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "Manstec Compressores",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "{{ $siteUrl }}/assets/img/manstec.png"
-        }
-      },
+      "author": {"@id": "{{ $siteUrl }}/#manstec"},
+      "publisher": {"@id": "{{ $siteUrl }}/#manstec"},
       "datePublished": {!! json_encode($datePublished ?? '2026-06-09') !!},
       "dateModified": {!! json_encode($dateModified ?? '2026-06-09') !!},
       "inLanguage": "pt-BR",
-      "mainEntityOfPage": {!! json_encode($pageCanonical, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) !!}
+      "mainEntityOfPage": {"@id": {!! json_encode($pageCanonical . '#webpage', JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) !!}}
+      @if(!empty($schemaAbout))
+      ,"about": {!! json_encode($schemaAbout, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) !!}
+      @endif
+      @if(!empty($schemaMentions))
+      ,"mentions": {!! json_encode($schemaMentions, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) !!}
+      @endif
+      @if(!empty($articleLocation))
+      ,"contentLocation": {!! json_encode($articleLocation, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) !!}
+      @endif
     }
+    </script>
+    @endif
+
+    @if(!empty($articleFaq))
+    <script type="application/ld+json">
+    {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+      @foreach($articleFaq as $faq)
+      {"@type":"Question","name":{!! json_encode($faq['question'], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) !!},"acceptedAnswer":{"@type":"Answer","text":{!! json_encode($faq['answer'], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) !!}}}@if(!$loop->last),@endif
+      @endforeach
+    ]}
     </script>
     @endif
 

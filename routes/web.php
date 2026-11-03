@@ -277,6 +277,11 @@ $router->get('/blog/assistencia-tecnica-compressor-guarulhos', function () {retu
 $router->get('/blog/compressores-de-ar-cumbica-guarulhos', function () {return view('artigos.compressores-de-ar-cumbica-guarulhos');});
 $router->get('/blog/vazamento-ar-comprimido-guarulhos', function () {return view('artigos.vazamento-ar-comprimido-guarulhos');});
 $router->get('/blog/manutencao-preventiva-compressor-guarulhos', function () {return view('artigos.manutencao-preventiva-compressor-guarulhos');});
+$router->get('/blog/conserto-compressor-de-ar-guarulhos', function () {return view('artigos.conserto-compressor-de-ar-guarulhos');});
+$router->get('/blog/compressor-de-parafuso-guarulhos', function () {return view('artigos.compressor-de-parafuso-guarulhos');});
+$router->get('/blog/secador-de-ar-comprimido-guarulhos', function () {return view('artigos.secador-de-ar-comprimido-guarulhos');});
+$router->get('/blog/perda-de-pressao-compressor-guarulhos', function () {return view('artigos.perda-de-pressao-compressor-guarulhos');});
+$router->get('/blog/cotacao-manutencao-compressor-guarulhos', function () {return view('artigos.cotacao-manutencao-compressor-guarulhos');});
 $router->get('/blog/como-calcular-vazao-compressor-pcm', function () {return view('artigos.como-calcular-vazao-compressor-pcm');});
 $router->get('/blog/compressor-parafuso-ou-pistao', function () {return view('artigos.compressor-parafuso-ou-pistao');});
 $router->get('/blog/compressor-de-ar-para-pintura-industrial', function () {return view('artigos.compressor-de-ar-para-pintura-industrial');});
@@ -385,6 +390,11 @@ $router->get('/sitemap.xml', function () {
         '/blog/compressores-de-ar-cumbica-guarulhos',
         '/blog/vazamento-ar-comprimido-guarulhos',
         '/blog/manutencao-preventiva-compressor-guarulhos',
+        '/blog/conserto-compressor-de-ar-guarulhos',
+        '/blog/compressor-de-parafuso-guarulhos',
+        '/blog/secador-de-ar-comprimido-guarulhos',
+        '/blog/perda-de-pressao-compressor-guarulhos',
+        '/blog/cotacao-manutencao-compressor-guarulhos',
         '/blog/como-calcular-vazao-compressor-pcm',
         '/blog/compressor-parafuso-ou-pistao',
         '/blog/compressor-de-ar-para-pintura-industrial',

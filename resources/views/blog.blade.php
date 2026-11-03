@@ -3,6 +3,11 @@ $kw = "blog manstec compressores, manutenção de compressores de ar, eficiênci
 $metaTitle = "Blog Manstec | Compressores de Ar, Manutenção e Eficiência";
 $metaDescription = "Conteúdos técnicos sobre compressores de ar, manutenção industrial, eficiência energética, redes de ar comprimido e redução de paradas.";
 $maintenanceCluster = [
+  ['slug' => 'conserto-compressor-de-ar-guarulhos', 'title' => 'Conserto de Compressor de Ar em Guarulhos: Sinais e Diagnóstico', 'image' => 's1-img-1-opt.jpg'],
+  ['slug' => 'compressor-de-parafuso-guarulhos', 'title' => 'Compressor de Parafuso em Guarulhos: Manutenção e Desempenho', 'image' => 's1-img-2-opt.jpg'],
+  ['slug' => 'secador-de-ar-comprimido-guarulhos', 'title' => 'Secador de Ar Comprimido em Guarulhos: Como Evitar Umidade', 'image' => 's1-img-3-opt.jpg'],
+  ['slug' => 'perda-de-pressao-compressor-guarulhos', 'title' => 'Perda de Pressão no Compressor em Guarulhos: Como Investigar', 'image' => 's1-img-1-opt.jpg'],
+  ['slug' => 'cotacao-manutencao-compressor-guarulhos', 'title' => 'Cotação de Manutenção de Compressor em Guarulhos: O Que Informar', 'image' => 's1-img-2-opt.jpg'],
   ['slug' => 'como-calcular-vazao-compressor-pcm', 'title' => 'Como Calcular a Vazão do Compressor em PCM', 'image' => 's1-img-1-opt.jpg'],
   ['slug' => 'compressor-parafuso-ou-pistao', 'title' => 'Compressor de Parafuso ou Pistão: Qual Escolher?', 'image' => 's1-img-2-opt.jpg'],
   ['slug' => 'compressor-de-ar-para-pintura-industrial', 'title' => 'Compressor de Ar para Pintura Industrial: Como Escolher', 'image' => 's1-img-3-opt.jpg'],

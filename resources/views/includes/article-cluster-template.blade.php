@@ -1,7 +1,13 @@
-<div class="breadcrumb-area bg-default" data-background="{{ URL('/') }}/assets/img/hero/h2-bg-1-opt.jpg">
+@php
+$articleBaseUrl = rtrim((string) env('APP_URL', ''), '/');
+if ($articleBaseUrl === '') {
+    $articleBaseUrl = rtrim(URL('/'), '/');
+}
+@endphp
+<div class="breadcrumb-area bg-default" data-background="{{ $articleBaseUrl }}/assets/img/hero/h2-bg-1-opt.jpg">
     <div class="container fx-container-1">
         <div class="breadcrumb-wrap"><div class="breadcrumb-content">
-            <div class="breadcrumb-list"><a href="{{ URL('/') }}">Home</a><a href="{{ URL('/') }}/blog">Blog</a></div>
+            <div class="breadcrumb-list"><a href="{{ $articleBaseUrl }}">Home</a><a href="{{ $articleBaseUrl }}/blog">Blog</a></div>
             <h1 class="breadcrumb-title fx-heading-1 text-uppercase">{{ $articleTitle }}</h1>
         </div></div>
     </div>
@@ -12,9 +18,9 @@
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "{{ URL('/') }}"},
-    {"@type": "ListItem", "position": 2, "name": "Blog", "item": "{{ URL('/') }}/blog"},
-    {"@type": "ListItem", "position": 3, "name": {!! json_encode($articleTitle, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) !!}, "item": {!! json_encode($pageCanonical ?? rtrim(URL('/'), '/') . '/' . trim(app('request')->getPathInfo(), '/'), JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) !!}}
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "{{ $articleBaseUrl }}"},
+    {"@type": "ListItem", "position": 2, "name": "Blog", "item": "{{ $articleBaseUrl }}/blog"},
+    {"@type": "ListItem", "position": 3, "name": {!! json_encode($articleTitle, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) !!}, "item": {!! json_encode($pageCanonical ?? $articleBaseUrl . '/' . trim(app('request')->getPathInfo(), '/'), JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) !!}}
   ]
 }
 </script>
@@ -37,7 +43,7 @@
                 </ul>
             </div>
             <div class="col-lg-5"><div class="list-img fix img-cover">
-                <img src="{{ URL('/') }}/assets/img/services/sd-img-1-opt.webp" alt="{{ $articleImageAlt }}">
+                <img src="{{ $articleBaseUrl }}/assets/img/services/sd-img-1-opt.webp" alt="{{ $articleImageAlt }}">
             </div></div>
         </div>
 
@@ -61,10 +67,19 @@
             <h2>Conteúdos relacionados para sua operação</h2>
             <p>{!! $articleRelatedText !!}</p>
         </section>
+        @if(!empty($articleFaq))
+        <section>
+            <h2>Perguntas frequentes</h2>
+            @foreach($articleFaq as $faq)
+            <h3>{{ $faq['question'] }}</h3>
+            <p>{{ $faq['answer'] }}</p>
+            @endforeach
+        </section>
+        @endif
         <section>
             <h2>Solicite uma cotação de manutenção</h2>
             <p>A <strong>Manstec Compressores</strong> avalia a condição do equipamento e do sistema de ar comprimido para propor o atendimento adequado à sua operação.</p>
-            <p><strong>Evite paradas inesperadas e reduza riscos operacionais.</strong> <a href="{{ URL('/') }}/contato">Fale com a equipe da Manstec e solicite uma cotação</a>.</p>
+            <p><strong>Evite paradas inesperadas e reduza riscos operacionais.</strong> <a href="{{ $articleBaseUrl }}/contato">Fale com a equipe da Manstec e solicite uma cotação</a>.</p>
         </section>
     </article></div></div>
 </div>
