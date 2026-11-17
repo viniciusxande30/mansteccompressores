@@ -787,6 +787,42 @@ details {
                 </div>
             </div>
         </section>
+
+        <section class="fx-serve-1-area fix pb-100" aria-labelledby="alto-tiete-title">
+            <div class="container fx-container-1">
+                <div class="row align-items-center g-4">
+                    <div class="col-lg-7">
+                        <p class="fx-subtitle-1 has-mb-28"><span>09</span><span>Alto Tietê</span></p>
+                        <h2 id="alto-tiete-title" class="fx-scn-title-2">Compressores de Ar no Alto Tietê</h2>
+                        <p class="fx-para-1 mt-20">A Manstec apoia operações industriais do Alto Tietê com manutenção de compressores, assistência técnica, diagnóstico de falhas e análise de redes de ar comprimido.</p>
+                        <p class="fx-para-1">Consulte as cidades atendidas, conheça os serviços regionais e solicite uma avaliação técnica para a sua operação.</p>
+                        <div class="d-flex flex-wrap gap-3 mt-30">
+                            <a href="{{ URL('/') }}/compressores-de-ar-no-alto-tiete" class="fx-pr-btn-1" aria-label="Conhecer atendimento de compressores de ar no Alto Tietê"><span class="text" data-back="Atendimento no Alto Tietê" data-front="Atendimento no Alto Tietê"></span><i class="fa-solid fa-angle-right"></i></a>
+                            <a href="{{ URL('/') }}/contato" class="fx-pr-btn-1 has-hover-border" aria-label="Solicitar cotação para o Alto Tietê"><span class="text" data-back="Solicitar cotação" data-front="Solicitar cotação"></span></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="p-4 rounded-3" style="background:#f3f7fc; border:1px solid #d8e3f1;">
+                            <h3 class="fx-heading-1 fx-font-600 mb-3" style="font-size:24px;">Cidades atendidas</h3>
+                            <ul class="mb-4" style="columns:2;">
+                                <li><a href="{{ URL('/') }}/compressores-de-ar-no-alto-tiete#aruja">Arujá</a></li>
+                                <li><a href="{{ URL('/') }}/compressores-de-ar-no-alto-tiete#biritiba-mirim">Biritiba-Mirim</a></li>
+                                <li><a href="{{ URL('/') }}/compressores-de-ar-no-alto-tiete#ferraz-de-vasconcelos">Ferraz de Vasconcelos</a></li>
+                                <li><a href="{{ URL('/') }}/compressores-de-ar-no-alto-tiete#guararema">Guararema</a></li>
+                                <li><a href="{{ URL('/') }}/compressores-de-ar-em-guarulhos">Guarulhos</a></li>
+                                <li><a href="{{ URL('/') }}/compressores-de-ar-no-alto-tiete#itaquaquecetuba">Itaquaquecetuba</a></li>
+                                <li><a href="{{ URL('/') }}/compressores-de-ar-no-alto-tiete#mogi-das-cruzes">Mogi das Cruzes</a></li>
+                                <li><a href="{{ URL('/') }}/compressores-de-ar-no-alto-tiete#poa">Poá</a></li>
+                                <li><a href="{{ URL('/') }}/compressores-de-ar-no-alto-tiete#salesopolis">Salesópolis</a></li>
+                                <li><a href="{{ URL('/') }}/compressores-de-ar-no-alto-tiete#santa-isabel">Santa Isabel</a></li>
+                                <li><a href="{{ URL('/') }}/compressores-de-ar-no-alto-tiete#suzano">Suzano</a></li>
+                            </ul>
+                            <p class="mb-0"><a href="{{ URL('/') }}/blog/manutencao-de-compressores-no-alto-tiete"><strong>Leia o guia de manutenção de compressores no Alto Tietê.</strong></a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
        
         <div class="fx-gap-12"></div>
 

@@ -3,6 +3,11 @@ $kw = "blog manstec compressores, manutenção de compressores de ar, eficiênci
 $metaTitle = "Blog Manstec | Compressores de Ar, Manutenção e Eficiência";
 $metaDescription = "Conteúdos técnicos sobre compressores de ar, manutenção industrial, eficiência energética, redes de ar comprimido e redução de paradas.";
 $maintenanceCluster = [
+  ['slug' => 'manutencao-de-compressores-no-alto-tiete', 'title' => 'Manutenção de Compressores no Alto Tietê: Planejamento e Diagnóstico', 'image' => 's1-img-1-opt.jpg'],
+  ['slug' => 'assistencia-tecnica-compressor-mogi-das-cruzes', 'title' => 'Assistência Técnica de Compressor em Mogi das Cruzes', 'image' => 's1-img-2-opt.jpg'],
+  ['slug' => 'compressor-de-ar-em-suzano', 'title' => 'Compressor de Ar em Suzano: Manutenção e Diagnóstico', 'image' => 's1-img-3-opt.jpg'],
+  ['slug' => 'manutencao-preventiva-compressor-itaquaquecetuba', 'title' => 'Manutenção Preventiva de Compressor em Itaquaquecetuba', 'image' => 's1-img-1-opt.jpg'],
+  ['slug' => 'vazamentos-de-ar-comprimido-no-alto-tiete', 'title' => 'Vazamentos de Ar Comprimido no Alto Tietê: Como Investigar', 'image' => 's1-img-2-opt.jpg'],
   ['slug' => 'conserto-compressor-de-ar-guarulhos', 'title' => 'Conserto de Compressor de Ar em Guarulhos: Sinais e Diagnóstico', 'image' => 's1-img-1-opt.jpg'],
   ['slug' => 'compressor-de-parafuso-guarulhos', 'title' => 'Compressor de Parafuso em Guarulhos: Manutenção e Desempenho', 'image' => 's1-img-2-opt.jpg'],
   ['slug' => 'secador-de-ar-comprimido-guarulhos', 'title' => 'Secador de Ar Comprimido em Guarulhos: Como Evitar Umidade', 'image' => 's1-img-3-opt.jpg'],
@@ -187,6 +192,17 @@ details {
                         <a href="{{ URL('/') }}/compressores-de-ar-em-guarulhos/centro">Centro</a>
                         <a href="{{ URL('/') }}/compressores-de-ar-em-guarulhos/bonsucesso">Bonsucesso</a>
                         <a href="{{ URL('/') }}/contato">Solicitar cotação</a>
+                    </div>
+                </section>
+
+                <section class="mb-45 p-4 rounded-3" style="background:#f3f7fc; border:1px solid #d8e3f1;" aria-labelledby="blog-alto-tiete-title">
+                    <h2 id="blog-alto-tiete-title" class="fx-heading-1 fx-font-600 mb-2" style="font-size:26px;">Compressores de ar no Alto Tietê</h2>
+                    <p class="mb-3">Encontre conteúdos e atendimento para Arujá, Biritiba-Mirim, Ferraz de Vasconcelos, Guararema, Guarulhos, Itaquaquecetuba, Mogi das Cruzes, Poá, Salesópolis, Santa Isabel e Suzano.</p>
+                    <div class="d-flex flex-wrap gap-3">
+                        <a href="{{ URL('/') }}/compressores-de-ar-no-alto-tiete"><strong>Hub de atendimento no Alto Tietê</strong></a>
+                        <a href="{{ URL('/') }}/manutencao-de-compressores-no-alto-tiete">Manutenção de compressores</a>
+                        <a href="{{ URL('/') }}/assistencia-tecnica-de-compressores-no-alto-tiete">Assistência técnica</a>
+                        <a href="{{ URL('/') }}/redes-de-ar-comprimido-no-alto-tiete">Redes de ar comprimido</a>
                     </div>
                 </section>
 

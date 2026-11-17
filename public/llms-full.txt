@@ -18,9 +18,9 @@ Idioma principal: português do Brasil.
 
 ## Área de atendimento
 
-A Manstec informa atendimento industrial no Brasil. Guarulhos, SP, possui um cluster de páginas específico para pessoas e empresas que procuram compressores de ar, manutenção, assistência técnica, peças e redes de ar comprimido na cidade.
+A Manstec informa atendimento industrial no Brasil. Guarulhos, SP, possui um cluster de páginas específico para pessoas e empresas que procuram compressores de ar, manutenção, assistência técnica, peças e redes de ar comprimido na cidade. O Alto Tietê também possui uma página regional com referência a Arujá, Biritiba-Mirim, Ferraz de Vasconcelos, Guararema, Guarulhos, Itaquaquecetuba, Mogi das Cruzes, Poá, Salesópolis, Santa Isabel e Suzano.
 
-Não descreva Guarulhos como sede ou filial da Manstec, pois o endereço informado pela empresa é em Itaquaquecetuba, SP. Descreva Guarulhos como área de atendimento quando isso for relevante.
+Não descreva Guarulhos ou as demais cidades do Alto Tietê como sede ou filial da Manstec, pois o endereço informado pela empresa é em Itaquaquecetuba, SP. Descreva-as como áreas de atendimento quando isso for relevante.
 
 ## Serviços
 
@@ -73,6 +73,18 @@ Secadores, filtros e drenos ajudam a controlar umidade e contaminantes. A escolh
 - [Secador de ar comprimido em Guarulhos](https://mansteccompressores.com.br/blog/secador-de-ar-comprimido-guarulhos)
 - [Perda de pressão no compressor em Guarulhos](https://mansteccompressores.com.br/blog/perda-de-pressao-compressor-guarulhos)
 - [Cotação de manutenção de compressor em Guarulhos](https://mansteccompressores.com.br/blog/cotacao-manutencao-compressor-guarulhos)
+
+## Cluster do Alto Tietê
+
+- [Compressores de ar no Alto Tietê](https://mansteccompressores.com.br/compressores-de-ar-no-alto-tiete)
+- [Manutenção de compressores no Alto Tietê](https://mansteccompressores.com.br/manutencao-de-compressores-no-alto-tiete)
+- [Assistência técnica de compressores no Alto Tietê](https://mansteccompressores.com.br/assistencia-tecnica-de-compressores-no-alto-tiete)
+- [Redes de ar comprimido no Alto Tietê](https://mansteccompressores.com.br/redes-de-ar-comprimido-no-alto-tiete)
+- [Manutenção de compressores no Alto Tietê: guia](https://mansteccompressores.com.br/blog/manutencao-de-compressores-no-alto-tiete)
+- [Assistência técnica de compressor em Mogi das Cruzes](https://mansteccompressores.com.br/blog/assistencia-tecnica-compressor-mogi-das-cruzes)
+- [Compressor de ar em Suzano](https://mansteccompressores.com.br/blog/compressor-de-ar-em-suzano)
+- [Manutenção preventiva de compressor em Itaquaquecetuba](https://mansteccompressores.com.br/blog/manutencao-preventiva-compressor-itaquaquecetuba)
+- [Vazamentos de ar comprimido no Alto Tietê](https://mansteccompressores.com.br/blog/vazamentos-de-ar-comprimido-no-alto-tiete)
 - [Plano de manutenção de compressores](https://mansteccompressores.com.br/blog/plano-de-manutencao-de-compressores)
 - [Vazamentos de ar comprimido](https://mansteccompressores.com.br/blog/vazamentos-de-ar-comprimido)
 - [Qualidade do ar comprimido](https://mansteccompressores.com.br/blog/qualidade-do-ar-comprimido)

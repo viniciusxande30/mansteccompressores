@@ -118,8 +118,18 @@
           },
           "areaServed": [
             {"@type": "Country", "name": "Brasil"},
+            {"@type": "Place", "name": "Alto Tietê, São Paulo, Brasil"},
+            {"@type": "City", "name": "Arujá", "address": {"@type": "PostalAddress", "addressRegion": "SP", "addressCountry": "BR"}},
+            {"@type": "City", "name": "Biritiba-Mirim", "address": {"@type": "PostalAddress", "addressRegion": "SP", "addressCountry": "BR"}},
+            {"@type": "City", "name": "Ferraz de Vasconcelos", "address": {"@type": "PostalAddress", "addressRegion": "SP", "addressCountry": "BR"}},
+            {"@type": "City", "name": "Guararema", "address": {"@type": "PostalAddress", "addressRegion": "SP", "addressCountry": "BR"}},
             {"@type": "City", "name": "Guarulhos", "address": {"@type": "PostalAddress", "addressRegion": "SP", "addressCountry": "BR"}},
-            {"@type": "City", "name": "Itaquaquecetuba", "address": {"@type": "PostalAddress", "addressRegion": "SP", "addressCountry": "BR"}}
+            {"@type": "City", "name": "Itaquaquecetuba", "address": {"@type": "PostalAddress", "addressRegion": "SP", "addressCountry": "BR"}},
+            {"@type": "City", "name": "Mogi das Cruzes", "address": {"@type": "PostalAddress", "addressRegion": "SP", "addressCountry": "BR"}},
+            {"@type": "City", "name": "Poá", "address": {"@type": "PostalAddress", "addressRegion": "SP", "addressCountry": "BR"}},
+            {"@type": "City", "name": "Salesópolis", "address": {"@type": "PostalAddress", "addressRegion": "SP", "addressCountry": "BR"}},
+            {"@type": "City", "name": "Santa Isabel", "address": {"@type": "PostalAddress", "addressRegion": "SP", "addressCountry": "BR"}},
+            {"@type": "City", "name": "Suzano", "address": {"@type": "PostalAddress", "addressRegion": "SP", "addressCountry": "BR"}}
           ],
           "contactPoint": [
             {"@type": "ContactPoint", "telephone": "+5511959781897", "email": "comercial@mansteccompressores.com.br", "contactType": "atendimento comercial", "availableLanguage": ["pt-BR"]},

@@ -175,6 +175,69 @@ foreach ($guarulhosServices as $slug => $service) {
     });
 }
 
+$altoTieteCities = [
+    ['slug' => 'aruja', 'name' => 'Arujá', 'summary' => 'O atendimento técnico considera o perfil de operação, os sintomas do compressor e as condições da rede de ar comprimido para orientar manutenção, diagnóstico ou melhoria do sistema.'],
+    ['slug' => 'biritiba-mirim', 'name' => 'Biritiba-Mirim', 'summary' => 'Empresas de Biritiba-Mirim podem solicitar avaliação para pressão instável, manutenção programada, revisão de componentes e análise de vazamentos na distribuição.'],
+    ['slug' => 'ferraz-de-vasconcelos', 'name' => 'Ferraz de Vasconcelos', 'summary' => 'O atendimento ajuda a investigar alarmes, aquecimento, ruídos, quedas de pressão e outros sinais que podem comprometer a disponibilidade do sistema de ar.'],
+    ['slug' => 'guararema', 'name' => 'Guararema', 'summary' => 'A Manstec organiza o escopo conforme o modelo do equipamento, horas de operação e criticidade da parada, com foco em uma recomendação técnica objetiva.'],
+    ['slug' => 'guarulhos', 'name' => 'Guarulhos', 'summary' => 'Guarulhos possui um hub próprio com serviços, conteúdos técnicos e bairros atendidos para empresas que utilizam compressores de ar.', 'url' => '/compressores-de-ar-em-guarulhos'],
+    ['slug' => 'itaquaquecetuba', 'name' => 'Itaquaquecetuba', 'summary' => 'A avaliação pode abranger compressor, filtros, óleo, reservatório, secador, drenos e rede, para identificar a origem de perdas ou falhas recorrentes.'],
+    ['slug' => 'mogi-das-cruzes', 'name' => 'Mogi das Cruzes', 'summary' => 'Para reduzir paradas, o atendimento técnico compara parâmetros de operação, histórico de manutenção e condições dos pontos de uso do ar comprimido.'],
+    ['slug' => 'poa', 'name' => 'Poá', 'summary' => 'Manutenção preventiva, assistência corretiva e análise da rede ajudam a preservar pressão, vazão e qualidade de ar compatíveis com o processo.'],
+    ['slug' => 'salesopolis', 'name' => 'Salesópolis', 'summary' => 'A solicitação de atendimento pode ser direcionada com informações como marca, modelo, sintomas, horas de operação e impacto da indisponibilidade na rotina da empresa.'],
+    ['slug' => 'santa-isabel', 'name' => 'Santa Isabel', 'summary' => 'O diagnóstico técnico busca diferenciar problemas no compressor de restrições, vazamentos ou condições inadequadas na distribuição de ar comprimido.'],
+    ['slug' => 'suzano', 'name' => 'Suzano', 'summary' => 'Empresas de Suzano podem organizar manutenção, assistência técnica e revisão do sistema com base em alarmes, consumo, temperatura, pressão e histórico do equipamento.'],
+];
+
+$router->get('/compressores-de-ar-no-alto-tiete', function () use ($altoTieteCities) {
+    return view('locations.alto-tiete', ['altoTieteCities' => $altoTieteCities]);
+});
+$router->get('/compressores-de-ar-no-alto-tiete/guarulhos', function () {
+    return redirect('/compressores-de-ar-em-guarulhos', 301);
+});
+
+$altoTieteServices = [
+    'manutencao-de-compressores-no-alto-tiete' => [
+        'path' => '/manutencao-de-compressores-no-alto-tiete', 'shortTitle' => 'Manutenção de Compressores',
+        'title' => 'Manutenção de Compressores no Alto Tietê', 'serviceType' => 'Manutenção preventiva e corretiva de compressores de ar',
+        'keywords' => 'manutenção de compressores no Alto Tietê, manutenção compressor Mogi das Cruzes, manutenção compressor Suzano, manutenção compressor Itaquaquecetuba',
+        'description' => 'Manutenção preventiva e corretiva de compressores no Alto Tietê. Solicite avaliação técnica para reduzir paradas e recuperar desempenho.',
+        'heading' => 'Manutenção preventiva e corretiva de compressores no Alto Tietê',
+        'intro' => ['A Manstec atende empresas do Alto Tietê com manutenção de compressores de ar, revisão técnica e diagnóstico de falhas.', 'A rotina é definida conforme o modelo do equipamento, horas de trabalho, condições de operação e impacto da parada na produção.'],
+        'assessmentText' => 'A avaliação reúne inspeção do compressor e dos componentes que influenciam disponibilidade, pressão e qualidade do ar.',
+        'items' => ['Filtros, óleo e componentes de desgaste', 'Temperatura, pressão e alarmes', 'Vazamentos e condições da rede', 'Histórico de falhas e manutenção'],
+        'related' => 'Veja o <a href="' . url('/') . '/blog/manutencao-de-compressores-no-alto-tiete">guia de manutenção de compressores no Alto Tietê</a>, organize um <a href="' . url('/') . '/blog/plano-de-manutencao-de-compressores">plano de manutenção</a> e consulte o <a href="' . url('/') . '/compressores-de-ar-no-alto-tiete">hub regional</a>.',
+    ],
+    'assistencia-tecnica-de-compressores-no-alto-tiete' => [
+        'path' => '/assistencia-tecnica-de-compressores-no-alto-tiete', 'shortTitle' => 'Assistência Técnica',
+        'title' => 'Assistência Técnica de Compressores no Alto Tietê', 'serviceType' => 'Assistência técnica e diagnóstico de compressores de ar',
+        'keywords' => 'assistência técnica de compressores no Alto Tietê, conserto compressor Mogi das Cruzes, técnico compressor Suzano',
+        'description' => 'Assistência técnica para compressores no Alto Tietê, com diagnóstico de falhas, avaliação de alarmes e orientação para reduzir o tempo de parada.',
+        'heading' => 'Assistência técnica para compressor de ar no Alto Tietê',
+        'intro' => ['Queda de pressão, aquecimento, ruído, vazamento e alarmes são sinais que pedem diagnóstico técnico.', 'A Manstec organiza o atendimento conforme os sintomas, o modelo do equipamento e a urgência informada pela operação.'],
+        'assessmentText' => 'O diagnóstico verifica parâmetros do equipamento e componentes que podem estar relacionados ao sintoma percebido.',
+        'items' => ['Leitura de alarmes e parâmetros', 'Condição de válvulas, filtros e transmissão', 'Pressão e vazão na operação', 'Possíveis perdas de ar comprimido'],
+        'related' => 'Veja quando buscar <a href="' . url('/') . '/blog/assistencia-tecnica-urgente-compressor">assistência técnica urgente</a>, leia o guia de <a href="' . url('/') . '/blog/assistencia-tecnica-compressor-mogi-das-cruzes">assistência em Mogi das Cruzes</a> e acesse o <a href="' . url('/') . '/compressores-de-ar-no-alto-tiete">atendimento regional</a>.',
+    ],
+    'redes-de-ar-comprimido-no-alto-tiete' => [
+        'path' => '/redes-de-ar-comprimido-no-alto-tiete', 'shortTitle' => 'Redes de Ar Comprimido',
+        'title' => 'Redes de Ar Comprimido no Alto Tietê', 'serviceType' => 'Projetos e manutenção de redes de ar comprimido',
+        'keywords' => 'redes de ar comprimido no Alto Tietê, vazamento de ar comprimido Mogi das Cruzes, perda de pressão Suzano',
+        'description' => 'Análise e manutenção de redes de ar comprimido no Alto Tietê para reduzir vazamentos, perda de pressão e desperdícios de energia.',
+        'heading' => 'Redes de ar comprimido para empresas do Alto Tietê',
+        'intro' => ['Uma rede inadequada pode reduzir a pressão disponível no ponto de uso e fazer o compressor trabalhar mais para compensar perdas.', 'A análise da distribuição considera vazamentos, queda de pressão, tratamento de ar e as necessidades dos equipamentos conectados.'],
+        'assessmentText' => 'O objetivo é identificar restrições e perdas que comprometem a eficiência do sistema de ar comprimido.',
+        'items' => ['Vazamentos e conexões', 'Perda de carga e diâmetro de tubulação', 'Drenos, filtros e tratamento de ar', 'Pressão requerida nos pontos de uso'],
+        'related' => 'Saiba mais sobre <a href="' . url('/') . '/blog/vazamentos-de-ar-comprimido-no-alto-tiete">vazamentos no Alto Tietê</a>, <a href="' . url('/') . '/blog/perda-de-carga-na-rede-de-ar-comprimido">perda de carga</a> e o <a href="' . url('/') . '/compressores-de-ar-no-alto-tiete">hub de atendimento regional</a>.',
+    ],
+];
+
+foreach ($altoTieteServices as $slug => $regionalService) {
+    $router->get('/' . $slug, function () use ($regionalService) {
+        return view('locations.alto-tiete-service', ['regionalService' => $regionalService]);
+    });
+}
+
 $router->get('/compressores-de-ar/{destino}', 'TransporteController@mostrarRota');
 $router->get('/compressores-de-ar', 'TransporteController@listarRotas');
 $router->get('/contato', 'TransporteController@contato');
@@ -282,6 +345,11 @@ $router->get('/blog/compressor-de-parafuso-guarulhos', function () {return view(
 $router->get('/blog/secador-de-ar-comprimido-guarulhos', function () {return view('artigos.secador-de-ar-comprimido-guarulhos');});
 $router->get('/blog/perda-de-pressao-compressor-guarulhos', function () {return view('artigos.perda-de-pressao-compressor-guarulhos');});
 $router->get('/blog/cotacao-manutencao-compressor-guarulhos', function () {return view('artigos.cotacao-manutencao-compressor-guarulhos');});
+$router->get('/blog/manutencao-de-compressores-no-alto-tiete', function () {return view('artigos.manutencao-de-compressores-no-alto-tiete');});
+$router->get('/blog/assistencia-tecnica-compressor-mogi-das-cruzes', function () {return view('artigos.assistencia-tecnica-compressor-mogi-das-cruzes');});
+$router->get('/blog/compressor-de-ar-em-suzano', function () {return view('artigos.compressor-de-ar-em-suzano');});
+$router->get('/blog/manutencao-preventiva-compressor-itaquaquecetuba', function () {return view('artigos.manutencao-preventiva-compressor-itaquaquecetuba');});
+$router->get('/blog/vazamentos-de-ar-comprimido-no-alto-tiete', function () {return view('artigos.vazamentos-de-ar-comprimido-no-alto-tiete');});
 $router->get('/blog/como-calcular-vazao-compressor-pcm', function () {return view('artigos.como-calcular-vazao-compressor-pcm');});
 $router->get('/blog/compressor-parafuso-ou-pistao', function () {return view('artigos.compressor-parafuso-ou-pistao');});
 $router->get('/blog/compressor-de-ar-para-pintura-industrial', function () {return view('artigos.compressor-de-ar-para-pintura-industrial');});
@@ -294,6 +362,10 @@ $router->get('/sitemap.xml', function () {
         '/sobre-nos',
         '/compressores-de-ar',
         '/compressores-de-ar-em-guarulhos',
+        '/compressores-de-ar-no-alto-tiete',
+        '/manutencao-de-compressores-no-alto-tiete',
+        '/assistencia-tecnica-de-compressores-no-alto-tiete',
+        '/redes-de-ar-comprimido-no-alto-tiete',
         '/compressores-de-ar-em-guarulhos/centro',
         '/compressores-de-ar-em-guarulhos/cumbica',
         '/compressores-de-ar-em-guarulhos/bonsucesso',
@@ -395,6 +467,11 @@ $router->get('/sitemap.xml', function () {
         '/blog/secador-de-ar-comprimido-guarulhos',
         '/blog/perda-de-pressao-compressor-guarulhos',
         '/blog/cotacao-manutencao-compressor-guarulhos',
+        '/blog/manutencao-de-compressores-no-alto-tiete',
+        '/blog/assistencia-tecnica-compressor-mogi-das-cruzes',
+        '/blog/compressor-de-ar-em-suzano',
+        '/blog/manutencao-preventiva-compressor-itaquaquecetuba',
+        '/blog/vazamentos-de-ar-comprimido-no-alto-tiete',
         '/blog/como-calcular-vazao-compressor-pcm',
         '/blog/compressor-parafuso-ou-pistao',
         '/blog/compressor-de-ar-para-pintura-industrial',
